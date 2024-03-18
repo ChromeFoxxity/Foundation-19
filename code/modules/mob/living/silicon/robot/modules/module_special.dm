@@ -2,6 +2,7 @@
 	desc = "A utility robot with it's superior size would be underestimated by staff."
 	icon = 'icons/mob/robots_custom.dmi'
 	icon_state = "isdrobot"
+	module_category = ROBOT_MODULE_TYPE_GROUNDED
 	speed = -1 // nyoom
 
 /obj/item/robot_module/special
@@ -35,9 +36,9 @@
 	if(B?.bcell)
 		B.bcell.give(amount)
 
-/obj/item/robot_module/special/general
+/obj/item/robot_module/tall/special/general
 	name = "internal security borg module"
-	display_name = "Internal Security"
+	display_name = "DATA EXPUNGED"
 	crisis_locked = TRUE
 	sprites = list(
 		"Basic" = "isdrobot"
@@ -55,7 +56,8 @@
 		/obj/item/device/hailer,
 		/obj/item/hand_labeler,
 		/obj/item/stamp,
-		/obj/item/stamp/denied
+		/obj/item/stamp/denied,
+		/obj/item/material/sword/sabre
 	)
 	emag = /obj/item/gun/energy/lasercannon/mounted
 	skills = list(
@@ -67,3 +69,6 @@
 		SKILL_SCIENCE             = SKILL_EXPERIENCED,
 		SKILL_DEVICES             = SKILL_EXPERIENCED
 	)
+
+/atom/proc/emag_act(remaining_charges, mob/user, emag_source)
+    return EMAG_NO_ACT
