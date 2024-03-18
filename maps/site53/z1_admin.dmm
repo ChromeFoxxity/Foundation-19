@@ -8717,6 +8717,19 @@
 /obj/machinery/light/small,
 /turf/simulated/floor/carpet/green,
 /area/centcom/chaos)
+"By" = (
+/obj/effect/floor_decal/corner/white/border{
+	color = "#561919";
+	dir = 1
+	},
+/mob/living/silicon/robot/combat/isd{
+	icon = 'icons/mob/robots_custom.dmi'
+	},
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
+	},
+/area/centcom)
 "BB" = (
 /obj/structure/sign/warning/secure_area/armory{
 	pixel_x = -30;
@@ -11338,6 +11351,13 @@
 	icon = 'icons/turf/flooring/wood.dmi';
 	icon_state = "wood";
 	color = "#543c30"
+	},
+/area/centcom)
+"KP" = (
+/obj/item/reagent_containers/glass/beaker/bluespace,
+/turf/unsimulated/floor{
+	icon = 'icons/turf/flooring/tiles.dmi';
+	icon_state = "monotiledark"
 	},
 /area/centcom)
 "KQ" = (
@@ -18426,7 +18446,7 @@ ab
 ab
 ab
 tq
-Ab
+By
 gp
 CB
 tq
@@ -23301,7 +23321,7 @@ gp
 gp
 gp
 gp
-gp
+KP
 gp
 gp
 Jp
