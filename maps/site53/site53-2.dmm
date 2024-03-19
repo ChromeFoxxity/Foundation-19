@@ -1596,8 +1596,7 @@
 	dir = 1
 	},
 /obj/structure/railing/mapped{
-	dir = 4;
-	icon_state = "railing0-1"
+	dir = 4
 	},
 /turf/simulated/open,
 /area/site53/ulcz/hallways)
@@ -1665,8 +1664,7 @@
 /obj/structure/railing/mapped,
 /obj/effect/catwalk_plated/white,
 /obj/structure/railing/mapped{
-	dir = 4;
-	icon_state = "railing0-1"
+	dir = 4
 	},
 /turf/simulated/open,
 /area/site53/ulcz/hallways)
@@ -5804,13 +5802,6 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/monotile,
 /area/site53/engineering/controlroom)
-"aqO" = (
-/obj/structure/railing/mapped{
-	dir = 4;
-	icon_state = "railing0-1"
-	},
-/turf/simulated/floor/tiled/monotile,
-/area/site53/lowertrams/hub)
 "aqP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -9014,8 +9005,7 @@
 /area/site53/lowertrams/hub)
 "ayS" = (
 /obj/structure/railing/mapped{
-	dir = 4;
-	icon_state = "railing0-1"
+	dir = 4
 	},
 /obj/machinery/camera/network/entrance{
 	dir = 1
@@ -14796,8 +14786,7 @@
 /obj/structure/flora/pottedplant/minitree,
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
-	dir = 4;
-	icon_state = "railing0-1"
+	dir = 4
 	},
 /obj/structure/railing/mapped{
 	dir = 8
@@ -22953,8 +22942,7 @@
 /obj/effect/catwalk_plated/dark,
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
-	dir = 4;
-	icon_state = "railing0-1"
+	dir = 4
 	},
 /obj/machinery/flasher{
 	id_tag = "ULCZ Checkpoint Flash";
@@ -23775,8 +23763,7 @@
 	icon_state = "warning"
 	},
 /obj/structure/railing/mapped{
-	dir = 4;
-	icon_state = "railing0-1"
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/site53/llcz/scp012)
@@ -27296,8 +27283,7 @@
 	},
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
-	dir = 4;
-	icon_state = "railing0-1"
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/site53/llcz/scp012)
@@ -33793,8 +33779,7 @@
 	dir = 1
 	},
 /obj/structure/railing/mapped{
-	dir = 4;
-	icon_state = "railing0-1"
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/site53/llcz/scp012)
@@ -35180,8 +35165,7 @@
 	dir = 1
 	},
 /obj/structure/railing/mapped{
-	dir = 4;
-	icon_state = "railing0-1"
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/site53/surface/bunker)
@@ -71293,7 +71277,7 @@ agp
 aac
 bBS
 qdk
-aqO
+pIX
 ayS
 aac
 aXS
