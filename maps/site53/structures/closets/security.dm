@@ -372,8 +372,6 @@
 		/obj/item/clothing/head/beret/sec/guardcom,
 		/obj/item/clothing/head/beret/sec/corporate/hos,
 		/obj/item/clothing/suit/armor/pcarrier/scp/tactical,
-		/obj/item/clothing/under/rank/head_of_security/guardcom,
-		/obj/item/clothing/under/rank/head_of_security/guardcom/alt,
 		/obj/item/gun/projectile/pistol/mk9,
 		/obj/item/ammo_magazine/scp/mk9 = 3,
 		/obj/item/ammo_magazine/box/a9mm,

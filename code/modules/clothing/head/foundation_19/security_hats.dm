@@ -1,0 +1,46 @@
+// SECURITY DEPARTMENT HELMETS
+// [SCP]
+
+/obj/item/clothing/head/helmet/scp/security
+	name = "\improper foundation security helmet"
+	desc = "A heavy non-descript helmet with built-in padding, and armor, primarily for riots, but can still take a bullet. It has a yellow poly-carbonate riot visor on it."
+	icon_state = "guard_helmet"
+	body_parts_covered = HEAD|FACE|EYES //face shield
+	armor = list(melee = ARMOR_MELEE_MAJOR, bullet = ARMOR_BALLISTIC_MID, laser = ARMOR_LASER_HANDGUNS, energy = ARMOR_ENERGY_SMALL, bomb = ARMOR_BOMB_PADDED, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)
+	acid_resistance = 1.5
+	flags_inv = HIDEEARS|BLOCKHAIR
+	action_button_name = "Toggle Visor"
+
+/obj/item/clothing/head/helmet/scp/security/medic
+	name = "\improper medical foundation security helmet"
+	desc = "A heavy non-descript helmet with built-in padding, and armor, primarily for riots, but can still take a bullet, has some sterile defenses. It has a white poly-carbonate riot visor on it along with the red cross known for medics on the helmet."
+	icon_state = "med_guard_helmet"
+	armor = list(melee = ARMOR_MELEE_MAJOR, bullet = ARMOR_BALLISTIC_MID, laser = ARMOR_LASER_HANDGUNS, energy = ARMOR_ENERGY_SMALL, bomb = ARMOR_BOMB_PADDED, bio = ARMOR_BIO_RESISTANT, rad = ARMOR_RAD_SMALL)
+
+/obj/item/clothing/head/helmet/toggleable/scp/security/lieutenant
+	name = "\improper medium-plated foundation security helmet"
+	desc = "A heavy non-descript helmet with slightly more built-in padding, and armor, primarily for riots, but can still take a bullet. The silver stripe along the helmet incidates the rank of 'Lieutenant', looks sub-par. It has a yellow poly-carbonate riot visor on it."
+	icon_state = "lt_guard_helmet"
+	armor = list(melee = ARMOR_MELEE_SMALL_HIGH, bullet = ARMOR_BALLISTIC_PISTOL, laser = ARMOR_LASER_HANDGUNS_PLUS, energy = ARMOR_ENERGY_RESISTANT, bomb = ARMOR_BOMB_PADDED, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)
+
+/obj/item/clothing/head/helmet/toggleable/scp/security/captain
+	name = "\improper heavy-plated foundation security helmet"
+	desc = "A heavy non-descript helmet with more built-in padding, and armor, primarily for riots, but can still take a bullet. The golden badge on the front of the helmet incidates the rank of 'Captain', looks important. It has a yellow poly-carbonate riot visor on it."
+	icon_state = "cpt_guard_helmet"
+	armor = list(melee = ARMOR_MELEE_HIGH, bullet = ARMOR_BALLISTIC_PISTOLP, laser = ARMOR_LASER_MAJOR, energy = ARMOR_ENERGY_RESISTANT, bomb = ARMOR_BOMB_PADDED, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)
+
+/obj/item/clothing/head/beret/scp/security
+	name = "foundation security beret"
+	desc = "A padded beret used by Site Security, it has a white Security Department logo on the front of it. It's got standard armor padding. But it isn't as useful as a helmet. The predicament of fashion and defense is always an issue."
+	icon_state = "security_beret"
+	armor = list(melee = ARMOR_MELEE_RESISTANT, bullet = ARMOR_BALLISTIC_SMALL, laser = ARMOR_LASER_SMALL, energy = ARMOR_ENERGY_MINOR, bomb = ARMOR_BOMB_MINOR, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)
+
+/obj/item/clothing/head/beret/scp/security/sergeant
+	name = "foundation security sergeant beret"
+	desc = "A padded beret used by Site Security Sergeants, it has a silver Security Department badge on the front of it. It's got standard armor padding. But it isn't as useful as a helmet. The predicament of fashion and defense is always an issue."
+	icon_state = "sergeant_beret"
+
+/obj/item/clothing/head/beret/scp/security/captain
+	name = "foundation security captain beret"
+	desc = "A padded beret used by Site Security Captains, it has a golden Security Department badge on the front of it. It's got standard armor padding. But it isn't as useful as a helmet. The predicament of fashion and defense is always an issue."
+	icon_state = "captain_beret"

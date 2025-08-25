@@ -14,6 +14,7 @@
 #define EXP_TYPE_SECURITY "Security"
 #define EXP_TYPE_SILICON "Silicon"
 #define EXP_TYPE_SERVICE "Service"
+#define EXP_TYPE_CLASSD "ClassD"
 
 //Categories
 #define EXP_TYPE_LIVING "Living"
@@ -40,15 +41,16 @@
 #define COM			(1<<5)
 #define MSC			(1<<6)
 #define SRV			(1<<7)
-#define SUP			(1<<8)
-#define SPT			(1<<9)
-#define EXP			(1<<10)
-#define ROB			(1<<11)
-#define LCZ			(1<<12)
-#define ECZ			(1<<13)
-#define HCZ			(1<<14)
-#define BUR			(1<<15)
-#define REP			(1<<16)
+#define CSD			(1<<8)
+#define SUP			(1<<9)
+#define SPT			(1<<10)
+#define EXP			(1<<11)
+#define ROB			(1<<12)
+#define LCZ			(1<<13)
+#define ECZ			(1<<14)
+#define HCZ			(1<<15)
+#define BUR			(1<<16)
+#define REP			(1<<17)
 
 // Class rank defines
 #define CLASS_A "Class-A"

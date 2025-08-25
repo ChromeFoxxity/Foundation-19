@@ -1006,12 +1006,27 @@ GLOBAL_LIST_EMPTY(conversion_cards)
 	item_state = "Admin_ID"
 	job_access_type = /datum/job/officeworker
 
+// CLASS-D CARDS
+
 /obj/item/card/id/classd
 	name = "Class-D ID"
-	desc = "An ID card issued to Class-D Foundation personnel."
+	desc = "An ID card issued to Class-D personnel."
 	icon_state = "classd"
-	item_state = "Admin_ID"
 	job_access_type = /datum/job/classd
+	class = CLASS_D
+
+/obj/item/card/id/classd/medical
+	name = "Class-D Medical ID"
+	desc = "An ID card issued to Class-D personnel who work in the Clinic."
+	icon_state = "classdmed"
+	job_access_type = /datum/job/classd/medic
+	class = CLASS_D
+
+/obj/item/card/id/classd/chef
+	name = "Class-D Chef ID"
+	desc = "An ID card issued to Class-D personnel who work in the Kitchen."
+	icon_state = "classdcook"
+	job_access_type = /datum/job/classd/medic
 	class = CLASS_D
 
 // LOGISTICS
@@ -1066,7 +1081,6 @@ GLOBAL_LIST_EMPTY(conversion_cards)
 	name = "stolen ID"
 	desc = "A green ID card, it's drawn on with black ink saying \"C.I.\", it's also got a crudely painted Chaos Insurgency logo over the SCP Logo, and an X marked over the SCP slogan, whoever's wearing this must be scary."
 	icon_state = "ci"
-	item_state = "ci"
 	class = CLASS_CI
 	access = list(ACCESS_ENGINEERING_LVL1, ACCESS_SYNDICATE)
 
@@ -1074,6 +1088,5 @@ GLOBAL_LIST_EMPTY(conversion_cards)
 	name = "stolen administrative ID"
 	desc = "A golden ID card mostly used by administrative staff, it's drawn on professionally with white ink saying \"C.I.\", it's also got a crudely painted Chaos Insurgency logo over the SCP Logo, and an aggressively red X marked over the SCP slogan, whoever's wearing this must be scary."
 	icon_state = "cilead"
-	item_state = "cilead"
 	class = CLASS_CI
 	access = list(ACCESS_ENGINEERING_LVL1, ACCESS_ADMIN_LVL1, ACCESS_SYNDICATE)

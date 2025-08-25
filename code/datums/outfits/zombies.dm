@@ -10,7 +10,7 @@
 /decl/hierarchy/outfit/zombie/lczcadet
 	name = "LCZ Cadet"
 	id_pda_assignment = "LCZ Cadet"
-	uniform = /obj/item/clothing/under/rank/security/lcz/cadet
+	uniform = /obj/item/clothing/under/rank/scp/security
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud
 	suit = /obj/item/clothing/suit/armor/vest/scp/medarmor/cadet
 	shoes = /obj/item/clothing/shoes/dutyboots
@@ -22,7 +22,7 @@
 /decl/hierarchy/outfit/zombie/lczguard
 	name = "LCZ Guard"
 	id_pda_assignment = "LCZ Guard"
-	uniform = /obj/item/clothing/under/rank/security/lcz
+	uniform = /obj/item/clothing/under/rank/scp/security
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud/goggles
 	suit = /obj/item/clothing/suit/armor/vest/scp/medarmor
 	shoes = /obj/item/clothing/shoes/dutyboots
@@ -37,7 +37,7 @@
 /decl/hierarchy/outfit/zombie/lczsergeant
 	name = "LCZ Sergeant"
 	id_pda_assignment = "LCZ Sergeant"
-	uniform = /obj/item/clothing/under/rank/warden/lcz
+	uniform = /obj/item/clothing/under/rank/scp/security
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud/goggles
 	suit = /obj/item/clothing/suit/armor/vest/scp/medarmor
 	shoes = /obj/item/clothing/shoes/dutyboots
@@ -52,7 +52,7 @@
 /decl/hierarchy/outfit/zombie/lczmedic
 	name = "LCZ Combat Medic"
 	id_pda_assignment = "LCZ Combat Medic"
-	uniform = /obj/item/clothing/under/rank/security/lcz/medic
+	uniform = /obj/item/clothing/under/rank/scp/security
 	glasses = /obj/item/clothing/glasses/hud/health/visor
 	suit = /obj/item/clothing/suit/armor/vest/scp/medarmor/medic
 	shoes = /obj/item/clothing/shoes/dutyboots
@@ -67,7 +67,7 @@
 /decl/hierarchy/outfit/zombie/lczriot
 	name = "LCZ Riot Control Unit"
 	id_pda_assignment = "LCZ Riot Control Unit"
-	uniform = /obj/item/clothing/under/rank/security/lcz/riot
+	uniform = /obj/item/clothing/under/rank/scp/security
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud/goggles
 	suit = /obj/item/clothing/suit/armor/vest/scp/medarmor/riot
 	shoes = /obj/item/clothing/shoes/dutyboots
@@ -82,7 +82,7 @@
 /decl/hierarchy/outfit/zombie/lczrecontain
 	name = "LCZ Recontainment Unit"
 	id_pda_assignment = "LCZ Recontainment Unit"
-	uniform = /obj/item/clothing/under/rank/security/lcz/recontain
+	uniform = /obj/item/clothing/under/rank/scp/security
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud/goggles
 	suit = /obj/item/clothing/suit/armor/vest/scp/medarmor/recontain
 	shoes = /obj/item/clothing/shoes/dutyboots

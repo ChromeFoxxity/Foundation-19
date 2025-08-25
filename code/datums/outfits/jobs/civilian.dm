@@ -15,6 +15,18 @@
 		var/path = pick( /obj/item/wrench, /obj/item/screwdriver)
 		H.equip_to_slot_or_store_or_drop(new path (H), slot_l_store)
 
+/decl/hierarchy/outfit/job/civ/classd/doctor
+	name = OUTFIT_JOB_NAME("Class D Doctor")
+	uniform = /obj/item/clothing/under/scp/dclass
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat
+	shoes = /obj/item/clothing/shoes/workboots
+	gloves = /obj/item/clothing/gloves/latex/nitrile
+	l_ear = null
+	l_pocket = /obj/item/paper/dclass_orientation
+	id_type = /obj/item/card/id/classd/medical
+	pda_type = null
+	back = null
+
 /decl/hierarchy/outfit/job/civ/classd/high
 	name = OUTFIT_JOB_NAME("High-Security Class D")
 	uniform = /obj/item/clothing/under/scp/hdclass

@@ -157,4 +157,9 @@
 		/obj/item/storage/bag/fossils,
 		/obj/item/device/ano_scanner,
 		/obj/item/device/depth_scanner,
-		/obj/item/storage/excavation)
+		/obj/item/storage/excavation,
+		/obj/item/clothing/mask/gas/budget,
+		/obj/item/tank/emergency/oxygen,
+		/obj/item/clothing/suit/apron/overalls/dminer,
+		/obj/item/clothing/gloves/thick/miner,
+		/obj/item/clothing/head/hardhat/dclassminer)

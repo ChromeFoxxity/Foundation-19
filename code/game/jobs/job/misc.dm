@@ -10,7 +10,7 @@
 	minimal_access = list()
 	outfit_type = /decl/hierarchy/outfit/job/civ/classd
 	class = CLASS_D
-	hud_icon = "huddclass"
+	hud_icon = "hudclassd"
 	var/static/list/used_numbers = list()
 
 	max_skill = list(
