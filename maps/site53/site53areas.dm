@@ -154,13 +154,6 @@
 	dynamic_lighting = 1
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
-/area/centcom/town
-	name = "Small Town"
-	icon_state = "unknown"
-	requires_power = 0
-	dynamic_lighting = 1
-	area_flags = AREA_FLAG_RAD_SHIELDED
-
 /area/centcom/goc/exterior
 	name = "Global Occult Coalition Headquarters Exterior"
 	icon_state = "Sleep"
@@ -247,34 +240,63 @@
 
 /area/site53/surface/surface/caves
 	name = "Surface Caverns"
+
+/area/site53/town
+	name = "Small Town"
+	icon_state = "unknown"
+	requires_power = 0
+	dynamic_lighting = 0
+	area_flags = AREA_FLAG_RAD_SHIELDED
+
+/area/site53/town/fisherman
+	name = "Fisherman's Hut"
+	icon_state = "unknown"
 	dynamic_lighting = 1
 
-/area/site53/surface/surface/away/bar
-	name = "Away Bar"
+/area/site53/town/gas
+	name = "Gas Station"
+	icon_state = "unknown"
+	dynamic_lighting = 1
 
-/area/site53/surface/surface/away/hall
-	name = "Away Village Hall"
+/area/site53/town/hotel
+	name = "Hotel"
+	icon_state = "unknown"
+	dynamic_lighting = 1
 
-/area/site53/surface/surface/away/check
-	name = "Away Checkpoint"
+/area/site53/town/house
+	name = "House"
+	icon_state = "unknown"
+	dynamic_lighting = 1
 
-/area/site53/surface/surface/away/storage
-	name = "Away Storage 1"
+/area/site53/town/house2
+	name = "Boarded Up House"
+	icon_state = "unknown"
+	dynamic_lighting = 1
 
-/area/site53/surface/surface/away/storage2
-	name = "Away Storage 2"
+/area/site53/town/bar
+	name = "Bar"
+	icon_state = "unknown"
+	dynamic_lighting = 1
 
-/area/site53/surface/surface/away/hotel
-	name = "Away Hotel"
+/area/site53/town/sheriff
+	name = "Sheriff's Office"
+	icon_state = "unknown"
+	dynamic_lighting = 1
 
-/area/site53/surface/surface/away/house1
-	name = "Away House 1"
+/area/site53/town/ciheli
+	name = "Crashed Heli"
+	icon_state = "unknown"
+	dynamic_lighting = 1
 
-/area/site53/surface/surface/away/house2
-	name = "Away House 2"
+/area/site53/town/truck
+	name = "Broken Down Truck"
+	icon_state = "unknown"
+	dynamic_lighting = 1
 
-/area/site53/surface/surface/away/house3
-	name = "Away House 3"
+/area/site53/town/cave
+	name = "Cave"
+	icon_state = "unknown"
+	dynamic_lighting = 1
 
 /area/site53/surface/cryogenicsprimary
 	name = "\improper Primary Cryogenic Storage"
@@ -1066,70 +1088,67 @@
 	icon_state = "detective"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
-/area/site53/medical/infirmreception
-	name = "\improper Infirmary Reception"
-	icon_state = "medbay2"
-	ambience = list('sounds/ambience/signal.ogg')
-	area_flags = AREA_FLAG_RAD_SHIELDED
+//##
+//MEDICAL DEPARTMENT AREAS
+//##
 
-/area/site53/medical/infirmreception/waiting
-	name = "\improper Infirmary Reception Waiting Area"
-	icon_state = "medbay2"
-	ambience = list('sounds/ambience/signal.ogg')
-	area_flags = AREA_FLAG_RAD_SHIELDED
-
-/area/site53/medical/infirmary
-	name = "\improper Infirmary Hallway"
+/area/site53/medical
+	name = "\improper Medical Department"
 	icon_state = "medbay"
 	area_flags = AREA_FLAG_RAD_SHIELDED
+	ambience = list('sounds/ambience/ambinice.ogg')
+
+/area/site53/medical/lobby
+	name = "\improper Medical Department Lobby"
+	icon_state = "medbay"
+
+/area/site53/medical/surgery
+	name = "\improper Medical Department Surgical Hallway"
+	icon_state = "surgery"
 
 /area/site53/medical/surgery/op1
-	name = "\improper Operating Theatre #1"
+	name = "\improper Medical Operating Theatre #1"
 	icon_state = "surgery"
-	area_flags = AREA_FLAG_RAD_SHIELDED
 
 /area/site53/medical/surgery/op2
-	name = "\improper Operating Theatre #2"
+	name = "\improper Medical Operating Theatre #2"
 	icon_state = "surgery"
-	area_flags = AREA_FLAG_RAD_SHIELDED
-
-/area/site53/medical/surgery/hall
-	name = "\improper Surgical Hallway"
-	icon_state = "surgery"
-	area_flags = AREA_FLAG_RAD_SHIELDED
 
 /area/site53/medical/exam_room
-	name = "\improper Exam Room"
+	name = "\improper Medical Department Exam Room"
 	icon_state = "exam_room"
-	area_flags = AREA_FLAG_RAD_SHIELDED
 
-/area/site53/medical/mentalhealth/isolation
-	name = "\improper Virology"
+/area/site53/medical/virology
+	name = "\improper Virology Division"
 	icon_state = "medbay3"
-	ambience = list('sounds/ambience/signal.ogg')
-	area_flags = AREA_FLAG_RAD_SHIELDED
+	ambience = list('sounds/ambience/ambiviro.ogg', 'sounds/ambience/ambiviro1.ogg', 'sounds/ambience/ambiviro2.ogg')
 
-/area/site53/medical/mentalhealth/office
+/area/site53/medical/psychiatrist_office
 	name = "\improper Psychiatrist's Office"
 	icon_state = "medbay3"
-	ambience = list('sounds/ambience/signal.ogg')
-	area_flags = AREA_FLAG_RAD_SHIELDED
 
 /area/site53/medical/morgue
-	name = "\improper Morgue"
+	name = "\improper Medical Department Morgue"
 	icon_state = "morgue"
-	area_flags = AREA_FLAG_RAD_SHIELDED
+	ambience = list('sounds/ambience/ambimo1.ogg', 'sounds/ambience/ambimo2.ogg')
 
 /area/site53/medical/chemistry
-	name = "\improper Chemistry"
+	name = "\improper Pharmacy Division"
 	icon_state = "chem"
-	area_flags = AREA_FLAG_RAD_SHIELDED
 
-/area/site53/medical/equipstorage
-	name = "\improper Equipment Storage"
+/area/site53/medical/equip_storage
+	name = "\improper Medical Department Equipment Storage"
 	icon_state = "medbay4"
-	ambience = list('sounds/ambience/signal.ogg')
-	area_flags = AREA_FLAG_RAD_SHIELDED
+
+/area/site53/medical/assistdirectoroffice
+	name = "\improper Assistant Medical Director's Office"
+	icon_state = "assist_scd_director_office"
+	sound_env = MEDIUM_SOFTFLOOR
+
+/area/site53/medical/directoroffice
+	name = "\improper Medical Director's Office"
+	icon_state = "scd_director_office"
+	sound_env = MEDIUM_SOFTFLOOR
 
 /area/site53/engineering/engine_smes
 	name = "\improper Engineering SMES"
@@ -1281,7 +1300,9 @@
 	icon_state = "research"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
-//Site 53's science areas
+//##
+//SCIENCE DEPARTMENT AREAS
+//##
 
 /area/site53/science
 	name = "\improper Science Department"

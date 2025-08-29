@@ -29,6 +29,21 @@
 	icon_state = "cpt_guard_helmet"
 	armor = list(melee = ARMOR_MELEE_HIGH, bullet = ARMOR_BALLISTIC_PISTOLP, laser = ARMOR_LASER_MAJOR, energy = ARMOR_ENERGY_RESISTANT, bomb = ARMOR_BOMB_PADDED, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)
 
+/obj/item/clothing/head/helmet/scp/security/ruined
+	name = "\improper ruined foundation security helmet"
+	desc = "A scratched up and dusty heavy non-descript helmet with built-in padding with armor that seems to have aged and is no longer viable, primarily was used for riots, but this one probably won't. It has a shattered yellow poly-carbonate riot visor on it."
+	icon_state = "old_guard_helmet"
+	body_parts_covered = HEAD
+	armor = list(melee = ARMOR_MELEE_RESISTANT, bullet = ARMOR_BALLISTIC_VERY_SMALL, laser = ARMOR_LASER_VERY_SMALL, energy = 0, bomb = ARMOR_BOMB_MINOR, bio = 0, rad = 0)
+
+/obj/item/clothing/head/helmet/scp/security/cadet
+	name = "\improper foundation security trainee helmet"
+	desc = "A light non-descript helmet given to Light Containment Zone cadets, with barely any built-in armor plating, nothing special really."
+	icon_state = "cadet_helmet"
+	body_parts_covered = HEAD
+	armor = list(melee = ARMOR_MELEE_VVRESISTANT, bullet = ARMOR_BALLISTIC_SMALL, laser = ARMOR_LASER_SMALL_MID, energy = ARMOR_ENERGY_MINOR, bomb = ARMOR_BOMB_MINOR, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)
+	action_button_name = null
+
 /obj/item/clothing/head/beret/scp/security
 	name = "foundation security beret"
 	desc = "A padded beret used by Site Security, it has a white Security Department logo on the front of it. It's got standard armor padding. But it isn't as useful as a helmet. The predicament of fashion and defense is always an issue."

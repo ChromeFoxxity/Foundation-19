@@ -647,6 +647,7 @@
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	dir = 1
 	},
+/obj/machinery/firealarm/directional/west,
 /turf/simulated/floor/tiled/dark/vertical,
 /area/site53/tram/vessel)
 "bH" = (
@@ -1068,12 +1069,6 @@
 	},
 /obj/machinery/door/firedoor{
 	dir = 4
-	},
-/obj/machinery/door/blast/shutters/open{
-	dir = 4;
-	icon_state = "shutter0";
-	id_tag = "shiplockdown";
-	name = "A.E.S. Parallax Lockdown Shutters"
 	},
 /turf/simulated/floor/tiled/dark/small,
 /area/site53/tram/vessel)
@@ -1622,6 +1617,9 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 10
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark/corner,
 /area/site53/tram/vessel)
 "dN" = (
@@ -2111,6 +2109,7 @@
 /obj/effect/floor_decal/corner/orange/bordercorner{
 	dir = 8
 	},
+/obj/structure/closet/crate/bin,
 /turf/simulated/floor/tiled/dark/horizontal,
 /area/site53/tram/vessel)
 "eN" = (
@@ -2646,25 +2645,6 @@
 	dir = 4
 	},
 /area/centcom)
-"gt" = (
-/obj/effect/floor_decal/spline/wood/ebony{
-	dir = 5
-	},
-/obj/structure/table/woodentable_reinforced/ebony,
-/obj/item/ammo_magazine/box/a556{
-	pixel_y = 7
-	},
-/obj/item/ammo_magazine/box/a556{
-	pixel_y = 17
-	},
-/obj/item/storage/lockbox/loyalty{
-	pixel_y = -8
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/wood/ebony,
-/area/site53/tram/vessel)
 "gu" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -4467,10 +4447,6 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 8
 	},
-/obj/machinery/firealarm/directional/west,
-/obj/machinery/light{
-	dir = 8
-	},
 /turf/simulated/floor/tiled/dark/vertical,
 /area/site53/tram/vessel)
 "lE" = (
@@ -4670,6 +4646,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/closet/crate/bin,
 /turf/simulated/floor/tiled/horizontal,
 /area/site53/tram/vessel)
 "mf" = (
@@ -4847,12 +4824,6 @@
 /obj/machinery/door/firedoor{
 	dir = 4
 	},
-/obj/machinery/door/blast/shutters/open{
-	dir = 4;
-	icon_state = "shutter0";
-	id_tag = "shiplockdown";
-	name = "A.E.S. Parallax Lockdown Shutters"
-	},
 /turf/simulated/floor/tiled/dark/small,
 /area/site53/tram/vessel)
 "mA" = (
@@ -4974,12 +4945,6 @@
 	},
 /obj/machinery/door/firedoor{
 	dir = 4
-	},
-/obj/machinery/door/blast/shutters/open{
-	dir = 4;
-	icon_state = "shutter0";
-	id_tag = "shiplockdown";
-	name = "A.E.S. Parallax Lockdown Shutters"
 	},
 /turf/simulated/floor/tiled/dark/small,
 /area/site53/tram/vessel)
@@ -7852,12 +7817,6 @@
 /obj/machinery/door/airlock/glass/civilian{
 	name = "A.E.S. Parallax Briefing Room"
 	},
-/obj/machinery/door/blast/shutters/open{
-	dir = 4;
-	icon_state = "shutter0";
-	id_tag = "shiplockdown";
-	name = "A.E.S. Parallax Lockdown Shutters"
-	},
 /turf/simulated/floor/tiled/dark/small,
 /area/site53/tram/vessel)
 "sm" = (
@@ -8256,6 +8215,7 @@
 	dir = 6
 	},
 /obj/machinery/alarm/directional/south,
+/obj/structure/closet/crate/bin,
 /turf/simulated/floor/tiled/dark/corner{
 	dir = 1
 	},
@@ -8305,6 +8265,19 @@
 /area/site53/tram/ci)
 "sM" = (
 /obj/effect/floor_decal/spline/wood/ebony{
+	dir = 5
+	},
+/obj/structure/table/woodentable_reinforced/ebony,
+/obj/item/ammo_magazine/box/a556{
+	pixel_y = 7
+	},
+/obj/item/ammo_magazine/box/a556{
+	pixel_y = 17
+	},
+/obj/item/storage/lockbox/loyalty{
+	pixel_y = -8
+	},
+/obj/machinery/light{
 	dir = 1
 	},
 /obj/machinery/alarm/directional/north,
@@ -8980,7 +8953,6 @@
 	dir = 4
 	},
 /obj/machinery/alarm/directional/east,
-/obj/structure/ladder/vesselevent,
 /turf/simulated/floor/tiled/dark/vertical,
 /area/site53/tram/vessel)
 "tQ" = (
@@ -11731,19 +11703,6 @@
 	},
 /turf/simulated/floor/tiled/dark/vertical,
 /area/centcom)
-"zo" = (
-/obj/machinery/door/airlock/research{
-	name = "A.E.S. Parallax Science Lab";
-	req_access = list("ACCESS_SCIENCE_LEVEL1")
-	},
-/obj/machinery/door/blast/shutters/open{
-	dir = 4;
-	icon_state = "shutter0";
-	id_tag = "shiplockdown";
-	name = "A.E.S. Parallax Lockdown Shutters"
-	},
-/turf/simulated/floor/tiled/dark/small,
-/area/site53/tram/vessel)
 "zp" = (
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	dir = 4
@@ -12611,16 +12570,12 @@
 	},
 /area/site53/tram/vessel)
 "Bn" = (
-/obj/machinery/door/airlock/engineering{
-	name = "A.E.S. Parallax Engineering Bay";
-	req_access = list("ACCESS_ENGINEERING_LEVEL1")
-	},
-/obj/machinery/door/firedoor,
-/obj/machinery/door/blast/shutters/open{
-	dir = 2;
-	icon_state = "shutter0";
+/obj/structure/ladder/vesselevent,
+/obj/machinery/door/blast/regular/open{
 	id_tag = "shiplockdown";
-	name = "A.E.S. Parallax Lockdown Shutters"
+	name = "A.E.S. Parallax Ladder Access Blast Door";
+	icon_state = "pdoor0";
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/small,
 /area/site53/tram/vessel)
@@ -12923,6 +12878,9 @@
 "BS" = (
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 6
+	},
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/corner{
 	dir = 1
@@ -13296,12 +13254,6 @@
 	},
 /obj/machinery/door/airlock/glass/medical{
 	name = "A.E.S. Parallax Medical Clinic"
-	},
-/obj/machinery/door/blast/shutters/open{
-	dir = 4;
-	icon_state = "shutter0";
-	id_tag = "shiplockdown";
-	name = "A.E.S. Parallax Lockdown Shutters"
 	},
 /turf/simulated/floor/tiled/dark/small,
 /area/site53/tram/vessel)
@@ -14189,7 +14141,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/button/blast_door{
 	id_tag = "shiplockdown";
-	name = "Full Ship Lockdown Control";
+	name = "Ship Ladder Access Control";
 	pixel_y = 2;
 	req_access = list("ACCESS_ADMIN_LEVEL4")
 	},
@@ -14972,15 +14924,6 @@
 	},
 /turf/simulated/floor/tiled/dark/vertical,
 /area/centcom)
-"Gm" = (
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 8
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark/vertical,
-/area/site53/tram/vessel)
 "Gn" = (
 /turf/simulated/floor/wood/ebony,
 /area/centcom/vesselevent)
@@ -16485,6 +16428,9 @@
 "JB" = (
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 5
+	},
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/corner{
 	dir = 4
@@ -18674,6 +18620,7 @@
 	pixel_y = -32;
 	pixel_x = -32
 	},
+/obj/structure/closet/crate/bin,
 /turf/simulated/floor/tiled/white/corner,
 /area/site53/tram/vessel)
 "NK" = (
@@ -19975,19 +19922,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/centcom/chaos)
-"QK" = (
-/obj/machinery/door/firedoor{
-	dir = 4
-	},
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/blast/shutters/open{
-	dir = 4;
-	icon_state = "shutter0";
-	id_tag = "shiplockdown";
-	name = "A.E.S. Parallax Lockdown Shutters"
-	},
-/turf/simulated/floor,
-/area/site53/tram/vessel)
 "QL" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	icon_state = "tracks";
@@ -21094,7 +21028,6 @@
 /obj/machinery/status_display{
 	pixel_x = -32
 	},
-/obj/structure/closet/crate/bin,
 /turf/simulated/floor/tiled/dark/vertical,
 /area/site53/tram/vessel)
 "SS" = (
@@ -23090,6 +23023,7 @@
 /obj/effect/floor_decal/corner/paleblue/border{
 	dir = 6
 	},
+/obj/structure/closet/crate/bin,
 /turf/simulated/floor/tiled/white/corner{
 	dir = 1
 	},
@@ -23587,6 +23521,9 @@
 "YX" = (
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 9
+	},
+/obj/machinery/light{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/corner{
 	dir = 8
@@ -57031,8 +56968,8 @@ Ka
 Vw
 Vw
 sM
-El
-rj
+ZR
+Vw
 tS
 Cc
 vv
@@ -57232,8 +57169,8 @@ qD
 mm
 DM
 Vw
-gt
-ZR
+Vw
+Vw
 Vw
 Qz
 HU
@@ -57435,7 +57372,7 @@ np
 MF
 Vw
 Vw
-Vw
+Bn
 Vw
 mR
 Vw
@@ -57445,9 +57382,9 @@ Vw
 Vw
 Vw
 Vw
-QK
+th
 sl
-QK
+th
 Vw
 Vw
 Vw
@@ -57642,7 +57579,7 @@ bG
 Td
 AC
 XV
-Gm
+lD
 HL
 dM
 aC
@@ -57862,7 +57799,7 @@ np
 np
 np
 lY
-Bn
+yq
 XI
 db
 yq
@@ -58041,12 +57978,12 @@ np
 bb
 HY
 JB
+wH
+wH
+wH
 qH
-wH
-wH
 CP
 wH
-qH
 wH
 BS
 aC
@@ -58254,13 +58191,13 @@ Vw
 Vw
 Vw
 Vw
-QK
+th
 CJ
-QK
+th
 Vw
 Vw
 Vw
-zo
+KK
 Vw
 Vw
 Vw

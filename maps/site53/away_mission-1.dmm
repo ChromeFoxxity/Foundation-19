@@ -7,35 +7,42 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
+"ag" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 6
+	},
+/obj/structure/table/marble,
+/turf/simulated/floor/wood,
+/area/site53/town/house2)
 "aj" = (
 /obj/structure/bed/chair/office/comfy/black{
 	dir = 1
 	},
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/hotel)
 "au" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
 "av" = (
 /turf/simulated/floor/tiled/techmaint,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "aL" = (
 /obj/effect/floor_decal/corner/black/bordercee{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "aN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "aO" = (
 /obj/structure/table/rack,
 /obj/item/reagent_containers/food/drinks/bottle/whiskey,
@@ -45,7 +52,7 @@
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "aW" = (
 /obj/structure/table/rack,
 /obj/item/reagent_containers/food/drinks/bottle/wine,
@@ -54,35 +61,39 @@
 /obj/item/reagent_containers/food/drinks/bottle/wine,
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
+"aX" = (
+/obj/effect/wallframe_spawn/reinforced/no_grille,
+/turf/simulated/floor/plating,
+/area/site53/town/gas)
 "aZ" = (
 /obj/structure/table/woodentable,
 /obj/effect/floor_decal/spline/wood{
 	dir = 10
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "bh" = (
 /obj/structure/table/rack/shelf,
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/bar)
 "bi" = (
 /obj/machinery/door/airlock/glass/civilian{
 	name = "Cell 2";
 	req_access = list("cellkey")
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "br" = (
 /obj/machinery/mining/brace{
 	dir = 8;
 	icon_state = "mining_brace"
 	},
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town/cave)
 "bs" = (
 /obj/structure/table/rack/shelf,
 /obj/item/stack/medical/bruise_pack,
@@ -93,7 +104,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "bx" = (
 /obj/structure/table/woodentable/walnut,
 /obj/structure{
@@ -105,12 +116,12 @@
 	desc = "This thing is supposed to expertly count money in seconds, seems like you don't know how to use it though."
 	},
 /turf/simulated/floor/carpet/brown,
-/area/centcom/town)
+/area/site53/town/gas)
 "by" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town)
 "bD" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 1
@@ -122,7 +133,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
 "bH" = (
 /obj/structure/bed/chair/office/light{
 	dir = 8;
@@ -133,7 +144,7 @@
 	},
 /obj/machinery/papershredder,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/hotel)
 "bM" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 5
@@ -143,11 +154,15 @@
 	department = "Hotel"
 	},
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/hotel)
 "bQ" = (
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
+"bS" = (
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/plating,
+/area/site53/town/truck)
 "ce" = (
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 9
@@ -157,13 +172,13 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/hotel)
 "cg" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 5
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "cm" = (
 /obj/machinery/power/smes/buildable/preset/on_full{
 	icon = 'icons/obj/stationobjs.dmi';
@@ -175,39 +190,45 @@
 	density = 0
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/hotel)
 "cz" = (
 /obj/structure/chair/sofa/left{
 	dir = 4
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
+"cB" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 5
+	},
+/turf/simulated/floor/wood,
+/area/site53/town/house)
 "cF" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/item/device/flashlight/lamp,
 /turf/simulated/floor/carpet/brown,
-/area/centcom/town)
+/area/site53/town/hotel)
 "cH" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Unknown Truck"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/truck)
 "cL" = (
 /obj/structure/ore_box,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town/cave)
 "cX" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/tiled/techmaint,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "dg" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/effect/floor_decal/spline/wood{
 	dir = 10
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "dh" = (
 /obj/effect/floor_decal/borderfloorblack,
 /obj/machinery/status_display{
@@ -216,7 +237,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "dq" = (
 /obj/structure/table/woodentable_reinforced/mahogany,
 /obj/item/reagent_containers/food/drinks/bottle/small/beer{
@@ -226,13 +247,13 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/red,
-/area/centcom/town)
+/area/site53/town/bar)
 "dr" = (
 /obj/machinery/door/unpowered/simple/iron{
 	name = "Main Office"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "dt" = (
 /obj/machinery/power/port_gen/pacman,
 /obj/structure/cable/green,
@@ -240,41 +261,41 @@
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town)
 "dy" = (
 /obj/machinery/door/airlock/highsecurity{
 	name = "Sheriff's Office Armory";
 	req_access = list("armorykey")
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "dE" = (
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/hotel)
 "dH" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "dI" = (
 /obj/machinery/atmospherics/unary/tank{
 	name = "gasoline tank";
 	desc = "A large vessel containing gasoline."
 	},
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town)
 "dO" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 9
 	},
 /obj/structure/flora/pottedplant/floorleaf,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
 "dQ" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 10
@@ -282,7 +303,14 @@
 /obj/structure/table/rack/shelf,
 /obj/item/storage/toolbox/mechanical,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/bar)
+"ee" = (
+/obj/structure/hygiene/shower{
+	dir = 8
+	},
+/obj/structure/curtain/open/shower,
+/turf/simulated/floor/tiled/white,
+/area/site53/town/house2)
 "ef" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 4
@@ -295,17 +323,17 @@
 /obj/item/ammo_magazine/scp/a380,
 /obj/item/ammo_magazine/scp/a380,
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "ey" = (
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 8
 	},
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/hotel)
 "ez" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town)
 "eL" = (
 /turf/space,
 /area/space)
@@ -314,7 +342,15 @@
 	dir = 1
 	},
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town/gas)
+"eU" = (
+/obj/structure/table/woodentable,
+/obj/effect/floor_decal/spline/wood{
+	dir = 6
+	},
+/obj/machinery/light/small,
+/turf/simulated/floor/wood,
+/area/site53/town/house)
 "eW" = (
 /obj/structure/bed/chair/shuttle/black{
 	dir = 8
@@ -331,18 +367,18 @@
 /obj/item/light/tube,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "eY" = (
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 6
 	},
 /obj/structure/flora/pottedplant/floorleaf,
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/hotel)
 "fo" = (
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/plating,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "fq" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/effect/floor_decal/spline/wood{
@@ -350,35 +386,39 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/bar)
 "fv" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/green,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "fx" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/bar)
 "fF" = (
 /obj/structure/table/woodentable,
 /obj/effect/floor_decal/spline/wood{
 	dir = 5
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "fH" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 9
 	},
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/hotel)
+"fM" = (
+/obj/structure/chair/sofa/right,
+/turf/simulated/floor/wood,
+/area/site53/town/fisherman)
 "fV" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "gd" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 8
@@ -387,7 +427,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "ge" = (
 /obj/effect/floor_decal/spline/wood,
 /obj/structure/table/woodentable,
@@ -395,18 +435,18 @@
 	pixel_y = 8
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "gr" = (
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "gz" = (
 /obj/structure/railing/mapped{
 	dir = 1
 	},
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town/house)
 "gH" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/effect/floor_decal/spline/wood{
@@ -417,14 +457,18 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "gL" = (
 /obj/effect/floor_decal/spline/wood/mahogany{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
+"gM" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/small,
+/area/site53/town/house2)
 "hk" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 8
@@ -434,7 +478,7 @@
 	},
 /obj/structure/bookcase,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "hm" = (
 /obj/structure/hygiene/toilet{
 	pixel_y = 16
@@ -443,7 +487,10 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
+"ht" = (
+/turf/simulated/floor/exoplanet/concrete,
+/area/site53/town/gas)
 "hx" = (
 /obj/machinery/door/window/brigdoor/southright{
 	name = "Cockpit"
@@ -454,17 +501,17 @@
 /obj/effect/decal/cleanable/generic,
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/shuttle/black,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "hy" = (
 /obj/machinery/door/unpowered/simple/iron{
 	dir = 4;
 	name = "Holding Cells"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "hz" = (
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/hotel)
 "hA" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	dir = 8
@@ -473,7 +520,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/vertical,
-/area/centcom/town)
+/area/site53/town/truck)
 "hG" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 8
@@ -483,29 +530,35 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
 "hH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "hK" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/red,
-/area/centcom/town)
+/area/site53/town/bar)
+"hO" = (
+/obj/machinery/door/unpowered/simple/wood{
+	name = "House"
+	},
+/turf/simulated/floor/tiled/dark/small,
+/area/site53/town/house)
 "hS" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "hT" = (
 /obj/effect/wallframe_spawn/reinforced/no_grille,
 /obj/structure/barricade,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
-/area/centcom/town)
+/area/site53/town/bar)
 "ia" = (
 /obj/effect/floor_decal/spline/wood/mahogany/corner{
 	dir = 4
@@ -513,21 +566,24 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "id" = (
 /obj/structure/chair/sofa/right{
 	dir = 4
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "ih" = (
 /obj/effect/floor_decal/corner/paleblue/bordercee,
 /turf/simulated/floor/tiled/dark/vertical,
-/area/centcom/town)
+/area/site53/town/truck)
+"ii" = (
+/turf/simulated/floor/wood,
+/area/site53/town/house)
 "ik" = (
 /obj/structure/coatrack,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "il" = (
 /obj/structure/bed/chair/office/light{
 	dir = 8;
@@ -540,7 +596,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/hotel)
 "iz" = (
 /obj/structure/hygiene/sink{
 	dir = 8;
@@ -551,26 +607,36 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/bar)
 "iH" = (
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 9
 	},
 /obj/structure/filingcabinet/chestdrawer,
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/gas)
 "iK" = (
 /obj/structure/janitorialcart,
 /obj/item/mop,
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/hotel)
+"iL" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/site53/town/house2)
 "iM" = (
 /obj/machinery/door/airlock/glass/civilian{
 	name = "Cell 1";
 	req_access = list("cellkey")
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/sheriff)
+"iX" = (
+/obj/effect/floor_decal/spline/wood,
+/turf/simulated/floor/wood,
+/area/site53/town/house)
 "iZ" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 9
@@ -580,14 +646,14 @@
 	},
 /obj/structure/closet/secure_closet/personal/cabinet,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "ja" = (
 /obj/effect/floor_decal/corner/safe/border,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/storage/toolbox/emergency,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/simulated/floor/tiled/monotile,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "je" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 4
@@ -596,7 +662,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "ji" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
@@ -606,7 +672,7 @@
 /obj/item/clothing/under/sheriff,
 /obj/item/clothing/under/sheriff,
 /turf/simulated/floor/tiled/monotile,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "jt" = (
 /obj/effect/floor_decal/corner/safe/border{
 	dir = 1
@@ -614,15 +680,15 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/tiled/monotile,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "jv" = (
 /obj/item/stack/material/wood/ten,
-/turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/turf/simulated/floor/tiled/small,
+/area/site53/town/house2)
 "jw" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "jB" = (
 /obj/structure/showcase{
 	desc = "An expensive set of avionics and controls to allow a trained pilot to fly even more effectively or allow an untrained pilot to operate the heli. Too bad this heli is broken down.";
@@ -633,7 +699,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/shuttle/black,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "jN" = (
 /obj/structure/hygiene/sink{
 	dir = 8;
@@ -645,14 +711,18 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/bar)
 "jQ" = (
 /obj/structure/table/woodentable,
 /obj/effect/floor_decal/spline/wood{
 	dir = 6
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
+"jX" = (
+/obj/item/stack/material/wood/ten,
+/turf/simulated/floor/exoplanet/barren,
+/area/site53/town/cave)
 "kc" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 4
@@ -664,10 +734,10 @@
 	name = "Sheriff's cells key";
 	icon = 'icons/obj/items.dmi';
 	icon_state = "keys";
-	req_access = list("cellkey")
+	access = list("cellkey")
 	},
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "kh" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 4
@@ -676,7 +746,7 @@
 /obj/item/storage/box/evidence,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "kj" = (
 /obj/effect/floor_decal/corner/safe/border{
 	dir = 9
@@ -686,14 +756,14 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/monotile,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "ko" = (
 /obj/structure/table/gamblingtable,
 /obj/item/deck/cards,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "kr" = (
 /obj/effect/floor_decal/corner/safe/border{
 	dir = 5
@@ -704,7 +774,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/simulated/floor/tiled/monotile,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "ku" = (
 /obj/structure/table/woodentable/walnut,
 /obj/item/modular_computer/laptop/preset/custom_loadout/cheap,
@@ -712,14 +782,23 @@
 	pixel_x = -26
 	},
 /turf/simulated/floor/carpet/brown,
-/area/centcom/town)
+/area/site53/town/gas)
 "kw" = (
 /turf/simulated/floor/exoplanet/water/shallow,
-/area/centcom/town)
+/area/site53/town)
+"kB" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/site53/town/house)
 "kF" = (
 /obj/item/material/shard,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "kI" = (
 /obj/structure/table/woodentable_reinforced/mahogany,
 /obj/item/reagent_containers/food/drinks/bottle/small/ale{
@@ -728,21 +807,27 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/red,
-/area/centcom/town)
+/area/site53/town/bar)
 "kL" = (
 /obj/structure/bed/chair/office/comfy/black,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "kY" = (
 /obj/effect/floor_decal/spline/wood/mahogany,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
+"kZ" = (
+/obj/effect/floor_decal/spline/wood/walnut{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
+/area/site53/town/gas)
 "ld" = (
 /turf/simulated/wall/r_wall,
-/area/centcom/town)
+/area/site53/town/gas)
 "le" = (
 /turf/simulated/floor/exoplanet/desert,
-/area/centcom/town)
+/area/site53/town)
 "lf" = (
 /obj/structure/table/rack,
 /obj/item/reagent_containers/food/drinks/bottle/vodka,
@@ -752,30 +837,30 @@
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "lr" = (
 /obj/structure/table/gamblingtable,
 /obj/item/deck/cards,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "lt" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 4
 	},
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "lu" = (
 /obj/machinery/light/bigfloorlamp,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "ly" = (
 /obj/machinery/mining/brace{
 	dir = 4;
 	icon_state = "mining_brace"
 	},
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town/cave)
 "lz" = (
 /obj/structure/bed/chair/wood/mahogany{
 	dir = 1
@@ -783,25 +868,41 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
+"lL" = (
+/obj/structure/hygiene/sink{
+	dir = 8;
+	pixel_x = -12
+	},
+/obj/item/storage/mirror{
+	pixel_x = -25
+	},
+/turf/simulated/floor/tiled/white,
+/area/site53/town/house)
+"lS" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/small,
+/area/site53/town/house2)
 "ma" = (
 /obj/effect/floor_decal/spline/wood/mahogany{
 	dir = 10
 	},
 /obj/machinery/light,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "mh" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 4
 	},
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "mj" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town)
 "mn" = (
 /obj/effect/floor_decal/corner/safe/border{
 	dir = 10
@@ -813,24 +914,24 @@
 /obj/effect/decal/cleanable/generic,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/simulated/floor/tiled/monotile,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "mr" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 10
 	},
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
 "mw" = (
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/hotel)
 "mz" = (
 /obj/item/stack/cable_coil,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town)
 "mE" = (
 /obj/structure/table/woodentable,
 /obj/item/device/flashlight/lamp/green{
@@ -841,13 +942,23 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
 "mF" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/house)
+"mH" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 4
+	},
+/obj/structure/table/marble,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/site53/town/house)
 "mI" = (
 /obj/effect/floor_decal/industrial/warning/dust,
 /obj/structure/table/rack/gunrack,
@@ -855,24 +966,24 @@
 /obj/item/gun/projectile/revolver/mateba,
 /obj/item/gun/projectile/revolver/mateba,
 /turf/simulated/floor/tiled/monotile,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "mO" = (
 /obj/item/handcuffs,
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town)
 "mQ" = (
 /obj/structure/table/woodentable_reinforced/mahogany,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/red,
-/area/centcom/town)
+/area/site53/town/bar)
 "mS" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "na" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/item/device/flashlight/lamp,
@@ -883,7 +994,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/carpet/green,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "nb" = (
 /obj/structure/table/rack/shelf,
 /obj/random/soap,
@@ -893,7 +1004,7 @@
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "nh" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 8
@@ -901,7 +1012,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "nm" = (
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 6
@@ -911,7 +1022,7 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/hotel)
 "nC" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/effect/floor_decal/spline/wood{
@@ -919,16 +1030,16 @@
 	},
 /obj/machinery/light/small,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
 "nH" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town/house)
 "nU" = (
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "oa" = (
 /obj/machinery/light{
 	dir = 4
@@ -937,31 +1048,31 @@
 	dir = 6
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/hotel)
 "og" = (
 /obj/machinery/door/unpowered/simple/walnut{
 	dir = 4;
 	name = "Hotel"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/hotel)
 "on" = (
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town)
 "oy" = (
 /obj/effect/floor_decal/spline/wood,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "oA" = (
 /obj/structure/chair/sofa/left,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
 "oB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/small,
-/area/centcom/town)
+/area/site53/town/bar)
 "oE" = (
 /obj/structure/bed/chair,
 /obj/effect/floor_decal/spline/wood/ebony{
@@ -969,7 +1080,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "oG" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 8
@@ -979,7 +1090,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "oI" = (
 /obj/structure/table/rack/shelf,
 /obj/item/reagent_containers/spray/cleaner,
@@ -989,7 +1100,7 @@
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "oJ" = (
 /obj/structure/bed/chair/shuttle/black{
 	dir = 1
@@ -998,17 +1109,17 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/shuttle/black,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "oO" = (
 /obj/structure/flora/tree/bigtree,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "oQ" = (
 /obj/structure/table/gamblingtable,
 /obj/item/storage/pill_bottle/dice,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "oW" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 10
@@ -1016,7 +1127,7 @@
 /obj/structure/closet/crate/bin,
 /obj/machinery/light,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "oY" = (
 /obj/item/stool/bar/padded,
 /obj/effect/floor_decal/spline/wood/mahogany{
@@ -1025,23 +1136,23 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "pj" = (
 /obj/structure/table/woodentable,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "pm" = (
 /obj/structure/bed/padded,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techmaint,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "pz" = (
 /obj/structure/bed,
 /obj/effect/floor_decal/spline/wood{
 	dir = 4
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "pC" = (
 /obj/machinery/light{
 	dir = 4
@@ -1049,23 +1160,23 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/bar)
 "pH" = (
 /obj/effect/decal/cleanable/blood/oil/streak,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town)
 "pL" = (
 /obj/effect/floor_decal/spline/wood/mahogany{
 	dir = 8
 	},
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "pS" = (
 /obj/structure/bed/chair/office/comfy/black{
 	dir = 8
 	},
 /turf/simulated/floor/carpet/brown,
-/area/centcom/town)
+/area/site53/town/hotel)
 "pX" = (
 /obj/item/stool/bar/padded,
 /obj/effect/floor_decal/spline/wood/mahogany{
@@ -1073,7 +1184,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "qb" = (
 /obj/effect/floor_decal/industrial/warning/dust,
 /obj/structure/table/rack/shelf,
@@ -1088,7 +1199,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "qd" = (
 /obj/structure/hygiene/sink{
 	dir = 8;
@@ -1098,55 +1209,58 @@
 	pixel_x = -25
 	},
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/hotel)
 "qe" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 9
 	},
 /obj/structure/bookcase,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "qi" = (
 /obj/structure/table/standard,
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "qn" = (
 /obj/effect/floor_decal/spline/wood/walnut,
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/hotel)
 "qp" = (
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/machinery/light,
 /obj/structure/table/rack/shelf,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/centcom/town)
+/area/site53/town/truck)
 "qt" = (
 /obj/machinery/light,
 /turf/simulated/floor/carpet/brown,
-/area/centcom/town)
+/area/site53/town/gas)
 "qx" = (
 /obj/structure/table/woodentable/walnut,
 /obj/item/device/flashlight/lamp/green{
 	pixel_y = 8
 	},
 /turf/simulated/floor/carpet/brown,
-/area/centcom/town)
+/area/site53/town/gas)
+"qA" = (
+/turf/simulated/floor/exoplanet/concrete,
+/area/site53/town/sheriff)
 "qB" = (
 /obj/machinery/door/unpowered/simple/silver{
 	dir = 4;
 	name = "Restroom"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/bar)
 "qK" = (
 /obj/effect/floor_decal/spline/wood/mahogany{
 	dir = 10
 	},
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "qM" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 10
@@ -1155,12 +1269,12 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "qQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/bar)
 "qR" = (
 /obj/structure/flora/pottedplant/floorleaf,
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
@@ -1168,7 +1282,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "qU" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/item/toy/desk/fan,
@@ -1176,17 +1290,20 @@
 	dir = 1
 	},
 /turf/simulated/floor/carpet/green,
-/area/centcom/town)
+/area/site53/town/sheriff)
+"qV" = (
+/turf/simulated/wall/r_wall,
+/area/site53/town/house)
 "rd" = (
 /obj/structure/table/standard,
 /obj/item/toy/desk/fan,
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "re" = (
 /obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "rk" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 4
@@ -1195,7 +1312,7 @@
 /obj/item/storage/box/handcuffs,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "rn" = (
 /obj/machinery/light{
 	dir = 8
@@ -1205,14 +1322,14 @@
 	dir = 9
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/hotel)
 "rw" = (
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 9
 	},
 /obj/machinery/vending/coffee,
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/hotel)
 "rA" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/item/paper_bin,
@@ -1222,25 +1339,28 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/green,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "rD" = (
 /obj/effect/paint_stripe/paleblue,
 /turf/simulated/wall/r_wall,
-/area/centcom/town)
+/area/site53/town/truck)
 "rE" = (
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/hotel)
 "rG" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/techmaint,
-/area/centcom/town)
+/area/site53/town/sheriff)
+"rM" = (
+/turf/simulated/floor/exoplanet/concrete/reinforced/road,
+/area/site53/town/gas)
 "rR" = (
 /obj/machinery/mining/brace,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town/cave)
 "sd" = (
 /obj/effect/floor_decal/spline/wood/mahogany{
 	dir = 8
@@ -1250,29 +1370,29 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "sg" = (
 /obj/structure/bed/chair{
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town/house)
 "sq" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 10
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "sv" = (
 /obj/structure/stasis_cage,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town/cave)
 "sG" = (
 /obj/structure/hygiene/toilet{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/house)
 "sO" = (
 /obj/structure/table/rack,
 /obj/item/reagent_containers/food/drinks/bottle/space_mountain_wind,
@@ -1281,26 +1401,26 @@
 /obj/item/reagent_containers/food/drinks/bottle/space_mountain_wind,
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "sU" = (
 /obj/machinery/cooker/oven,
 /obj/effect/floor_decal/spline/wood{
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "sX" = (
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/hotel)
 "sZ" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "ta" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 1
@@ -1313,7 +1433,7 @@
 	},
 /obj/structure/table/woodentable,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "td" = (
 /obj/structure/hygiene/toilet{
 	dir = 8
@@ -1322,7 +1442,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/bar)
 "th" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 4
@@ -1332,11 +1452,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "tk" = (
 /obj/machinery/light/bigfloorlamp,
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town)
 "tl" = (
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 4
@@ -1347,27 +1467,27 @@
 	},
 /obj/machinery/power/terminal,
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/gas)
 "tp" = (
 /obj/machinery/door/unpowered/simple/iron{
 	name = "Maintenance Room"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/hotel)
 "tv" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 4
 	},
 /obj/structure/table/woodentable,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "tw" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/effect/floor_decal/spline/wood/ebony,
 /obj/item/modular_computer/laptop/preset/custom_loadout/standard,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "tA" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 9
@@ -1377,21 +1497,21 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "tG" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 5
 	},
 /obj/machinery/vending/cigarette,
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "tK" = (
 /obj/structure/sign/double/barsign{
 	dir = 8;
 	pixel_x = 32
 	},
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "tL" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/item/modular_computer/laptop/preset/custom_loadout/standard,
@@ -1399,18 +1519,23 @@
 	dir = 1
 	},
 /turf/simulated/floor/carpet/green,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "tU" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/item/toy/desk/fan,
 /turf/simulated/floor/carpet/brown,
-/area/centcom/town)
+/area/site53/town/hotel)
 "tW" = (
 /obj/machinery/door/unpowered/simple/walnut{
 	name = "Lobby"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/hotel)
+"tZ" = (
+/obj/effect/wallframe_spawn/reinforced/no_grille,
+/obj/structure/barricade,
+/turf/simulated/floor/plating,
+/area/site53/town/bar)
 "ua" = (
 /obj/structure/table/standard,
 /obj/structure{
@@ -1422,7 +1547,7 @@
 	},
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "ud" = (
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 8
@@ -1431,32 +1556,35 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/hotel)
 "uj" = (
 /obj/effect/floor_decal/corner/purple/bordercorner{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/hotel)
+"uo" = (
+/turf/simulated/wall/r_wall,
+/area/site53/town/sheriff)
 "us" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/small,
-/area/centcom/town)
+/area/site53/town/bar)
 "ut" = (
 /obj/structure/table/woodentable,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town/cave)
 "uC" = (
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/hotel)
 "uG" = (
 /obj/item/stack/material/rods,
 /obj/effect/decal/cleanable/blood/oil,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "uH" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/door/blast/shutters{
@@ -1466,37 +1594,37 @@
 	name = "Military Helicopter"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "uJ" = (
 /obj/structure/grille/broken,
 /obj/item/stack/material/rods,
 /obj/item/material/shard,
 /turf/simulated/floor/plating,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "uL" = (
 /obj/machinery/door/unpowered/simple/walnut{
 	name = "Staff Backroom"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/gas)
 "uP" = (
 /turf/unsimulated/mineral,
-/area/centcom/town)
+/area/space)
 "uQ" = (
 /obj/structure/table/woodentable/walnut,
 /obj/item/paper_bin,
 /obj/item/pen,
 /turf/simulated/floor/carpet/brown,
-/area/centcom/town)
+/area/site53/town/gas)
 "uW" = (
 /obj/item/stack/material/plasteel,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "uZ" = (
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/structure/table/rack/shelf,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/centcom/town)
+/area/site53/town/truck)
 "va" = (
 /obj/structure/table/woodentable_reinforced/mahogany,
 /obj/machinery/chemical_dispenser/bar_soft/full{
@@ -1506,12 +1634,12 @@
 	dir = 1
 	},
 /turf/simulated/floor/carpet/red,
-/area/centcom/town)
+/area/site53/town/bar)
 "vc" = (
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/machinery/light,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "vi" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/effect/floor_decal/spline/wood/ebony{
@@ -1524,48 +1652,48 @@
 	pixel_y = 26
 	},
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "vk" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/item/storage/toolbox/mechanical,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "vm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/red,
-/area/centcom/town)
+/area/site53/town/bar)
 "vw" = (
 /obj/structure/grille/broken,
 /obj/item/material/shard,
 /turf/simulated/floor/plating,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "vA" = (
 /obj/item/stack/material/silver/ten,
 /obj/item/stack/material/silver/ten,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town/cave)
 "vC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/hygiene/sink{
 	pixel_y = -13
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "vL" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "vQ" = (
 /obj/machinery/door/unpowered/simple/ebony{
 	dir = 4;
 	name = "Manager's Office"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/hotel)
 "vS" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 8
@@ -1575,22 +1703,22 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "wb" = (
 /obj/machinery/door/unpowered/simple/wood{
 	name = "House"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/house2)
 "wc" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/effect/floor_decal/spline/wood/ebony,
 /obj/item/paper/crumpled{
-	info = "Hey Dave, I've placed the armory keys into the filing cabinet in the front desk. Yeah yeah, I know what you're gonna say. But we don't exactly have a key lockup in this station, hell. We barely have the tools to do anything now that I think about it. Holler over to my desk if you need something though.";
+	info = "Hey Dave, I've placed the armory keys into the one of the evidence lockers in the cells. Yeah yeah, I know what you're gonna say. But we don't exactly have a key lockup in this station, hell. We barely have the tools to do anything now that I think about it. Holler over to my desk if you need something though.";
 	name = "passed note"
 	},
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "wf" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 8
@@ -1599,14 +1727,14 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
 "wg" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "wl" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 8
@@ -1616,7 +1744,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "wo" = (
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 6
@@ -1625,7 +1753,7 @@
 /obj/effect/decal/cleanable/greenglow,
 /obj/effect/decal/cleanable/molten_item,
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "wp" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 10
@@ -1633,29 +1761,29 @@
 /obj/machinery/light/small,
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "wq" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/item/folder/red,
 /turf/simulated/floor/carpet/brown,
-/area/centcom/town)
+/area/site53/town/hotel)
 "wr" = (
 /obj/structure/bed/chair/wood/mahogany{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "ws" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/effect/floor_decal/spline/wood,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/hotel)
 "wA" = (
 /obj/item/stack/material/rods,
 /obj/item/stack/cable_coil,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "wB" = (
 /obj/machinery/chemical_dispenser/bar_coffee/full{
 	pixel_y = 7
@@ -1665,11 +1793,11 @@
 	pixel_y = 32
 	},
 /turf/simulated/floor/carpet/red,
-/area/centcom/town)
+/area/site53/town/bar)
 "wE" = (
 /obj/effect/floor_decal/spline/wood/ebony,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/hotel)
 "wJ" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 4
@@ -1678,7 +1806,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "wL" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
@@ -1692,20 +1820,32 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/centcom/town)
+/area/site53/town/sheriff)
+"wO" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/site53/town/house2)
 "wQ" = (
 /obj/effect/floor_decal/spline/wood/mahogany{
 	dir = 9
 	},
 /obj/structure/coatrack,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
+"wR" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/site53/town/house2)
 "xg" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "xj" = (
 /obj/structure/bed/chair{
 	dir = 8
@@ -1713,7 +1853,10 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techmaint,
-/area/centcom/town)
+/area/site53/town/sheriff)
+"xq" = (
+/turf/simulated/floor/wood,
+/area/site53/town/hotel)
 "xu" = (
 /obj/structure/grille{
 	health_max = null;
@@ -1727,7 +1870,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "xB" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 4
@@ -1735,7 +1878,7 @@
 /obj/structure/chair/sofa/left,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "xC" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 1
@@ -1743,20 +1886,29 @@
 /obj/structure/table/woodentable_reinforced/ebony,
 /obj/item/modular_computer/laptop/preset/custom_loadout/standard,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/hotel)
+"xE" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 5
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/site53/town/house)
 "xJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/hygiene/toilet{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "xN" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town)
 "xU" = (
 /turf/unsimulated/wall{
 	color = "#000000";
@@ -1764,31 +1916,27 @@
 	desc = "You have no idea where this goes."
 	},
 /area/space)
+"xV" = (
+/turf/simulated/floor/carpet/brown,
+/area/site53/town/gas)
 "xY" = (
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 5
 	},
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/hotel)
 "ya" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 10
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "yj" = (
 /obj/structure/filingcabinet/chestdrawer,
-/obj/item/card/id{
-	desc = "Used to unlock the Sheriff's Office Armory.";
-	name = "Sheriff's armory key";
-	icon = 'icons/obj/items.dmi';
-	icon_state = "keys";
-	req_access = list("armorykey")
-	},
 /obj/machinery/light,
 /turf/simulated/floor/carpet/green,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "yl" = (
 /obj/structure/table/rack/shelf,
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
@@ -1799,18 +1947,22 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
+"ys" = (
+/obj/effect/wallframe_spawn/reinforced/no_grille,
+/turf/simulated/floor/plating,
+/area/site53/town/hotel)
 "yw" = (
 /obj/structure/closet/toolcloset,
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/hotel)
 "yA" = (
 /obj/structure/filingcabinet/chestdrawer,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/brown,
-/area/centcom/town)
+/area/site53/town/hotel)
 "yE" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
@@ -1819,14 +1971,17 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
+"yL" = (
+/turf/simulated/floor/tiled/white,
+/area/site53/town/bar)
 "yN" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 10
 	},
 /obj/structure/bookcase,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "yS" = (
 /obj/structure/table/woodentable,
 /obj/effect/floor_decal/spline/wood{
@@ -1837,7 +1992,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/bar)
 "yW" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 6
@@ -1845,19 +2000,19 @@
 /obj/structure/table/rack/shelf,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/bar)
 "zf" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "zn" = (
 /obj/machinery/light,
 /obj/effect/floor_decal/corner/paleblue/bordercee{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/horizontal,
-/area/centcom/town)
+/area/site53/town/truck)
 "zq" = (
 /obj/structure/table/woodentable,
 /obj/effect/floor_decal/spline/wood{
@@ -1865,18 +2020,25 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
+"zA" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/wood,
+/area/site53/town/fisherman)
 "zD" = (
 /obj/structure/table/woodentable,
 /obj/item/stack/material/phoron/fifty,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town/cave)
 "zL" = (
 /obj/structure/table/rack,
 /obj/item/stack/material/phoron/fifty,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/small,
-/area/centcom/town)
+/area/site53/town/bar)
 "zR" = (
 /obj/structure/bed/padded,
 /obj/structure/bed/padded{
@@ -1889,26 +2051,30 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/hotel)
 "zZ" = (
 /obj/effect/floor_decal/corner/purple/border,
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Ad" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
+"Al" = (
+/obj/effect/wallframe_spawn/reinforced/no_grille,
+/turf/simulated/floor/plating,
+/area/site53/town/sheriff)
 "Am" = (
 /obj/effect/floor_decal/spline/wood,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "Aq" = (
 /obj/machinery/door/unpowered/simple/mahogany{
 	dir = 4;
 	name = "Bar"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/bar)
 "Av" = (
 /obj/effect/paint_stripe/paleblue,
 /obj/machinery/button/blast_door{
@@ -1918,27 +2084,27 @@
 	dir = 4
 	},
 /turf/simulated/wall/r_wall,
-/area/centcom/town)
+/area/site53/town/truck)
 "Ay" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /obj/structure/closet/crate/bin,
-/turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/turf/simulated/floor/tiled/small,
+/area/site53/town/house2)
 "AC" = (
 /obj/machinery/door/unpowered/simple/iron{
 	dir = 4;
 	name = "Sheriff's Office"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "AE" = (
 /obj/structure/hygiene/toilet{
 	pixel_y = 16
 	},
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/hotel)
 "AG" = (
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/structure/showcase{
@@ -1948,7 +2114,7 @@
 	name = "truck controls"
 	},
 /turf/simulated/floor/tiled/dark/monotile,
-/area/centcom/town)
+/area/site53/town/truck)
 "AL" = (
 /obj/structure/curtain/open/shower,
 /obj/structure/hygiene/shower{
@@ -1956,12 +2122,22 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/fisherman)
+"AP" = (
+/obj/structure/hygiene/sink{
+	dir = 8;
+	pixel_x = -12
+	},
+/obj/item/storage/mirror{
+	pixel_x = -25
+	},
+/turf/simulated/floor/tiled/white,
+/area/site53/town/house2)
 "AU" = (
 /obj/effect/floor_decal/spline/wood,
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
 "AX" = (
 /obj/structure/table/rack,
 /obj/item/reagent_containers/food/drinks/bottle/cola,
@@ -1970,14 +2146,14 @@
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "AY" = (
 /obj/effect/floor_decal/spline/wood/mahogany/corner{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "Bd" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 10
@@ -1993,14 +2169,25 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "BA" = (
 /obj/machinery/vending/tool{
 	dir = 8
 	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/hotel)
+"BG" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 10
+	},
+/obj/structure/table/marble,
+/turf/simulated/floor/wood,
+/area/site53/town/house)
+"BJ" = (
+/obj/effect/floor_decal/spline/wood,
+/turf/simulated/floor/wood,
+/area/site53/town/fisherman)
 "BQ" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
@@ -2011,7 +2198,7 @@
 /obj/item/clothing/head/sheriff,
 /obj/item/clothing/head/sheriff,
 /turf/simulated/floor/tiled/monotile,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "BV" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
@@ -2020,12 +2207,12 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "Ca" = (
 /obj/effect/wallframe_spawn/reinforced/no_grille,
 /obj/structure/barricade,
 /turf/simulated/floor/plating,
-/area/centcom/town)
+/area/site53/town/house2)
 "Cd" = (
 /obj/structure/bed/chair/shuttle/black{
 	dir = 4
@@ -2035,14 +2222,14 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "Cj" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/bar)
 "Cm" = (
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 8
@@ -2051,7 +2238,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Cq" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -2059,20 +2246,29 @@
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town)
+"Cw" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 8
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/site53/town/house2)
 "CL" = (
 /obj/machinery/door/unpowered/simple/glass{
 	name = "Gas Station"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/gas)
 "CP" = (
 /obj/structure/table/woodentable,
 /obj/item/stack/material/steel/fifty,
 /obj/item/stack/material/steel/fifty,
 /obj/item/stack/material/steel/ten,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town/cave)
 "CT" = (
 /obj/structure/table/rack/shelf,
 /obj/item/storage/chewables/candy/cookies{
@@ -2090,29 +2286,29 @@
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "CY" = (
 /obj/structure/hygiene/sink{
 	dir = 1;
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Da" = (
 /obj/item/storage/bag/trash,
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town)
 "Db" = (
 /obj/structure/barricade,
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town/house2)
 "Dc" = (
 /obj/machinery/door/unpowered/simple/wood{
 	dir = 4;
 	name = "Living Quarters"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/hotel)
 "De" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 4
@@ -2121,13 +2317,13 @@
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/item/folder/yellow,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Dh" = (
 /obj/structure/flora/pottedplant/floorleaf,
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/machinery/light,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "Di" = (
 /turf/unsimulated/wall,
 /area/space)
@@ -2137,7 +2333,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "Du" = (
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/structure/mopbucket,
@@ -2147,7 +2343,7 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "DB" = (
 /obj/structure/table/woodentable,
 /obj/effect/floor_decal/spline/wood{
@@ -2155,12 +2351,12 @@
 	},
 /obj/machinery/light/small,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "DD" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/machinery/light,
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/hotel)
 "DF" = (
 /obj/structure/table/woodentable_reinforced/mahogany,
 /obj/item/reagent_containers/food/drinks/bottle/small/beer{
@@ -2169,7 +2365,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/red,
-/area/centcom/town)
+/area/site53/town/bar)
 "DK" = (
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 10
@@ -2177,27 +2373,30 @@
 /obj/structure/closet/crate/bin,
 /obj/machinery/light,
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/hotel)
 "DL" = (
 /obj/structure/table/woodentable,
 /obj/structure/flora/pottedplant/deskfern{
 	pixel_y = 13
 	},
+/turf/simulated/floor/tiled/small,
+/area/site53/town/house2)
+"DU" = (
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town/house)
 "Eb" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Eg" = (
 /obj/structure/table/woodentable/walnut,
 /obj/structure/flora/pottedplant/deskfern{
 	pixel_y = 13
 	},
 /turf/simulated/floor/carpet/brown,
-/area/centcom/town)
+/area/site53/town/gas)
 "Em" = (
 /obj/structure/bed/chair/shuttle/black{
 	dir = 1;
@@ -2208,7 +2407,10 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/horizontal,
-/area/centcom/town)
+/area/site53/town/truck)
+"Ep" = (
+/turf/simulated/wall/r_wall,
+/area/site53/town/house2)
 "Ez" = (
 /obj/machinery/button/blast_door{
 	id_tag = "ruincihelicopter-right";
@@ -2218,7 +2420,7 @@
 	},
 /obj/effect/paint/green,
 /turf/simulated/wall/r_wall/prepainted,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "EA" = (
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 6
@@ -2233,7 +2435,7 @@
 	density = 0
 	},
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/gas)
 "EG" = (
 /obj/structure/table/woodentable,
 /obj/structure/flora/pottedplant/deskfern{
@@ -2242,7 +2444,7 @@
 	},
 /obj/effect/floor_decal/spline/wood,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
 "EH" = (
 /obj/structure/table/rack,
 /obj/item/reagent_containers/food/drinks/bottle/orangejuice,
@@ -2252,14 +2454,27 @@
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
+"EJ" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/wood,
+/area/site53/town/bar)
+"ER" = (
+/obj/structure/hygiene/toilet{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/site53/town/house2)
 "EU" = (
 /obj/structure/curtain/open/shower,
 /obj/structure/hygiene/shower{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/hotel)
 "EZ" = (
 /obj/effect/floor_decal/spline/wood/mahogany,
 /obj/structure/bed/chair/wood/mahogany{
@@ -2267,7 +2482,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "Fg" = (
 /obj/structure/table/standard,
 /obj/item/reagent_containers/food/drinks/bottle/cola{
@@ -2276,24 +2491,27 @@
 	},
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "Fh" = (
 /obj/structure/table/woodentable,
 /obj/effect/floor_decal/spline/wood,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
 "Fi" = (
 /obj/effect/paint_stripe/paleblue,
 /obj/machinery/light/small/red,
 /turf/simulated/wall/r_wall,
-/area/centcom/town)
+/area/site53/town/truck)
 "Fo" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 10
 	},
 /obj/structure/coatrack,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
+"Fq" = (
+/turf/simulated/wall/r_wall,
+/area/site53/town)
 "Fz" = (
 /obj/effect/floor_decal/spline/wood/cee{
 	dir = 4
@@ -2303,7 +2521,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "FA" = (
 /obj/machinery/power/port_gen/pacman,
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -2314,7 +2532,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "FC" = (
 /obj/item/stool/wood,
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
@@ -2322,7 +2540,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "FE" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 4
@@ -2332,13 +2550,13 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/hotel)
 "FL" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "FW" = (
 /obj/structure/bookcase,
 /obj/effect/floor_decal/spline/wood/cee{
@@ -2348,7 +2566,13 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
+"FY" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/site53/town/bar)
 "Gc" = (
 /obj/effect/floor_decal/industrial/warning/dust,
 /obj/structure/table/rack/shelf,
@@ -2360,7 +2584,7 @@
 /obj/item/ammo_magazine/c44/rubber,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/monotile,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Gd" = (
 /obj/machinery/light{
 	dir = 1
@@ -2369,11 +2593,11 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Gf" = (
 /obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town)
 "Go" = (
 /obj/structure/table/rack,
 /obj/item/stack/material/phoron/fifty,
@@ -2386,19 +2610,19 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Gq" = (
 /obj/structure/bed/chair,
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 1
 	},
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Gt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "Gu" = (
 /obj/machinery/light{
 	dir = 1
@@ -2410,25 +2634,41 @@
 /obj/item/paper_bin,
 /obj/item/pen,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Gz" = (
 /obj/effect/floor_decal/spline/wood/ebony,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "GG" = (
 /obj/item/stack/material/rods,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "GI" = (
 /obj/item/material/shard,
 /turf/simulated/floor/plating,
-/area/centcom/town)
+/area/site53/town/ciheli)
+"GP" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 8
+	},
+/obj/machinery/cooker/oven,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/site53/town/house2)
+"GQ" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/concrete,
+/area/site53/town/sheriff)
 "GX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town)
 "Hh" = (
 /obj/structure/bed,
 /obj/effect/floor_decal/spline/wood{
@@ -2438,30 +2678,30 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "Ht" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	icon_state = "tracks";
 	icon = 'icons/effects/blood.dmi'
 	},
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town)
 "Hu" = (
 /obj/structure/bed/padded,
 /obj/effect/landmark/corpse/chaos/pilot,
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/tiled/techmaint,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "HB" = (
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/hotel)
 "HD" = (
 /obj/effect/paint/green,
 /turf/simulated/wall/r_wall/prepainted,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "HR" = (
 /obj/effect/floor_decal/industrial/hatch/blue,
 /obj/machinery/door/blast/shutters/open{
@@ -2471,22 +2711,22 @@
 	name = "Unknown Truck Storage Shutters"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/truck)
 "HY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/bar)
 "Im" = (
 /obj/effect/floor_decal/corner/black/bordercee,
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Iq" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town/gas)
 "It" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 4
@@ -2498,7 +2738,7 @@
 /obj/structure/mopbucket,
 /obj/item/mop,
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Iu" = (
 /obj/machinery/light{
 	dir = 8
@@ -2508,7 +2748,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Iz" = (
 /obj/machinery/power/port_gen/pacman,
 /obj/structure/cable/green{
@@ -2516,7 +2756,7 @@
 	icon_state = "0-4"
 	},
 /turf/simulated/floor/tiled/small,
-/area/centcom/town)
+/area/site53/town/bar)
 "IF" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 1
@@ -2524,24 +2764,34 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "IG" = (
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 5
 	},
 /obj/machinery/vending/cigarette,
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/hotel)
 "IN" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "IQ" = (
 /obj/item/stack/material/rods,
 /obj/structure/girder/displaced,
 /turf/simulated/floor/plating,
-/area/centcom/town)
+/area/site53/town/ciheli)
+"IR" = (
+/turf/simulated/floor/wood,
+/area/site53/town/house2)
+"IU" = (
+/obj/machinery/door/unpowered/simple/silver{
+	dir = 4;
+	name = "Restroom"
+	},
+/turf/simulated/floor/tiled/dark/small,
+/area/site53/town/hotel)
 "Jh" = (
 /obj/machinery/power/port_gen/pacman,
 /obj/structure/cable/green{
@@ -2549,7 +2799,7 @@
 	icon_state = "0-4"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Jm" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/effect/floor_decal/spline/wood/ebony{
@@ -2558,13 +2808,13 @@
 /obj/item/modular_computer/laptop/preset/custom_loadout/standard,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Jn" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 8
 	},
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Jo" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/liquid_fuel,
@@ -2577,7 +2827,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "Jq" = (
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/machinery/light{
@@ -2585,7 +2835,7 @@
 	},
 /obj/structure/table/rack/shelf,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/centcom/town)
+/area/site53/town/truck)
 "Jt" = (
 /obj/structure/table/rack/shelf,
 /obj/item/reagent_containers/food/snacks/pokey,
@@ -2598,20 +2848,30 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "Jv" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 6
 	},
 /obj/structure/table/marble,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
+"Jx" = (
+/turf/simulated/wall/r_wall,
+/area/site53/town/hotel)
+"Jy" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/wood,
+/turf/simulated/floor/wood,
+/area/site53/town/house)
 "Jz" = (
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/hotel)
 "JA" = (
 /obj/structure/table/rack/shelf,
 /obj/item/storage/pill_bottle/tramadol{
@@ -2634,19 +2894,19 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "JI" = (
 /obj/machinery/light,
 /obj/effect/floor_decal/corner/paleblue/bordercee{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/horizontal,
-/area/centcom/town)
+/area/site53/town/truck)
 "JL" = (
 /obj/structure/coatrack,
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "JZ" = (
 /obj/effect/floor_decal/spline/wood/cee{
 	dir = 8
@@ -2655,14 +2915,17 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "Ka" = (
 /obj/structure/bed/chair/office/comfy/black{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/green,
-/area/centcom/town)
+/area/site53/town/sheriff)
+"Kb" = (
+/turf/simulated/wall/r_wall,
+/area/site53/town/bar)
 "Kg" = (
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 1
@@ -2671,44 +2934,44 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Kn" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 5
 	},
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
 "Ko" = (
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "Kz" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 9
 	},
 /obj/machinery/vending/coffee,
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "KB" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 8
 	},
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "KH" = (
 /obj/structure/table/woodentable,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "KO" = (
 /obj/machinery/door/unpowered/simple/wood{
 	name = "Fisherman's Hut"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "Ld" = (
 /obj/structure/table/woodentable,
 /obj/effect/floor_decal/spline/wood{
@@ -2719,7 +2982,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "Li" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 9
@@ -2729,26 +2992,26 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Lq" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/hotel)
 "LB" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 6
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
 "LF" = (
 /obj/structure/closet,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/small,
-/area/centcom/town)
+/area/site53/town/bar)
 "LH" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "LQ" = (
 /obj/structure/table/rack/shelf,
 /obj/item/storage/chewables/candy/gum{
@@ -2766,7 +3029,7 @@
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "LZ" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 5
@@ -2775,21 +3038,17 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Mo" = (
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/structure/barricade,
-/turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/turf/simulated/floor/tiled/small,
+/area/site53/town/house2)
 "Mp" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 10
 	},
 /obj/structure/table/marble,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "Ms" = (
 /obj/structure/grille{
 	health_max = null;
@@ -2802,7 +3061,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "Mu" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 9
@@ -2814,37 +3073,37 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Mx" = (
 /obj/effect/floor_decal/corner/black/bordercee{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "ME" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techmaint,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "MI" = (
 /obj/structure/bed/chair/wood/mahogany,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "MR" = (
 /obj/effect/floor_decal/spline/wood/mahogany/corner{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "Nd" = (
 /obj/effect/floor_decal/spline/wood/walnut/corner{
 	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Nm" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1
@@ -2854,22 +3113,22 @@
 /obj/item/clothing/suit/armor/bulletproof/vest,
 /obj/item/clothing/suit/armor/bulletproof/vest,
 /turf/simulated/floor/tiled/monotile,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "No" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/effect/floor_decal/spline/wood{
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Ns" = (
 /obj/structure/table/gamblingtable,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "Nt" = (
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Nu" = (
 /obj/effect/floor_decal/borderfloorblack,
 /obj/effect/floor_decal/spline/fancy/black,
@@ -2885,7 +3144,7 @@
 /obj/item/light/tube,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/shuttle/black,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "Nx" = (
 /obj/item/stool/bar/padded,
 /obj/effect/floor_decal/spline/wood/mahogany{
@@ -2893,7 +3152,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "Nz" = (
 /obj/effect/floor_decal/borderfloorblack,
 /obj/effect/floor_decal/spline/fancy/black,
@@ -2905,35 +3164,42 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/gun/projectile/flare/loaded,
 /turf/simulated/floor/shuttle/black,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "NA" = (
 /obj/effect/shuttle_landmark/vessel/out,
 /turf/simulated/floor/beach/water/ocean,
-/area/centcom/town)
+/area/site53/town)
 "ND" = (
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town)
 "NK" = (
 /obj/effect/floor_decal/spline/wood/mahogany,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
+"NR" = (
+/obj/structure/bed,
+/obj/effect/floor_decal/spline/wood{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/site53/town/house)
 "NU" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 9
 	},
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "NW" = (
 /obj/effect/floor_decal/spline/wood/mahogany{
 	dir = 4
 	},
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "NX" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town/house)
 "NY" = (
 /obj/structure/table/rack/shelf,
 /obj/item/storage/toolbox/mechanical,
@@ -2944,14 +3210,13 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/small,
-/area/centcom/town)
+/area/site53/town/bar)
 "NZ" = (
-/obj/structure/railing/mapped{
-	dir = 1
+/obj/structure/bed/chair{
+	dir = 8
 	},
-/obj/structure/barricade,
-/turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/turf/simulated/floor/tiled/small,
+/area/site53/town/house2)
 "Oe" = (
 /obj/structure/grille{
 	health_max = null;
@@ -2959,18 +3224,18 @@
 	},
 /obj/effect/paint_stripe/paleblue,
 /turf/simulated/wall/r_wall,
-/area/centcom/town)
+/area/site53/town/truck)
 "Oh" = (
 /turf/simulated/floor/exoplanet/concrete/reinforced/road,
-/area/centcom/town)
+/area/site53/town)
 "Om" = (
 /obj/effect/floor_decal/spline/wood/ebony/cee,
 /obj/machinery/light,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "On" = (
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Oo" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 8
@@ -2980,24 +3245,20 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Or" = (
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 1
 	},
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Os" = (
 /obj/effect/floor_decal/corner/black/bordercee{
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Ox" = (
-/obj/structure/bed/chair/office/light{
-	dir = 8;
-	icon_state = "officechair_white_preview"
-	},
 /obj/structure/table/standard,
 /obj/item/spacecash/bundle/c100{
 	pixel_y = 2
@@ -3009,24 +3270,37 @@
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "OK" = (
 /obj/structure/barricade,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town/cave)
 "OL" = (
 /obj/effect/floor_decal/spline/wood/mahogany{
 	dir = 6
 	},
 /obj/machinery/light,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
+"OM" = (
+/obj/structure/table/woodentable,
+/obj/structure/flora/pottedplant/deskfern{
+	pixel_y = 13
+	},
+/obj/effect/floor_decal/spline/wood{
+	dir = 5
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/site53/town/house)
 "ON" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/item/paper_bin,
 /obj/item/pen,
 /turf/simulated/floor/carpet/brown,
-/area/centcom/town)
+/area/site53/town/hotel)
 "OU" = (
 /obj/effect/floor_decal/spline/wood/mahogany{
 	dir = 1
@@ -3035,21 +3309,21 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "OX" = (
 /obj/effect/decal/cleanable/blood/oil,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town)
 "OZ" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
-/area/centcom/town)
+/area/site53/town)
 "Pc" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/wall/r_wall,
-/area/centcom/town)
+/area/site53/town/bar)
 "Pf" = (
 /obj/structure/bed/padded,
 /obj/structure/bed/padded{
@@ -3059,20 +3333,26 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Pg" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town/gas)
+"Pj" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/site53/town/hotel)
 "Pl" = (
 /obj/structure/hygiene/shower{
 	dir = 8
 	},
 /obj/structure/curtain/open/shower,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/house)
 "Ps" = (
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 5
@@ -3081,24 +3361,37 @@
 /obj/item/spacecash/bundle/c100,
 /obj/item/spacecash/bundle/c100,
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/gas)
 "Pw" = (
 /turf/simulated/floor/carpet/brown,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Pz" = (
 /obj/machinery/mining/brace{
 	dir = 1;
 	icon_state = "mining_brace"
 	},
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town/cave)
+"PB" = (
+/obj/machinery/door/unpowered/simple/wood{
+	name = "House";
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/small,
+/area/site53/town/house2)
+"PD" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 10
+	},
+/turf/simulated/floor/wood,
+/area/site53/town/fisherman)
 "PR" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 10
 	},
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "PS" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 4
@@ -3107,21 +3400,21 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "Qb" = (
 /obj/structure/grille{
 	health_max = null;
 	health_resistances = list("stun"=0,"emp"=0,"radiation"=0,"bio"=0,"pain"=0,"toxin"=0,"genetic"=0,"oxy"=0,"brain"=0)
 	},
 /obj/effect/paint/green,
-/turf/simulated/wall/r_wall/prepainted,
-/area/centcom/town)
+/turf/simulated/floor/plating,
+/area/site53/town/ciheli)
 "Qh" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town)
 "Qn" = (
 /obj/structure/bed/chair/armchair/red{
 	dir = 4
@@ -3129,19 +3422,19 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "Qt" = (
 /obj/item/stack/material/plasteel,
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/plating,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "Qw" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 10
 	},
 /obj/structure/filingcabinet/chestdrawer,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/hotel)
 "QC" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 6
@@ -3151,7 +3444,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "QF" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/effect/floor_decal/spline/wood/ebony{
@@ -3162,7 +3455,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "QO" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 4
@@ -3171,20 +3464,27 @@
 	name = "secure evidence locker"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/card/id{
+	desc = "Used to unlock the Sheriff's Office Armory.";
+	name = "Sheriff's armory key";
+	icon = 'icons/obj/items.dmi';
+	icon_state = "keys";
+	access = list("armorykey")
+	},
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "QU" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/generic,
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "QX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Rj" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 6
@@ -3193,11 +3493,11 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Rm" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Rs" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 9
@@ -3206,18 +3506,21 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
+"RE" = (
+/turf/simulated/floor/exoplanet/barren,
+/area/site53/town/cave)
 "RI" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "RK" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "RM" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 8
@@ -3227,17 +3530,17 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
 "RP" = (
 /obj/structure/table/woodentable_reinforced/mahogany,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/red,
-/area/centcom/town)
+/area/site53/town/bar)
 "RR" = (
 /obj/structure/chair/sofa/right,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
 "RZ" = (
 /obj/structure/bed/padded,
 /obj/structure/bed/padded{
@@ -3248,38 +3551,50 @@
 	},
 /obj/effect/floor_decal/spline/wood,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Sb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
+"Sd" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/site53/town/fisherman)
 "Sh" = (
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/hotel)
+"Sk" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/site53/town/house)
 "Sm" = (
 /obj/structure/bed/chair{
 	dir = 1
 	},
-/turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/turf/simulated/floor/tiled/small,
+/area/site53/town/house2)
 "Sn" = (
 /obj/structure/bed/chair/office/comfy/black{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Ss" = (
 /obj/machinery/door/unpowered/simple/wood{
 	name = "House";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/house)
 "Sx" = (
 /obj/structure/showcase{
 	desc = "An expensive set of avionics and controls to allow a trained pilot to fly even more effectively or allow an untrained pilot to operate the heli. Too bad this heli is broken down.";
@@ -3289,21 +3604,21 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/shuttle/black,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "SA" = (
 /obj/effect/wallframe_spawn/reinforced/no_grille,
 /turf/simulated/floor/plating,
-/area/centcom/town)
+/area/site53/town/house)
 "SB" = (
 /turf/simulated/floor/carpet/green,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "SC" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 9
 	},
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "SD" = (
 /obj/effect/floor_decal/corner/purple/border{
 	dir = 8
@@ -3312,23 +3627,23 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/hotel)
 "SE" = (
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town)
 "SH" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 4
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house)
 "SR" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "SX" = (
 /obj/structure/showcase{
 	desc = "An expensive set of avionics and controls to allow a trained pilot to fly even more effectively or allow an untrained pilot to operate the heli. Too bad this heli is broken down.";
@@ -3339,46 +3654,51 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/shuttle/black,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "SY" = (
-/obj/structure/barricade,
-/turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/turf/unsimulated/mineral,
+/area/site53/town/cave)
+"SZ" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 5
+	},
+/turf/simulated/floor/wood,
+/area/site53/town/fisherman)
 "Tg" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Ti" = (
 /obj/structure/table/woodentable,
 /obj/effect/floor_decal/spline/wood{
 	dir = 8
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "Tl" = (
 /obj/effect/floor_decal/corner/paleblue/bordercee{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/vertical,
-/area/centcom/town)
+/area/site53/town/truck)
 "Tq" = (
 /obj/machinery/vending/boozeomat{
 	req_access = list()
 	},
 /turf/simulated/wall/r_wall,
-/area/centcom/town)
+/area/site53/town/bar)
 "Tu" = (
 /turf/simulated/wall/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "Tw" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/small,
-/area/centcom/town)
+/area/site53/town/bar)
 "Tx" = (
 /obj/structure/reagent_dispensers/fueltank{
 	icon = 'icons/obj/pipeturbine.dmi';
@@ -3388,7 +3708,7 @@
 	anchored = 1
 	},
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town/gas)
 "TC" = (
 /obj/structure/table/woodentable,
 /obj/effect/floor_decal/spline/wood{
@@ -3396,7 +3716,7 @@
 	},
 /obj/item/stack/material/wood/fifty,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/bar)
 "TE" = (
 /obj/structure/coatrack,
 /obj/effect/floor_decal/spline/wood/ebony{
@@ -3407,7 +3727,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "TF" = (
 /obj/item/stool/bar/padded,
 /obj/effect/floor_decal/spline/wood/mahogany{
@@ -3415,7 +3735,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "TG" = (
 /obj/effect/floor_decal/corner/safe/border{
 	dir = 6
@@ -3427,28 +3747,28 @@
 /obj/effect/landmark/corpse/chaos/pilot,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/monotile,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "TN" = (
 /obj/machinery/door/unpowered/simple/wood{
 	dir = 4;
 	name = "Fisherman's Hut"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "TO" = (
 /obj/effect/floor_decal/corner/black/border{
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/black/border,
 /turf/simulated/floor/tiled,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "TP" = (
 /obj/machinery/door/unpowered/simple/iron{
 	dir = 4;
 	name = "Backroom"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/bar)
 "TQ" = (
 /obj/machinery/papershredder,
 /obj/effect/floor_decal/spline/wood/ebony{
@@ -3456,14 +3776,14 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "TV" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/red,
-/area/centcom/town)
+/area/site53/town/bar)
 "TX" = (
 /obj/machinery/door/unpowered/simple/iron{
 	dir = 4;
@@ -3475,7 +3795,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/gas)
 "Ud" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/door/blast/shutters{
@@ -3485,20 +3805,20 @@
 	name = "Military Helicopter"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "Uj" = (
 /obj/machinery/door/unpowered/simple/silver{
 	name = "Restroom"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Ul" = (
 /obj/machinery/door/unpowered/simple/mahogany{
 	dir = 4;
 	name = "Bar Power Maintenance Shed"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/bar)
 "Ur" = (
 /obj/structure/bed/chair/shuttle/black{
 	dir = 4
@@ -3516,7 +3836,7 @@
 /obj/effect/landmark/corpse/chaos,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "Uy" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 4
@@ -3531,7 +3851,7 @@
 	density = 0
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "UD" = (
 /obj/effect/floor_decal/borderfloorblack{
 	dir = 1
@@ -3543,7 +3863,7 @@
 /obj/effect/decal/cleanable/ash,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/simulated/floor/tiled/dark,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "UK" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/structure/flora/pottedplant/deskfern{
@@ -3554,7 +3874,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/carpet/green,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "UL" = (
 /obj/structure/table/woodentable,
 /obj/structure/flora/pottedplant/deskfern{
@@ -3567,14 +3887,21 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
+"UO" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 9
+	},
+/obj/structure/closet/crate/bin,
+/turf/simulated/floor/wood,
+/area/site53/town/house)
 "UX" = (
 /obj/structure/railing/mapped{
 	color = "#e3994e";
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town)
 "Vb" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 4
@@ -3582,24 +3909,30 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
 "Vd" = (
 /obj/structure/table/gamblingtable,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "Vh" = (
 /obj/structure/flora/pottedplant/floorleaf,
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "Vk" = (
 /obj/machinery/mining/drill,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town/cave)
+"Vp" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/concrete,
+/area/site53/town/sheriff)
 "Vv" = (
 /obj/machinery/button/blast_door{
 	id_tag = "ruincihelicopter-left";
@@ -3609,18 +3942,18 @@
 	},
 /obj/effect/paint/green,
 /turf/simulated/wall/r_wall/prepainted,
-/area/centcom/town)
+/area/site53/town/ciheli)
 "Vy" = (
 /obj/structure/hygiene/toilet{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/hotel)
 "VE" = (
 /obj/structure/bed/chair/wood/mahogany,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "VS" = (
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 10
@@ -3630,7 +3963,13 @@
 /obj/item/wrench,
 /obj/machinery/light,
 /turf/simulated/floor/wood/walnut,
-/area/centcom/town)
+/area/site53/town/gas)
+"VW" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 6
+	},
+/turf/simulated/floor/wood,
+/area/site53/town/house2)
 "Wl" = (
 /obj/machinery/power/smes/buildable/preset/on_full{
 	icon = 'icons/obj/stationobjs.dmi';
@@ -3643,7 +3982,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/small,
-/area/centcom/town)
+/area/site53/town/bar)
 "Wp" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/effect/floor_decal/spline/wood/ebony{
@@ -3654,7 +3993,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Wr" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/light/small{
@@ -3662,7 +4001,7 @@
 	icon_state = "bulb1"
 	},
 /turf/simulated/floor/plating,
-/area/centcom/town)
+/area/site53/town/truck)
 "Wx" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/effect/floor_decal/spline/wood/ebony{
@@ -3674,21 +4013,21 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Wz" = (
 /obj/machinery/door/unpowered/simple/iron{
 	dir = 4;
 	name = "Emergency Generator Room"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "WA" = (
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "WB" = (
 /obj/structure/table/rack/shelf,
 /obj/item/reagent_containers/food/snacks/variable/candybar,
@@ -3698,49 +4037,49 @@
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "WS" = (
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 1
 	},
 /turf/simulated/floor/wood/ebony,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "WV" = (
 /obj/machinery/door/unpowered/simple/walnut{
 	dir = 4;
 	name = "Front Desk"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/hotel)
 "WY" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 1
 	},
 /obj/effect/floor_decal/spline/wood,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "Xb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/hygiene/toilet{
 	pixel_y = 16
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "Xe" = (
 /obj/structure/bed/chair/office{
 	dir = 8
 	},
 /turf/simulated/floor/carpet/brown,
-/area/centcom/town)
+/area/site53/town/gas)
 "Xk" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "Xm" = (
 /obj/effect/floor_decal/spline/wood,
 /obj/item/stack/material/wood/ten,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "Xn" = (
 /obj/structure/table/rack/shelf,
 /obj/item/storage/pill_bottle/inaprovaline{
@@ -3762,14 +4101,20 @@
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
+"Xo" = (
+/obj/effect/floor_decal/spline/wood{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/site53/town/hotel)
 "Xp" = (
 /obj/effect/floor_decal/spline/wood/mahogany{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "XC" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 5
@@ -3778,10 +4123,10 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "XD" = (
 /turf/simulated/floor/beach/water/ocean,
-/area/centcom/town)
+/area/site53/town)
 "XF" = (
 /obj/structure/table/rack,
 /obj/item/reagent_containers/food/drinks/bottle/space_up,
@@ -3790,42 +4135,42 @@
 /obj/item/reagent_containers/food/drinks/bottle/space_up,
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "XK" = (
 /obj/item/stack/material/plasteel,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town)
 "XP" = (
 /obj/machinery/door/unpowered/simple/iron{
 	dir = 4;
 	name = "Back Hallway"
 	},
 /turf/simulated/floor/tiled/dark/small,
-/area/centcom/town)
+/area/site53/town/sheriff)
 "XY" = (
 /obj/structure/bed/chair{
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town/house)
 "Yp" = (
 /obj/structure/railing/mapped{
 	color = "#e3994e"
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town)
 "Yx" = (
 /obj/effect/floor_decal/spline/wood{
 	dir = 1
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/house2)
 "Yy" = (
 /obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/concrete,
-/area/centcom/town)
+/area/site53/town/house)
 "YE" = (
 /obj/item/stool/bar/padded,
 /obj/effect/floor_decal/spline/wood/mahogany{
@@ -3834,14 +4179,14 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "YG" = (
 /obj/effect/floor_decal/spline/wood/mahogany{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "YH" = (
 /obj/item/stool/bar/padded,
 /obj/effect/floor_decal/spline/wood/mahogany{
@@ -3850,14 +4195,14 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/mahogany,
-/area/centcom/town)
+/area/site53/town/bar)
 "YZ" = (
 /obj/machinery/power/terminal,
 /obj/structure/cable/green,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/small,
-/area/centcom/town)
+/area/site53/town/bar)
 "Za" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/dirt,
@@ -3865,29 +4210,29 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "Zf" = (
 /turf/simulated/floor/carpet/red,
-/area/centcom/town)
+/area/site53/town/bar)
 "Zi" = (
 /obj/structure/table/woodentable,
 /obj/item/stack/material/uranium/ten,
 /turf/simulated/floor/exoplanet/grass,
-/area/centcom/town)
+/area/site53/town)
 "Zm" = (
 /obj/structure/table/woodentable_reinforced/mahogany,
 /obj/machinery/chemical_dispenser/bar_alc/full{
 	pixel_y = 7
 	},
 /turf/simulated/floor/carpet/red,
-/area/centcom/town)
+/area/site53/town/bar)
 "Zo" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/structure/flora/pottedplant/deskfern{
 	pixel_y = 13
 	},
 /turf/simulated/floor/carpet/brown,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Zr" = (
 /obj/structure/table/rack,
 /obj/item/reagent_containers/food/drinks/bottle/brandy,
@@ -3897,29 +4242,39 @@
 /obj/effect/floor_decal/corner/lightgrey/diagonal,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
-/area/centcom/town)
+/area/site53/town/gas)
 "Zs" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/item/modular_computer/laptop/preset/custom_loadout/cheap,
 /turf/simulated/floor/carpet/brown,
-/area/centcom/town)
+/area/site53/town/hotel)
 "Zu" = (
 /obj/item/material/shard,
 /turf/simulated/floor/exoplanet/barren,
-/area/centcom/town)
+/area/site53/town)
 "Zw" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
-/area/centcom/town)
+/area/site53/town)
 "ZE" = (
 /obj/structure/table/woodentable,
 /obj/effect/floor_decal/spline/wood,
 /obj/effect/floor_decal/spline/wood,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/fisherman)
+"ZJ" = (
+/obj/structure/hygiene/sink{
+	dir = 8;
+	pixel_x = -12
+	},
+/obj/item/storage/mirror{
+	pixel_x = -25
+	},
+/turf/simulated/floor/tiled/white,
+/area/site53/town/bar)
 "ZY" = (
 /obj/machinery/light{
 	dir = 4
@@ -3929,7 +4284,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/wood,
-/area/centcom/town)
+/area/site53/town/hotel)
 
 (1,1,1) = {"
 Di
@@ -7039,17 +7394,17 @@ nU
 nU
 nU
 nU
-ld
-ld
-ld
-ld
-ld
-ld
-ld
-ld
-ld
-ld
-ld
+qV
+qV
+qV
+qV
+qV
+qV
+qV
+qV
+qV
+qV
+qV
 nU
 nU
 nU
@@ -7291,17 +7646,17 @@ nU
 nU
 nU
 nU
-ld
-SC
+qV
+UO
 RM
-Mp
-ld
+BG
+qV
 FW
-ld
+qV
 dO
 hG
 Fo
-ld
+qV
 ND
 ND
 ND
@@ -7544,16 +7899,16 @@ nU
 nU
 nU
 SA
-Yx
-on
-Am
-wb
-WY
-ld
-cg
+Sk
+ii
+iX
+hO
+Jy
+qV
+cB
 SH
 LB
-wb
+hO
 ND
 ND
 ND
@@ -7795,17 +8150,17 @@ nU
 nU
 nU
 nU
-ld
+qV
 Kn
-th
+mH
 Jv
-ld
-WY
-ld
+qV
+Jy
+qV
 Ss
-ld
-ld
-ld
+qV
+qV
+qV
 ND
 ND
 ND
@@ -8047,17 +8402,17 @@ nU
 nU
 nU
 nU
-ld
-ld
-ld
-ld
-ld
+qV
+qV
+qV
+qV
+qV
 bD
 au
 au
 wf
 mr
-ld
+qV
 nU
 nU
 nU
@@ -8300,14 +8655,14 @@ nU
 nU
 nU
 gz
-SE
-SE
-SE
-ld
-Yx
-on
+DU
+DU
+DU
+qV
+Sk
+ii
 RR
-on
+ii
 EG
 SA
 nU
@@ -8552,14 +8907,14 @@ nU
 nU
 nU
 gz
-SE
-SE
-SE
-wb
-Yx
-on
+DU
+DU
+DU
+hO
+Sk
+ii
 oA
-on
+ii
 Fh
 SA
 nU
@@ -8803,17 +9158,17 @@ nU
 nU
 nU
 nU
-ld
+qV
 nH
-SE
+DU
 XY
-ld
-XC
+qV
+xE
 SH
 SH
-PS
+kB
 LB
-ld
+qV
 nU
 nU
 nU
@@ -9055,18 +9410,18 @@ nU
 nU
 nU
 nU
-SE
-SE
-SE
+DU
+DU
+DU
 NX
-ld
+qV
 Ss
-ld
-ld
-ld
+qV
+qV
+qV
 Ss
-ld
-ld
+qV
+qV
 nU
 nU
 nU
@@ -9307,18 +9662,18 @@ nU
 nU
 nU
 nU
-SE
-SE
-SE
+DU
+DU
+DU
 sg
-ld
+qV
 Rs
 mE
 nC
-ld
+qV
 mF
-qd
-ld
+lL
+qV
 nU
 nU
 nU
@@ -9559,18 +9914,18 @@ nU
 nU
 nU
 nU
-ld
+qV
 nH
-SE
-SE
+DU
+DU
 SA
-Yx
-on
-Am
-ld
+Sk
+ii
+iX
+qV
 sG
 Pl
-ld
+qV
 nU
 nU
 nU
@@ -9812,17 +10167,17 @@ nU
 nU
 nU
 gz
-SE
-SE
-SE
+DU
+DU
+DU
 SA
-Yx
-on
+Sk
+ii
 AU
-ld
-ld
-ld
-ld
+qV
+qV
+qV
+qV
 nU
 nU
 nU
@@ -10064,14 +10419,14 @@ nU
 nU
 nU
 gz
-SE
-SE
-SE
-ld
-UL
-pz
-DB
-ld
+DU
+DU
+DU
+qV
+OM
+NR
+eU
+qV
 nU
 nU
 nU
@@ -10315,15 +10670,15 @@ nU
 nU
 nU
 nU
-ld
+qV
 Yy
 Yy
 Yy
-ld
-ld
-ld
-ld
-ld
+qV
+qV
+qV
+qV
+qV
 nU
 nU
 nU
@@ -15298,19 +15653,19 @@ uP
 uP
 nU
 nU
-ld
-ld
-ld
-ld
-ld
-ld
+uo
+uo
+uo
+uo
+uo
+uo
 fo
-ld
-ld
-ld
+uo
+uo
+uo
 fo
-ld
-ld
+uo
+uo
 nU
 nU
 nU
@@ -15550,19 +15905,19 @@ uP
 uP
 nU
 nU
-ld
+uo
 FA
 wL
 Uy
-ld
+uo
 rG
 ME
 Hu
-ld
+uo
 pm
 av
 rG
-ld
+uo
 nU
 nU
 nU
@@ -15802,19 +16157,19 @@ uP
 uP
 nU
 nU
-ld
+uo
 Im
 je
 Os
-ld
+uo
 Gd
 cX
 vC
-ld
+uo
 CY
 ME
 xj
-ld
+uo
 nU
 nU
 nU
@@ -16054,19 +16409,19 @@ uP
 nU
 nU
 nU
-ld
-ld
+uo
+uo
 Wz
-ld
-ld
+uo
+uo
 ME
 ME
 xJ
-ld
+uo
 Xb
 ME
 av
-ld
+uo
 nU
 nU
 nU
@@ -16083,17 +16438,17 @@ nU
 nU
 nU
 nU
-ld
-ld
-ld
-ld
-ld
-ld
-ld
-ld
-ld
-ld
-ld
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 nU
 nU
 nU
@@ -16306,19 +16661,19 @@ uP
 nU
 nU
 nU
-ld
+uo
 Gc
 Mx
 ji
-ld
+uo
 fo
 iM
 fo
-ld
+uo
 fo
 bi
 fo
-ld
+uo
 nU
 nU
 nU
@@ -16335,17 +16690,17 @@ nU
 nU
 nU
 nU
-ld
+Ep
 SC
-RM
+GP
 Mp
-ld
+Ep
 JZ
-ld
+Ep
 qe
 hk
 yN
-ld
+Ep
 nU
 nU
 nU
@@ -16558,11 +16913,11 @@ uP
 nU
 oO
 nU
-ld
+uo
 qb
 TO
 BQ
-ld
+uo
 NU
 mS
 nh
@@ -16570,7 +16925,7 @@ gd
 mS
 xg
 ya
-ld
+uo
 nU
 nU
 nU
@@ -16589,15 +16944,15 @@ nU
 nU
 Ca
 Yx
-on
+IR
 Am
 wb
 WY
-ld
+Ep
 cg
-SH
-LB
-ld
+iL
+VW
+Ep
 nU
 nU
 nU
@@ -16810,11 +17165,11 @@ uP
 nU
 nU
 nU
-ld
+uo
 mI
 aL
 Nm
-ld
+uo
 LZ
 rk
 ef
@@ -16822,7 +17177,7 @@ hS
 QO
 kh
 Rj
-ld
+uo
 nU
 nU
 nU
@@ -16839,17 +17194,17 @@ nU
 nU
 nU
 nU
-ld
+Ep
 cg
 th
-Jv
-ld
+ag
+Ep
 WY
-ld
-Ss
-ld
-ld
-ld
+Ep
+PB
+Ep
+Ep
+Ep
 nU
 nU
 nU
@@ -17062,19 +17417,19 @@ uP
 nU
 nU
 nU
-ld
-ld
+uo
+uo
 dy
-ld
-ld
-ld
-ld
-ld
+uo
+uo
+uo
+uo
+uo
 hy
-ld
-ld
-ld
-ld
+uo
+uo
+uo
+uo
 nU
 nU
 nU
@@ -17091,17 +17446,17 @@ nU
 nU
 nU
 nU
-ld
-ld
-ld
-ld
-ld
+Ep
+Ep
+Ep
+Ep
+Ep
 ta
 KB
-au
-wf
+wR
+Cw
 sq
-ld
+Ep
 nU
 nU
 nU
@@ -17314,7 +17669,7 @@ uP
 nU
 nU
 nU
-ld
+uo
 Kz
 xg
 mS
@@ -17326,7 +17681,7 @@ mS
 mS
 gd
 qM
-ld
+uo
 nU
 nU
 nU
@@ -17342,16 +17697,16 @@ nU
 nU
 nU
 nU
-nU
-NZ
-SE
-SE
-SE
-ld
+ND
+Ep
+Mo
+Mo
+Mo
+Ep
 Yx
 cz
 id
-on
+IR
 Xm
 Ca
 nU
@@ -17427,13 +17782,13 @@ kw
 kw
 kw
 le
-ld
+Fq
 Oh
 Oh
 Oh
 Oh
 Oh
-ld
+Fq
 le
 kw
 kw
@@ -17566,7 +17921,7 @@ nU
 nU
 nU
 nU
-ld
+uo
 tG
 It
 Eb
@@ -17578,7 +17933,7 @@ QU
 hS
 hS
 QC
-ld
+uo
 nU
 nU
 nU
@@ -17595,15 +17950,15 @@ nU
 nU
 nU
 ND
-NZ
+Ca
 jv
-SE
+Mo
 DL
 wb
 Yx
 ik
 pj
-on
+IR
 Am
 Ca
 nU
@@ -17818,22 +18173,22 @@ nU
 nU
 nU
 nU
-ld
-ld
-ld
-ld
-ld
-ld
-SA
-SA
-SA
-ld
+uo
+uo
+uo
+uo
+uo
+uo
+Al
+Al
+Al
+uo
 XP
-ld
-ld
-ld
-ld
-ld
+uo
+uo
+uo
+uo
+uo
 nU
 nU
 nU
@@ -17847,17 +18202,17 @@ nU
 nU
 ND
 ND
-ld
+Ep
 Ay
-SE
-SE
-ld
+Mo
+Mo
+Ep
 XC
 mh
 tv
 PS
-LB
-ld
+VW
+Ep
 nU
 nU
 nU
@@ -18071,7 +18426,7 @@ nU
 nU
 oO
 nU
-ld
+uo
 Mu
 wl
 wl
@@ -18079,13 +18434,13 @@ PR
 qU
 fv
 yj
-ld
+uo
 Li
 TQ
 vS
 QF
 oW
-ld
+uo
 nU
 nU
 nU
@@ -18100,17 +18455,17 @@ nU
 ND
 ND
 Db
-NX
-SE
-SE
-ld
-Ss
-ld
-ld
-ld
-Ss
-ld
-ld
+gM
+Mo
+Mo
+Ep
+PB
+Ep
+Ep
+Ep
+PB
+Ep
+Ep
 nU
 nU
 nU
@@ -18323,7 +18678,7 @@ nU
 nU
 nU
 nU
-SA
+Al
 oE
 Rm
 hH
@@ -18337,7 +18692,7 @@ Rm
 hH
 Rm
 Gz
-SA
+Al
 nU
 nU
 nU
@@ -18352,17 +18707,17 @@ ND
 ND
 ND
 Db
-NX
-SE
+gM
+Mo
 Sm
-ld
+Ep
 iZ
 Ti
 wp
-ld
-mF
-qd
-ld
+Ep
+wO
+AP
+Ep
 nU
 nU
 nU
@@ -18575,7 +18930,7 @@ nU
 nU
 nU
 nU
-SA
+Al
 oE
 hH
 hH
@@ -18583,13 +18938,13 @@ Gz
 UK
 fv
 SB
-ld
+uo
 vi
 Rm
 Rm
 QX
 wc
-ld
+uo
 nU
 nU
 nU
@@ -18603,18 +18958,18 @@ lu
 ND
 ND
 ND
-ld
-nH
+Ep
+lS
 jv
-SE
-Ca
+NZ
+Ep
 Yx
-on
+IR
 Am
-ld
-sG
-Pl
-ld
+Ep
+ER
+ee
+Ep
 nU
 nU
 nU
@@ -18827,7 +19182,7 @@ nU
 nU
 nU
 nU
-SA
+Al
 Gq
 QX
 Rm
@@ -18835,13 +19190,13 @@ Gz
 na
 rA
 fv
-ld
+uo
 Jm
 Sn
 Rm
 kL
 tw
-SA
+Al
 nU
 nU
 nU
@@ -18855,18 +19210,18 @@ nU
 ND
 ND
 ND
-NZ
-SE
-SE
-SE
+Ep
+Ep
 Ca
+Ep
+Ep
 Yx
-on
+IR
 Am
-ld
-ld
-ld
-ld
+Ep
+Ep
+Ep
+Ep
 nU
 nU
 nU
@@ -19079,7 +19434,7 @@ nU
 nU
 nU
 nU
-ld
+uo
 TE
 lt
 dH
@@ -19087,13 +19442,13 @@ wJ
 oG
 oG
 Om
-ld
+uo
 Wp
 kc
 lt
 De
 Wx
-ld
+uo
 nU
 nU
 nU
@@ -19107,15 +19462,15 @@ nU
 ND
 ND
 ND
-NZ
-SE
-SE
-sg
-ld
+ND
+ND
+nU
+nU
+Ep
 UL
 pz
 DB
-ld
+Ep
 nU
 nU
 nU
@@ -19331,21 +19686,21 @@ nU
 nU
 nU
 nU
-ld
-ld
+uo
+uo
 AC
-ld
-SA
-SA
-SA
-ld
-ld
-ld
-SA
-SA
-ld
-ld
-ld
+uo
+Al
+Al
+Al
+uo
+uo
+uo
+Al
+Al
+uo
+uo
+uo
 nU
 nU
 nU
@@ -19359,15 +19714,15 @@ nU
 ND
 ND
 ND
-ld
-Mo
-Mo
-Mo
-ld
-ld
-ld
-ld
-ld
+ND
+ND
+nU
+nU
+Ep
+Ep
+Ep
+Ep
+Ep
 nU
 nU
 nU
@@ -19376,8 +19731,8 @@ ND
 ND
 ND
 ND
-re
-re
+bS
+bS
 JI
 rD
 Jq
@@ -19583,19 +19938,19 @@ nU
 nU
 nU
 nU
-gz
-SE
-SE
-SE
-SE
-SE
-SE
-SE
-SE
-SE
-SE
-SE
-SE
+GQ
+qA
+qA
+qA
+qA
+qA
+qA
+qA
+qA
+qA
+qA
+qA
+qA
 jw
 nU
 nU
@@ -19628,7 +19983,7 @@ nU
 ND
 ND
 ND
-re
+bS
 AG
 Em
 rD
@@ -19835,19 +20190,19 @@ nU
 nU
 nU
 nU
-gz
-SE
-SE
-SE
-SE
-SE
-SE
-SE
-SE
-SE
-SE
-SE
-SE
+GQ
+qA
+qA
+qA
+qA
+qA
+qA
+qA
+qA
+qA
+qA
+qA
+qA
 jw
 nU
 nU
@@ -19880,8 +20235,8 @@ ND
 ND
 ND
 mj
-re
-re
+bS
+bS
 zn
 rD
 Jq
@@ -19947,13 +20302,13 @@ le
 le
 le
 le
-ld
+Fq
 Oh
 Oh
 Oh
 Oh
 Oh
-ld
+Fq
 le
 le
 le
@@ -20087,20 +20442,20 @@ nU
 nU
 nU
 nU
-ld
-Yy
-Yy
-Yy
-ld
-SE
-SE
-SE
-SE
-ld
-Yy
-Yy
-Yy
-ld
+uo
+Vp
+Vp
+Vp
+uo
+qA
+qA
+qA
+qA
+uo
+Vp
+Vp
+Vp
+uo
 nU
 nU
 nU
@@ -22881,17 +23236,17 @@ nU
 nU
 oO
 nU
-ld
-ld
+Jx
+Jx
 og
-ld
-SA
-SA
-ld
-ld
-ld
-ld
-ld
+Jx
+ys
+ys
+Jx
+Jx
+Jx
+Jx
+Jx
 nU
 nU
 nU
@@ -23117,11 +23472,11 @@ ND
 ND
 lu
 nU
-ld
-ld
+Kb
+Kb
 Aq
-ld
-ld
+Kb
+Kb
 nU
 nU
 nU
@@ -23133,20 +23488,20 @@ nU
 nU
 nU
 nU
-ld
+Jx
 ce
 ey
 ey
 ud
 Cm
 DK
-ld
+Jx
 AE
 qd
-ld
-ld
-ld
-ld
+Jx
+Jx
+Jx
+Jx
 nU
 nU
 nU
@@ -23369,37 +23724,37 @@ ND
 nU
 nU
 nU
-ld
+Kb
 wQ
 YG
 qK
-ld
-ld
-Ca
-Ca
-Ca
-Ca
-Ca
-ld
-ld
+Kb
+Kb
+tZ
+tZ
+tZ
+tZ
+tZ
+Kb
+Kb
 nU
 nU
 nU
-SA
+ys
 Or
 hz
 hz
 hz
 hz
 qn
-ld
-ld
-qB
-ld
+Jx
+Jx
+IU
+Jx
 iK
 DD
-ld
-ld
+Jx
+Jx
 nU
 nU
 nU
@@ -23615,13 +23970,13 @@ nU
 nU
 nU
 nU
-ld
-ld
+Kb
+Kb
 Ul
-ld
-ld
+Kb
+Kb
 nU
-ld
+Kb
 OU
 Ad
 MR
@@ -23633,25 +23988,25 @@ YG
 YG
 YG
 ma
-ld
+Kb
 nU
 nU
 nU
-ld
+Jx
 xY
 rE
 rE
 rE
 Nd
 qn
-ld
+Jx
 sX
 Jz
-ld
+Jx
 sX
 Jz
 Jh
-ld
+Jx
 nU
 nU
 nU
@@ -23867,13 +24222,13 @@ nU
 nU
 nU
 nU
-ld
+Kb
 Iz
 oB
 zL
-ld
+Kb
 nU
-Ca
+tZ
 Xp
 Sb
 Ad
@@ -23885,11 +24240,11 @@ Ns
 Qn
 Vd
 EZ
-Ca
+tZ
 nU
 nU
 nU
-ld
+Jx
 tU
 Zs
 wq
@@ -23903,7 +24258,7 @@ tp
 dE
 zZ
 Go
-ld
+Jx
 nU
 nU
 nU
@@ -24119,13 +24474,13 @@ nU
 nU
 nU
 nU
-ld
+Kb
 NY
 YZ
 Wl
-ld
+Kb
 nU
-ld
+Kb
 TF
 pX
 pX
@@ -24137,25 +24492,25 @@ oQ
 Ns
 lr
 kY
-Ca
+tZ
 nU
 nU
 nU
-SA
+ys
 Pw
 pS
 Pw
 ON
 Or
 qn
-ld
+Jx
 dE
 zZ
-ld
+Jx
 uC
 mw
 cm
-ld
+Jx
 nU
 nU
 nU
@@ -24371,13 +24726,13 @@ nU
 nU
 nU
 nU
-ld
+Kb
 LF
 Tw
 us
-ld
+Kb
 nU
-ld
+Kb
 mQ
 DF
 mQ
@@ -24389,25 +24744,25 @@ wr
 Ad
 wr
 NK
-ld
+Kb
 nU
 nU
 nU
-ld
+Jx
 yA
 Pw
 Pw
 cF
 il
 nm
-ld
+Jx
 Kg
 zZ
-ld
+Jx
 yw
 BA
-ld
-ld
+Jx
+Jx
 nU
 nU
 nU
@@ -24623,13 +24978,13 @@ nU
 nU
 nU
 nU
-ld
-ld
-ld
-ld
-ld
+Kb
+Kb
+Kb
+Kb
+Kb
 nU
-ld
+Kb
 wB
 hK
 vm
@@ -24641,24 +24996,24 @@ Sb
 Sb
 Sb
 NK
-Ca
+tZ
 nU
 nU
 nU
-ld
-ld
+Jx
+Jx
 WV
-ld
-ld
-ld
-ld
-ld
+Jx
+Jx
+Jx
+Jx
+Jx
 dE
 zZ
-ld
-ld
-ld
-ld
+Jx
+Jx
+Jx
+Jx
 nU
 nU
 nU
@@ -24881,7 +25236,7 @@ nU
 nU
 nU
 nU
-ld
+Kb
 Zm
 vm
 vm
@@ -24893,11 +25248,11 @@ MI
 ko
 lz
 NK
-Ca
+tZ
 nU
 nU
 nU
-ld
+Jx
 rw
 HB
 HB
@@ -24907,7 +25262,7 @@ HB
 HB
 uj
 zZ
-ld
+Jx
 nU
 nU
 nU
@@ -25133,7 +25488,7 @@ nU
 nU
 nU
 nU
-ld
+Kb
 va
 Zf
 hK
@@ -25145,11 +25500,11 @@ gL
 NW
 gL
 OL
-ld
+Kb
 nU
 nU
 nU
-ld
+Jx
 IG
 Sh
 Sh
@@ -25159,7 +25514,7 @@ Sh
 Sh
 Sh
 eY
-ld
+Jx
 nU
 nU
 nU
@@ -25385,33 +25740,33 @@ nU
 nU
 nU
 nU
-ld
-ld
+Kb
+Kb
 TP
 Tq
-ld
-ld
+Kb
+Kb
 Pc
-ld
+Kb
 qB
-ld
-ld
-ld
-ld
+Kb
+Kb
+Kb
+Kb
 nU
 nU
 nU
-ld
-ld
+Jx
+Jx
 Dc
-ld
+Jx
 Dc
-ld
-ld
-ld
+Jx
+Jx
+Jx
 vQ
-ld
-ld
+Jx
+Jx
 nU
 nU
 nU
@@ -25637,33 +25992,33 @@ nU
 oO
 nU
 nU
-ld
+Kb
 TC
-RI
-RI
+EJ
+EJ
 dQ
-ld
+Kb
 jN
 jN
-On
+yL
 iz
-qd
-ld
+ZJ
+Kb
 nU
 nU
 oO
 nU
-ld
+Jx
 rn
-au
-au
-au
+Pj
+Pj
+Pj
 Iu
-ld
+Jx
 fH
 Jn
 Qw
-ld
+Jx
 nU
 nU
 nU
@@ -25889,33 +26244,33 @@ nU
 nU
 nU
 nU
-ld
+Kb
 yS
 qQ
 qQ
 bh
-ld
-On
-Tg
+Kb
+yL
+FY
 HY
 pC
 fx
-ld
+Kb
 nU
 nU
 nU
 nU
-SA
+ys
 zR
-on
+xq
 Pf
-on
+xq
 RZ
-ld
+Jx
 Gu
 Nt
 wE
-ld
+Jx
 nU
 nU
 nU
@@ -26141,33 +26496,33 @@ nU
 nU
 nU
 nU
-ld
+Kb
 fq
 Cj
 Cj
 yW
-ld
+Kb
 qB
-ld
+Kb
 qB
-ld
+Kb
 qB
-ld
+Kb
 nU
 nU
 nU
 nU
-ld
+Jx
 No
-on
+xq
 Lq
-on
+xq
 ws
-ld
+Jx
 xC
 aj
 wE
-ld
+Jx
 nU
 nU
 nU
@@ -26393,33 +26748,33 @@ nU
 nU
 nU
 nU
-ld
-ld
+Kb
+Kb
 hT
 hT
-ld
-ld
+Kb
+Kb
 td
-ld
+Kb
 td
-ld
+Kb
 td
-ld
+Kb
 nU
 nU
 nU
 nU
-ld
+Jx
 zR
-on
+xq
 Pf
-on
+xq
 RZ
-ld
+Jx
 bM
 FE
 bH
-ld
+Jx
 nU
 nU
 nU
@@ -26650,28 +27005,28 @@ nU
 nU
 nU
 nU
-ld
-ld
-ld
-ld
-ld
-ld
-ld
+Kb
+Kb
+Kb
+Kb
+Kb
+Kb
+Kb
 nU
 nU
 nU
 nU
-ld
+Jx
 No
-on
+xq
 Lq
-on
+xq
 ws
-ld
-ld
-ld
-ld
-ld
+Jx
+Jx
+Jx
+Jx
+Jx
 nU
 nU
 nU
@@ -26913,17 +27268,17 @@ nU
 nU
 nU
 nU
-SA
+ys
 zR
-on
+xq
 Pf
-on
+xq
 RZ
-ld
+Jx
 qd
 Vy
 EU
-ld
+Jx
 nU
 nU
 nU
@@ -27165,17 +27520,17 @@ nU
 oO
 nU
 nU
-ld
+Jx
 ZY
-SH
-SH
-SH
+Xo
+Xo
+Xo
 oa
 Uj
 On
 Tg
 On
-ld
+Jx
 nU
 nU
 nU
@@ -27417,17 +27772,17 @@ nU
 nU
 nU
 nU
-ld
-ld
-SA
-ld
-SA
-ld
-ld
-ld
-ld
-ld
-ld
+Jx
+Jx
+ys
+Jx
+ys
+Jx
+Jx
+Jx
+Jx
+Jx
+Jx
 nU
 nU
 nU
@@ -27744,19 +28099,19 @@ WB
 Dh
 ld
 eP
-SE
-Oh
-Oh
-Oh
-Oh
-Oh
-SE
+ht
+rM
+rM
+rM
+rM
+rM
+ht
 Iq
-SE
-Oh
-Oh
-Oh
-Oh
+ht
+rM
+rM
+rM
+rM
 Oh
 SE
 tk
@@ -27994,21 +28349,21 @@ gr
 gr
 gr
 bQ
-SA
-SE
-SE
-Oh
-Oh
-Oh
-Oh
-Oh
-SE
+aX
+ht
+ht
+rM
+rM
+rM
+rM
+rM
+ht
 ld
-SE
-Oh
-Oh
-Oh
-Oh
+ht
+rM
+rM
+rM
+rM
 Oh
 SE
 SE
@@ -28246,21 +28601,21 @@ gr
 AX
 gr
 Zr
-SA
-SE
-SE
-Oh
-Oh
-Oh
-Oh
-Oh
-SE
+aX
+ht
+ht
+rM
+rM
+rM
+rM
+rM
+ht
 Pg
-SE
-Oh
-Oh
-Oh
-Oh
+ht
+rM
+rM
+rM
+rM
 Oh
 SE
 SE
@@ -28305,7 +28660,7 @@ nU
 Tu
 Ld
 zq
-au
+Sd
 dg
 Tu
 nU
@@ -28498,21 +28853,21 @@ gr
 EH
 gr
 aW
-SA
-SE
-SE
-Oh
-Oh
-Oh
-Oh
-Oh
+aX
+ht
+ht
+rM
+rM
+rM
+rM
+rM
 Tx
-SE
+ht
 Tx
-Oh
-Oh
-Oh
-Oh
+rM
+rM
+rM
+rM
 Oh
 SE
 SE
@@ -28750,21 +29105,21 @@ gr
 sO
 gr
 lf
-SA
-SE
-SE
-Oh
-Oh
-Oh
-Oh
-Oh
-SE
-SE
-SE
-Oh
-Oh
-Oh
-Oh
+aX
+ht
+ht
+rM
+rM
+rM
+rM
+rM
+ht
+ht
+ht
+rM
+rM
+rM
+rM
 Oh
 SE
 SE
@@ -28809,7 +29164,7 @@ Tu
 Tu
 fF
 Vb
-Cj
+zA
 af
 Tu
 nU
@@ -29002,21 +29357,21 @@ gr
 XF
 gr
 aO
-SA
-SE
-SE
-Oh
-Oh
-Oh
-Oh
-Oh
-SE
-SE
-SE
-Oh
-Oh
-Oh
-Oh
+aX
+ht
+ht
+rM
+rM
+rM
+rM
+rM
+ht
+ht
+ht
+rM
+rM
+rM
+rM
 Oh
 SE
 SE
@@ -29245,8 +29600,8 @@ nU
 SE
 ld
 bx
-Pw
-Pw
+xV
+xV
 uL
 gr
 Ko
@@ -29254,21 +29609,21 @@ Ko
 Ko
 gr
 gr
-SA
-SE
-SE
-Oh
-Oh
-Oh
-Oh
-Oh
-SE
-SE
-SE
-Oh
-Oh
-Oh
-Oh
+aX
+ht
+ht
+rM
+rM
+rM
+rM
+rM
+ht
+ht
+ht
+rM
+rM
+rM
+rM
 Oh
 SE
 SE
@@ -29309,12 +29664,12 @@ nU
 nU
 Tu
 IF
-Am
+BJ
 Tu
 tA
 RI
 RI
-sq
+PD
 Tu
 nU
 nU
@@ -29497,7 +29852,7 @@ nU
 SE
 ld
 iH
-ey
+kZ
 VS
 ld
 WA
@@ -29508,19 +29863,19 @@ JL
 vc
 ld
 eP
-SE
-Oh
-Oh
-Oh
-Oh
-Oh
-SE
-SE
-SE
-Oh
-Oh
-Oh
-Oh
+ht
+rM
+rM
+rM
+rM
+rM
+ht
+ht
+ht
+rM
+rM
+rM
+rM
 Oh
 SE
 SE
@@ -29564,7 +29919,7 @@ SR
 oy
 KO
 SR
-RR
+fM
 LH
 ge
 Tu
@@ -29758,21 +30113,21 @@ gr
 Ko
 gr
 bQ
-SA
-SE
-SE
-Oh
-Oh
-Oh
-Oh
-Oh
+aX
+ht
+ht
+rM
+rM
+rM
+rM
+rM
 Tx
-SE
+ht
 Tx
-Oh
-Oh
-Oh
-Oh
+rM
+rM
+rM
+rM
 Oh
 SE
 SE
@@ -29815,9 +30170,9 @@ Tu
 Hh
 jQ
 Tu
-cg
+SZ
 xB
-Cj
+zA
 af
 Tu
 nU
@@ -30011,20 +30366,20 @@ bs
 JL
 gr
 CL
-SE
-SE
-Oh
-Oh
-Oh
-Oh
-Oh
-SE
+ht
+ht
+rM
+rM
+rM
+rM
+rM
+ht
 Iq
-SE
-Oh
-Oh
-Oh
-Oh
+ht
+rM
+rM
+rM
+rM
 Oh
 SE
 SE
@@ -30141,10 +30496,10 @@ Di
 "}
 (105,1,1) = {"
 Di
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -30262,21 +30617,21 @@ gr
 gr
 gr
 bQ
-SA
-SE
-SE
-Oh
-Oh
-Oh
-Oh
-Oh
-SE
+aX
+ht
+ht
+rM
+rM
+rM
+rM
+rM
+ht
 ld
-SE
-Oh
-Oh
-Oh
-Oh
+ht
+rM
+rM
+rM
+rM
 Oh
 SE
 SE
@@ -30393,12 +30748,12 @@ Di
 "}
 (106,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -30516,19 +30871,19 @@ IN
 Vh
 ld
 eP
-SE
-Oh
-Oh
-Oh
-Oh
-Oh
-SE
+ht
+rM
+rM
+rM
+rM
+rM
+ht
 Pg
-SE
-Oh
-Oh
-Oh
-Oh
+ht
+rM
+rM
+rM
+rM
 Oh
 SE
 tk
@@ -30645,13 +31000,13 @@ Di
 "}
 (107,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -30897,15 +31252,15 @@ Di
 "}
 (108,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -31149,16 +31504,16 @@ Di
 "}
 (109,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -31401,17 +31756,17 @@ Di
 "}
 (110,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -31653,18 +32008,18 @@ Di
 "}
 (111,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -31905,18 +32260,18 @@ Di
 "}
 (112,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -32157,19 +32512,19 @@ Di
 "}
 (113,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 Zi
 nU
 nU
@@ -32409,19 +32764,19 @@ Di
 "}
 (114,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 KH
 nU
 nU
@@ -32661,18 +33016,18 @@ Di
 "}
 (115,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 SY
 nU
 nU
@@ -32913,20 +33268,20 @@ Di
 "}
 (116,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-ND
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+OK
 nU
 nU
 nU
@@ -33165,20 +33520,20 @@ Di
 "}
 (117,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 sv
-ND
+OK
 nU
 nU
 nU
@@ -33417,21 +33772,21 @@ Di
 "}
 (118,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-ND
-ND
-ND
-ND
-ND
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+RE
+RE
+RE
+OK
+OK
 nU
 KH
 nU
@@ -33669,22 +34024,22 @@ Di
 "}
 (119,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 cL
-ND
-ND
-ND
-ND
-uP
-uP
+RE
+RE
+RE
+OK
+SY
+SY
 nU
 nU
 nU
@@ -33921,23 +34276,23 @@ Di
 "}
 (120,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 cL
-ND
-ND
-uP
-uP
-uP
-uP
-uP
+RE
+RE
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -34173,24 +34528,24 @@ Di
 "}
 (121,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-ND
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+RE
 cL
-ND
-ND
-uP
-uP
-uP
-uP
-uP
-uP
+RE
+RE
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -34425,25 +34780,25 @@ Di
 "}
 (122,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-ND
-ND
-ND
-ND
-ND
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+RE
+RE
+RE
+RE
+RE
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 le
@@ -34677,25 +35032,25 @@ Di
 "}
 (123,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-ND
-ND
-ND
-ND
-ND
-ND
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+RE
+RE
+RE
+RE
+RE
+RE
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -34929,26 +35284,26 @@ Di
 "}
 (124,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-ND
+SY
+SY
+SY
+SY
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+OK
 nU
 nU
 le
@@ -35181,26 +35536,26 @@ Di
 "}
 (125,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-uP
-uP
-uP
-uP
-uP
-ND
+SY
+SY
+SY
+SY
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+SY
+SY
+SY
+SY
+SY
+RE
 OK
-ND
+RE
 nU
 nU
 nU
@@ -35433,27 +35788,27 @@ Di
 "}
 (126,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-uP
-uP
-uP
-ND
-ND
+SY
+SY
+SY
+SY
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+SY
+SY
+SY
+RE
+RE
 OK
-ND
-ND
+OK
+RE
 nU
 nU
 nU
@@ -35685,27 +36040,27 @@ Di
 "}
 (127,1,1) = {"
 Di
-uP
-ND
-ND
+SY
+RE
+RE
 ly
-ND
-ND
+RE
+RE
 OK
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-ND
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+jX
+RE
 cL
-ND
-ND
-ND
-ND
+RE
+RE
+jX
+RE
 nU
 nU
 nU
@@ -35937,28 +36292,28 @@ Di
 "}
 (128,1,1) = {"
 Di
-uP
-ND
-ND
+SY
+RE
+RE
 Vk
-ND
-ND
-uP
+RE
+RE
+SY
 OK
-ND
-ND
+RE
+RE
 ut
 ut
 ut
-ND
-ND
-ND
-ND
-ND
-ND
-ND
+RE
+RE
+RE
+RE
+RE
+RE
 OK
-ND
+OK
+OK
 nU
 nU
 nU
@@ -36189,28 +36544,28 @@ Di
 "}
 (129,1,1) = {"
 Di
-uP
-uP
-ND
+SY
+SY
+RE
 br
-ND
-uP
-uP
-uP
-ND
-ND
+RE
+SY
+SY
+SY
+RE
+RE
 zD
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-uP
-uP
-uP
+RE
+RE
+RE
+RE
+RE
+RE
+jX
+RE
+SY
+SY
+SY
 nU
 nU
 nU
@@ -36441,29 +36796,29 @@ Di
 "}
 (130,1,1) = {"
 Di
-uP
-uP
-ND
-ND
-ND
-uP
-uP
-uP
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+RE
+RE
+RE
+SY
+SY
+SY
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -36693,30 +37048,30 @@ Di
 "}
 (131,1,1) = {"
 Di
-uP
-uP
-uP
-ND
-ND
-ND
-uP
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-ND
+SY
+SY
+SY
+RE
+RE
+RE
+SY
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
 OK
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -36945,30 +37300,30 @@ Di
 "}
 (132,1,1) = {"
 Di
-uP
-uP
-uP
-ND
-ND
-ND
-uP
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+RE
+RE
+RE
+SY
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -37197,32 +37552,32 @@ Di
 "}
 (133,1,1) = {"
 Di
-uP
-uP
-uP
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-ND
+SY
+SY
+SY
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
 vA
-uP
-ND
-ND
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+RE
+RE
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -37449,33 +37804,33 @@ Di
 "}
 (134,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-ND
-ND
+SY
+SY
+SY
+SY
+RE
+RE
 ut
 ut
-ND
-ND
-ND
-ND
-uP
-uP
-ND
-ND
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+RE
+RE
+RE
+RE
+SY
+SY
+RE
+RE
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -37701,34 +38056,34 @@ Di
 "}
 (135,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-ND
-ND
+SY
+SY
+SY
+SY
+RE
+RE
 ut
 CP
-ND
-ND
-ND
-ND
-uP
-uP
-ND
-ND
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+RE
+RE
+RE
+RE
+SY
+SY
+RE
+RE
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -37953,34 +38308,34 @@ Di
 "}
 (136,1,1) = {"
 Di
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
 cL
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-uP
-uP
-ND
-ND
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+SY
+SY
+RE
+RE
 cL
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -38205,35 +38560,35 @@ Di
 "}
 (137,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-uP
-ND
-ND
-ND
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+SY
+RE
+RE
+RE
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -38457,36 +38812,36 @@ Di
 "}
 (138,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-ND
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+RE
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -38709,36 +39064,36 @@ Di
 "}
 (139,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-ND
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+RE
 rR
 Vk
 Pz
-ND
-ND
-ND
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+RE
+RE
+RE
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -38961,37 +39316,37 @@ Di
 "}
 (140,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-ND
-ND
-ND
-ND
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+RE
+RE
+RE
+RE
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -39213,37 +39568,37 @@ Di
 "}
 (141,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -39465,38 +39820,38 @@ Di
 "}
 (142,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -39717,38 +40072,38 @@ Di
 "}
 (143,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -39969,39 +40324,39 @@ Di
 "}
 (144,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -40221,39 +40576,39 @@ Di
 "}
 (145,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -40473,39 +40828,39 @@ Di
 "}
 (146,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -40725,40 +41080,40 @@ Di
 "}
 (147,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -40977,41 +41332,41 @@ Di
 "}
 (148,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
@@ -41229,41 +41584,41 @@ Di
 "}
 (149,1,1) = {"
 Di
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
-uP
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
+SY
 nU
 nU
 nU
