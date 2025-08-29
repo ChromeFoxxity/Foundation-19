@@ -103,6 +103,11 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	dynamic_lighting = 1
 	req_access = list(ACCESS_CENT_GENERAL)
 
+/area/centcom/exterior
+	name = "Mobile Task Force Dispatch Center Exterior"
+	icon_state = "centcom"
+	dynamic_lighting = 0
+
 /area/centcom/holding
 	name = "\improper Holding Facility"
 

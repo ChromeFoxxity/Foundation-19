@@ -398,3 +398,10 @@
 	name = "fancy trimmed ferny potted plant"
 	desc = "This leafy desk fern seems to have been trimmed too much."
 	icon_state = "plant-30"
+
+/obj/structure/flora/tree/bigtree
+	icon = 'icons/obj/flora/moretrees.dmi'
+	icon_state = "bigtree1"
+	pixel_x = -65
+	pixel_y = -8
+	layer = MOB_LAYER - 1

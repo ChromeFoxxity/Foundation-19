@@ -1,16 +1,6 @@
 /*
  * Science
  */
-/obj/item/clothing/under/rank/research_director/alt
-	desc = "It's a dull black comfortable turtleneck which shows no emotion, and smells slightly of chemicals, and lacks morales. It's paired with some black jeans."
-	name = "research director's turtleneck"
-	icon_state = "rdclothes"
-	item_state = "bl_suit"
-	worn_state = "rdclothes"
-	armor = list(
-		bio = ARMOR_BIO_MINOR
-		)
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
 
 /obj/item/clothing/under/rank/research_director
 	desc = "It's a jumpsuit worn by those with the know-how to achieve the position of \"Research Director\". Its fabric provides minor protection from biological contaminants."
@@ -38,17 +28,6 @@
 	icon_state = "dress_rd"
 	item_state = "lb_suit"
 	worn_state = "dress_rd"
-	armor = list(
-		bio = ARMOR_BIO_MINOR
-		)
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
-
-/obj/item/clothing/under/rank/scientist_new/senior
-	desc = "A snazzy purple science-themed turtleneck usually worn by senior scientists like the highly famous Dr. Blight, and or Dr. Buck."
-	name = "researcher's turtleneck"
-	icon_state = "seniorscience"
-	item_state = "w_suit"
-	worn_state = "seniorscience"
 	armor = list(
 		bio = ARMOR_BIO_MINOR
 		)

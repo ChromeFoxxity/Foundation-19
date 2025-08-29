@@ -201,6 +201,9 @@
 	door_color = COLOR_WHITE
 	stripe_color = COLOR_RESEARCH
 
+/obj/machinery/door/airlock/multi_tile/glass/research/xenoarch
+	stripe_color = COLOR_DARK_BROWN
+
 /obj/machinery/door/airlock/multi_tile/glass/science
 	door_color = COLOR_WHITE
 	stripe_color = COLOR_VIOLET

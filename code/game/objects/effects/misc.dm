@@ -106,6 +106,9 @@
 /obj/effect/paint_stripe/mauve
 	color = COLOR_PALE_PURPLE_GRAY
 
+/obj/effect/paint_stripe/research
+	color = COLOR_RESEARCH
+
 /obj/effect/paint_stripe/white
 	color = COLOR_SILVER
 

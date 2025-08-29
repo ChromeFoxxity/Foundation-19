@@ -7,26 +7,14 @@
 
 	flags = OUTFIT_RESET_EQUIPMENT
 
-/decl/hierarchy/outfit/zombie/lczcadet
-	name = "LCZ Cadet"
-	id_pda_assignment = "LCZ Cadet"
-	uniform = /obj/item/clothing/under/rank/scp/security
-	glasses = /obj/item/clothing/glasses/sunglasses/sechud
-	suit = /obj/item/clothing/suit/armor/vest/scp/medarmor/cadet
-	shoes = /obj/item/clothing/shoes/dutyboots
-	id_type = /obj/item/card/id/junseclvl1lcz
-	l_ear = /obj/item/device/radio/headset/headset_sec_lcz
-	belt = /obj/item/storage/belt/holster/security
-	gloves = /obj/item/clothing/gloves/tactical/scp
-
 /decl/hierarchy/outfit/zombie/lczguard
 	name = "LCZ Guard"
 	id_pda_assignment = "LCZ Guard"
 	uniform = /obj/item/clothing/under/rank/scp/security
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud/goggles
-	suit = /obj/item/clothing/suit/armor/vest/scp/medarmor
+	suit = /obj/item/clothing/suit/armor/vest/scp/security
 	shoes = /obj/item/clothing/shoes/dutyboots
-	id_type = /obj/item/card/id/junseclvl2lcz
+	id_type = /obj/item/card/id/security/level2/security_grd
 	l_ear = /obj/item/device/radio/headset/headset_sec_lcz
 	belt = /obj/item/storage/belt/holster/security
 	head = /obj/item/clothing/head/helmet/scp/security
@@ -37,11 +25,11 @@
 /decl/hierarchy/outfit/zombie/lczsergeant
 	name = "LCZ Sergeant"
 	id_pda_assignment = "LCZ Sergeant"
-	uniform = /obj/item/clothing/under/rank/scp/security
+	uniform = /obj/item/clothing/under/rank/scp/security/sergeant
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud/goggles
-	suit = /obj/item/clothing/suit/armor/vest/scp/medarmor
+	suit = /obj/item/clothing/suit/armor/vest/scp/security/sergeant
 	shoes = /obj/item/clothing/shoes/dutyboots
-	id_type = /obj/item/card/id/seclvl3lcz
+	id_type = /obj/item/card/id/security/level3/security_sgt
 	l_ear = /obj/item/device/radio/headset/headset_sec_lcz
 	belt = /obj/item/storage/belt/holster/security
 	head = /obj/item/clothing/head/helmet/scp/security
@@ -52,11 +40,11 @@
 /decl/hierarchy/outfit/zombie/lczmedic
 	name = "LCZ Combat Medic"
 	id_pda_assignment = "LCZ Combat Medic"
-	uniform = /obj/item/clothing/under/rank/scp/security
+	uniform = /obj/item/clothing/under/rank/scp/security/medic
 	glasses = /obj/item/clothing/glasses/hud/health/visor
-	suit = /obj/item/clothing/suit/armor/vest/scp/medarmor/medic
+	suit = /obj/item/clothing/suit/armor/vest/scp/security/medic
 	shoes = /obj/item/clothing/shoes/dutyboots
-	id_type = /obj/item/card/id/seclvl2lczdivision
+	id_type = /obj/item/card/id/security/level2/security_grd
 	l_ear = /obj/item/device/radio/headset/headset_sec_lcz/medic
 	belt = /obj/item/storage/belt/holster/security
 	head = /obj/item/clothing/head/helmet/scp/security/medic
@@ -64,53 +52,23 @@
 	gloves = /obj/item/clothing/gloves/latex/nitrile/armored
 	back = /obj/item/storage/backpack/rucksack
 
-/decl/hierarchy/outfit/zombie/lczriot
-	name = "LCZ Riot Control Unit"
-	id_pda_assignment = "LCZ Riot Control Unit"
-	uniform = /obj/item/clothing/under/rank/scp/security
-	glasses = /obj/item/clothing/glasses/sunglasses/sechud/goggles
-	suit = /obj/item/clothing/suit/armor/vest/scp/medarmor/riot
-	shoes = /obj/item/clothing/shoes/dutyboots
-	id_type = /obj/item/card/id/seclvl2lczdivision2
-	l_ear = /obj/item/device/radio/headset/headset_sec_lcz
-	belt = /obj/item/storage/belt/holster/security
-	head = /obj/item/clothing/head/helmet/scp/security/riot
-	mask = /obj/item/clothing/mask/balaclava
-	gloves = /obj/item/clothing/gloves/thick/swat/lcz
-	back = /obj/item/storage/backpack/rucksack
-
-/decl/hierarchy/outfit/zombie/lczrecontain
-	name = "LCZ Recontainment Unit"
-	id_pda_assignment = "LCZ Recontainment Unit"
-	uniform = /obj/item/clothing/under/rank/scp/security
-	glasses = /obj/item/clothing/glasses/sunglasses/sechud/goggles
-	suit = /obj/item/clothing/suit/armor/vest/scp/medarmor/recontain
-	shoes = /obj/item/clothing/shoes/dutyboots
-	id_type = /obj/item/card/id/seclvl3lczdivision3
-	l_ear = /obj/item/device/radio/headset/headset_sec_lcz/recontain
-	belt = /obj/item/storage/belt/holster/security
-	head = /obj/item/clothing/head/helmet/scp/security/recontain
-	mask = /obj/item/clothing/mask/gas/security
-	gloves = /obj/item/clothing/gloves/thick/swat/lcz
-	back = /obj/item/storage/backpack/rucksack
-
 /decl/hierarchy/outfit/zombie/juniorscientist
 	name = "Scientist Associate"
 	id_pda_assignment = "Scientist Associate"
-	uniform = /obj/item/clothing/under/rank/scientist_new/junior
-	suit = /obj/item/clothing/suit/storage/toggle/labcoat/science/scp
+	uniform = /obj/item/clothing/under/rank/scp/science
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat/scp
 	shoes = /obj/item/clothing/shoes/laceup
-	id_type = /obj/item/card/id/sciencelvl1
+	id_type = /obj/item/card/id/science/level1/junior_sci
 	l_ear = /obj/item/device/radio/headset/headset_sci
 	back = /obj/item/storage/backpack/satchel/leather
 
 /decl/hierarchy/outfit/zombie/scientist
 	name = "Scientist"
 	id_pda_assignment = "Scientist"
-	uniform = /obj/item/clothing/under/rank/scientist_new/junior
-	suit = /obj/item/clothing/suit/storage/toggle/labcoat/science/scp
+	uniform = /obj/item/clothing/under/rank/scp/science
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat/scp
 	shoes = /obj/item/clothing/shoes/laceup
-	id_type = /obj/item/card/id/sciencelvl2
+	id_type = /obj/item/card/id/science/level2/sci
 	l_ear = /obj/item/device/radio/headset/headset_sci
 	glasses = /obj/item/clothing/glasses/science
 	back = /obj/item/storage/backpack/satchel/leather
@@ -118,10 +76,10 @@
 /decl/hierarchy/outfit/zombie/seniorscientist
 	name = "Senior Scientist"
 	id_pda_assignment = "Senior Scientist"
-	uniform = /obj/item/clothing/under/rank/scientist_new/senior
-	suit = /obj/item/clothing/suit/storage/toggle/labcoat/science/scp
+	uniform = /obj/item/clothing/under/rank/scp/science/senior
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat/scp
 	shoes = /obj/item/clothing/shoes/laceup
-	id_type = /obj/item/card/id/sciencelvl3
+	id_type = /obj/item/card/id/science/level3/senior_sci
 	gloves = /obj/item/clothing/gloves/latex
 	l_ear = /obj/item/device/radio/headset/headset_sci
 	glasses = /obj/item/clothing/glasses/science
@@ -134,7 +92,7 @@
 	suit = /obj/item/clothing/suit/storage/hazardvest
 	head = /obj/item/clothing/head/hardhat/orange
 	shoes = /obj/item/clothing/shoes/dutyboots
-	id_type = /obj/item/card/id/seclvl3eng
+	id_type = /obj/item/card/id/science/level3/senior_eng
 	belt = /obj/item/storage/belt/utility/full
 	l_ear = /obj/item/device/radio/headset/headset_eng
 	back = /obj/item/storage/backpack/satchel/eng
@@ -146,7 +104,7 @@
 	uniform = /obj/item/clothing/under/rank/medical/scrubs/blue
 	shoes = /obj/item/clothing/shoes/white
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
-	id_type = /obj/item/card/id/doctor
+	id_type = /obj/item/card/id/science/level2/med
 	head = /obj/item/clothing/head/surgery/blue
 	gloves = /obj/item/clothing/gloves/latex/nitrile
 	l_ear = /obj/item/device/radio/headset/headset_med
@@ -157,7 +115,7 @@
 	id_pda_assignment = "Janitor"
 	uniform = /obj/item/clothing/under/rank/janitor
 	shoes = /obj/item/clothing/shoes/workboots
-	id_type = /obj/item/card/id/sciencelvl1
+	id_type = /obj/item/card/id/science/level1
 	l_ear = /obj/item/device/radio/headset/headset_service
 	back = /obj/item/storage/backpack/satchel
 
@@ -166,7 +124,7 @@
 	id_pda_assignment = "Office Worker"
 	uniform = /obj/item/clothing/under/rank/officeworker
 	shoes = /obj/item/clothing/shoes/laceup
-	id_type = /obj/item/card/id/officeworker
+	id_type = /obj/item/card/id/science/level1/officeworker
 	l_ear = /obj/item/device/radio/headset/headset_service
 	r_ear = /obj/item/pen
 	back = /obj/item/storage/backpack/satchel/leather

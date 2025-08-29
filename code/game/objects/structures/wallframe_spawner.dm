@@ -166,6 +166,9 @@
 	name = "polarized reinforced wall frame window spawner - full tile"
 	win_path = /obj/structure/window/reinforced/polarized/full
 
+/obj/effect/wallframe_spawn/reinforced/polarized/titanium
+	frame_path = /obj/structure/wall_frame/titanium
+
 /obj/effect/wallframe_spawn/reinforced/polarized/no_grille/regular
 	name = "polarized wall frame window spawner (no grille) (non reinforced)"
 	win_path = /obj/structure/window/basic/full/polarized

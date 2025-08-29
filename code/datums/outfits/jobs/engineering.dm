@@ -9,7 +9,7 @@
 	head = /obj/item/clothing/head/hardhat/white
 	shoes = /obj/item/clothing/shoes/dutyboots
 	gloves = /obj/item/clothing/gloves/insulated/chief_engineer
-	id_type = /obj/item/card/id/seclvl5eng
+	id_type = /obj/item/card/id/science/level5/eng_dir
 	belt = /obj/item/storage/belt/utility/full
 	l_pocket = /obj/item/device/radio
 	l_ear = /obj/item/device/radio/headset/heads/ce
@@ -18,7 +18,7 @@
 	name = OUTFIT_JOB_NAME("Assistant Engineering Director")
 	uniform = /obj/item/clothing/under/scp/utility/engineering
 	shoes = /obj/item/clothing/shoes/dutyboots
-	id_type = /obj/item/card/id/seclvl5eng
+	id_type = /obj/item/card/id/science/level4/assist_eng_dir
 	belt = /obj/item/storage/belt/utility/full
 	l_pocket = /obj/item/device/radio
 	l_ear = /obj/item/device/radio/headset/heads/ce
@@ -27,7 +27,7 @@
 	name = OUTFIT_JOB_NAME("Containment Engineer")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/engineering
 	shoes = /obj/item/clothing/shoes/dutyboots
-	id_type = /obj/item/card/id/seclvl4eng
+	id_type = /obj/item/card/id/science/level3/senior_eng
 	belt = /obj/item/storage/belt/utility/full
 	l_pocket = /obj/item/device/radio
 	l_ear = /obj/item/device/radio/headset/conteng
@@ -36,7 +36,7 @@
 	name = OUTFIT_JOB_NAME("Senior Engineer")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/engineering
 	shoes = /obj/item/clothing/shoes/dutyboots
-	id_type = /obj/item/card/id/seclvl4eng
+	id_type = /obj/item/card/id/science/level3/senior_eng
 	belt = /obj/item/storage/belt/utility/full
 	l_pocket = /obj/item/device/radio
 	l_ear = /obj/item/device/radio/headset/heads/ce
@@ -45,7 +45,7 @@
 	name = OUTFIT_JOB_NAME("Junior Engineer")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/engineering
 	shoes = /obj/item/clothing/shoes/dutyboots
-	id_type = /obj/item/card/id/seclvl2eng
+	id_type = /obj/item/card/id/science/level1/junior_eng
 	belt = /obj/item/storage/belt/utility/full
 	l_pocket = /obj/item/device/radio
 	l_ear = /obj/item/device/radio/headset/headset_eng
@@ -54,7 +54,7 @@
 	name = OUTFIT_JOB_NAME("Engineer")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/engineering
 	shoes = /obj/item/clothing/shoes/dutyboots
-	id_type = /obj/item/card/id/seclvl3eng
+	id_type = /obj/item/card/id/science/level2/eng
 	belt = /obj/item/storage/belt/utility/full
 	l_pocket = /obj/item/device/radio
 	l_ear = /obj/item/device/radio/headset/headset_eng
@@ -63,7 +63,7 @@
 	name = OUTFIT_JOB_NAME("IT Technician")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/engineering
 	shoes = /obj/item/clothing/shoes/dutyboots
-	id_type = /obj/item/card/id/seclvl3it_tech
+	id_type = /obj/item/card/id/science/level3/it_tech
 	belt = /obj/item/storage/belt/utility/full
 	l_pocket = /obj/item/device/radio
 	l_ear = /obj/item/device/radio/headset/headset_eng

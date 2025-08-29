@@ -190,6 +190,19 @@
 	lightbulb.set_color(color)
 	queue_icon_update()
 
+/obj/machinery/light/bigfloorlamp
+	icon = 'icons/obj/lighting32x64.dmi'
+	icon_state = "big_flamp1"
+	base_state = "big_flamp"
+	desc = "A set of tube lights on a raised, solid fixture."
+	density = 1
+	anchored = 1
+	plane = MOB_PLANE
+	layer = ABOVE_HUMAN_LAYER
+
+/obj/machinery/light/bigfloorlamp/flickering
+	flickering = 1
+
 // the smaller bulb light fixture
 /obj/machinery/light/small
 	icon_state = "bulb_map"

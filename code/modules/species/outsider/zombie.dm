@@ -400,12 +400,9 @@ GLOBAL_LIST_INIT(zombie_species, list(\
 	real_name = name
 
 	var/decl/hierarchy/outfit/outfit = pick(
-		/decl/hierarchy/outfit/zombie/lczcadet,\
 		/decl/hierarchy/outfit/zombie/lczguard,\
 		/decl/hierarchy/outfit/zombie/lczsergeant,\
 		/decl/hierarchy/outfit/zombie/lczmedic,\
-		/decl/hierarchy/outfit/zombie/lczriot,\
-		/decl/hierarchy/outfit/zombie/lczrecontain,\
 		/decl/hierarchy/outfit/zombie/juniorscientist,\
 		/decl/hierarchy/outfit/zombie/scientist,\
 		/decl/hierarchy/outfit/zombie/seniorscientist,\

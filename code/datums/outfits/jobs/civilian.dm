@@ -15,18 +15,6 @@
 		var/path = pick( /obj/item/wrench, /obj/item/screwdriver)
 		H.equip_to_slot_or_store_or_drop(new path (H), slot_l_store)
 
-/decl/hierarchy/outfit/job/civ/classd/doctor
-	name = OUTFIT_JOB_NAME("Class D Doctor")
-	uniform = /obj/item/clothing/under/scp/dclass
-	suit = /obj/item/clothing/suit/storage/toggle/labcoat
-	shoes = /obj/item/clothing/shoes/workboots
-	gloves = /obj/item/clothing/gloves/latex/nitrile
-	l_ear = null
-	l_pocket = /obj/item/paper/dclass_orientation
-	id_type = /obj/item/card/id/classd/medical
-	pda_type = null
-	back = null
-
 /decl/hierarchy/outfit/job/civ/classd/high
 	name = OUTFIT_JOB_NAME("High-Security Class D")
 	uniform = /obj/item/clothing/under/scp/hdclass
@@ -46,7 +34,7 @@
 	uniform = /obj/item/clothing/under/rank/janitor
 	shoes = /obj/item/clothing/shoes/workboots
 	l_pocket = /obj/item/device/radio
-	id_type = /obj/item/card/id/sciencelvl1
+	id_type = /obj/item/card/id/science/level1
 	l_ear = /obj/item/device/radio/headset/headset_service
 
 /decl/hierarchy/outfit/job/civ/chef
@@ -54,7 +42,7 @@
 	uniform = /obj/item/clothing/under/color/white
 	shoes = /obj/item/clothing/shoes/white
 	l_pocket = /obj/item/device/radio
-	id_type = /obj/item/card/id/chef
+	id_type = /obj/item/card/id/science/level2/chef
 	l_ear = /obj/item/device/radio/headset/headset_service
 
 /decl/hierarchy/outfit/job/civ/bartender
@@ -62,7 +50,7 @@
 	uniform = /obj/item/clothing/under/suit_jacket/tan
 	shoes = /obj/item/clothing/shoes/laceup
 	l_pocket = /obj/item/device/radio
-	id_type = /obj/item/card/id/bartender
+	id_type = /obj/item/card/id/science/level2/bar
 	l_ear = /obj/item/device/radio/headset/headset_service
 
 /decl/hierarchy/outfit/job/civ/gocrep
@@ -75,7 +63,7 @@
 	gloves = /obj/item/clothing/gloves/thick/combat
 	l_hand = /obj/item/stamp/gocrep
 	l_pocket = /obj/item/device/radio
-	id_type = /obj/item/card/id/adminlvl3
+	id_type = /obj/item/card/id/admin/level2/goi_rep
 	l_ear = /obj/item/device/radio/headset/heads/goc
 	backpack_contents = list(/obj/item/ammo_magazine/scp/usp45 = 1)
 	belt = /obj/item/gun/projectile/pistol/usp45
@@ -88,7 +76,7 @@
 	glasses = /obj/item/clothing/glasses/sunglasses
 	gloves = /obj/item/clothing/gloves/tactical/scp
 	l_pocket = /obj/item/device/radio
-	id_type = /obj/item/card/id/adminlvl3
+	id_type = /obj/item/card/id/admin/level2/goi_rep
 	l_ear = /obj/item/device/radio/headset/heads/uiu
 	backpack_contents = list(/obj/item/ammo_magazine/scp/mk9 = 1)
 	belt = /obj/item/gun/projectile/pistol/glock
@@ -99,7 +87,7 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	glasses = /obj/item/clothing/glasses/monocle
 	l_pocket = /obj/item/device/radio
-	id_type = /obj/item/card/id/adminlvl3
+	id_type = /obj/item/card/id/admin/level2/goi_rep
 	r_hand = /obj/item/storage/secure/briefcase/money
 	l_hand = /obj/item/cane
 	l_ear = /obj/item/device/radio/headset/heads/mcd
@@ -111,7 +99,7 @@
 	uniform = /obj/item/clothing/under/scp/suittie
 	shoes = /obj/item/clothing/shoes/laceup
 	l_pocket = /obj/item/device/radio
-	id_type = /obj/item/card/id/adminlvl3
+	id_type = /obj/item/card/id/admin/level2/goi_rep
 	r_hand = /obj/item/storage/secure/briefcase/money
 	l_ear = /obj/item/device/radio/headset/heads/grcl
 	backpack_contents = list(/obj/item/ammo_magazine/scp/m1911 = 1)
@@ -122,7 +110,7 @@
 	uniform = /obj/item/clothing/under/suit_jacket/really_black
 	shoes = /obj/item/clothing/shoes/laceup
 	l_pocket = /obj/item/device/radio
-	id_type = /obj/item/card/id/adminlvl5
+	id_type = /obj/item/card/id/admin/level5/ecl
 	l_ear = /obj/item/device/radio/headset/heads/hop
 	backpack_contents = list(/obj/item/ammo_magazine/scp/m1911 = 1)
 	belt = /obj/item/gun/projectile/pistol/m1911/gold
@@ -133,7 +121,7 @@
 	suit = /obj/item/clothing/suit/armor/itd
 	shoes = /obj/item/clothing/shoes/laceup
 	l_pocket = /obj/item/device/radio
-	id_type = /obj/item/card/id/adminlvl5
+	id_type = /obj/item/card/id/admin/level5/itdo
 	l_ear = /obj/item/device/radio/headset/heads/hop
 	backpack_contents = list(/obj/item/ammo_magazine/scp/m1911 = 1)
 	belt = /obj/item/gun/projectile/pistol/m1911/gold
@@ -149,7 +137,7 @@
 	name = OUTFIT_JOB_NAME("Office Worker")
 	uniform = /obj/item/clothing/under/scp/suittie
 	shoes = /obj/item/clothing/shoes/laceup
-	id_type = /obj/item/card/id/officeworker
+	id_type = /obj/item/card/id/science/level1/officeworker
 	backpack_contents = list(/obj/item/paper_bin = 1,/obj/item/device/radio =1,/obj/item/pen = 1)
 	l_ear = /obj/item/device/radio/headset/headset_service
 	r_ear = /obj/item/pen

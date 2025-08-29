@@ -167,7 +167,7 @@
 #define COLOR_OCEAN "#99f5ff"
 
 // Used to easily change research colour in case of ???
-#define COLOR_RESEARCH COLOR_PURPLE_GRAY
+#define COLOR_RESEARCH "#425AD1"
 
 //Blob colors
 #define BLOB_COLOR_CORE      "#c96e28"

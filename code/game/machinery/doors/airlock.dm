@@ -140,7 +140,20 @@ var/list/airlock_overlays = list()
 
 /obj/machinery/door/airlock/research
 	door_color = COLOR_WHITE
-	stripe_color = COLOR_BOTTLE_GREEN
+	stripe_color = COLOR_RESEARCH
+
+/obj/machinery/door/airlock/research/psionics
+	stripe_color = COLOR_PALE_PURPLE_GRAY
+
+/obj/machinery/door/airlock/research/robotics
+	door_color = COLOR_GRAY20
+	stripe_color = COLOR_RED_GRAY
+
+/obj/machinery/door/airlock/research/xenoarch
+	stripe_color = COLOR_DARK_BROWN
+
+/obj/machinery/door/airlock/research/anomaly
+	stripe_color = COLOR_BLACK
 
 /obj/machinery/door/airlock/science
 	door_color = COLOR_WHITE
@@ -205,6 +218,19 @@ var/list/airlock_overlays = list()
 /obj/machinery/door/airlock/glass/research
 	door_color = COLOR_WHITE
 	stripe_color = COLOR_RESEARCH
+
+/obj/machinery/door/airlock/glass/research/psionics
+	stripe_color = COLOR_PALE_PURPLE_GRAY
+
+/obj/machinery/door/airlock/glass/research/robotics
+	door_color = COLOR_GRAY20
+	stripe_color = COLOR_RED_GRAY
+
+/obj/machinery/door/airlock/glass/research/xenoarch
+	stripe_color = COLOR_DARK_BROWN
+
+/obj/machinery/door/airlock/glass/research/xenobot
+	stripe_color = COLOR_GREEN_GRAY
 
 /obj/machinery/door/airlock/glass/science
 	door_color = COLOR_WHITE

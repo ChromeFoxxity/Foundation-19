@@ -272,9 +272,6 @@
 	mechanical_difficulty = "Medium"
 	duties = "Diagnose and administer treatment to incoming patients. Triage the wounded in times of duress."
 
-/datum/job/surgeon
-	title = "Surgeon"
-
 /datum/job/emt
 	title = "Emergency Medical Technician"
 	department = "Medical"

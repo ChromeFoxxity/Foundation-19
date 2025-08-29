@@ -76,3 +76,10 @@
 		icon_state = initial(icon_state)
 	else
 		icon_state = off_state
+
+/obj/item/clothing/glasses/sunglasses/sechud/science
+	name = "HUD science sunglasses"
+	desc = "Sunglasses with a science HUD."
+	icon_state = "sunhudsci"
+	hud = /obj/item/clothing/glasses/hud/science
+	req_access = list(ACCESS_RESEARCH)

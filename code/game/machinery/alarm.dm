@@ -879,6 +879,23 @@
 		to_chat(user, "It is not wired.")
 	if (buildstage < 1)
 		to_chat(user, "The circuit is missing.")
+
+/obj/machinery/alarm/directional/north
+	dir = 2
+	pixel_y = 24
+
+/obj/machinery/alarm/directional/south
+	dir = 1
+	pixel_y = -24
+
+/obj/machinery/alarm/directional/east
+	dir = 8
+	pixel_x = 24
+
+/obj/machinery/alarm/directional/west
+	dir = 4
+	pixel_x = -24
+
 /*
 AIR ALARM CIRCUIT
 Just a object used in constructing air alarms
@@ -1120,6 +1137,21 @@ FIRE ALARM
 	if(z in GLOB.using_map.contact_levels)
 		update_icon()
 
+/obj/machinery/firealarm/directional/north
+	dir = 2
+	pixel_y = 24
+
+/obj/machinery/firealarm/directional/south
+	dir = 1
+	pixel_y = -24
+
+/obj/machinery/firealarm/directional/east
+	dir = 4
+	pixel_x = 24
+
+/obj/machinery/firealarm/directional/west
+	dir = 8
+	pixel_x = -24
 /*
 FIRE ALARM CIRCUIT
 Just a object used in constructing fire alarms

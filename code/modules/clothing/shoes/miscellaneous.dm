@@ -132,6 +132,25 @@
 		bomb = ARMOR_BOMB_RESISTANT)
 	siemens_coefficient = 0.7
 
+/obj/item/clothing/shoes/engieboots
+	name = "heavy work boots"
+	desc = "A pair of steel-toed, synthetic leather boots that are weather-resistant and waterproof. They're reliable for all of those who work in harsh conditions and on long shifts."
+	icon_state = "engineering_boots"
+	item_flags = ITEM_FLAG_THICKMATERIAL
+	armor = list(
+		melee = ARMOR_MELEE_RESISTANT,
+		energy = ARMOR_ENERGY_MINOR,
+		bomb = ARMOR_BOMB_PADDED,
+		rad = ARMOR_RAD_MINOR
+		)
+	siemens_coefficient = 0.7
+	gas_transfer_coefficient = 0.90
+	permeability_coefficient = 0.50
+	body_parts_covered = FEET
+	heat_protection = FEET
+	max_heat_protection_temperature = FIRESUIT_MAX_HEAT_PROTECTION_TEMPERATURE
+	max_pressure_protection = FIRESUIT_MAX_PRESSURE
+
 /obj/item/clothing/shoes/dress
 	name = "dress shoes"
 	desc = "The height of fashion, and they're pre-polished!"

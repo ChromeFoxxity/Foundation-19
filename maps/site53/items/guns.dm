@@ -205,6 +205,43 @@
 		icon_state = "p232-empty"
 	return
 
+/obj/item/gun/projectile/pistol/remington
+	name = "Remington RM380"
+	desc = "Every feature of the RM380 has been fine-tuned to deliver unfailing function with unrivaled accuracy and control in the most extreme conditions on earth - the fight of your life. It's simply the most complete fusion of confidence and concealment to ever hit the Every Day Carry category. This version is chambered in .380 ACP."
+	icon = 'icons/obj/gun.dmi'
+	icon_state = "remington"
+	w_class = ITEM_SIZE_NORMAL
+	caliber = ".380"
+	silenced = 0
+	fire_delay = 2
+	origin_tech = list(TECH_COMBAT = 2, TECH_MATERIAL = 2, TECH_ESOTERIC = 2)
+	load_method = MAGAZINE
+	magazine_type = /obj/item/ammo_magazine/scp/a380
+	allowed_magazines = list(/obj/item/ammo_magazine/scp/a380)
+
+/obj/item/gun/projectile/pistol/remington/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "remington"
+	else
+		icon_state = "remington-empty"
+	return
+
+/obj/item/gun/projectile/pistol/remington/spec
+	name = "Specialist Remington RM380"
+	desc = "Every feature of the RM380 has been fine-tuned to deliver unfailing function with unrivaled accuracy and control in the most extreme conditions on earth - the fight of your life. It's simply the most complete fusion of confidence and concealment to ever hit the Every Day Carry category, this one is better at handling and easier to hold. This version is chambered in .380 ACP."
+	icon_state = "remington-spec"
+	silenced = 0
+	fire_delay = 1
+
+/obj/item/gun/projectile/pistol/remington/spec/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "remington-spec"
+	else
+		icon_state = "remington-spec-empty"
+	return
+
 /obj/item/gun/projectile/pistol/makarov
 	name = "Makarov Pistol"
 	desc = "Shortly after the Second World War, the Soviet Union reactivated its plans to replace the TT pistols and Nagant M1895 revolvers. The adoption of the future AK assault rifle relegated the pistol to a light, handy self-defense weapon. The TT was unsuited for such a role, as it was heavy and bulky. Also, the Tokarev pistols omitted a safety and magazines were deemed too easy to lose. As a result, in December 1945, two separate contests for a new service pistol were created, respectively for a 7.62mm and 9mm pistol. It was later judged that the new 9.2x18mm cartridge, designed by B. V. Semin, was the best round suited for the intended role. The lower pressures of the cartridge allowed practical straight blowback operation, while retaining low recoil and good stopping power. This version is chambered in 9x19mm."

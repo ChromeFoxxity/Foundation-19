@@ -12,9 +12,9 @@
 
 /decl/hierarchy/outfit/mtf/epsilon_11/agent
 	name = OUTFIT_JOB_NAME("MTF Epsilon-11 Agent")
-	uniform = /obj/item/clothing/under/mtf/epsilon11
-	suit = /obj/item/clothing/suit/armor/mtftactical
-	head = /obj/item/clothing/head/helmet/mtftactical
+	uniform = /obj/item/clothing/under/rank/scp/mtf
+	suit = /obj/item/clothing/suit/armor/vest/scp/mtf
+	head = /obj/item/clothing/head/helmet/scp/mtf
 	mask = /obj/item/clothing/mask/gas/mtf
 	glasses = /obj/item/clothing/glasses/night
 	gloves = /obj/item/clothing/gloves/tactical/scp
@@ -28,9 +28,9 @@
 
 /decl/hierarchy/outfit/mtf/epsilon_11/breacher
 	name = OUTFIT_JOB_NAME("MTF Epsilon-11 Breacher")
-	uniform = /obj/item/clothing/under/mtf/epsilon11
-	suit = /obj/item/clothing/suit/armor/mtfmedium
-	head = /obj/item/clothing/head/helmet/scp/security/mtftactical
+	uniform = /obj/item/clothing/under/rank/scp/mtf
+	suit = /obj/item/clothing/suit/armor/vest/scp/mtf/medium
+	head = /obj/item/clothing/head/helmet/scp/mtf/toggleable
 	mask = /obj/item/clothing/mask/gas/mtf
 	glasses = /obj/item/clothing/glasses/night
 	gloves = /obj/item/clothing/gloves/tactical/scp
@@ -44,9 +44,9 @@
 
 /decl/hierarchy/outfit/mtf/epsilon_11/leader
 	name = OUTFIT_JOB_NAME("MTF Epsilon-11 Team Leader")
-	uniform = /obj/item/clothing/under/mtf/epsilon11
-	suit = /obj/item/clothing/suit/armor/mtfmedium
-	head = /obj/item/clothing/head/beret/mtf
+	uniform = /obj/item/clothing/under/rank/scp/mtf
+	suit = /obj/item/clothing/suit/armor/vest/scp/mtf/medium
+	head = /obj/item/clothing/head/beret/scp/mtf
 	mask = /obj/item/clothing/mask/gas/mtf
 	glasses = /obj/item/clothing/glasses/night
 	gloves = /obj/item/clothing/gloves/tactical/scp
@@ -61,9 +61,9 @@
 
 /decl/hierarchy/outfit/mtf/epsilon_11/medic
 	name = OUTFIT_JOB_NAME("MTF Epsilon-11 Medic")
-	uniform = /obj/item/clothing/under/mtf/epsilon11
-	suit = /obj/item/clothing/suit/armor/mtfmedic
-	head = /obj/item/clothing/head/helmet/mtftactical
+	uniform = /obj/item/clothing/under/rank/scp/mtf
+	suit = /obj/item/clothing/suit/armor/vest/scp/mtf/medic
+	head = /obj/item/clothing/head/helmet/scp/mtf
 	mask = /obj/item/clothing/mask/gas/mtf
 	glasses = /obj/item/clothing/glasses/night
 	gloves = /obj/item/clothing/gloves/latex/nitrile/armored
@@ -78,9 +78,9 @@
 
 /decl/hierarchy/outfit/mtf/epsilon_11/pointman
 	name = OUTFIT_JOB_NAME("MTF Epsilon-11 Pointman")
-	uniform = /obj/item/clothing/under/mtf/epsilon11
-	suit = /obj/item/clothing/suit/armor/mtfmedium
-	head = /obj/item/clothing/head/helmet/mtftactical
+	uniform = /obj/item/clothing/under/rank/scp/mtf
+	suit = /obj/item/clothing/suit/armor/vest/scp/mtf/medium
+	head = /obj/item/clothing/head/helmet/scp/mtf
 	mask = /obj/item/clothing/mask/gas/mtf
 	glasses = /obj/item/clothing/glasses/night
 	gloves = /obj/item/clothing/gloves/tactical/scp
@@ -95,7 +95,7 @@
 
 /decl/hierarchy/outfit/mtf/eta_10 // See No Evil
 	name = OUTFIT_JOB_NAME("MTF Eta-10 Operative")
-	uniform = /obj/item/clothing/under/mtf/eta10
+	uniform = /obj/item/clothing/under/rank/scp/mtf/eta10
 	suit = /obj/item/clothing/suit/armor/vest/scp/medarmor/eta
 	head = /obj/item/clothing/head/helmet/scp/eta
 	mask = /obj/item/clothing/mask/balaclava/tactical
@@ -112,8 +112,8 @@
 
 /decl/hierarchy/outfit/mtf/beta_7 // Maz Hatters
 	name = OUTFIT_JOB_NAME("MTF Beta-7 Operative")
-	uniform = /obj/item/clothing/under/mtf/beta7
-	suit = /obj/item/clothing/suit/armor/vest/scp/medarmor/beta
+	uniform = /obj/item/clothing/under/rank/scp/mtf/beta7
+	suit = /obj/item/clothing/suit/armor/vest/scp/mtf/beta7
 	head = /obj/item/clothing/head/helmet/scp/beta
 	mask = /obj/item/clothing/mask/balaclava/tactical
 	glasses = /obj/item/clothing/glasses/sunglasses
@@ -130,7 +130,7 @@
 
 /decl/hierarchy/outfit/mtf/epsilon_9
 	name = OUTFIT_JOB_NAME("MTF Epsilon-9 Operative")
-	uniform = /obj/item/clothing/under/mtf/epsilon9
+	uniform = /obj/item/clothing/under/rank/scp/mtf/epsilon9
 	suit = null
 	head = null
 	mask = /obj/item/clothing/mask/balaclava
@@ -148,8 +148,8 @@
 
 /decl/hierarchy/outfit/mtf/nu_7 // Hammer Down
 	name = OUTFIT_JOB_NAME("MTF Nu-7 Operative")
-	uniform = /obj/item/clothing/under/mtf/nu7
-	suit = /obj/item/clothing/suit/armor/mtfheavy
+	uniform = /obj/item/clothing/under/rank/scp/mtf/nu7
+	suit = /obj/item/clothing/suit/armor/vest/scp/mtf/heavy
 	mask = /obj/item/clothing/mask/gas
 	head = /obj/item/clothing/head/helmet/mtfheavy
 	gloves = /obj/item/clothing/gloves/thick/combat
@@ -166,10 +166,10 @@
 
 /decl/hierarchy/outfit/mtf/alpha_1 // Red Right Hand
 	name = OUTFIT_JOB_NAME("MTF Alpha-1 Operative")
-	uniform = /obj/item/clothing/under/mtf/alpha1
-	suit = /obj/item/clothing/suit/armor/mtfalpha1
+	uniform = /obj/item/clothing/under/rank/scp/mtf/alpha1
+	suit = /obj/item/clothing/suit/armor/vest/scp/mtf/alpha1
 	mask = /obj/item/clothing/mask/gas/security
-	head = /obj/item/clothing/head/beret/mtf/alpha
+	head = /obj/item/clothing/head/beret/scp/mtf/alpha1
 	gloves = /obj/item/clothing/gloves/thick/combat
 	glasses = /obj/item/clothing/glasses/hud/security/night
 	shoes = /obj/item/clothing/shoes/swat
@@ -184,10 +184,10 @@
 
 /decl/hierarchy/outfit/mtf/omega1 // Laws Left Hand
 	name = OUTFIT_JOB_NAME("MTF Omega-1 Enforcement")
-	uniform = /obj/item/clothing/under/mtf/omega1
-	suit = /obj/item/clothing/suit/armor/mtfomega1
+	uniform = /obj/item/clothing/under/rank/scp/mtf/omega1
+	suit = /obj/item/clothing/suit/armor/vest/scp/mtf/omega1
 	mask = /obj/item/clothing/mask/gas/omega1
-	head = /obj/item/clothing/head/beret/mtf/omega
+	head = /obj/item/clothing/head/beret/scp/mtf/omega1
 	gloves = /obj/item/clothing/gloves/thick/swat/lcz
 	glasses = /obj/item/clothing/glasses/hud/security/night
 	shoes = /obj/item/clothing/shoes/swat

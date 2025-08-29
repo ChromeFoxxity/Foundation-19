@@ -154,6 +154,37 @@
 	dynamic_lighting = 1
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
+/area/centcom/town
+	name = "Small Town"
+	icon_state = "unknown"
+	requires_power = 0
+	dynamic_lighting = 1
+	area_flags = AREA_FLAG_RAD_SHIELDED
+
+/area/centcom/goc/exterior
+	name = "Global Occult Coalition Headquarters Exterior"
+	icon_state = "Sleep"
+	dynamic_lighting = 0
+
+/area/centcom/vesselevent
+	name = "Dispatch Facility Alpha-32"
+	icon_state = "Sleep"
+	requires_power = 0
+	dynamic_lighting = 1
+	area_flags = AREA_FLAG_RAD_SHIELDED
+
+/area/centcom/vesselevent/exterior
+	name = "Dispatch Facility Alpha-32 Exterior"
+	icon_state = "Sleep"
+	dynamic_lighting = 0
+
+/area/site53/tram/vessel
+	name = "A.E.S. Parallax"
+	icon_state = "Sleep"
+	requires_power = 1
+	dynamic_lighting = 1
+	area_flags = AREA_FLAG_RAD_SHIELDED
+
 /area/site53/tram/scpcar
 	name = "Car"
 	icon_state = "Sleep"
@@ -710,6 +741,14 @@
 	requires_power = 0
 	dynamic_lighting = 1
 
+/area/site53/uez/entrance
+	name = "\improper Main Entrance"
+	icon_state = "hallC1"
+	area_flags = AREA_FLAG_RAD_SHIELDED
+	sound_env = LARGE_ENCLOSED
+	requires_power = 0
+	dynamic_lighting = 1
+
 /area/site53/uez/mcrsubstation
 	name = "Main Control Room Substation"
 	icon_state = "SolarcontrolS"
@@ -1007,6 +1046,11 @@
 	icon_state = "head_quarters"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
+/area/site53/entrancezone/securitypost/entrance
+	name = "\improper Main Entrance Security Post"
+	icon_state = "head_quarters"
+	area_flags = AREA_FLAG_RAD_SHIELDED
+
 /area/site53/entrancezone/hallway
 	name = "\improper Entrance Zone Hallway"
 	icon_state = "hallC1"
@@ -1175,71 +1219,6 @@
 	icon_state = "security"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
-/area/site53/reswing/xenobiology
-	name = "\improper Xenobiology Laboratory"
-	icon_state = "research"
-	area_flags = AREA_FLAG_RAD_SHIELDED
-
-/area/site53/reswing/robotics
-	name = "\improper Robotics Laboratory"
-	icon_state = "research"
-	area_flags = AREA_FLAG_RAD_SHIELDED
-
-/area/site53/reswing/roboticsupr
-	name = "\improper Upper Robotics Laboratory"
-	icon_state = "research"
-	area_flags = AREA_FLAG_RAD_SHIELDED
-
-/area/site53/reswing/psionic
-	name = "\improper Psionic Divison"
-	icon_state = "research"
-	area_flags = AREA_FLAG_RAD_SHIELDED
-
-/area/site53/reswing/researchanddevelopment
-	name = "\improper Research and Development"
-	icon_state = "research"
-	area_flags = AREA_FLAG_RAD_SHIELDED
-
-/area/site53/reswing/researchwing
-	name = "\improper Research Wing"
-	icon_state = "research"
-	area_flags = AREA_FLAG_RAD_SHIELDED
-
-/area/site53/reswing/lowres/Anomaly
-	name = "\improper Anomaly Laboratory"
-	icon_state = "research"
-	area_flags = AREA_FLAG_RAD_SHIELDED
-
-/area/site53/reswing/lowres/Lowerresearchwing
-	name = "\improper Lower Research Wing"
-	icon_state = "research"
-	area_flags = AREA_FLAG_RAD_SHIELDED
-
-/area/site53/reswing/lowres/researchmaint
-	name = "\improper Research Maintenance Tunnel 1"
-	icon_state = "research"
-	area_flags = AREA_FLAG_RAD_SHIELDED
-
-/area/site53/reswing/lowres/researchmaint2
-	name = "\improper Research Maintenance Tunnel 2"
-	icon_state = "research"
-	area_flags = AREA_FLAG_RAD_SHIELDED
-
-/area/site53/reswing/lowres/researchoffices
-	name = "\improper Research Offices"
-	icon_state = "research"
-	area_flags = AREA_FLAG_RAD_SHIELDED
-
-/area/site53/reswing/lowres/xenoarchaeology
-	name = "\improper Xenoarchaeology Storage"
-	icon_state = "research"
-	area_flags = AREA_FLAG_RAD_SHIELDED
-
-/area/site53/reswing/lowres/xenobotany
-	name = "\improper Botanical Laboratory"
-	icon_state = "research"
-	area_flags = AREA_FLAG_RAD_SHIELDED
-
 /area/site53/logistics/logistics
 	name = "\improper Logistics"
 	icon_state = "quart"
@@ -1304,25 +1283,116 @@
 
 //Site 53's science areas
 
-/area/site53/science/aicobservation
-	name = "\improper AIC Observation"
-	icon_state = "research"
+/area/site53/science
+	name = "\improper Science Department"
+	icon_state = "science"
+	area_flags = AREA_FLAG_RAD_SHIELDED
 
-/area/site53/science/aiccore
-	name = "\improper AIC Server Room"
-	icon_state = "research"
+/area/site53/science/testing
+	name = "\improper Science Department Testing Hall"
+	icon_state = "science_testing"
+
+/area/site53/science/testing_scp
+	name = "\improper Science SCP Testing Chamber"
+	icon_state = "science_scp_testing"
+
+/area/site53/science/testing_ord
+	name = "\improper Science Ordnance Testing Chambers"
+	icon_state = "science_ord_testing"
+
+/area/site53/science/rnd
+	name = "\improper Research and Development"
+	icon_state = "rnd"
+
+/area/site53/science/robotics
+	name = "\improper Robotics Division"
+	icon_state = "robotics"
+
+/area/site53/science/robotics_upper
+	name = "\improper Upper Robotics Division"
+	icon_state = "upper_robotics"
+
+/area/site53/science/robotics_mechbay
+	name = "\improper Robotics Division Mechbay"
+	icon_state = "mechbay"
+
+/area/site53/science/chemistry
+	name = "\improper Chemistry Division"
+	icon_state = "chem"
+
+/area/site53/science/psionic
+	name = "\improper Psychotronics Divison"
+	icon_state = "psionic"
+
+/area/site53/science/maintenance
+	name = "\improper Science Department Maintenance"
+	icon_state = "science_maints"
+
+/area/site53/science/aiwing
+	name = "\improper Artificial Intelligence Upper Wing"
+	icon_state = "upperaiwing"
+
+/area/site53/science/aicontrolroom
+	name = "\improper Artificial Intelligence Control Room"
+	icon_state = "aicontrol"
+
+/area/site53/science/aichamber
+	name = "\improper Artificial Intelligence Chamber"
+	icon_state = "aichamber"
+
+/area/site53/science/lower
+	name = "\improper Lower Science Department"
+	icon_state = "lower_science"
+
+/area/site53/science/lower/researchoffices
+	name = "\improper Science Department Offices"
+	icon_state = "science"
+
+/area/site53/science/lower/anomaly
+	name = "\improper Anomaly Division"
+	icon_state = "anomaly"
+
+/area/site53/science/lower/xenoarchaeology
+	name = "\improper Xenoarchaeology Division"
+	icon_state = "xenoarch"
+
+/area/site53/science/lower/xenobiology
+	name = "\improper Xenobiology Division"
+	icon_state = "xenobio"
+
+/area/site53/science/lower/xenobotany
+	name = "\improper Xenobotany Division"
+	icon_state = "xenobot"
+
+/area/site53/science/lower/maintenance
+	name = "\improper Lower Science Department Maintenance"
+	icon_state = "science_maints"
+
+/area/site53/science/lower/aiwing
+	name = "\improper Artificial Intelligence Lower Wing"
+	icon_state = "aiwing"
+
+/area/site53/science/lower/aiupload
+	name = "\improper Artificial Intelligence Upload"
+	icon_state = "aiupload"
 
 /area/site53/science/seniorresearchera
 	name = "\improper Senior Researcher's Office A"
-	icon_state = "research"
+	icon_state = "science_senior_office"
 
 /area/site53/science/seniorresearcherb
 	name = "\improper Senior Researcher's Office B"
-	icon_state = "research"
+	icon_state = "science_senior_office"
 
-/area/site53/science/seniorresearcherc
-	name = "\improper Senior Researcher's Office C"
-	icon_state = "research"
+/area/site53/science/directoroffice
+	name = "\improper Science Director's Office"
+	icon_state = "scd_director_office"
+	sound_env = MEDIUM_SOFTFLOOR
+
+/area/site53/science/assistdirectoroffice
+	name = "\improper Assistant Science Director's Office"
+	icon_state = "assist_scd_director_office"
+	sound_env = MEDIUM_SOFTFLOOR
 
 //Logistics
 /area/quartermaster/hangar

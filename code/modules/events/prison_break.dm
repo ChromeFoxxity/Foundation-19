@@ -91,13 +91,15 @@
 	eventDept = "Research"
 	areaName = "Research Wing"
 	areaType = list(
-		/area/site53/reswing,
 		/area/site53/science
 	)
 	areaNotType = list(
-		/area/site53/reswing/xenobiology,
-		/area/site53/science/aicobservation,
-		/area/site53/science/aiccore
+		/area/site53/science/lower/xenobiology,
+		/area/site53/science/lower/aiwing,
+		/area/site53/science/lower/aiupload,
+		/area/site53/science/aiwing,
+		/area/site53/science/aicontrolroom,
+		/area/site53/science/aichamber
 	)
 
 /datum/prisonbreakarea/lightcontainmentzone

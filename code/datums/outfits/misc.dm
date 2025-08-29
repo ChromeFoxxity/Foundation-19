@@ -20,7 +20,7 @@
 	name = "Pietro Wilson"
 	uniform = /obj/item/clothing/under/scp/suittie
 	shoes = /obj/item/clothing/shoes/laceup
-	id_type = /obj/item/card/id/sciencelvl1
+	id_type = /obj/item/card/id/science/level1
 	r_hand = null
 	l_hand = null
 	l_pocket = null

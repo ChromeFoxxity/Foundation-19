@@ -41,3 +41,9 @@
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS|FEET|HANDS
 	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS|FEET|HANDS
 	armor = list(melee = ARMOR_MELEE_VERY_VERY_HIGH, bullet = ARMOR_BALLISTIC_RESISTANT, laser = ARMOR_LASER_HANDGUNS, energy = ARMOR_ENERGY_RESISTANT, bomb = ARMOR_BOMB_PADDED, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)
+
+/obj/item/clothing/suit/armor/vest/scp/security/ruined
+	name = "ruined foundation security vest"
+	desc = "A once-heavy armored vest with a white 'SCP' tag on it, there's a massive hole torn straight through it. Used to be worn by Site Security Guards, it has some durathread plating in it to make it durable against melee, but now it's basically useless."
+	icon_state = "old_guard_vest"
+	armor = list(melee = ARMOR_MELEE_RESISTANT, bullet = ARMOR_BALLISTIC_VVSMALL, laser = ARMOR_LASER_VERY_SMALL, energy = ARMOR_ENERGY_MINOR, bomb = ARMOR_BOMB_MINOR, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)

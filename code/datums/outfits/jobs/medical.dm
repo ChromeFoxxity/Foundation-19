@@ -9,10 +9,10 @@
 /decl/hierarchy/outfit/job/command/cmo
 	name = OUTFIT_JOB_NAME("Medical Director")
 	uniform = /obj/item/clothing/under/rank/chief_medical_officer/turtleneck
-	suit = /obj/item/clothing/suit/storage/toggle/labcoat/cmo/md
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat/scp/cmo
 	shoes = /obj/item/clothing/shoes/laceup
 	gloves = /obj/item/clothing/gloves/latex/nitrile
-	id_type = /obj/item/card/id/chiefmedicalofficer
+	id_type = /obj/item/card/id/science/level5/med_dir
 	l_pocket = /obj/item/device/radio
 	r_pocket = /obj/item/device/flashlight/pen
 	l_ear = /obj/item/device/radio/headset/heads/cmo
@@ -21,10 +21,10 @@
 	name = OUTFIT_JOB_NAME("Assistant Medical Director")
 	uniform = /obj/item/clothing/under/rank/medical/scrubs/purple
 	head = /obj/item/clothing/head/surgery/purple
-	suit = /obj/item/clothing/suit/storage/toggle/labcoat/assistant
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat/scp/assistant
 	shoes = /obj/item/clothing/shoes/laceup
 	gloves = /obj/item/clothing/gloves/latex/nitrile
-	id_type = /obj/item/card/id/assistantmedicalofficer
+	id_type = /obj/item/card/id/science/level4/assist_med_dir
 	l_pocket = /obj/item/device/radio
 	r_pocket = /obj/item/device/flashlight/pen
 	l_ear = /obj/item/device/radio/headset/heads/cmo
@@ -34,7 +34,7 @@
 	uniform = /obj/item/clothing/under/suit_jacket/tan
 	shoes = /obj/item/clothing/shoes/laceup
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
-	id_type = /obj/item/card/id/psychiatrist
+	id_type = /obj/item/card/id/science/level1/psych
 	l_pocket = /obj/item/device/radio
 	l_ear = /obj/item/device/radio/headset/headset_med
 
@@ -44,7 +44,7 @@
 	head = /obj/item/clothing/head/surgery/navyblue
 	shoes = /obj/item/clothing/shoes/white
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
-	id_type = /obj/item/card/id/chemist
+	id_type = /obj/item/card/id/science/level2/chem
 	l_pocket = /obj/item/device/radio
 	l_ear = /obj/item/device/radio/headset/headset_med
 
@@ -54,7 +54,7 @@
 	head = /obj/item/clothing/head/surgery/blue
 	shoes = /obj/item/clothing/shoes/white
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
-	id_type = /obj/item/card/id/doctor
+	id_type = /obj/item/card/id/science/level2/med
 	l_pocket = /obj/item/device/radio
 	l_ear = /obj/item/device/radio/headset/headset_med
 
@@ -64,7 +64,7 @@
 	head = /obj/item/clothing/head/surgery/green
 	shoes = /obj/item/clothing/shoes/white
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
-	id_type = /obj/item/card/id/doctor
+	id_type = /obj/item/card/id/science/level3/surg
 	l_pocket = /obj/item/device/radio
 	l_ear = /obj/item/device/radio/headset/headset_med
 
@@ -72,7 +72,7 @@
 	name = OUTFIT_JOB_NAME("Emergency Medical Technician")
 	uniform = /obj/item/clothing/under/rank/medical/scrubs/black
 	shoes = /obj/item/clothing/shoes/white
-	id_type = /obj/item/card/id/emt
+	id_type = /obj/item/card/id/science/level2/emt
 	l_pocket = /obj/item/device/radio
 	l_ear = /obj/item/device/radio/headset/headset_med
 
@@ -80,6 +80,6 @@
 	name = OUTFIT_JOB_NAME("Medical Intern")
 	uniform = /obj/item/clothing/under/rank/orderly
 	shoes = /obj/item/clothing/shoes/laceup
-	id_type = /obj/item/card/id/medicintern
+	id_type = /obj/item/card/id/science/level1/junior_med
 	l_pocket = /obj/item/device/radio
 	l_ear = /obj/item/device/radio/headset/headset_med
