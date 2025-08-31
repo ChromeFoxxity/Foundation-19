@@ -54,9 +54,7 @@
 		/obj/item/device/encryptionkey/headset_cargo = 2,
 		/obj/item/device/encryptionkey/headset_service = 2,
 		/obj/item/device/encryptionkey/headset_eng = 2,
-		/obj/item/device/encryptionkey/headset_sec_lcz = 1,
-		/obj/item/device/encryptionkey/headset_sec_hcz = 1,
-		/obj/item/device/encryptionkey/headset_sec_ecz = 1,
+		/obj/item/device/encryptionkey/security = 1,
 	)
 
 /obj/item/storage/box/encryptionkeys/sci

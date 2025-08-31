@@ -241,6 +241,21 @@
 	if(auto_name)
 		SetName("\improper [get_area_name(area, TRUE)] APC")
 
+/obj/machinery/power/apc/directional/north
+	dir = 1
+	pixel_y = 18
+
+/obj/machinery/power/apc/directional/south
+	pixel_y = -24
+
+/obj/machinery/power/apc/directional/west
+	dir = 8
+	pixel_x = -24
+
+/obj/machinery/power/apc/directional/east
+	dir = 4
+	pixel_x = 24
+
 /obj/item/power_control_module
 	name = "power control module"
 	desc = "Heavy-duty switching circuits for power control."

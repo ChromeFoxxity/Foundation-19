@@ -217,7 +217,7 @@
 	id_type = /obj/item/card/id/mtf/isd
 	belt = /obj/item/gun/projectile/automatic/machine_pistol
 	back = /obj/item/storage/backpack/satchel/leather/black
-	backpack_contents = list(/obj/item/storage/box/ifak = 1,/obj/item/crowbar/emergency_forcing_tool = 1,/obj/item/stamp/scp/o5rep = 1,/obj/item/melee/baton/loaded = 1,/obj/item/clothing/mask/gas/isd = 1)
+	backpack_contents = list(/obj/item/storage/box/ifak = 1,/obj/item/crowbar/emergency_forcing_tool = 1,/obj/item/stamp/o5rep = 1,/obj/item/melee/baton/loaded = 1,/obj/item/clothing/mask/gas/isd = 1)
 
 /decl/hierarchy/outfit/mtf/isd/formal
 	name = OUTFIT_JOB_NAME("Internal Security Department Formal Uniform")

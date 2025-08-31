@@ -1200,10 +1200,7 @@ var/list/random_useful_
 /obj/random/clipboard/spawn_choices()
 	return list(/obj/item/material/clipboard = 300,
 				/obj/item/material/clipboard/steel = 200,
-				/obj/item/material/clipboard/aluminium = 200,
-				/obj/item/material/clipboard/plastic = 200,
-				/obj/item/material/clipboard/glass = 100,
-				/obj/item/material/clipboard/ebony = 10)
+				/obj/item/material/clipboard/aluminium = 200)
 
 //Random MRE stuff
 

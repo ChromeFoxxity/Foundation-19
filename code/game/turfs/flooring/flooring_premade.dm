@@ -45,29 +45,113 @@
 	color = WOOD_COLOR_GENERIC
 	initial_flooring = /decl/flooring/wood
 
+/turf/simulated/floor/wood/parquet
+	icon_state = "wood_parquet"
+	initial_flooring = /decl/flooring/wood/parquet
+
+/turf/simulated/floor/wood/tile
+	icon_state = "wood_tile"
+	initial_flooring = /decl/flooring/wood/tile
+
+/turf/simulated/floor/wood/large
+	icon_state = "wood_large"
+	initial_flooring = /decl/flooring/wood/large
+
 /turf/simulated/floor/wood/mahogany
 	color = WOOD_COLOR_RICH
 	initial_flooring = /decl/flooring/wood/mahogany
+
+/turf/simulated/floor/wood/mahogany/parquet
+	icon_state = "wood_parquet"
+	initial_flooring = /decl/flooring/wood/mahogany/parquet
+
+/turf/simulated/floor/wood/mahogany/tile
+	icon_state = "wood_tile"
+	initial_flooring = /decl/flooring/wood/mahogany/tile
+
+/turf/simulated/floor/wood/mahogany/large
+	icon_state = "wood_large"
+	initial_flooring = /decl/flooring/wood/mahogany/large
 
 /turf/simulated/floor/wood/maple
 	color = WOOD_COLOR_PALE
 	initial_flooring = /decl/flooring/wood/maple
 
+/turf/simulated/floor/wood/maple/parquet
+	icon_state = "wood_parquet"
+	initial_flooring = /decl/flooring/wood/maple/parquet
+
+/turf/simulated/floor/wood/maple/tile
+	icon_state = "wood_tile"
+	initial_flooring = /decl/flooring/wood/maple/tile
+
+/turf/simulated/floor/wood/maple/large
+	icon_state = "wood_large"
+	initial_flooring = /decl/flooring/wood/maple/large
+
 /turf/simulated/floor/wood/ebony
 	color = WOOD_COLOR_BLACK
 	initial_flooring = /decl/flooring/wood/ebony
+
+/turf/simulated/floor/wood/ebony/parquet
+	icon_state = "wood_parquet"
+	initial_flooring = /decl/flooring/wood/ebony/parquet
+
+/turf/simulated/floor/wood/ebony/tile
+	icon_state = "wood_tile"
+	initial_flooring = /decl/flooring/wood/ebony/tile
+
+/turf/simulated/floor/wood/ebony/large
+	icon_state = "wood_large"
+	initial_flooring = /decl/flooring/wood/ebony/large
 
 /turf/simulated/floor/wood/walnut
 	color = WOOD_COLOR_CHOCOLATE
 	initial_flooring = /decl/flooring/wood/walnut
 
+/turf/simulated/floor/wood/walnut/parquet
+	icon_state = "wood_parquet"
+	initial_flooring = /decl/flooring/wood/walnut/parquet
+
+/turf/simulated/floor/wood/walnut/tile
+	icon_state = "wood_tile"
+	initial_flooring = /decl/flooring/wood/walnut/tile
+
+/turf/simulated/floor/wood/walnut/large
+	icon_state = "wood_large"
+	initial_flooring = /decl/flooring/wood/walnut/large
+
 /turf/simulated/floor/wood/bamboo
 	color = WOOD_COLOR_PALE2
 	initial_flooring = /decl/flooring/wood/bamboo
 
+/turf/simulated/floor/wood/bamboo/parquet
+	icon_state = "wood_parquet"
+	initial_flooring = /decl/flooring/wood/bamboo/parquet
+
+/turf/simulated/floor/wood/bamboo/tile
+	icon_state = "wood_tile"
+	initial_flooring = /decl/flooring/wood/bamboo/tile
+
+/turf/simulated/floor/wood/bamboo/large
+	icon_state = "wood_large"
+	initial_flooring = /decl/flooring/wood/bamboo/large
+
 /turf/simulated/floor/wood/yew
 	color = WOOD_COLOR_YELLOW
 	initial_flooring = /decl/flooring/wood/yew
+
+/turf/simulated/floor/wood/yew/parquet
+	icon_state = "wood_parquet"
+	initial_flooring = /decl/flooring/wood/yew/parquet
+
+/turf/simulated/floor/wood/yew/tile
+	icon_state = "wood_tile"
+	initial_flooring = /decl/flooring/wood/yew/tile
+
+/turf/simulated/floor/wood/yew/large
+	icon_state = "wood_large"
+	initial_flooring = /decl/flooring/wood/yew/large
 
 /turf/simulated/floor/grass
 	name = "grass patch"
@@ -88,17 +172,17 @@
 	initial_flooring = /decl/flooring/carpet/brown
 
 /turf/simulated/floor/carpet/blue
-	name = "blue carpet"
+	name = "royal blue carpet"
 	icon_state = "blue1"
 	initial_flooring = /decl/flooring/carpet/blue
 
 /turf/simulated/floor/carpet/blue2
-	name = "pale blue carpet"
+	name = "blue carpet"
 	icon_state = "blue2"
 	initial_flooring = /decl/flooring/carpet/blue2
 
 /turf/simulated/floor/carpet/blue3
-	name = "sea blue carpet"
+	name = "cyan carpet"
 	icon_state = "blue3"
 	initial_flooring = /decl/flooring/carpet/blue3
 
@@ -126,6 +210,16 @@
 	name = "red carpet"
 	icon_state = "red"
 	initial_flooring = /decl/flooring/carpet/red
+
+/turf/simulated/floor/carpet/black1
+	name = "black carpet"
+	icon_state = "black1"
+	initial_flooring = /decl/flooring/carpet/black1
+
+/turf/simulated/floor/carpet/black2
+	name = "royal black carpet"
+	icon_state = "black2"
+	initial_flooring = /decl/flooring/carpet/black2
 
 /turf/simulated/floor/reinforced
 	name = "reinforced floor"
@@ -239,6 +333,8 @@
 	icon_state = "dark_corner"
 	initial_flooring = /decl/flooring/tiling/corner/dark
 
+// SPLIT
+
 /turf/simulated/floor/tiled/horizontal
 	name = "floor"
 	icon_state = "steel_horizontal"
@@ -269,6 +365,8 @@
 	icon_state = "dark_vertical"
 	initial_flooring = /decl/flooring/tiling/vertical/dark
 
+// SMALL
+
 /turf/simulated/floor/tiled/small
 	name = "floor"
 	icon_state = "steel_small"
@@ -284,6 +382,8 @@
 	icon_state = "dark_small"
 	initial_flooring = /decl/flooring/tiling/small/dark
 
+// HALFSPLIT
+
 /turf/simulated/floor/tiled/halfsplit
 	name = "floor"
 	icon_state = "steel_splitside"
@@ -298,6 +398,8 @@
 	name = "floor"
 	icon_state = "dark_splitside"
 	initial_flooring = /decl/flooring/tiling/halfsplit/dark
+
+// HERRINGBONE
 
 /turf/simulated/floor/tiled/herringbone
 	name = "floor"
@@ -321,25 +423,20 @@
 	icon_state = "monotile"
 	initial_flooring = /decl/flooring/tiling/mono
 
-/turf/simulated/floor/tiled/dark/monotile
-	name = "floor"
-	icon_state = "monotiledark"
-	initial_flooring = /decl/flooring/tiling/mono/dark
-
 /turf/simulated/floor/tiled/white/monotile
 	name = "floor"
 	icon_state = "monotilewhite"
 	initial_flooring = /decl/flooring/tiling/mono/white
 
-/turf/simulated/floor/tiled/monofloor
+/turf/simulated/floor/tiled/dark/monotile
 	name = "floor"
-	icon_state = "monotile"
-	initial_flooring = /decl/flooring/tiling/mono
+	icon_state = "monotiledark"
+	initial_flooring = /decl/flooring/tiling/mono/dark
 
-/turf/simulated/floor/tiled/monofloor2
+/turf/simulated/floor/tiled/dark/monotile/textured
 	name = "floor"
-	icon_state = "monotile"
-	initial_flooring = /decl/flooring/tiling/new_tile/monofloor
+	icon_state = "texturedmonotiledark"
+	initial_flooring = /decl/flooring/tiling/mono/dark/textured
 
 // DESIGNED
 

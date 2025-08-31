@@ -84,7 +84,7 @@
 	areaName = "Medbay"
 	areaType = list(/area/site53/medical)
 	areaNotType = list(
-		/area/site53/medical/mentalhealth/isolation,
+		/area/site53/medical/equip_storage,
 	)
 
 /datum/prisonbreakarea/research

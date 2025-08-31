@@ -64,21 +64,9 @@
 /datum/fabricator_recipe/greenpen
 	path = /obj/item/pen/green
 
-/datum/fabricator_recipe/clipboard_steel
-	name = "clipboard, steel"
+/datum/fabricator_recipe/clipboard
+	name = "clipboard"
 	path = /obj/item/material/clipboard/steel
-
-/datum/fabricator_recipe/clipboard_alum
-	name = "clipboard, aluminium"
-	path = /obj/item/material/clipboard/aluminium
-
-/datum/fabricator_recipe/clipboard_glass
-	name = "clipboard, glass"
-	path = /obj/item/material/clipboard/glass
-
-/datum/fabricator_recipe/clipboard_alum
-	name = "clipboard, plastic"
-	path = /obj/item/material/clipboard/plastic
 
 /datum/fabricator_recipe/destTagger
 	path = /obj/item/device/destTagger

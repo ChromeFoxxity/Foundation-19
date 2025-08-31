@@ -200,8 +200,17 @@
 	plane = MOB_PLANE
 	layer = ABOVE_HUMAN_LAYER
 
-/obj/machinery/light/bigfloorlamp/flickering
-	flickering = 1
+/obj/machinery/light/directional/north
+	dir = 1
+
+/obj/machinery/light/directional/south
+	dir = 2
+
+/obj/machinery/light/directional/west
+	dir = 8
+
+/obj/machinery/light/directional/east
+	dir = 4
 
 // the smaller bulb light fixture
 /obj/machinery/light/small
@@ -210,6 +219,18 @@
 	desc = "A small lighting fixture."
 	light_type = /obj/item/light/bulb
 	construct_type = /obj/machinery/light_construct/small
+
+/obj/machinery/light/small/directional/north
+	dir = 1
+
+/obj/machinery/light/small/directional/south
+	dir = 2
+
+/obj/machinery/light/small/directional/west
+	dir = 8
+
+/obj/machinery/light/small/directional/east
+	dir = 4
 
 /obj/machinery/light/small/emergency
 	light_type = /obj/item/light/bulb/red

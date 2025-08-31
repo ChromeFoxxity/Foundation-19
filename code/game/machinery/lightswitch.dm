@@ -87,3 +87,18 @@
 		return
 	power_change()
 	..(severity)
+
+/obj/machinery/light_switch/directional/north
+	pixel_y = 24
+
+/obj/machinery/light_switch/directional/south
+	dir = 1
+	pixel_y = -24
+
+/obj/machinery/light_switch/directional/west
+	dir = 4
+	pixel_x = -24
+
+/obj/machinery/light_switch/directional/east
+	dir = 8
+	pixel_x = 24

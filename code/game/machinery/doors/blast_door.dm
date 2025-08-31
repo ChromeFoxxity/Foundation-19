@@ -256,6 +256,21 @@
 	else
 		icon_state = "blastctrl"
 
+/obj/machinery/button/blast_door/directional/north
+	pixel_y = 24
+
+/obj/machinery/button/blast_door/directional/south
+	dir = 1
+	pixel_y = -24
+
+/obj/machinery/button/blast_door/directional/west
+	dir = 4
+	pixel_x = -24
+
+/obj/machinery/button/blast_door/directional/east
+	dir = 8
+	pixel_x = 24
+
 // SUBTYPE: Regular
 // Your classical blast door, found almost everywhere.
 /obj/machinery/door/blast/regular

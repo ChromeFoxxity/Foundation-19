@@ -847,14 +847,14 @@
 	},
 /area/map_template/syndicate_mothership/raider_base)
 "bV" = (
-/obj/item/stool/padded,
+/obj/item/stool,
 /turf/unsimulated/floor{
 	icon_state = "wood"
 	},
 /area/map_template/syndicate_mothership/raider_base)
 "bW" = (
 /obj/effect/decal/cleanable/generic,
-/obj/item/stool/padded,
+/obj/item/stool,
 /turf/unsimulated/floor{
 	icon_state = "wood"
 	},
@@ -950,7 +950,7 @@
 	},
 /area/map_template/syndicate_mothership/raider_base)
 "ci" = (
-/obj/item/stool/padded,
+/obj/item/stool,
 /turf/unsimulated/floor{
 	icon = 'icons/turf/flooring/wood.dmi';
 	icon_state = "wood_broken1"

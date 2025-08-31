@@ -267,3 +267,15 @@
 #undef FONT_COLOR
 #undef FONT_STYLE
 #undef SCROLL_SPEED
+
+/obj/machinery/status_display/directional/north
+	pixel_y = 32
+
+/obj/machinery/status_display/directional/south
+	pixel_y = -32
+
+/obj/machinery/status_display/directional/west
+	pixel_x = -32
+
+/obj/machinery/status_display/directional/east
+	pixel_x = 32

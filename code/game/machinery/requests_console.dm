@@ -247,3 +247,26 @@ var/list/obj/machinery/requests_console/allConsoles = list()
 
 /obj/machinery/requests_console/command
 	announcementConsole = 1
+
+/obj/machinery/requests_console/directional/north
+	pixel_y = 32
+
+/obj/machinery/requests_console/directional/south
+	pixel_y = -32
+
+/obj/machinery/requests_console/directional/west
+	pixel_x = -32
+
+/obj/machinery/requests_console/directional/east
+	pixel_x = 32
+
+/obj/machinery/requests_console/command/directional/north
+	pixel_y = 32
+/obj/machinery/requests_console/command/directional/south
+	pixel_y = -32
+
+/obj/machinery/requests_console/command/directional/west
+	pixel_x = -32
+
+/obj/machinery/requests_console/command/directional/east
+	pixel_x = 32

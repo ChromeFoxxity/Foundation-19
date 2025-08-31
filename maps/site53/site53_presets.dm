@@ -1,7 +1,6 @@
 #define NETWORK_ENGINE "Engineering Network"
-#define NETWORK_ENTRANCE "Entrance Zone Network"
+#define NETWORK_EZ "Entrance Zone Network"
 #define NETWORK_LCZ "Light Containment Zone Network"
-#define NETWORK_LLCZ "Lower Light Containment Zone Network"
 #define NETWORK_HCZ "Heavy Containment Zone Network"
 #define NETWORK_513 "SCP-513 CCTV Network"
 #define NETWORK_049 "SCP-049 CCTV Network"
@@ -11,16 +10,13 @@
 #define NETWORK_035 "SCP-035 CCTV Network"
 #define NETWORK_343 "SCP-343 CCTV Network"
 #define NETWORK_895 "SCP-895 CCTV Network (CAUTION!)"
-#define NETWORK_RESWING "Research CCTV Network"
 /datum/map/site53/get_network_access(network)
 	switch(network)
 		if(NETWORK_ENGINE)
 			return ACCESS_SECURITY_LVL1
-		if(NETWORK_ENTRANCE)
+		if(NETWORK_EZ)
 			return ACCESS_SECURITY_LVL1
 		if(NETWORK_LCZ)
-			return ACCESS_SECURITY_LVL1
-		if(NETWORK_LLCZ)
 			return ACCESS_SECURITY_LVL1
 		if(NETWORK_HCZ)
 			return ACCESS_SECURITY_LVL1
@@ -40,18 +36,14 @@
 			return ACCESS_SCIENCE_LVL1
 		if(NETWORK_895)
 			return ACCESS_SCIENCE_LVL3
-		if(NETWORK_RESWING)
-			return ACCESS_SCIENCE_LVL1
 	return get_shared_network_access(network) || ..()
 
 /datum/map/site53
 	// Networks that will show up as options in the camera monitor program
 	station_networks = list(
 		NETWORK_ENGINE,
-		NETWORK_ENTRANCE,
-		NETWORK_RESWING,
+		NETWORK_EZ,
 		NETWORK_LCZ,
-		NETWORK_LLCZ,
 		NETWORK_HCZ,
 		NETWORK_513,
 		NETWORK_049,
@@ -92,23 +84,17 @@
 /obj/machinery/camera/network/engine
 	network = list(NETWORK_ENGINE)
 
-/obj/machinery/camera/network/entrance
-	network = list(NETWORK_ENTRANCE)
+/obj/machinery/camera/network/ez
+	network = list(NETWORK_EZ)
 
 /obj/machinery/camera/network/lcz
 	network = list(NETWORK_LCZ)
-
-/obj/machinery/camera/network/llcz
-	network = list(NETWORK_LLCZ)
 
 /obj/machinery/camera/network/hcz
 	network = list(NETWORK_HCZ)
 
 /obj/machinery/camera/network/scp895
 	network = list(NETWORK_895)
-
-/obj/machinery/camera/network/reswing
-	network = list(NETWORK_RESWING)
 
 // Substation SMES
 /obj/machinery/power/smes/buildable/preset/ds90/substation/configure_and_install_coils()

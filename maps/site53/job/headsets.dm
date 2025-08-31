@@ -31,34 +31,6 @@
 	item_state = "headset"
 	ks2type = /obj/item/device/encryptionkey/headset_sec_hcz
 
-/obj/item/device/radio/headset/headset_sec_lcz
-	name = "LCZ security radio headset"
-	desc = "This is used by your elite security force."
-	icon_state = "lcz_headset"
-	item_state = "headset"
-	ks2type = /obj/item/device/encryptionkey/headset_sec_lcz
-
-/obj/item/device/radio/headset/headset_sec_lcz/medic
-	name = "LCZ combat medic security radio headset"
-	desc = "This is used by your elite security force."
-	icon_state = "lcz_med_headset"
-	item_state = "headset"
-	ks2type = /obj/item/device/encryptionkey/headset_sec_lcz/medic
-
-/obj/item/device/radio/headset/headset_sec_lcz/recontain
-	name = "LCZ recontainment unit security radio headset"
-	desc = "This is used by your elite security force."
-	icon_state = "lcz_recont_headset_alt"
-	item_state = "pilot_headset_alt"
-	ks2type = /obj/item/device/encryptionkey/headset_sec_lcz/recontain
-
-/obj/item/device/radio/headset/headset_sec_lcz/commander
-	name = "LCZ Lieutenant security radio headset"
-	desc = "This is used by your elite security force."
-	icon_state = "lcz_headset_alt"
-	item_state = "headset"
-	ks2type = /obj/item/device/encryptionkey/headset_sec_lcz/command
-
 /obj/item/device/radio/headset/headset_sec_ecz
 	name = "EZ security radio headset"
 	desc = "This is used by your elite security force."
@@ -70,26 +42,6 @@
 	name = "HCZ security radio encryption key"
 	icon_state = "sec_cypherkey"
 	channels = list("HCZ-Security" = 1, "Security" = 1)
-
-/obj/item/device/encryptionkey/headset_sec_lcz
-	name = "LCZ security radio encryption key"
-	icon_state = "sec_cypherkey"
-	channels = list("LCZ-Security" = 1, "Security" = 1)
-
-/obj/item/device/encryptionkey/headset_sec_lcz/medic
-	name = "LCZ combat medic security radio encryption key"
-	icon_state = "sec_cypherkey"
-	channels = list("LCZ-Security" = 1, "Security" = 1, "Medical" = 1)
-
-/obj/item/device/encryptionkey/headset_sec_lcz/recontain
-	name = "LCZ recontainment unit security radio encryption key"
-	icon_state = "sec_cypherkey"
-	channels = list("LCZ-Security" = 1, "Security" = 1, "HCZ-Security" = 1)
-
-/obj/item/device/encryptionkey/headset_sec_lcz/command
-	name = "LCZ security command radio encryption key"
-	icon_state = "sec_cypherkey"
-	channels = list("Security" = 1, "Command" = 1, "Hailing" = 1, "HCZ-Security" = 1, "LCZ-Security" =1, "ECZ-Security" = 1)
 
 /obj/item/device/encryptionkey/headset_sec_ecz
 	name = "ECZ security radio encryption key"
@@ -123,3 +75,57 @@
 /obj/item/device/radio/headset/heads/grcl
 	name = "Goldbaker-Reinz Corporate Liaison's headset"
 	desc = "The headset of the humanitarian, or so they might say."
+
+//##
+//SECURITY HEADSETS
+//##
+
+/obj/item/device/radio/headset/scp/security
+	name = "security radio headset"
+	desc = "This is used by the SCP Foundation site security force."
+	icon_state = "sec_headset"
+	item_state = "headset"
+	ks2type = /obj/item/device/encryptionkey/security
+
+/obj/item/device/radio/headset/scp/security/alt
+	name = "security bowman headset"
+	icon_state = "sec_headset_alt"
+
+/obj/item/device/radio/headset/scp/security/medic
+	name = "security medic radio headset"
+	desc = "This is used by the SCP Foundation site security force's medical personnel."
+	icon_state = "sec_med_headset"
+	ks2type = /obj/item/device/encryptionkey/security/medic
+
+/obj/item/device/radio/headset/scp/security/medic/alt
+	name = "security medic bowman headset"
+	icon_state = "sec_med_headset_alt"
+
+/obj/item/device/radio/headset/scp/security/command
+	name = "security command radio headset"
+	desc = "This is used by the SCP Foundation site security force's command personnel."
+	icon_state = "sec_cap_headset"
+	ks2type = /obj/item/device/encryptionkey/security/command
+
+/obj/item/device/radio/headset/scp/security/command/alt
+	name = "security command bowman headset"
+	icon_state = "sec_cap_headset_alt"
+
+//##
+//SECURITY ENCRYPTION KEYS
+//##
+
+/obj/item/device/encryptionkey/security
+	name = "security radio encryption key"
+	icon_state = "sec_cypherkey"
+	channels = list("Security" = 1)
+
+/obj/item/device/encryptionkey/security/medic
+	name = "security medic radio encryption key"
+	icon_state = "sec_med_cypherkey"
+	channels = list("Security" = 1, "Medical" = 1)
+
+/obj/item/device/encryptionkey/security/command
+	name = "security command radio encryption key"
+	icon_state = "sec_cap_cypherkey"
+	channels = list("Security" = 1, "Command" = 1, "Hailing" = 1)

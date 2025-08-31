@@ -15,9 +15,6 @@ var/global/list/stool_cache = list() //haha stool
 	var/material/material
 	var/material/padding_material
 
-/obj/item/stool/padded
-	icon_state = "stool_padded_preview" //set for the map
-
 /obj/item/stool/New(newloc, new_material = DEFAULT_FURNITURE_MATERIAL, new_padding_material)
 	..(newloc)
 	material = SSmaterials.get_material_by_name(new_material)
@@ -29,7 +26,7 @@ var/global/list/stool_cache = list() //haha stool
 	force = round(material.get_blunt_damage()*0.4)
 	update_icon()
 
-/obj/item/stool/padded/New(newloc, new_material = DEFAULT_FURNITURE_MATERIAL)
+/obj/item/stool/New(newloc, new_material = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, new_material, MATERIAL_CARPET)
 
 /obj/item/stool/bar
@@ -38,10 +35,7 @@ var/global/list/stool_cache = list() //haha stool
 	item_state = "bar_stool"
 	base_icon = "bar_stool"
 
-/obj/item/stool/bar/padded
-	icon_state = "bar_stool_padded_preview"
-
-/obj/item/stool/bar/padded/New(newloc, new_material = DEFAULT_FURNITURE_MATERIAL)
+/obj/item/stool/bar/New(newloc, new_material = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, new_material, MATERIAL_CARPET)
 
 /obj/item/stool/on_update_icon()

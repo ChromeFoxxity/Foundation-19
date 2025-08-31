@@ -43,6 +43,22 @@
 	if (use_common)
 		internal_channels += list(num2text(PUB_FREQ) = list())
 
+/obj/item/device/radio/intercom/directional/north
+	dir = 2
+	pixel_y = 22
+
+/obj/item/device/radio/intercom/directional/south
+	dir = 1
+	pixel_y = -29
+
+/obj/item/device/radio/intercom/directional/east
+	dir = 8
+	pixel_x = 22
+
+/obj/item/device/radio/intercom/directional/west
+	dir = 4
+	pixel_x = -22
+
 /obj/item/device/radio/intercom/custom
 	name = "intercom (Custom)"
 	broadcasting = 0

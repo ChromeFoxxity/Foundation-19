@@ -166,3 +166,21 @@
 	// Description suffix
 	var/desc=""
 	var/icon_state=""
+
+/obj/structure/sign/poster/scp
+	icon = 'icons/obj/posters.dmi'
+
+/obj/structure/sign/poster/scp/enlist
+	name = "Security Enlist Poster"
+	desc = "Enlist for the Security Department today! Contact your local Security Captain for a chance to a new career!"
+	icon_state = "enlist"
+
+/obj/structure/sign/poster/scp/ungoc
+	name = "UNGOC Promotion Poster"
+	desc = "Apply to the United Nation's Global Occult Coalition! Help defend humanity by the destruction of the anomalous."
+	icon_state = "ungoc"
+
+/obj/structure/sign/poster/scp/uiu
+	name = "UIU Promotion Poster"
+	desc = "The Unusual Incidents Unit is looking for professionals, join the government in their valiant efforts to help protect the american civilian from the anomalous today!"
+	icon_state = "uiu"

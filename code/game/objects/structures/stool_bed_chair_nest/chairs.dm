@@ -38,45 +38,48 @@
 
 /obj/structure/bed/chair/on_update_icon()
 	..()
-
-	var/cache_key = "[base_icon]-[material.name]-over"
-	if(isnull(stool_cache[cache_key]))
-		var/image/I = image('icons/obj/furniture.dmi', "[base_icon]_over")
-		if(material_alteration & MATERIAL_ALTERATION_COLOR)
-			I.color = material.icon_colour
-		I.layer = ABOVE_HUMAN_LAYER
-		stool_cache[cache_key] = I
-	add_overlay(stool_cache[cache_key])
-	// Padding overlay.
-	if(padding_material)
-		var/padding_cache_key = "[base_icon]-padding-[padding_material.name]-over"
-		if(isnull(stool_cache[padding_cache_key]))
-			var/image/I =  image(icon, "[base_icon]_padding_over")
-			if(material_alteration & MATERIAL_ALTERATION_COLOR)
-				I.color = padding_material.icon_colour
-			I.layer = ABOVE_HUMAN_LAYER
-			stool_cache[padding_cache_key] = I
-		add_overlay(stool_cache[padding_cache_key])
-
 	if(buckled_mob)
-		if(padding_material)
-			cache_key = "[base_icon]-armrest-[padding_material.name]"
+		var/cache_key = "[base_icon]-[material.name]-over"
 		if(isnull(stool_cache[cache_key]))
-			var/image/I = image(icon, "[base_icon]_armrest")
-			I.layer = ABOVE_HUMAN_LAYER
+			var/image/I = image('icons/obj/furniture.dmi', "[base_icon]_over")
 			if(material_alteration & MATERIAL_ALTERATION_COLOR)
 				I.color = material.icon_colour
+			I.layer = ABOVE_HUMAN_LAYER
+			I.plane = MOB_PLANE
 			stool_cache[cache_key] = I
 		add_overlay(stool_cache[cache_key])
 		if(padding_material)
-			cache_key = "[base_icon]-padding-armrest-[padding_material.name]"
-			if(isnull(stool_cache[cache_key]))
-				var/image/I = image(icon, "[base_icon]_padding_armrest")
-				I.layer = ABOVE_HUMAN_LAYER
+			var/padding_cache_key = "[base_icon]-padding-[padding_material.name]-over"
+			if(isnull(stool_cache[padding_cache_key]))
+				var/image/I =  image(icon, "[base_icon]_padding_over")
 				if(material_alteration & MATERIAL_ALTERATION_COLOR)
 					I.color = padding_material.icon_colour
+				I.layer = ABOVE_HUMAN_LAYER
+				I.plane = MOB_PLANE
+				stool_cache[padding_cache_key] = I
+			add_overlay(stool_cache[padding_cache_key])
+
+		if(buckled_mob)
+			if(padding_material)
+				cache_key = "[base_icon]-armrest-[padding_material.name]"
+			if(isnull(stool_cache[cache_key]))
+				var/image/I = image(icon, "[base_icon]_armrest")
+				I.layer = ABOVE_HUMAN_LAYER
+				I.plane = MOB_PLANE
+				if(material_alteration & MATERIAL_ALTERATION_COLOR)
+					I.color = material.icon_colour
 				stool_cache[cache_key] = I
 			add_overlay(stool_cache[cache_key])
+			if(padding_material)
+				cache_key = "[base_icon]-padding-armrest-[padding_material.name]"
+				if(isnull(stool_cache[cache_key]))
+					var/image/I = image(icon, "[base_icon]_padding_armrest")
+					I.layer = ABOVE_HUMAN_LAYER
+					I.plane = MOB_PLANE
+					if(material_alteration & MATERIAL_ALTERATION_COLOR)
+						I.color = padding_material.icon_colour
+					stool_cache[cache_key] = I
+				add_overlay(stool_cache[cache_key])
 
 /obj/structure/bed/chair/rotate(mob/user)
 	if(!CanPhysicallyInteract(user))
@@ -155,21 +158,6 @@
 
 /obj/structure/bed/chair/comfy/yellow/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
 	..(newloc, newmaterial, "yellow")
-
-/obj/structure/bed/chair/comfy/captain
-	name = "captain chair"
-	desc = "It's a chair. Only for the highest ranked asses."
-	icon_state = "capchair_preview"
-	base_icon = "capchair"
-
-/obj/structure/bed/chair/comfy/captain/on_update_icon()
-	..()
-	var/image/I = image(icon, "[base_icon]_special")
-	I.layer = ABOVE_HUMAN_LAYER
-	add_overlay(I)
-
-/obj/structure/bed/chair/comfy/captain/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
-	..(newloc,MATERIAL_STEEL,"blue")
 
 /obj/structure/bed/chair/armchair
 	name = "armchair"
@@ -404,3 +392,65 @@
 /obj/structure/bed/chair/pew/left/mahogany
 	color = WOOD_COLOR_RICH
 	pew_material = MATERIAL_MAHOGANY
+
+/obj/structure/bed/chair/sofa
+	name = "old ratty sofa"
+	buckle_movable = FALSE
+
+/obj/structure/bed/chair/sofa/middle
+	icon_state = "sofamiddle_preview"
+	base_icon = "sofamiddle"
+
+/obj/structure/bed/chair/sofa/middle/brown/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+	..(newloc, newmaterial, MATERIAL_LEATHER_GENERIC)
+
+/obj/structure/bed/chair/sofa/middle/black/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+	..(newloc, newmaterial, "black")
+
+/obj/structure/bed/chair/sofa/left
+	icon_state = "sofaend_left_preview"
+	base_icon = "sofaend_left"
+
+/obj/structure/bed/chair/sofa/left/brown/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+	..(newloc, newmaterial, MATERIAL_LEATHER_GENERIC)
+
+/obj/structure/bed/chair/sofa/left/black/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+	..(newloc, newmaterial, "black")
+
+/obj/structure/bed/chair/sofa/right
+	icon_state = "sofaend_right_preview"
+	base_icon = "sofaend_right"
+
+/obj/structure/bed/chair/sofa/right/brown/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+	..(newloc, newmaterial, MATERIAL_LEATHER_GENERIC)
+
+/obj/structure/bed/chair/sofa/right/black/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+	..(newloc, newmaterial, "black")
+
+/obj/structure/bed/chair/sofa/corner
+	icon_state = "sofacorner_preview"
+	base_icon = "sofacorner"
+
+/obj/structure/bed/chair/sofa/corner/brown/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+	..(newloc, newmaterial, MATERIAL_LEATHER_GENERIC)
+
+/obj/structure/bed/chair/sofa/corner/black/New(newloc, newmaterial = DEFAULT_FURNITURE_MATERIAL)
+	..(newloc, newmaterial, "black")
+
+/obj/structure/bed/chair/sofa/corp
+	name = "sofa"
+	desc = "Soft and cushy."
+	icon_state = "corp_sofamiddle_preview"
+	base_icon = "corp_sofamiddle"
+
+/obj/structure/bed/chair/sofa/corp/left
+	icon_state = "corp_sofaend_left_preview"
+	base_icon = "corp_sofaend_left"
+
+/obj/structure/bed/chair/sofa/corp/right
+	icon_state = "corp_sofaend_right_preview"
+	base_icon = "corp_sofaend_right"
+
+/obj/structure/bed/chair/sofa/corp/corner
+	icon_state = "corp_sofacorner_preview"
+	base_icon = "corp_sofacorner"

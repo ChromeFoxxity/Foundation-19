@@ -105,17 +105,17 @@
 	build_type = /obj/item/stack/tile/carpetbrown
 
 /decl/flooring/carpet/blue
-	name = "blue carpet"
+	name = "royal blue carpet"
 	icon_base = "blue1"
 	build_type = /obj/item/stack/tile/carpetblue
 
 /decl/flooring/carpet/blue2
-	name = "pale blue carpet"
+	name = "blue carpet"
 	icon_base = "blue2"
 	build_type = /obj/item/stack/tile/carpetblue2
 
 /decl/flooring/carpet/blue3
-	name = "sea blue carpet"
+	name = "cyan carpet"
 	icon_base = "blue3"
 	build_type = /obj/item/stack/tile/carpetblue3
 
@@ -144,10 +144,15 @@
 	icon_base = "red"
 	build_type = /obj/item/stack/tile/carpetred
 
-/decl/flooring/carpet/black
+/decl/flooring/carpet/black1
 	name = "black carpet"
-	icon_base = "black"
-	build_type = /obj/item/stack/tile/carpetblack
+	icon_base = "black1"
+	build_type = /obj/item/stack/tile/carpetblack1
+
+/decl/flooring/carpet/black2
+	name = "royal black carpet"
+	icon_base = "black2"
+	build_type = /obj/item/stack/tile/carpetblack2
 
 /decl/flooring/linoleum
 	name = "linoleum"
@@ -224,11 +229,11 @@
 	build_type = /obj/item/stack/tile/halfsplit
 
 /decl/flooring/tiling/halfsplit/white
-	icon_base = "steel_splitside"
+	icon_base = "white_splitside"
 	build_type = /obj/item/stack/tile/halfsplit/white
 
 /decl/flooring/tiling/halfsplit/dark
-	icon_base = "steel_splitside"
+	icon_base = "dark_splitside"
 	build_type = /obj/item/stack/tile/halfsplit/dark
 
 /decl/flooring/tiling/herringbone
@@ -236,32 +241,36 @@
 	build_type = /obj/item/stack/tile/herringbone
 
 /decl/flooring/tiling/herringbone/white
-	icon_base = "steel_herringbone"
+	icon_base = "white_herringbone"
 	build_type = /obj/item/stack/tile/herringbone/white
 
 /decl/flooring/tiling/herringbone/dark
-	icon_base = "steel_herringbone"
+	icon_base = "dark_herringbone"
 	build_type = /obj/item/stack/tile/herringbone/dark
 
 /decl/flooring/tiling/mono
 	icon_base = "monotile"
 	build_type = /obj/item/stack/tile/mono
 
-/decl/flooring/tiling/mono/dark
-	icon_base = "monotiledark"
-	build_type = /obj/item/stack/tile/mono/dark
-
 /decl/flooring/tiling/mono/white
 	icon_base = "monotilewhite"
 	build_type = /obj/item/stack/tile/mono/white
 
+/decl/flooring/tiling/mono/dark
+	icon_base = "monotiledark"
+	build_type = /obj/item/stack/tile/mono/dark
+
+/decl/flooring/tiling/mono/dark/textured
+	icon_base = "texturedmonotiledark"
+	build_type = /obj/item/stack/tile/mono/dark/textured
+
 /decl/flooring/tiling/white
-	icon_base = "tiled_white"
+	icon_base = "white"
 	desc = "How sterile."
 	build_type = /obj/item/stack/tile/floor_white
 
 /decl/flooring/tiling/dark
-	icon_base = "tiled_dark"
+	icon_base = "dark"
 	desc = "How ominous."
 	build_type = /obj/item/stack/tile/floor_dark
 
@@ -333,29 +342,113 @@
 	footstep_type = /decl/footsteps/wood
 	color = WOOD_COLOR_GENERIC
 
+/decl/flooring/wood/parquet
+	icon_base = "wood_parquet"
+	build_type = /obj/item/stack/tile/wood/parquet
+
+/decl/flooring/wood/tile
+	icon_base = "wood_tile"
+	build_type = /obj/item/stack/tile/wood/tile
+
+/decl/flooring/wood/large
+	icon_base = "wood_large"
+	build_type = /obj/item/stack/tile/wood/large
+
 /decl/flooring/wood/mahogany
 	color = WOOD_COLOR_RICH
 	build_type = /obj/item/stack/tile/mahogany
+
+/decl/flooring/wood/mahogany/parquet
+	icon_base = "wood_parquet"
+	build_type = /obj/item/stack/tile/mahogany/parquet
+
+/decl/flooring/wood/mahogany/tile
+	icon_base = "wood_tile"
+	build_type = /obj/item/stack/tile/mahogany/tile
+
+/decl/flooring/wood/mahogany/large
+	icon_base = "wood_large"
+	build_type = /obj/item/stack/tile/mahogany/large
 
 /decl/flooring/wood/maple
 	color = WOOD_COLOR_PALE
 	build_type = /obj/item/stack/tile/maple
 
+/decl/flooring/wood/maple/parquet
+	icon_base = "wood_parquet"
+	build_type = /obj/item/stack/tile/maple/parquet
+
+/decl/flooring/wood/maple/tile
+	icon_base = "wood_tile"
+	build_type = /obj/item/stack/tile/maple/tile
+
+/decl/flooring/wood/maple/large
+	icon_base = "wood_large"
+	build_type = /obj/item/stack/tile/maple/large
+
 /decl/flooring/wood/ebony
 	color = WOOD_COLOR_BLACK
 	build_type = /obj/item/stack/tile/ebony
+
+/decl/flooring/wood/ebony/parquet
+	icon_base = "wood_parquet"
+	build_type = /obj/item/stack/tile/ebony/parquet
+
+/decl/flooring/wood/ebony/tile
+	icon_base = "wood_tile"
+	build_type = /obj/item/stack/tile/ebony/tile
+
+/decl/flooring/wood/ebony/large
+	icon_base = "wood_large"
+	build_type = /obj/item/stack/tile/ebony/large
 
 /decl/flooring/wood/walnut
 	color = WOOD_COLOR_CHOCOLATE
 	build_type = /obj/item/stack/tile/walnut
 
+/decl/flooring/wood/walnut/parquet
+	icon_base = "wood_parquet"
+	build_type = /obj/item/stack/tile/walnut/parquet
+
+/decl/flooring/wood/walnut/tile
+	icon_base = "wood_tile"
+	build_type = /obj/item/stack/tile/walnut/tile
+
+/decl/flooring/wood/walnut/large
+	icon_base = "wood_large"
+	build_type = /obj/item/stack/tile/walnut/large
+
 /decl/flooring/wood/bamboo
 	color = WOOD_COLOR_PALE2
 	build_type = /obj/item/stack/tile/bamboo
 
+/decl/flooring/wood/bamboo/parquet
+	icon_base = "wood_parquet"
+	build_type = /obj/item/stack/tile/bamboo/parquet
+
+/decl/flooring/wood/bamboo/tile
+	icon_base = "wood_tile"
+	build_type = /obj/item/stack/tile/bamboo/tile
+
+/decl/flooring/wood/bamboo/large
+	icon_base = "wood_large"
+	build_type = /obj/item/stack/tile/bamboo/large
+
 /decl/flooring/wood/yew
 	color = WOOD_COLOR_YELLOW
 	build_type = /obj/item/stack/tile/yew
+
+/decl/flooring/wood/yew/parquet
+	icon_base = "wood_parquet"
+	build_type = /obj/item/stack/tile/yew/parquet
+
+/decl/flooring/wood/yew/tile
+	icon_base = "wood_tile"
+	build_type = /obj/item/stack/tile/yew/tile
+
+/decl/flooring/wood/yew/large
+	icon_base = "wood_large"
+	build_type = /obj/item/stack/tile/yew/large
 
 /decl/flooring/reinforced
 	name = "reinforced floor"

@@ -44,6 +44,12 @@
 	color = WOOD_COLOR_GENERIC
 	matter = list(MATERIAL_WOOD = 450)
 
+/obj/item/stack/tile/wood/parquet
+
+/obj/item/stack/tile/wood/tile
+
+/obj/item/stack/tile/wood/large
+
 /obj/item/stack/tile/wood/cyborg
 	name = "wood floor tile synthesizer"
 	desc = "A device that makes wood floor tiles."
@@ -60,6 +66,12 @@
 	color = WOOD_COLOR_RICH
 	matter = list(MATERIAL_WOOD = 450)
 
+/obj/item/stack/tile/mahogany/parquet
+
+/obj/item/stack/tile/mahogany/tile
+
+/obj/item/stack/tile/mahogany/large
+
 /obj/item/stack/tile/maple
 	name = "maple floor tile"
 	singular_name = "maple floor tile"
@@ -67,6 +79,12 @@
 	icon_state = "tile-wood"
 	color = WOOD_COLOR_PALE
 	matter = list(MATERIAL_WOOD = 450)
+
+/obj/item/stack/tile/maple/parquet
+
+/obj/item/stack/tile/maple/tile
+
+/obj/item/stack/tile/maple/large
 
 /obj/item/stack/tile/ebony
 	name = "ebony floor tile"
@@ -76,6 +94,12 @@
 	color = WOOD_COLOR_BLACK
 	matter = list(MATERIAL_WOOD = 450)
 
+/obj/item/stack/tile/ebony/parquet
+
+/obj/item/stack/tile/ebony/tile
+
+/obj/item/stack/tile/ebony/large
+
 /obj/item/stack/tile/walnut
 	name = "walnut floor tile"
 	singular_name = "walnut floor tile"
@@ -83,6 +107,12 @@
 	icon_state = "tile-wood"
 	color = WOOD_COLOR_CHOCOLATE
 	matter = list(MATERIAL_WOOD = 450)
+
+/obj/item/stack/tile/walnut/parquet
+
+/obj/item/stack/tile/walnut/tile
+
+/obj/item/stack/tile/walnut/large
 
 /obj/item/stack/tile/bamboo
 	name = "bamboo floor tile"
@@ -92,6 +122,12 @@
 	color = WOOD_COLOR_PALE2
 	matter = list(MATERIAL_WOOD = 450)
 
+/obj/item/stack/tile/bamboo/parquet
+
+/obj/item/stack/tile/bamboo/tile
+
+/obj/item/stack/tile/bamboo/large
+
 /obj/item/stack/tile/yew
 	name = "yew floor tile"
 	singular_name = "yew floor tile"
@@ -99,6 +135,12 @@
 	icon_state = "tile-wood"
 	color = WOOD_COLOR_YELLOW
 	matter = list(MATERIAL_WOOD = 450)
+
+/obj/item/stack/tile/yew/parquet
+
+/obj/item/stack/tile/yew/tile
+
+/obj/item/stack/tile/yew/large
 
 /obj/item/stack/tile/floor
 	name = "steel floor tile"
@@ -250,6 +292,10 @@
 	matter = list(MATERIAL_STEEL = 450)
 	obj_flags = OBJ_FLAG_CONDUCTIBLE
 
+/obj/item/stack/tile/mono/dark/textured
+	name = "dark textured mono tile"
+	singular_name = "dark textured mono tile"
+
 /obj/item/stack/tile/mono/white
 	name = "white mono tile"
 	singular_name = "white mono tile"
@@ -363,27 +409,27 @@
 	amount = 50
 
 /obj/item/stack/tile/carpetblue
-	name = "blue carpet"
+	name = "royal blue carpet"
 	desc = "A piece of blue and gold carpet."
-	singular_name = "blue carpet"
+	singular_name = "royal blue carpet"
 	icon_state = "tile_carpetblue"
 
 /obj/item/stack/tile/carpetblue/fifty
 	amount = 50
 
 /obj/item/stack/tile/carpetblue2
-	name = "pale blue carpet"
+	name = "blue carpet"
 	desc = "A piece of blue and pale blue carpet."
-	singular_name = "pale blue carpet"
+	singular_name = "blue carpet"
 	icon_state = "tile_carpetblue2"
 
 /obj/item/stack/tile/carpetblue2/fifty
 	amount = 50
 
 /obj/item/stack/tile/carpetblue3
-	name = "sea blue carpet"
+	name = "cyan carpet"
 	desc = "A piece of blue and green carpet."
-	singular_name = "sea blue carpet"
+	singular_name = "cyan carpet"
 	icon_state = "tile_carpetblue3"
 
 /obj/item/stack/tile/carpetblue3/fifty
@@ -434,13 +480,22 @@
 /obj/item/stack/tile/carpetred/fifty
 	amount = 50
 
-/obj/item/stack/tile/carpetblack
+/obj/item/stack/tile/carpetblack1
 	name = "black carpet"
 	desc = "A piece of black carpet."
-	singular_name = "red carpet"
-	icon_state = "tile_carpetblack"
+	singular_name = "black carpet"
+	icon_state = "tile_carpetblack1"
 
-/obj/item/stack/tile/carpetblack/fifty
+/obj/item/stack/tile/carpetblack1/fifty
+	amount = 50
+
+/obj/item/stack/tile/carpetblack2
+	name = "royal black carpet"
+	desc = "A piece of royal black carpet."
+	singular_name = "royal black carpet"
+	icon_state = "tile_carpetblack2"
+
+/obj/item/stack/tile/carpetblack2/fifty
 	amount = 50
 
 /obj/item/stack/tile/pool

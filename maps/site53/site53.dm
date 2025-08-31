@@ -10,7 +10,6 @@
 	#include "items/headsets.dm"
 	#include "items/items.dm"
 	#include "items/manuals.dm"
-	#include "items/stamps.dm"
 	#include "items/rigs.dm"
 	#include "items/clothing/solgov-accessory.dm"
 	#include "items/clothing/solgov-armor.dm"

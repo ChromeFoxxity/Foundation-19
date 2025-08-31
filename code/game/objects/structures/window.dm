@@ -745,6 +745,21 @@
 /obj/machinery/button/windowtint/on_update_icon()
 	icon_state = "light[active]"
 
+/obj/machinery/button/windowtint/directional/north
+	pixel_y = 24
+
+/obj/machinery/button/windowtint/directional/south
+	dir = 1
+	pixel_y = -24
+
+/obj/machinery/button/windowtint/directional/west
+	dir = 4
+	pixel_y = -24
+
+/obj/machinery/button/windowtint/directional/east
+	dir = 8
+	pixel_y = 24
+
 //Centcomm windows
 /obj/structure/window/reinforced/crescent/attack_hand()
 	return

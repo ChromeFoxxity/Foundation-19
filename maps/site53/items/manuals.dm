@@ -130,8 +130,6 @@
 
 		"}
 
-/obj/item/folder/nt/rd
-
 /obj/item/paper/reactor
 	name = "Reactor Startup Procedure"
 	info = {"

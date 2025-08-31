@@ -140,16 +140,18 @@ armour attachments
 	desc = "An armor tag with the words FEDERAL BUREAU OF INVESTIGATION printed in gold lettering on it."
 
 /obj/item/clothing/accessory/armor/unobtainable/tag/base/com/guardcomm
-	name = "\improper GUARD COMMANDER tag"
-	desc = "An armor tag with the words GUARD COMMANDER printed in gold lettering on it."
+	name = "\improper CAPTAIN tag"
+	desc = "An armor tag with the words CAPTAIN printed in gold lettering on it."
+	icon_state = "comtag"
 
 /obj/item/clothing/accessory/armor/unobtainable/tag/base/com/zonecomm
-	name = "\improper ZONE COMMANDING OFFICER tag"
-	desc = "An armor tag with the words ZONE COMMAND printed in gold lettering on it."
+	name = "\improper LIEUTENANT tag"
+	desc = "An armor tag with the words LIEUTENANT printed in gold lettering on it."
+	icon_state = "sectag"
 
 /obj/item/clothing/accessory/armor/unobtainable/tag/base/sec
-	name = "\improper GUARD tag"
-	desc = "An armor tag with the word GUARD printed in silver lettering on it."
+	name = "\improper SECURITY tag"
+	desc = "An armor tag with the word SECURITY printed in silver lettering on it."
 	icon_state = "sectag"
 
 /**************

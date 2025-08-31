@@ -15,7 +15,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/scp/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/card/id/security/level2/security_grd
-	l_ear = /obj/item/device/radio/headset/headset_sec_lcz
+	l_ear = /obj/item/device/radio/headset/scp/security/alt
 	belt = /obj/item/storage/belt/holster/security
 	head = /obj/item/clothing/head/helmet/scp/security
 	mask = /obj/item/clothing/mask/balaclava
@@ -30,7 +30,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/scp/security/sergeant
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/card/id/security/level3/security_sgt
-	l_ear = /obj/item/device/radio/headset/headset_sec_lcz
+	l_ear = /obj/item/device/radio/headset/scp/security/alt
 	belt = /obj/item/storage/belt/holster/security
 	head = /obj/item/clothing/head/helmet/scp/security
 	mask = /obj/item/clothing/mask/balaclava
@@ -45,7 +45,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/scp/security/medic
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/card/id/security/level2/security_grd
-	l_ear = /obj/item/device/radio/headset/headset_sec_lcz/medic
+	l_ear = /obj/item/device/radio/headset/scp/security/medic/alt
 	belt = /obj/item/storage/belt/holster/security
 	head = /obj/item/clothing/head/helmet/scp/security/medic
 	mask = /obj/item/clothing/mask/balaclava

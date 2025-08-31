@@ -175,21 +175,15 @@
 		update_icon()
 	return
 
-/obj/item/material/clipboard/ebony
-	default_material = MATERIAL_EBONY
+/obj/item/material/clipboard/wood
+	default_material = MATERIAL_WALNUT
 
 /obj/item/material/clipboard/steel
+	icon_state = "clipboard_white"
 	default_material = MATERIAL_STEEL
 	matter = list(MATERIAL_STEEL = 70)
 
 /obj/item/material/clipboard/aluminium
+	icon_state = "clipboard_white"
 	default_material = MATERIAL_ALUMINIUM
 	matter = list(MATERIAL_ALUMINIUM = 70)
-
-/obj/item/material/clipboard/glass
-	default_material = MATERIAL_GLASS
-	matter = list(MATERIAL_GLASS = 70)
-
-/obj/item/material/clipboard/plastic
-	default_material = MATERIAL_PLASTIC
-	matter = list(MATERIAL_PLASTIC = 70)

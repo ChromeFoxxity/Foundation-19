@@ -158,7 +158,7 @@ var/list/obj/machinery/newscaster/allCasters = list() //Global list that will co
 	layer = ABOVE_WINDOW_LAYER
 
 /obj/machinery/newscaster/security_unit
-	name = "Security Newscaster"
+	name = "security newscaster"
 	securityCaster = 1
 
 /obj/machinery/newscaster/Initialize()
@@ -974,3 +974,27 @@ var/list/obj/machinery/newscaster/allCasters = list() //Global list that will co
 			O.show_message(SPAN_CLASS("newscaster","<EM>[src.name]</EM> beeps, \"Attention! Wanted issue distributed!\""),2)
 		playsound(src.loc, 'sounds/machines/warning-buzzer.ogg', 75, 1)
 	return
+
+/obj/machinery/newscaster/directional/north
+	pixel_y = 32
+
+/obj/machinery/newscaster/directional/south
+	pixel_y = -32
+
+/obj/machinery/newscaster/directional/west
+	pixel_x = -32
+
+/obj/machinery/newscaster/directional/east
+	pixel_x = 32
+
+/obj/machinery/newscaster/security_unit/directional/north
+	pixel_y = 32
+
+/obj/machinery/newscaster/security_unit/directional/south
+	pixel_y = -32
+
+/obj/machinery/newscaster/security_unit/directional/west
+	pixel_x = -32
+
+/obj/machinery/newscaster/security_unit/directional/east
+	pixel_x = 32

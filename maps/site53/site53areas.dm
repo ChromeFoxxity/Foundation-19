@@ -1089,6 +1089,70 @@
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
 //##
+//SECURITY DEPARTMENT AREAS
+//##
+
+/area/site53/security
+	name = "\improper Security Department"
+	icon_state = "security"
+	area_flags = AREA_FLAG_RAD_SHIELDED
+	ambience = list('sounds/ambience/ambidanger.ogg', 'sounds/ambience/ambidanger2.ogg')
+
+/area/site53/security/lobby
+	name = "\improper Security Department Lobby"
+	icon_state = "security"
+
+/area/site53/security/office
+	name = "\improper Security Department Office"
+	icon_state = "security"
+
+/area/site53/security/medical
+	name = "\improper Security Department Infirmary"
+	icon_state = "security"
+
+/area/site53/security/equipment
+	name = "\improper Security Department Equipment Room"
+	icon_state = "security"
+
+/area/site53/security/armory
+	name = "\improper Security Department Armory"
+	icon_state = "security"
+
+/area/site53/security/armory/secure
+	name = "\improper Security Department Secure Armory"
+	icon_state = "security"
+
+/area/site53/security/range
+	name = "\improper Security Department Firing Range"
+	icon_state = "security"
+
+/area/site53/security/sergeant
+	name = "\improper Security Sergeant's Office A"
+	icon_state = "security"
+
+/area/site53/security/sergeant2
+	name = "\improper Security Sergeant's Office B"
+	icon_state = "security"
+
+/area/site53/security/lieutenant
+	name = "\improper Security Lieutenant's Office A"
+	icon_state = "security"
+
+/area/site53/security/lieutenant2
+	name = "\improper Security Lieutenant's Office B"
+	icon_state = "security"
+
+/area/site53/security/captain
+	name = "\improper Security Captain's Office"
+	icon_state = "security"
+	sound_env = MEDIUM_SOFTFLOOR
+
+/area/site53/security/internaltribunal
+	name = "\improper Internal Tribunal Officer's Office"
+	icon_state = "security"
+	sound_env = MEDIUM_SOFTFLOOR
+
+//##
 //MEDICAL DEPARTMENT AREAS
 //##
 

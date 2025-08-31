@@ -192,7 +192,7 @@
 /turf/simulated/floor/tiled/dark/small,
 /area/site53/town/hotel)
 "cz" = (
-/obj/structure/chair/sofa/left{
+/obj/structure/bed/chair/sofa/left{
 	dir = 4
 	},
 /turf/simulated/floor/wood,
@@ -410,7 +410,7 @@
 /turf/simulated/floor/wood/ebony,
 /area/site53/town/hotel)
 "fM" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/bed/chair/sofa/right,
 /turf/simulated/floor/wood,
 /area/site53/town/fisherman)
 "fV" = (
@@ -568,7 +568,7 @@
 /turf/simulated/floor/wood/mahogany,
 /area/site53/town/bar)
 "id" = (
-/obj/structure/chair/sofa/right{
+/obj/structure/bed/chair/sofa/right{
 	dir = 4
 	},
 /turf/simulated/floor/wood,
@@ -1065,7 +1065,7 @@
 /turf/simulated/floor/wood,
 /area/site53/town/fisherman)
 "oA" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/bed/chair/sofa/left,
 /turf/simulated/floor/wood,
 /area/site53/town/house)
 "oB" = (
@@ -1129,7 +1129,7 @@
 /turf/simulated/floor/wood/ebony,
 /area/site53/town/sheriff)
 "oY" = (
-/obj/item/stool/bar/padded,
+/obj/item/stool/bar,
 /obj/effect/floor_decal/spline/wood/mahogany{
 	dir = 1
 	},
@@ -1178,7 +1178,7 @@
 /turf/simulated/floor/carpet/brown,
 /area/site53/town/hotel)
 "pX" = (
-/obj/item/stool/bar/padded,
+/obj/item/stool/bar,
 /obj/effect/floor_decal/spline/wood/mahogany{
 	dir = 4
 	},
@@ -1552,7 +1552,7 @@
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 8
 	},
-/obj/structure/chair/sofa/left{
+/obj/structure/bed/chair/sofa/left{
 	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
@@ -1875,7 +1875,7 @@
 /obj/effect/floor_decal/spline/wood{
 	dir = 4
 	},
-/obj/structure/chair/sofa/left,
+/obj/structure/bed/chair/sofa/left,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood,
 /area/site53/town/fisherman)
@@ -2234,7 +2234,7 @@
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 8
 	},
-/obj/structure/chair/sofa/right{
+/obj/structure/bed/chair/sofa/right{
 	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
@@ -3146,7 +3146,7 @@
 /turf/simulated/floor/shuttle/black,
 /area/site53/town/ciheli)
 "Nx" = (
-/obj/item/stool/bar/padded,
+/obj/item/stool/bar,
 /obj/effect/floor_decal/spline/wood/mahogany{
 	dir = 1
 	},
@@ -3538,7 +3538,7 @@
 /turf/simulated/floor/carpet/red,
 /area/site53/town/bar)
 "RR" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/bed/chair/sofa/right,
 /turf/simulated/floor/wood,
 /area/site53/town/house)
 "RZ" = (
@@ -3729,7 +3729,7 @@
 /turf/simulated/floor/wood/ebony,
 /area/site53/town/sheriff)
 "TF" = (
-/obj/item/stool/bar/padded,
+/obj/item/stool/bar,
 /obj/effect/floor_decal/spline/wood/mahogany{
 	dir = 5
 	},
@@ -4172,7 +4172,7 @@
 /turf/simulated/floor/exoplanet/concrete,
 /area/site53/town/house)
 "YE" = (
-/obj/item/stool/bar/padded,
+/obj/item/stool/bar,
 /obj/effect/floor_decal/spline/wood/mahogany{
 	dir = 5
 	},
@@ -4188,7 +4188,7 @@
 /turf/simulated/floor/wood/mahogany,
 /area/site53/town/bar)
 "YH" = (
-/obj/item/stool/bar/padded,
+/obj/item/stool/bar,
 /obj/effect/floor_decal/spline/wood/mahogany{
 	dir = 4
 	},

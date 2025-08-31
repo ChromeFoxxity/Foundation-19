@@ -477,3 +477,21 @@
 		to_chat(user,"This one belongs to Dr.[claimant], MD.")
 	else
 		to_chat(user,"The name is left blank for some reason.")
+
+/obj/structure/sign/departments
+	icon = 'icons/obj/department_signs.dmi'
+
+/obj/structure/sign/departments/security
+	name = "\improper Security Department sign"
+	desc = "A sign labelling an area where the law is law."
+	icon_state = "security"
+
+/obj/structure/sign/departments/engineering
+	name = "\improper Engineering Department sign"
+	desc = "A sign labelling an area where engineers work."
+	icon_state = "engine"
+
+/obj/structure/sign/departments/comms
+	name = "\improper Communications sign"
+	desc = "A sign labelling an area where the site's radio and SCPnet servers are managed."
+	icon_state = "telecomms"

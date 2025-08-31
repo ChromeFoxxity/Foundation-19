@@ -74,3 +74,15 @@
 		opened = !opened
 	update_icon()
 	return TRUE
+
+/obj/structure/extinguisher_cabinet/directional/north
+	pixel_y = 27
+
+/obj/structure/extinguisher_cabinet/directional/south
+	pixel_y = -26
+
+/obj/structure/extinguisher_cabinet/directional/west
+	pixel_x = -24
+
+/obj/structure/extinguisher_cabinet/directional/east
+	pixel_x = 24

@@ -21,8 +21,8 @@
 	desc = "A white folder."
 	icon_state = "folder_white"
 
-/obj/item/folder/nt
-	desc = "A corporate folder."
+/obj/item/folder/scp
+	desc = "A SCP Foundation folder, for the most important kinda docuemnts."
 	icon_state = "folder_nt"
 
 /obj/item/folder/on_update_icon()

@@ -7,7 +7,7 @@
 	icon_state = "plain_preview"
 	color = COLOR_GRAY80
 	material = MATERIAL_PLASTIC
-	
+
 /obj/structure/table/steel
 	icon_state = "plain_preview"
 	color = COLOR_GRAY40
@@ -66,39 +66,6 @@
 	color = WOOD_COLOR_GENERIC
 	material = MATERIAL_WOOD
 
-/obj/structure/table/woodentable_reinforced
-	icon_state = "reinf_preview"
-	color = WOOD_COLOR_GENERIC
-	material = MATERIAL_WOOD
-	reinforced = MATERIAL_WOOD
-
-/obj/structure/table/woodentable_reinforced/walnut
-	icon_state = "reinf_preview"
-	color = WOOD_COLOR_CHOCOLATE
-	material = MATERIAL_WALNUT
-	reinforced = MATERIAL_WALNUT
-
-/obj/structure/table/woodentable_reinforced/walnut/maple
-	reinforced = MATERIAL_MAPLE
-
-/obj/structure/table/woodentable_reinforced/mahogany
-	icon_state = "reinf_preview"
-	color = WOOD_COLOR_RICH
-	material = MATERIAL_MAHOGANY
-	reinforced = MATERIAL_MAHOGANY
-
-/obj/structure/table/woodentable_reinforced/mahogany/walnut
-	reinforced = MATERIAL_WALNUT
-
-/obj/structure/table/woodentable_reinforced/ebony
-	icon_state = "reinf_preview"
-	color = WOOD_COLOR_BLACK
-	material = MATERIAL_EBONY
-	reinforced = MATERIAL_WALNUT
-
-/obj/structure/table/woodentable_reinforced/ebony/walnut
-	reinforced = MATERIAL_WALNUT
-
 /obj/structure/table/woodentable/mahogany
 	color = WOOD_COLOR_RICH
 	material = MATERIAL_MAHOGANY
@@ -114,3 +81,47 @@
 /obj/structure/table/woodentable/walnut
 	color = WOOD_COLOR_CHOCOLATE
 	material = MATERIAL_WALNUT
+
+/obj/structure/table/woodentable/bamboo
+	color = WOOD_COLOR_PALE2
+	material = MATERIAL_BAMBOO
+
+/obj/structure/table/woodentable/yew
+	color = WOOD_COLOR_YELLOW
+	material = MATERIAL_YEW
+
+/obj/structure/table/woodentable_reinforced
+	icon_state = "reinf_preview"
+	color = WOOD_COLOR_GENERIC
+	material = MATERIAL_WOOD
+	reinforced = MATERIAL_WOOD
+
+/obj/structure/table/woodentable_reinforced/mahogany
+	color = WOOD_COLOR_RICH
+	material = MATERIAL_MAHOGANY
+	reinforced = MATERIAL_MAHOGANY
+
+/obj/structure/table/woodentable_reinforced/maple
+	color = WOOD_COLOR_PALE
+	material = MATERIAL_MAPLE
+	reinforced = MATERIAL_MAPLE
+
+/obj/structure/table/woodentable_reinforced/ebony
+	color = WOOD_COLOR_BLACK
+	material = MATERIAL_EBONY
+	reinforced = MATERIAL_EBONY
+
+/obj/structure/table/woodentable_reinforced/walnut
+	color = WOOD_COLOR_CHOCOLATE
+	material = MATERIAL_WALNUT
+	reinforced = MATERIAL_WALNUT
+
+/obj/structure/table/woodentable_reinforced/bamboo
+	color = WOOD_COLOR_PALE2
+	material = MATERIAL_BAMBOO
+	reinforced = MATERIAL_BAMBOO
+
+/obj/structure/table/woodentable_reinforced/yew
+	color = WOOD_COLOR_YELLOW
+	material = MATERIAL_YEW
+	reinforced = MATERIAL_YEW

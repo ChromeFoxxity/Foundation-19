@@ -47,3 +47,9 @@
 	desc = "A once-heavy armored vest with a white 'SCP' tag on it, there's a massive hole torn straight through it. Used to be worn by Site Security Guards, it has some durathread plating in it to make it durable against melee, but now it's basically useless."
 	icon_state = "old_guard_vest"
 	armor = list(melee = ARMOR_MELEE_RESISTANT, bullet = ARMOR_BALLISTIC_VVSMALL, laser = ARMOR_LASER_VERY_SMALL, energy = ARMOR_ENERGY_MINOR, bomb = ARMOR_BOMB_MINOR, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)
+
+/obj/item/clothing/suit/storage/vest/scp/security/cadet
+	name = "foundation security trainee rig"
+	desc = "A security rig that usually stores a basic assortment of junk that trainees use. It's often worn by Site Security Cadets, it has some durathread plating in it to make it durable against melee, but not all that much."
+	icon_state = "cadet_rig"
+	armor = list(melee = ARMOR_MELEE_VRESISTANT, bullet = ARMOR_BALLISTIC_SMALL, laser = ARMOR_LASER_VERY_SMALL, energy = ARMOR_ENERGY_MINOR, bomb = ARMOR_BOMB_MINOR, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)

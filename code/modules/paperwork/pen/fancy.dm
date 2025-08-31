@@ -1,11 +1,16 @@
 /obj/item/pen/fancy
-	name = "fancy pen"
-	desc = "A high quality traditional fountain pen with an internal reservoir and an extra fine gold-platinum nib. Guaranteed never to leak."
+	name = "fountain pen"
+	desc = "It's a common fountain pen, with a faux wood body."
 	icon_state = "fancy"
 	throwforce = 1 //pointy
 	colour = "#1c1713" //dark ashy brownish
 	matter = list(MATERIAL_STEEL = 15)
 	isfancy = TRUE
+
+/obj/item/pen/fancy/gold
+	name = "golden fountain pen"
+	desc = "It's an expensive Oak fountain pen. The nib is quite sharp."
+	icon_state = "fancy_gold"
 
 /obj/item/pen/fancy/quill
 	name = "dire goose quill"

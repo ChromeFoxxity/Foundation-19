@@ -110,9 +110,18 @@ var/list/airlock_overlays = list()
 /obj/machinery/door/airlock/command
 	door_color = COLOR_COMMAND_BLUE
 
+/obj/machinery/door/airlock/command/itd
+	stripe_color = COLOR_PURPLE_GRAY
+
+/obj/machinery/door/airlock/command/seccap
+	stripe_color = "#c4c4c4"
+
 /obj/machinery/door/airlock/security
 	door_color = "#333333"
-	stripe_color = "#a8b2b6"
+	stripe_color = "#c4c4c4"
+
+/obj/machinery/door/airlock/security/lieutenant
+	stripe_color = COLOR_COMMAND_BLUE
 
 /obj/machinery/door/airlock/engineering
 	name = "Maintenance Hatch"
@@ -190,7 +199,13 @@ var/list/airlock_overlays = list()
 
 /obj/machinery/door/airlock/glass/security
 	door_color = "#333333"
-	stripe_color = "#a8b2b6"
+	stripe_color = "#c4c4c4"
+
+/obj/machinery/door/airlock/glass/security/medical
+	stripe_color = COLOR_BLUE_GRAY
+
+/obj/machinery/door/airlock/glass/security/sergeant
+	stripe_color = "#775353"
 
 /obj/machinery/door/airlock/glass/engineering
 	door_color = COLOR_AMBER

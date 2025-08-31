@@ -138,6 +138,40 @@
 /obj/effect/floor_decal/corner/blue/bordercee
 	icon_state = "bordercolorcee"
 
+/obj/effect/floor_decal/corner/admin
+	name = "administrative paint"
+	color = "#355182"
+
+/obj/effect/floor_decal/corner/admin/diagonal
+	icon_state = "corner_white_diagonal"
+
+/obj/effect/floor_decal/corner/admin/three_quarters
+	icon_state = "corner_white_three_quarters"
+
+/obj/effect/floor_decal/corner/admin/full
+	icon_state = "corner_white_full"
+
+/obj/effect/floor_decal/corner/admin/border
+	icon_state = "bordercolor"
+
+/obj/effect/floor_decal/corner/admin/half
+	icon_state = "bordercolorhalf"
+
+/obj/effect/floor_decal/corner/admin/mono
+	icon_state = "bordercolormonofull"
+
+/obj/effect/floor_decal/corner/admin/bordercorner
+	icon_state = "bordercolorcorner"
+
+/obj/effect/floor_decal/corner/admin/bordercorner2
+	icon_state = "bordercolorcorner2"
+
+/obj/effect/floor_decal/corner/admin/borderfull
+	icon_state = "bordercolorfull"
+
+/obj/effect/floor_decal/corner/admin/bordercee
+	icon_state = "bordercolorcee"
+
 /obj/effect/floor_decal/corner/paleblue
 	name = "pale blue corner"
 	color = COLOR_PALE_BLUE_GRAY
@@ -633,6 +667,41 @@
 /obj/effect/floor_decal/corner/white/mono
 	icon_state = "bordercolormonofull"
 
+/obj/effect/floor_decal/corner/security
+	name = "security paint"
+	icon_state = "corner_white"
+	color = "#c4c4c4"
+
+/obj/effect/floor_decal/corner/security/diagonal
+	icon_state = "corner_white_diagonal"
+
+/obj/effect/floor_decal/corner/security/three_quarters
+	icon_state = "corner_white_three_quarters"
+
+/obj/effect/floor_decal/corner/security/full
+	icon_state = "corner_white_full"
+
+/obj/effect/floor_decal/corner/security/half
+	icon_state = "bordercolorhalf"
+
+/obj/effect/floor_decal/corner/security/mono
+	icon_state = "bordercolormonofull"
+
+/obj/effect/floor_decal/corner/security/border
+	icon_state = "bordercolor"
+
+/obj/effect/floor_decal/corner/security/bordercorner
+	icon_state = "bordercolorcorner"
+
+/obj/effect/floor_decal/corner/security/bordercorner2
+	icon_state = "bordercolorcorner2"
+
+/obj/effect/floor_decal/corner/security/borderfull
+	icon_state = "bordercolorfull"
+
+/obj/effect/floor_decal/corner/security/bordercee
+	icon_state = "bordercolorcee"
+
 /obj/effect/floor_decal/corner/grey
 	name = "grey corner"
 	color = "#8d8c8c"
@@ -757,7 +826,7 @@
 	icon_state = "bordercolorcee"
 
 /obj/effect/floor_decal/corner/research
-	name = "research corner"
+	name = "research paint"
 	color = COLOR_RESEARCH
 
 /obj/effect/floor_decal/corner/research/diagonal
@@ -1036,6 +1105,23 @@
 	name = "white outline"
 	icon_state = "outline"
 	alpha = 229
+
+/obj/effect/floor_decal/industrial/box
+	name = "white box"
+	icon_state = "box"
+	alpha = 229
+
+/obj/effect/floor_decal/industrial/box/yellow
+	color = "#cfcf55"
+
+/obj/effect/floor_decal/industrial/box/red
+	color = COLOR_RED_GRAY
+
+/obj/effect/floor_decal/industrial/box/orange
+	color = COLOR_DARK_ORANGE
+
+/obj/effect/floor_decal/industrial/box/blue
+	color = COLOR_BLUE_GRAY
 
 /obj/effect/floor_decal/industrial/outline/blue
 	name = "blue outline"
@@ -1404,6 +1490,39 @@
 
 /obj/effect/floor_decal/stoneborder/corner
 	icon_state = "stoneborder_c"
+
+/obj/effect/floor_decal/spline/steel
+	name = "siding - steel"
+	color = "#949494"
+	icon_state = "siding_thinplating_new"
+
+/obj/effect/floor_decal/spline/steel/corner
+	icon_state = "siding_thinplating_new_corner"
+
+/obj/effect/floor_decal/spline/steel/cee
+	icon_state = "siding_thinplating_new_end"
+
+/obj/effect/floor_decal/spline/steel/dark
+	name = "siding - steel"
+	color = "#36373a"
+	icon_state = "siding_thinplating_new"
+
+/obj/effect/floor_decal/spline/steel/dark/corner
+	icon_state = "siding_thinplating_new_corner"
+
+/obj/effect/floor_decal/spline/steel/dark/cee
+	icon_state = "siding_thinplating_new_end"
+
+/obj/effect/floor_decal/spline/steel/white
+	name = "siding - steel"
+	color = "#e2e2e2"
+	icon_state = "siding_thinplating_new"
+
+/obj/effect/floor_decal/spline/steel/white/corner
+	icon_state = "siding_thinplating_new_corner"
+
+/obj/effect/floor_decal/spline/steel/white/cee
+	icon_state = "siding_thinplating_new_end"
 
 /obj/effect/floor_decal/spline/wood
 	name = "siding - wood"

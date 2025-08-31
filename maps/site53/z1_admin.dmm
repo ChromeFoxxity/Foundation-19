@@ -1753,7 +1753,7 @@
 	pixel_y = 5;
 	pixel_x = 8
 	},
-/obj/item/stamp/captain{
+/obj/item/stamp/sdir{
 	name = "Deputy Director's rubber stamp";
 	pixel_x = 8;
 	pixel_y = -2;
@@ -2307,7 +2307,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/site53/lhcz/scp1102entrance)
 "fq" = (
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "fr" = (
 /obj/machinery/light/small/emergency{
@@ -2860,7 +2860,7 @@
 /area/site53/lhcz/scp1102entrance)
 "ha" = (
 /obj/machinery/door/airlock,
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "hb" = (
 /obj/machinery/cooker/cereal,
@@ -2930,14 +2930,14 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "ho" = (
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "hp" = (
 /obj/structure/table/reinforced,
@@ -2947,7 +2947,7 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "hq" = (
 /obj/effect/floor_decal/corner/white/border{
@@ -3005,19 +3005,19 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "hx" = (
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "hy" = (
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "hz" = (
 /obj/item/trash/tray,
@@ -3101,7 +3101,7 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "hM" = (
 /obj/structure/closet/crate/medical,
@@ -3112,7 +3112,7 @@
 /obj/random/medical/lite,
 /obj/random/medical/lite,
 /obj/random/medical/lite,
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "hN" = (
 /obj/structure/table/reinforced,
@@ -3120,7 +3120,7 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "hO" = (
 /obj/structure/table/standard,
@@ -3238,16 +3238,16 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "ib" = (
 /obj/effect/floor_decal/corner/blue/mono,
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "ic" = (
 /obj/structure/bed/roller,
 /obj/effect/floor_decal/corner/blue/mono,
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "id" = (
 /obj/structure/grille{
@@ -3301,20 +3301,20 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "ip" = (
 /obj/structure/curtain/medical,
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "iq" = (
 /obj/structure/curtain/medical,
 /obj/effect/floor_decal/corner/blue/mono,
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "ir" = (
 /obj/structure/iv_drip,
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "is" = (
 /obj/machinery/vending/medical{
@@ -3323,7 +3323,7 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "it" = (
 /obj/structure/bed/chair/office{
@@ -3380,7 +3380,7 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "iC" = (
 /obj/structure/table/reinforced,
@@ -3389,7 +3389,7 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "iD" = (
 /obj/machinery/cooker/fryer,
@@ -3459,27 +3459,27 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "iN" = (
 /obj/structure/closet/secure_closet/medical2,
 /obj/effect/floor_decal/corner/blue/border,
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "iO" = (
 /obj/structure/curtain/medical,
 /obj/effect/floor_decal/corner/blue/border,
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "iP" = (
 /obj/structure/iv_drip,
 /obj/effect/floor_decal/corner/blue/border,
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "iQ" = (
 /obj/machinery/light,
 /obj/effect/floor_decal/corner/blue/border,
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "iR" = (
 /obj/machinery/vending/medical{
@@ -3488,7 +3488,7 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "iS" = (
 /obj/structure/barricade,
@@ -4256,12 +4256,12 @@
 /turf/simulated/floor/shuttle/black,
 /area/site53/tram/ci)
 "kX" = (
-/obj/structure/chair/sofa/right,
+/obj/structure/bed/chair/sofa/right,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/old_tile,
 /area/centcom/chaos)
 "kY" = (
-/obj/structure/chair/sofa/left,
+/obj/structure/bed/chair/sofa/left,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/old_tile,
 /area/centcom/chaos)
@@ -4914,7 +4914,7 @@
 /turf/simulated/floor/lino,
 /area/centcom)
 "mO" = (
-/obj/structure/chair/sofa/right{
+/obj/structure/bed/chair/sofa/right{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -5925,7 +5925,7 @@
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/monotile/white,
+/turf/simulated/floor/tiled/white/monotile,
 /area/site53/lhcz/scp1102entrance)
 "oI" = (
 /obj/effect/floor_decal/corner/white/border{
@@ -6450,7 +6450,7 @@
 	pixel_x = 8
 	},
 /obj/structure/table/woodentable_reinforced/mahogany,
-/obj/item/stamp/captain{
+/obj/item/stamp/sdir{
 	name = "Director's rubber stamp";
 	pixel_x = 8;
 	pixel_y = -2
@@ -17306,7 +17306,7 @@
 	dir = 4
 	},
 /obj/structure/table/reinforced,
-/obj/item/folder/nt/rd,
+/obj/item/folder/scp,
 /turf/simulated/floor/tiled/white/vertical,
 /area/centcom/goc)
 "KY" = (
@@ -18804,7 +18804,7 @@
 /turf/simulated/floor/tiled/monotile,
 /area/centcom/chaos)
 "Oe" = (
-/obj/structure/chair/sofa/left{
+/obj/structure/bed/chair/sofa/left{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,

@@ -881,20 +881,19 @@
 		to_chat(user, "The circuit is missing.")
 
 /obj/machinery/alarm/directional/north
-	dir = 2
-	pixel_y = 24
+	pixel_y = 19
 
 /obj/machinery/alarm/directional/south
 	dir = 1
-	pixel_y = -24
+	pixel_y = -22
 
 /obj/machinery/alarm/directional/east
 	dir = 8
-	pixel_x = 24
+	pixel_x = 22
 
 /obj/machinery/alarm/directional/west
 	dir = 4
-	pixel_x = -24
+	pixel_x = -22
 
 /*
 AIR ALARM CIRCUIT
@@ -1139,7 +1138,7 @@ FIRE ALARM
 
 /obj/machinery/firealarm/directional/north
 	dir = 2
-	pixel_y = 24
+	pixel_y = 18
 
 /obj/machinery/firealarm/directional/south
 	dir = 1
@@ -1147,11 +1146,11 @@ FIRE ALARM
 
 /obj/machinery/firealarm/directional/east
 	dir = 4
-	pixel_x = 24
+	pixel_x = 18
 
 /obj/machinery/firealarm/directional/west
 	dir = 8
-	pixel_x = -24
+	pixel_x = -18
 /*
 FIRE ALARM CIRCUIT
 Just a object used in constructing fire alarms

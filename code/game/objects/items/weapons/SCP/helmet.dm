@@ -18,29 +18,6 @@
 	body_parts_covered = HEAD
 	flags_inv = HIDEEARS
 
-
-
-/obj/item/clothing/head/helmet/scp/securitystab
-	name = "\improper Armored Anti-stab Helmet"
-	desc = "An anti-stab SCP Foundation helmet normally issued to detention facility guards."
-	icon_state = "guard-helm"
-	body_parts_covered = HEAD|FACE|EYES //face shield
-	armor = list(melee = ARMOR_MELEE_VERY_HIGH, bullet = ARMOR_BALLISTIC_MID, laser = ARMOR_LASER_MAJOR, energy = ARMOR_ENERGY_SMALL, bomb = ARMOR_BOMB_PADDED, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)
-	acid_resistance = 1.5
-	flags_inv = HIDEEARS
-
-
-/obj/item/clothing/head/helmet/scp/security/attack_self(mob/user)
-	body_parts_covered ^= EYES|FACE
-	icon_state = initial(icon_state)
-	var/action = "lowers"
-	if (~body_parts_covered & EYES)
-		icon_state += "_up"
-		action = "raises"
-	visible_message(SPAN_ITALIC("\The [user] [action] the visor on \the [src]."), range = 3)
-	update_clothing_icon()
-
-
 /obj/item/clothing/head/helmet/scp/chaos
 	name = "Chaos Insurgency helmet"
 	desc = "A russian type of ballistics helmet usually seen worn by modern russian military forces, this one is colored tan and is used by the Chaos Insurgency."

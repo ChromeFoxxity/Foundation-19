@@ -25,7 +25,7 @@
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud/goggles
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/card/id/security/level4/security_lt
-	l_ear = /obj/item/device/radio/headset/headset_sec_lcz/commander
+	l_ear = /obj/item/device/radio/headset/scp/security/command/alt
 	suit = /obj/item/clothing/suit/armor/vest/scp/security/lieutenant
 	shoes = /obj/item/clothing/shoes/dutyboots
 	l_pocket = /obj/item/handcuffs
@@ -43,7 +43,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/scp/security/sergeant
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/card/id/security/level3/security_sgt
-	l_ear = /obj/item/device/radio/headset/headset_sec_lcz
+	l_ear = /obj/item/device/radio/headset/scp/security/alt
 	l_pocket = /obj/item/handcuffs
 	r_pocket = /obj/item/melee/telebaton
 	backpack_contents = list(/obj/item/handcuffs = 1)
@@ -59,7 +59,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/scp/security/medic
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/card/id/security/level2/security_grd
-	l_ear = /obj/item/device/radio/headset/headset_sec_lcz/medic
+	l_ear = /obj/item/device/radio/headset/scp/security/medic/alt
 	l_pocket = /obj/item/handcuffs
 	r_pocket = /obj/item/melee/telebaton
 	backpack_contents = list(/obj/item/storage/firstaid/adv = 1, /obj/item/storage/firstaid/stab = 1)
@@ -75,7 +75,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/scp/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 	id_type = /obj/item/card/id/security/level2/security_grd
-	l_ear = /obj/item/device/radio/headset/headset_sec_lcz
+	l_ear = /obj/item/device/radio/headset/scp/security/alt
 	l_pocket = /obj/item/handcuffs
 	r_pocket = /obj/item/melee/telebaton
 	backpack_contents = list(/obj/item/handcuffs = 1)
@@ -106,7 +106,7 @@
 	suit = null
 	shoes = /obj/item/clothing/shoes/dutyboots
 	//id_type = /obj/item/card/id/junseclvl1lcz
-	l_ear = /obj/item/device/radio/headset/headset_sec_lcz
+	l_ear = /obj/item/device/radio/headset/scp/security/alt
 	l_pocket = /obj/item/handcuffs
 	r_pocket = /obj/item/melee/telebaton
 	backpack_contents = list(/obj/item/handcuffs = 1)
@@ -275,7 +275,7 @@
 	backpack_contents = list()
 	belt = /obj/item/storage/belt/holster/security/fullmk9
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud
-	head = /obj/item/clothing/head/helmet/scp/security/cadet/hat
+	head = null
 	gloves = /obj/item/clothing/gloves/tactical/scp
 
 /decl/hierarchy/outfit/job/security/hcz_cadet
