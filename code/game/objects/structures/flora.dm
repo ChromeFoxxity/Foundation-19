@@ -381,23 +381,23 @@
 	icon_state = "applebush"
 
 /obj/structure/flora/pottedplant/deskfern
-	name = "fancy ferny potted plant"
-	desc = "This leafy desk fern could do with a trim."
+	name = "fancy ferny desk potted plant"
+	desc = "This small leafy desk fern could do with a trim."
 	icon_state = "plant-27"
 
 /obj/structure/flora/pottedplant/floorleaf
-	name = "fancy leafy floor plant"
-	desc = "This plant has remarkably waxy leaves."
+	name = "fancy leafy potted plant"
+	desc = "This plant has remarkably overgrown waxy leaves."
 	icon_state = "plant-28"
 
 /obj/structure/flora/pottedplant/deskleaf
-	name = "fancy leafy potted desk plant"
-	desc = "A tiny waxy leafed plant specimen."
+	name = "fancy trimmed leafy potted plant"
+	desc = "A expertly trimmed waxy leafed plant specimen."
 	icon_state = "plant-29"
 
 /obj/structure/flora/pottedplant/deskferntrim
 	name = "fancy trimmed ferny potted plant"
-	desc = "This leafy desk fern seems to have been trimmed too much."
+	desc = "This leafy potted fern seems to have been trimmed too much."
 	icon_state = "plant-30"
 
 /obj/structure/flora/tree/bigtree

@@ -236,38 +236,112 @@
 /datum/reagent/medicine/amnestics/classi/overdose(mob/living/carbon/M, removed)
 	M.adjustBrainLoss(15 * removed)
 
+/datum/reagent/medicine/amnestics/classy
+	name = "Class-Y Mnestics"
+	description = "Class-Y amnestics grants the subject perfect recall for any memories gained during its period of effect."
+	taste_description = "something that's exceedingly normal"
+	color = "#776e74"
+	overdose = null
+	value = 65
+	addiction_types = list(/datum/addiction/amnestics = 20)
+
+/datum/reagent/medicine/amnestics/classy/affect_blood(mob/living/carbon/M, removed)
+	if(M.chem_doses[type] >= 4.8 && !isamnesticized)
+		isamnesticized = TRUE
+		M.visible_message(SPAN_WARNING("[M] looks wide eyed."))
+		to_chat(M, "<font size='5' color='red'>You feel your brain expand a bit in your skull. It's not really growing, but you feel like you'll be able to recall the next few minutes of memories you gain without issue for the rest of your life..</font>")
+
+	M.add_chemical_effect(CE_SEDATE, 1) //sedative logic stolen from chloral hydrate.
+	if (M.chem_doses[type] <= metabolism * threshold)
+		M.adjust_confusion(2 SECONDS)
+		M.adjust_drowsiness(2 SECONDS)
+	else
+		M.Weaken(30)
+		M.set_eye_blur_if_lower(10 SECONDS)
+
+	if(prob(35))
+		M.adjust_dizzy_up_to(15 SECONDS, 100 SECONDS)
+
 //Pills and autoinjectors.
 /obj/item/storage/pill_bottle/amnesticsa
-	name = "pill bottle (Class-A Amnestics)"
-	desc = "Contains Class-A Amnestics, used to erase recently-formed memories before they enter long-term storage."
+	name = "Class-A amnestic bottle"
+	desc = "The bottle has the label, \"Class A, General Retrograde - For erasing recent and/or specific episodic memories.\"."
+	icon_state = "pill_canister_classa"
 	startswith = list(/obj/item/reagent_containers/pill/amnestics/classa = 14)
-	wrapper_color = COLOR_RED
+	wrapper_color = null
 
 /obj/item/reagent_containers/pill/amnestics/classa
-	name = "class a amnestic pill (10u)"
-	icon_state = "pill1"
-	desc = "Looking at this pill invokes a feeling of dread in you, although you can't remember actually taking it."
+	name = "Class-A amnestic pill"
+	desc = "Class A amnestics will technically deconsolidate memories at random, they will mostly affect engrams within the 'memory reconsolidation window' of 5-6 hours, as these are the memories that will be at the forefront of the subject's mind. This is especially true for highly unique episodic memories, such as encounters with anomalous phenomena. While these will be most effective after initial exposure, it is possible to re-open a memory reconsolidation window, allowing for amnestics officers to trigger and then erase specific memories long after their initial formation."
+	icon_state = "pill_amnestic_a"
 
 /obj/item/reagent_containers/pill/amnestics/classa/New()
 	..()
 	reagents.add_reagent(/datum/reagent/medicine/amnestics/classa, 10)
-	color = reagents.get_color()
 
 /obj/item/storage/pill_bottle/amnesticsb
-	name = "pill bottle (Class-B Amnestics)"
-	desc = "Contains Class-B Amnestics, used to erase memories from the last two weeks."
+	name = "Class-B amnestic bottle"
+	desc = "The bottle has the label, \"Class B, Regressive Retrograde - For the incremental erasure of recent memories.\"."
+	icon_state = "pill_canister_classb"
 	startswith = list(/obj/item/reagent_containers/pill/amnestics/classb = 14)
-	wrapper_color = COLOR_CYAN
+	wrapper_color = null
 
 /obj/item/reagent_containers/pill/amnestics/classb
-	name = "class b amnestic pill (3u)"
-	icon_state = "pill1"
-	desc = "You're not sure why, but something about this pill gives a sense of sadness and loss."
+	name = "Class-B amnestic pill"
+	desc = "Class B amnestics start by deconsolidating the most recently formed memories first, and then working their way backwards. The extent of the memory erasure is dependent on dosage, with a 75 mg dose resulting in approximately 24 hours of memory loss on average. These are ideal for erasing recent memories older than six hours without having to trigger specific memories."
+	icon_state = "pill_amnestic_b"
 
 /obj/item/reagent_containers/pill/amnestics/classb/New()
 	..()
 	reagents.add_reagent(/datum/reagent/medicine/amnestics/classb, 3)
-	color = reagents.get_color()
+
+/obj/item/storage/pill_bottle/amnesticsh
+	name = "Class-H amnestic bottle"
+	desc = "The bottle has the label, \"Class H, Anterograde - To prevent the formation of new memories.\"."
+	icon_state = "pill_canister_classh"
+	startswith = list(/obj/item/reagent_containers/pill/amnestics/classh = 14)
+	wrapper_color = null
+
+/obj/item/reagent_containers/pill/amnestics/classh
+	name = "Class-H amnestic pill"
+	desc = "Class H amnestics prevent the subject from forming new memories, blocking memory consolidation for as long as the agent is in the subject's system. Duration is dependent on dosage, with 75 mg lasting for approximately 24 hours on average."
+	icon_state = "pill_amnestic_h"
+
+/obj/item/reagent_containers/pill/amnestics/classh/New()
+	..()
+	reagents.add_reagent(/datum/reagent/medicine/amnestics/classh, 5)
+
+/obj/item/storage/pill_bottle/amnesticsi
+	name = "Class-I amnestic bottle"
+	desc = "The bottle has the label, \"Class I, Transient - For inducing a temporary amnesic state.\"."
+	icon_state = "pill_canister_classi"
+	startswith = list(/obj/item/reagent_containers/pill/amnestics/classi = 14)
+	wrapper_color = null
+
+/obj/item/reagent_containers/pill/amnestics/classi
+	name = "Class-I amnestic pill"
+	desc = "Class I amnestics induce transient amnesia by blocking the neural pathways responsible for long-term memories, temporarily preventing subjects from recalling their past. Duration is dependent on dosage, with 75 mg lasting approximately 24 hours on average."
+	icon_state = "pill_amnestic_i"
+
+/obj/item/reagent_containers/pill/amnestics/classi/New()
+	..()
+	reagents.add_reagent(/datum/reagent/medicine/amnestics/classi, 5)
+
+/obj/item/storage/pill_bottle/amnesticsy
+	name = "Class-Y mnestic bottle"
+	desc = "The bottle has the label, \"Class Y, Mnestics - Grants the subject perfect recall for any memories gained during its period of effect.\"."
+	icon_state = "pill_canister_classy"
+	startswith = list(/obj/item/reagent_containers/pill/amnestics/classy = 14)
+	wrapper_color = null
+
+/obj/item/reagent_containers/pill/amnestics/classy
+	name = "Class-Y mnestic pill"
+	desc = "Class Y grants the subject perfect recall for any memories gained during its period of effect, and a single dose."
+	icon_state = "pill_amnestic_y"
+
+/obj/item/reagent_containers/pill/amnestics/classy/New()
+	..()
+	reagents.add_reagent(/datum/reagent/medicine/amnestics/classy, 10)
 
 /obj/item/reagent_containers/syringe/amnesticsc
 	name = "Syringe (Class-C Amnestics)"
@@ -305,38 +379,6 @@
 	..()
 	reagents.add_reagent(/datum/reagent/medicine/amnestics/classg, 15)
 	update_icon()
-
-/obj/item/storage/pill_bottle/amnesticsh
-	name = "pill bottle (Class-H Amnestics)"
-	desc = "Contains Class-H Amnestics, used to temporarily prevent the creation of new memories."
-	startswith = list(/obj/item/reagent_containers/pill/amnestics/classh = 14)
-	wrapper_color = COLOR_GREEN
-
-/obj/item/reagent_containers/pill/amnestics/classh
-	name = "class h amnestic pill (5u)"
-	icon_state = "pill1"
-	desc = "The taste of this pill is usually the last thing you remember for the day."
-
-/obj/item/reagent_containers/pill/amnestics/classh/New()
-	..()
-	reagents.add_reagent(/datum/reagent/medicine/amnestics/classh, 5)
-	color = reagents.get_color()
-
-/obj/item/storage/pill_bottle/amnesticsi
-	name = "pill bottle (Class-I Amnestics)"
-	desc = "Contains Class-I Amnestics, used to temporarily prevent the recall of the past."
-	startswith = list(/obj/item/reagent_containers/pill/amnestics/classi = 14)
-	wrapper_color = COLOR_PURPLE
-
-/obj/item/reagent_containers/pill/amnestics/classi
-	name = "class i amnestic pill (5u)"
-	icon_state = "pill1"
-	desc = "You always regret the things you do after you take this pill."
-
-/obj/item/reagent_containers/pill/amnestics/classi/New()
-	..()
-	reagents.add_reagent(/datum/reagent/medicine/amnestics/classi, 5)
-	color = reagents.get_color()
 
 //Amnestic chemical reactions.
 
