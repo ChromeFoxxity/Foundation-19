@@ -22,6 +22,20 @@
 	backpack_contents = list(/obj/item/ammo_magazine/scp/m1911 = 1)
 	belt = /obj/item/gun/projectile/pistol/m1911/gold
 
+/decl/hierarchy/outfit/job/command/raisa
+	name = OUTFIT_JOB_NAME("RAISA Intake Specialist")
+	uniform = /obj/item/clothing/under/rank/scp/security
+	shoes = /obj/item/clothing/shoes/dutyboots
+	id_type = /obj/item/card/id/admin/level3/raisa
+	l_ear = /obj/item/device/radio/headset/bridgeofficer
+	suit = /obj/item/clothing/suit/armor/pcarrier/scp/medium
+	l_pocket = /obj/item/handcuffs
+	r_pocket = /obj/item/melee/telebaton
+	backpack_contents = list()
+	glasses = /obj/item/clothing/glasses/sunglasses/sechud
+	belt = /obj/item/gun/energy/stunrevolver/taser
+	gloves = /obj/item/clothing/gloves/tactical/scp
+
 /decl/hierarchy/outfit/job/command/commsofficer
 	name = OUTFIT_JOB_NAME("Communications Officer")
 	uniform = /obj/item/clothing/under/rank/security/comms

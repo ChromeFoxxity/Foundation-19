@@ -92,6 +92,137 @@
 	mechanical_difficulty = "Low - Medium"
 	duties = "Manage available jobs. Change people's jobs and access levels. Assist the Site Director with human resources."
 
+/datum/job/tribunal
+
+	title = "Internal Tribunal Department Officer"
+	department = "Civilian"
+	selection_color = "#2f2f7f"
+	department_flag = COM|BUR
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "The Tribunal Department"
+	economic_power = 4
+	minimal_player_age = 5
+	ideal_character_age = 30
+	outfit_type = /decl/hierarchy/outfit/job/civ/tribunal
+	requirements = list(EXP_TYPE_COMMAND = 600, EXP_TYPE_SECURITY = 600, EXP_TYPE_BUR = 60)
+	class = CLASS_A
+	hud_icon = "huditdo"
+	access = list(
+		ACCESS_SECURITY_LVL1,
+		ACCESS_ADMIN_LVL1,
+		ACCESS_ADMIN_LVL2,
+		ACCESS_ADMIN_LVL3,
+		ACCESS_ADMIN_LVL4,
+		ACCESS_ADMIN_LVL5
+	)
+
+	minimal_access = list()
+
+	max_skill = list(
+		SKILL_WEAPONS       = SKILL_TRAINED,
+		SKILL_COMPUTER		= SKILL_BASIC,
+		SKILL_FINANCE       = SKILL_BASIC,
+	)
+
+	max_skill = list(
+		SKILL_WEAPONS       = SKILL_EXPERIENCED,
+		SKILL_COMPUTER		= SKILL_MASTER,
+		SKILL_FINANCE       = SKILL_MASTER,
+	)
+	skill_points = 20
+
+	roleplay_difficulty = "Hard"
+	mechanical_difficulty = "Easy"
+	duties = "Ensure Foundation protocols are followed. Keep security in line."
+
+/datum/job/ethicsliaison
+
+	title = "Ethics Committee Liaison"
+	department = "Civilian"
+	selection_color = "#2f2f7f"
+	department_flag = COM|BUR
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the Ethics Committee"
+	economic_power = 4
+	minimal_player_age = 5
+	ideal_character_age = 30
+	outfit_type = /decl/hierarchy/outfit/job/civ/ethics
+	requirements = list(EXP_TYPE_BUR = 300)
+	class = CLASS_A
+	hud_icon = "hudecl"
+	access = list(
+		ACCESS_SECURITY_LVL1,
+		ACCESS_ADMIN_LVL1,
+		ACCESS_ADMIN_LVL2,
+		ACCESS_ADMIN_LVL3,
+		ACCESS_ADMIN_LVL4,
+		ACCESS_ADMIN_LVL5
+	)
+
+	minimal_access = list()
+
+	max_skill = list(
+		SKILL_WEAPONS       = SKILL_TRAINED,
+		SKILL_COMPUTER		= SKILL_BASIC,
+		SKILL_FINANCE       = SKILL_BASIC,
+	)
+
+	max_skill = list(
+		SKILL_WEAPONS       = SKILL_EXPERIENCED,
+		SKILL_COMPUTER		= SKILL_MASTER,
+		SKILL_FINANCE       = SKILL_MASTER,
+	)
+	skill_points = 20
+
+	roleplay_difficulty = "Hard"
+	mechanical_difficulty = "Easy"
+	duties = "Ensure that proper ethics is upheld, both with the treatment of personnel and of SCPs. Communicate with the Ethics Committee. Keep security in line."
+
+/datum/job/raisa
+	title = "RAISA Intake Specialist"
+	department = "Command"
+	selection_color = "#2f2f7f"
+	department_flag = COM|SEC|BUR
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the Site Director and Human Resources Officer"
+	economic_power = 5
+	requirements = list(EXP_TYPE_COMMAND = 120, EXP_TYPE_SECURITY = 180, EXP_TYPE_BUR = 60)
+	alt_titles = list()
+	minimal_player_age = 7
+	ideal_character_age = 25
+	outfit_type = /decl/hierarchy/outfit/job/command/raisa
+	class = CLASS_B
+	hud_icon = "hudraisa"
+
+	access = list(
+		ACCESS_COM_COMMS,
+		ACCESS_SEC_COMMS,
+		ACCESS_SECURITY_LVL1,
+		ACCESS_ADMIN_LVL1,
+		ACCESS_ADMIN_LVL2,
+		ACCESS_ADMIN_LVL3,
+		ACCESS_NETWORK
+	)
+	minimal_access = list()
+
+	min_skill = list(
+	    SKILL_COMPUTER    = SKILL_EXPERIENCED,
+	    SKILL_FORENSICS   = SKILL_TRAINED
+	)
+
+	max_skill = list(
+	    SKILL_COMPUTER    = SKILL_MASTER,
+	    SKILL_FORENSICS   = SKILL_EXPERIENCED
+	)
+	skill_points = 17
+
+	roleplay_difficulty = "Medium - Hard"
+	mechanical_difficulty = "Medium"
+	duties = "Track and prevent potential espionage. Control access to classified information. Protect SCP databases from threats, both mundane and anomalous."
+
 // COMMUNICATIONS
 
 /datum/job/commsofficer
@@ -158,92 +289,6 @@
 	duties = "Keep communications systems online. Inform the site of on-going threats. Dispatch security. Manage your department."
 
 // MISC
-
-/datum/job/tribunal
-
-	title = "Internal Tribunal Department Officer"
-	department = "Civilian"
-	selection_color = "#2f2f7f"
-	department_flag = COM|BUR
-	total_positions = 1
-	spawn_positions = 1
-	supervisors = "The Tribunal Department"
-	economic_power = 4
-	minimal_player_age = 5
-	ideal_character_age = 30
-	outfit_type = /decl/hierarchy/outfit/job/civ/tribunal
-	requirements = list(EXP_TYPE_COMMAND = 600, EXP_TYPE_SECURITY = 600, EXP_TYPE_BUR = 60)
-	class = CLASS_A
-	hud_icon = "huditdo"
-	access = list(
-		ACCESS_ADMIN_LVL1,
-		ACCESS_ADMIN_LVL2,
-		ACCESS_ADMIN_LVL3,
-		ACCESS_ADMIN_LVL4,
-		ACCESS_ADMIN_LVL5
-	)
-
-	minimal_access = list()
-
-	max_skill = list(
-		SKILL_WEAPONS       = SKILL_TRAINED,
-		SKILL_COMPUTER		= SKILL_BASIC,
-		SKILL_FINANCE       = SKILL_BASIC,
-	)
-
-	max_skill = list(
-		SKILL_WEAPONS       = SKILL_EXPERIENCED,
-		SKILL_COMPUTER		= SKILL_MASTER,
-		SKILL_FINANCE       = SKILL_MASTER,
-	)
-	skill_points = 20
-
-	roleplay_difficulty = "Hard"
-	mechanical_difficulty = "Easy"
-	duties = "Ensure Foundation protocols are followed. Keep security in line."
-
-/datum/job/ethicsliaison
-
-	title = "Ethics Committee Liaison"
-	department = "Civilian"
-	selection_color = "#2f2f7f"
-	department_flag = COM|BUR
-	total_positions = 1
-	spawn_positions = 1
-	supervisors = "the Ethics Committee"
-	economic_power = 4
-	minimal_player_age = 5
-	ideal_character_age = 30
-	outfit_type = /decl/hierarchy/outfit/job/civ/ethics
-	requirements = list(EXP_TYPE_BUR = 300)
-	class = CLASS_A
-	hud_icon = "hudecl"
-	access = list(
-		ACCESS_ADMIN_LVL1,
-		ACCESS_ADMIN_LVL2,
-		ACCESS_ADMIN_LVL3,
-		ACCESS_ADMIN_LVL4,
-		ACCESS_ADMIN_LVL5
-	)
-
-	minimal_access = list()
-
-	max_skill = list(
-		SKILL_WEAPONS       = SKILL_TRAINED,
-		SKILL_COMPUTER		= SKILL_BASIC,
-		SKILL_FINANCE       = SKILL_BASIC,
-	)
-
-	max_skill = list(
-		SKILL_WEAPONS       = SKILL_EXPERIENCED,
-		SKILL_COMPUTER		= SKILL_MASTER,
-		SKILL_FINANCE       = SKILL_MASTER,
-	)
-	skill_points = 20
-
-	roleplay_difficulty = "Hard"
-	mechanical_difficulty = "Easy"
-	duties = "Ensure that proper ethics is upheld, both with the treatment of personnel and of SCPs. Communicate with the Ethics Committee. Keep security in line."
 
 /datum/job/goirep
 	title = "Global Occult Coalition Representative"

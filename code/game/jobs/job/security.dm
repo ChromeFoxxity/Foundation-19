@@ -60,10 +60,10 @@
 
 	roleplay_difficulty = "Hard"
 	mechanical_difficulty = "Easy - Medium"
-	duties = "Manage the Security Department. Keep track of potential and on-going threats (such as containment breaches). Work with other departments to respond to said threats."
+	duties = "<big><b>As the Security Captain you are the commanding officer of the Security Department, and are a source of information and leadership for them. Your duties are to command the Security Department, issue posts and or patrols and act as the law enforcement of the facility. You also have the duty of guarding the containment zones via the checkpoints. You always have a SoP you can check for further information.</b></big>"
 
 //##
-//LIEUTENANT
+//LIEUTENANTS
 //##
 
 /datum/job/securitylieutenant
@@ -114,63 +114,10 @@
 
 	roleplay_difficulty = "Medium - Hard"
 	mechanical_difficulty = "Medium"
-	duties = "Command your guards. Keep track of potential and on-going riots and containment breaches."
+	duties = "<big><b>As the Security Lieutenant you are the second-in-command of the Security Department, and are a source of information and leadership for them. Your duties are to guard the CDCZ, escort tests, and act as the law enforcement of the facility. If in doubt, ask your Captain. You also have the duty of guarding the containment zones via the checkpoints. You always have a SoP you can check for further information.</b></big>"
 
 //##
-// OFFICERS
-//##
-
-/datum/job/raisa
-	title = "RAISA Agent"
-	department = "Command"
-	selection_color = "#515151"
-	department_flag = COM|BUR
-	total_positions = 1
-	spawn_positions = 1
-	supervisors = "the Site Director"
-	economic_power = 5
-	requirements = list(EXP_TYPE_COMMAND = 120, EXP_TYPE_SECURITY = 180, EXP_TYPE_ENGINEERING = 90, EXP_TYPE_BUR = 60)
-	alt_titles = list()
-	minimal_player_age = 7
-	ideal_character_age = 25
-	outfit_type = /decl/hierarchy/outfit/job/security/raisa_agent
-	class = CLASS_B
-	hud_icon = "hudraisa"
-
-	access = list(
-		ACCESS_ENG_COMMS,
-		ACCESS_SEC_COMMS,
-		ACCESS_SCIENCE_LVL1,
-		ACCESS_MEDICAL_LVL1,
-		ACCESS_ENGINEERING_LVL1,
-		ACCESS_ENGINEERING_LVL2,
-		ACCESS_SECURITY_LVL1,
-		ACCESS_SECURITY_LVL2,
-		ACCESS_SECURITY_LVL3,
-		ACCESS_ADMIN_LVL1,
-		ACCESS_ADMIN_LVL2,
-		ACCESS_ADMIN_LVL3,
-		ACCESS_NETWORK
-	)
-	minimal_access = list()
-
-	min_skill = list(
-	    SKILL_COMPUTER    = SKILL_EXPERIENCED,
-	    SKILL_FORENSICS   = SKILL_TRAINED
-	)
-
-	max_skill = list(
-	    SKILL_COMPUTER    = SKILL_MASTER,
-	    SKILL_FORENSICS   = SKILL_EXPERIENCED
-	)
-	skill_points = 17
-
-	roleplay_difficulty = "Medium - Hard"
-	mechanical_difficulty = "Medium"
-	duties = "Track and prevent potential espionage. Control access to classified information. Protect SCP databases from threats, both mundane and anomalous."
-
-//##
-//SERGEANT
+//SERGEANTS
 //##
 
 /datum/job/securitysergeant
@@ -181,11 +128,10 @@
 	total_positions = 2
 	spawn_positions = 2
 	balance_limited = TRUE
-	//duties = "<big><b>As the Guard you have more access than a Junior Guard, but do not control them. You are to guard tests and SCP's in the zone you spawned in. If in doubt, ask your Zone or Guard Commander. You also have the duty of guarding the D-Class Cell Blocks. You should not leave your zone under usual SoP.</b></big>"
 	supervisors = "the Security Lieutenants and Security Captain"
 	economic_power = 4
-	requirements = list(EXP_TYPE_LCZ = 480)
-	alt_titles = list("LCZ Senior Combat Medic",)
+	requirements = list(EXP_TYPE_SECURITY = 480)
+	alt_titles = list("Security Staff Sergeant", "Security Sergeant First Class", "Security Master Sergeant")
 	minimal_player_age = 5
 	ideal_character_age = 25
 	outfit_type = /decl/hierarchy/outfit/job/security/sergeant
@@ -222,23 +168,73 @@
 	    SKILL_FORENSICS   = SKILL_TRAINED
 	)
 	skill_points = 21
+	duties = "<big><b>As the Security Sergeant you have more access than a Guard, and are a source of information for them. Your duties are to guard the CDCZ, escort tests, and act as the law enforcement of the facility. If in doubt, ask your Lieutenant or Captain. You also have the duty of guarding the containment zones via the checkpoints. You always have a SoP you can check for further information.</b></big>"
 
 //##
-//GUARD
+//GUARDS
 //##
+
+/datum/job/securitymedic
+	title = "Security Medic"
+	department = "Security"
+	selection_color = "#515151"
+	department_flag = SEC|MED
+	total_positions = 2
+	spawn_positions = 2
+	balance_limited = TRUE
+	supervisors = "the Security Lieutenants and Security Captain"
+	economic_power = 4
+	requirements = list(EXP_TYPE_SECURITY = 220, EXP_TYPE_MEDICAL = 120)
+	alt_titles = list("Security Combat Medic", "Security Field Medic")
+	minimal_player_age = 5
+	ideal_character_age = 25
+	outfit_type = /decl/hierarchy/outfit/job/security/medic
+	class = CLASS_C
+	hud_icon = "hudsecuritymedic"
+
+	access = list(
+		ACCESS_SEC_COMMS,
+		ACCESS_MED_COMMS,
+		ACCESS_SECURITY_LVL1,
+		ACCESS_SECURITY_LVL2,
+		ACCESS_SCIENCE_LVL1,
+		ACCESS_MEDICAL_LVL1,
+		ACCESS_MEDICAL_LVL2,
+		ACCESS_DCLASS_KITCHEN,
+		ACCESS_DCLASS_BOTANY,
+		ACCESS_DCLASS_MINING,
+		ACCESS_DCLASS_JANITORIAL,
+		ACCESS_DCLASS_MEDICAL,
+		ACCESS_DCLASS_LUXURY
+	)
+	minimal_access = list()
+
+	min_skill = list(
+	    SKILL_COMPUTER    = SKILL_BASIC,
+	    SKILL_HAULING     = SKILL_TRAINED,
+	    SKILL_COMBAT      = SKILL_TRAINED,
+	    SKILL_WEAPONS     = SKILL_TRAINED,
+	    SKILL_FORENSICS   = SKILL_BASIC
+	)
+
+	max_skill = list(
+		SKILL_COMBAT      = SKILL_EXPERIENCED,
+	    SKILL_WEAPONS     = SKILL_EXPERIENCED,
+	    SKILL_FORENSICS   = SKILL_TRAINED
+	)
+	skill_points = 21
+	duties = "<big><b>As the Security Medic you have more or less the same access of a guard, and are a source of medical treatment for them. Your duties are to guard the CDCZ, escort tests, and act as the law enforcement of the facility. If in doubt, ask your Lieutenant or Captain. You also have the duty of guarding the containment zones via the checkpoints. You always have a SoP you can check for further information.</b></big>"
 
 /datum/job/securityguard
 	title = "Security Guard"
 	department = "Security"
 	selection_color = "#515151"
 	department_flag = SEC
-	total_positions = 8
-	spawn_positions = 8
-	//duties = "<big><b>As the Junior Guard you have minimal access. You are to guard tests, SCP's and provide support in the zone you spawned in. If in doubt, ask your Zone or Guard Commander. You also have the duty of guarding the D-Class Cell Blocks. You should not leave your zone under usual SoP.</b></big>"
+	total_positions = 12
+	spawn_positions = 12
 	supervisors = "the Security Sergeants, Security Lieutenants and the Security Captain"
 	economic_power = 4
-	requirements = list(EXP_TYPE_SECURITY = 220)
-	alt_titles = list("Security Officer", "Security Private", "Security Corporal")
+	alt_titles = list("Security Private", "Security Private First Class", "Security Corporal")
 	minimal_player_age = 0
 	ideal_character_age = 25
 	balance_limited = TRUE
@@ -251,7 +247,6 @@
 		ACCESS_SECURITY_LVL1,
 		ACCESS_SECURITY_LVL2,
 		ACCESS_SCIENCE_LVL1,
-		ACCESS_SCIENCE_LVL2,
 		ACCESS_DCLASS_KITCHEN,
 		ACCESS_DCLASS_BOTANY,
 		ACCESS_DCLASS_MINING,
@@ -275,52 +270,7 @@
 	    SKILL_FORENSICS   = SKILL_TRAINED
 	)
 	skill_points = 17
-
-/datum/job/securitycadet
-	title = "Security Cadet"
-	department = "Security"
-	selection_color = "#515151"
-	department_flag = SEC
-	total_positions = 6
-	spawn_positions = 6
-	//duties = "<big><b>As the Junior Guard you have minimal access. You are to guard tests, SCP's and provide support in the zone you spawned in. If in doubt, ask your Zone or Guard Commander. You also have the duty of guarding the D-Class Cell Blocks. You should not leave your zone under usual SoP.</b></big>"
-	supervisors = "the Security Sergeants, Security Lieutenants and Security Captian"
-	economic_power = 4
-	minimal_player_age = 0
-	ideal_character_age = 25
-	balance_limited = TRUE
-	outfit_type = /decl/hierarchy/outfit/job/security/cadet
-	class = CLASS_C
-	hud_icon = "hudsecuritycadet"
-
-	access = list(
-		ACCESS_SEC_COMMS,
-		ACCESS_SECURITY_LVL1,
-		ACCESS_SCIENCE_LVL1,
-		ACCESS_SCIENCE_LVL2,
-		ACCESS_DCLASS_KITCHEN,
-		ACCESS_DCLASS_BOTANY,
-		ACCESS_DCLASS_MINING,
-		ACCESS_DCLASS_JANITORIAL,
-		ACCESS_DCLASS_MEDICAL,
-		ACCESS_DCLASS_LUXURY
-	)
-	minimal_access = list()
-
-	min_skill = list(
-	    SKILL_COMPUTER    = SKILL_BASIC,
-	    SKILL_HAULING     = SKILL_TRAINED,
-	    SKILL_COMBAT      = SKILL_TRAINED,
-	    SKILL_WEAPONS     = SKILL_BASIC,
-	    SKILL_FORENSICS   = SKILL_BASIC
-	)
-
-	max_skill = list(
-		SKILL_COMBAT      = SKILL_EXPERIENCED,
-	    SKILL_WEAPONS     = SKILL_EXPERIENCED,
-	    SKILL_FORENSICS   = SKILL_TRAINED
-	)
-	skill_points = 15
+	duties = "<big><b>As the Security Guard you are the lowest rank of the Security Department, and are the primary workforce of it. Your duties are to guard the CDCZ, escort tests, and act as the law enforcement of the facility. If in doubt, ask your Sergeants, Lieutenants or Captain. You also have the duty of guarding the containment zones via the checkpoints. You always have a SoP you can check for further information.</b></big>"
 
 //##
 //SCRAPPED

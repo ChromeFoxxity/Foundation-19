@@ -554,9 +554,6 @@ GLOBAL_LIST_EMPTY(conversion_cards)
 /obj/item/card/id/security/level3/security_sgt
 	job_access_type = /datum/job/securitysergeant
 
-/obj/item/card/id/security/level3/raisa
-	job_access_type = /datum/job/raisa
-
 /obj/item/card/id/security/level4/security_lt
 	job_access_type = /datum/job/securitylieutenant
 	class = CLASS_B
@@ -680,6 +677,10 @@ GLOBAL_LIST_EMPTY(conversion_cards)
 
 /obj/item/card/id/admin/level3/comms_officer
 	job_access_type = /datum/job/commsofficer
+	class = CLASS_B
+
+/obj/item/card/id/admin/level3/raisa
+	job_access_type = /datum/job/raisa
 	class = CLASS_B
 
 /obj/item/card/id/admin/level4/human_resource

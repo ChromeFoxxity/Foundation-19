@@ -1,6 +1,6 @@
 
 /decl/hierarchy/outfit/job/civ/classd
-	name = OUTFIT_JOB_NAME("Class D")
+	name = OUTFIT_JOB_NAME("CIV - Class D")
 	uniform = /obj/item/clothing/under/scp/dclass
 	shoes = /obj/item/clothing/shoes/workboots
 	l_ear = null
@@ -16,13 +16,13 @@
 		H.equip_to_slot_or_store_or_drop(new path (H), slot_l_store)
 
 /decl/hierarchy/outfit/job/civ/classd/high
-	name = OUTFIT_JOB_NAME("High-Security Class D")
+	name = OUTFIT_JOB_NAME("CIV - High-Security Class D")
 	uniform = /obj/item/clothing/under/scp/hdclass
 	l_pocket = /obj/item/paper/dclass_orientation
 	id_type = /obj/item/card/id/classd
 
 /decl/hierarchy/outfit/job/civ/classd/janitor
-	name = OUTFIT_JOB_NAME("Class D Janitor")
+	name = OUTFIT_JOB_NAME("CIV - Class D Janitor")
 	uniform = /obj/item/clothing/under/scp/dclass/janitor
 	head = /obj/item/clothing/head/soft/dclass
 	glasses = /obj/item/clothing/glasses/hud/janitor
@@ -30,7 +30,7 @@
 	l_pocket = /obj/item/paper/dclass_orientation
 
 /decl/hierarchy/outfit/job/civ/janitor
-	name = OUTFIT_JOB_NAME("Janitor")
+	name = OUTFIT_JOB_NAME("CIV - Janitor")
 	uniform = /obj/item/clothing/under/rank/janitor
 	shoes = /obj/item/clothing/shoes/workboots
 	l_pocket = /obj/item/device/radio
@@ -38,7 +38,7 @@
 	l_ear = /obj/item/device/radio/headset/headset_service
 
 /decl/hierarchy/outfit/job/civ/chef
-	name = OUTFIT_JOB_NAME("Chef")
+	name = OUTFIT_JOB_NAME("CIV - Chef")
 	uniform = /obj/item/clothing/under/color/white
 	shoes = /obj/item/clothing/shoes/white
 	l_pocket = /obj/item/device/radio
@@ -46,7 +46,7 @@
 	l_ear = /obj/item/device/radio/headset/headset_service
 
 /decl/hierarchy/outfit/job/civ/bartender
-	name = OUTFIT_JOB_NAME("Bartender")
+	name = OUTFIT_JOB_NAME("CIV - Bartender")
 	uniform = /obj/item/clothing/under/suit_jacket/tan
 	shoes = /obj/item/clothing/shoes/laceup
 	l_pocket = /obj/item/device/radio
@@ -54,7 +54,7 @@
 	l_ear = /obj/item/device/radio/headset/headset_service
 
 /decl/hierarchy/outfit/job/civ/gocrep
-	name = OUTFIT_JOB_NAME("Global Occult Coalition Representative")
+	name = OUTFIT_JOB_NAME("AD - Global Occult Coalition Representative")
 	uniform = /obj/item/clothing/under/rank/civilian/goc
 	suit = /obj/item/clothing/suit/gocjacket
 	head = /obj/item/clothing/head/beret/goc
@@ -69,7 +69,7 @@
 	belt = /obj/item/gun/projectile/pistol/usp45
 
 /decl/hierarchy/outfit/job/civ/uiu
-	name = OUTFIT_JOB_NAME("Unusual Incidents Unit Relations Agent")
+	name = OUTFIT_JOB_NAME("AD - Unusual Incidents Unit Relations Agent")
 	uniform = /obj/item/clothing/under/rank/civilian/uiu/formal
 	suit = /obj/item/clothing/suit/uiucoat
 	shoes = /obj/item/clothing/shoes/dress
@@ -82,7 +82,7 @@
 	belt = /obj/item/gun/projectile/pistol/glock
 
 /decl/hierarchy/outfit/job/civ/MCDRep
-	name = OUTFIT_JOB_NAME("Marshall, Carter, and Dark Corporate Liaison")
+	name = OUTFIT_JOB_NAME("AD - Marshall, Carter, and Dark Corporate Liaison")
 	uniform = /obj/item/clothing/under/suit_jacket/really_black
 	shoes = /obj/item/clothing/shoes/laceup
 	glasses = /obj/item/clothing/glasses/monocle
@@ -95,7 +95,7 @@
 	belt = /obj/item/gun/projectile/silenced
 
 /decl/hierarchy/outfit/job/civ/grcl
-	name = OUTFIT_JOB_NAME("Goldbaker-Reinz Corporate Liaison")
+	name = OUTFIT_JOB_NAME("AD - Goldbaker-Reinz Corporate Liaison")
 	uniform = /obj/item/clothing/under/scp/suittie
 	shoes = /obj/item/clothing/shoes/laceup
 	l_pocket = /obj/item/device/radio
@@ -106,7 +106,7 @@
 	belt = /obj/item/gun/projectile/pistol/m1911
 
 /decl/hierarchy/outfit/job/civ/ethics
-	name = OUTFIT_JOB_NAME("Ethics Committee Liasion")
+	name = OUTFIT_JOB_NAME("AD - Ethics Committee Liasion")
 	uniform = /obj/item/clothing/under/suit_jacket/really_black
 	shoes = /obj/item/clothing/shoes/laceup
 	l_pocket = /obj/item/device/radio
@@ -116,7 +116,7 @@
 	belt = /obj/item/gun/projectile/pistol/m1911/gold
 
 /decl/hierarchy/outfit/job/civ/tribunal
-	name = OUTFIT_JOB_NAME("Tribunal Officer")
+	name = OUTFIT_JOB_NAME("AD - Internal Tribunal Officer")
 	uniform = /obj/item/clothing/under/itd
 	suit = /obj/item/clothing/suit/armor/itd
 	shoes = /obj/item/clothing/shoes/laceup
@@ -127,14 +127,14 @@
 	belt = /obj/item/gun/projectile/pistol/m1911/gold
 
 /decl/hierarchy/outfit/job/chaplain
-	name = OUTFIT_JOB_NAME("Chaplain")
+	name = OUTFIT_JOB_NAME("CIV - Chaplain")
 	uniform = /obj/item/clothing/under/rank/chaplain
 	l_hand = /obj/item/storage/bible
 	id_type = /obj/item/card/id/civilian/chaplain
 	pda_type = /obj/item/modular_computer/pda/medical
 
 /decl/hierarchy/outfit/job/civ/officeworker
-	name = OUTFIT_JOB_NAME("Office Worker")
+	name = OUTFIT_JOB_NAME("CIV - Office Worker")
 	uniform = /obj/item/clothing/under/scp/suittie
 	shoes = /obj/item/clothing/shoes/laceup
 	id_type = /obj/item/card/id/science/level1/officeworker
@@ -147,7 +147,7 @@
 	r_hand = null
 
 /decl/hierarchy/outfit/job/civ/clown
-	name = OUTFIT_JOB_NAME("Clown")
+	name = OUTFIT_JOB_NAME("CIV - Clown")
 	uniform = /obj/item/clothing/under/rank/clown
 	backpack_contents = list(
 		/obj/item/stamp/clown = 1,

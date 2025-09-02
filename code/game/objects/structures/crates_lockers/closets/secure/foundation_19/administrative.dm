@@ -83,12 +83,17 @@
 
 /obj/structure/closet/secure_closet/scp/admin/internaltribunal/WillContain()
 	return list(
-		/obj/item/clothing/accessory/armorplate/sneaky,
-		/obj/item/clothing/shoes/laceup,
 		/obj/item/device/radio/headset/heads/hop,
-		/obj/item/clothing/under/lawyer/purpsuit,
 		/obj/item/clothing/suit/armor/itd,
 		/obj/item/clothing/under/itd,
+		/obj/item/clothing/under/lawyer/purpsuit,
+		/obj/item/clothing/under/suit_jacket/really_black,
+		/obj/item/clothing/shoes/laceup,
+		/obj/item/clothing/accessory/armorplate/sneaky,
+		/obj/item/clothing/accessory/storage/holster/thigh,
+		/obj/item/ammo_magazine/box/a45 = 2,
+		/obj/item/implantcase/death_alarm,
+		/obj/item/implanter,
 	)
 
 /obj/structure/closet/secure_closet/scp/admin/ethicscommittee
