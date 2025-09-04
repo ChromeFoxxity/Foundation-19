@@ -51,8 +51,8 @@
 	icon_state = "dj"
 
 /obj/item/clothing/under/scp/eclass
-	name = "Solitary D-Class uniform"
-	desc = "A dark grey jumpsuit, indicative of trouble-making Class D personnel."
+	name = "E-Class uniform"
+	desc = "A dark grey jumpsuit, indicative of trouble-making personnel, enough to be Class-E'd, which is the lowest of low."
 	icon_state = "e"
 
 /obj/item/clothing/under/scp/hdclass

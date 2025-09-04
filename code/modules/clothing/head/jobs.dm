@@ -160,18 +160,6 @@
 
 // ENDING NEW SECURITY BERETS //
 
-/obj/item/clothing/head/beret/isd
-	name = "Internal Security field cap"
-	desc = "A dull black cap. It has ISD in white printed on it on the front. Used by the Internal Security Department. It's padded with some extreme armor."
-	icon_state = "isd_cap"
-	armor = list(melee = 50, bullet = 60, laser = 50,energy = 25, bomb = 50, bio = 50, rad = 60)
-	body_parts_covered = HEAD
-
-/obj/item/clothing/head/beret/isd/fedora
-	name = "Internal Security fedora"
-	desc = "A fancy black fedora with a red strap along it. Used by the Internal Security Department. It's padded with some extreme armor."
-	icon_state = "isd_fedora"
-
 /obj/item/clothing/head/beret/engineering
 	name = "corporate engineering beret"
 	desc = "A beret with the engineering insignia emblazoned on it. For engineers that are more inclined towards style than safety."

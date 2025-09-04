@@ -9,6 +9,9 @@
 	icon_closed = "rdlabcoat"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
 
+/obj/item/clothing/suit/storage/toggle/labcoat/scp/assistant/ard
+	starting_accessories = list(/obj/item/clothing/accessory/armband/sci)
+
 /obj/item/clothing/suit/apron/overalls/robotics
 	name = "robotics overalls"
 	desc = "A pair of heavy, black utility overalls with a red SCP Logo on the back."
@@ -22,3 +25,6 @@
 	icon_open = "scplabcoat_open"
 	icon_closed = "scplabcoat"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
+
+/obj/item/clothing/suit/storage/toggle/labcoat/scp/division
+	starting_accessories = list(/obj/item/clothing/accessory/armband/sci)

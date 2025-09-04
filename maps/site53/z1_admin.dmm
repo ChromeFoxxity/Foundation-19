@@ -1770,7 +1770,7 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/site53/tram/mtf)
 "ed" = (
-/obj/structure/closet/secure_closet/site53/ard{
+/obj/structure/closet/secure_closet/scp/science/assist_science_director{
 	name = "Research Lead's locker"
 	},
 /obj/effect/floor_decal/spline/wood/bamboo{
@@ -8852,27 +8852,27 @@
 	dir = 6
 	},
 /obj/structure/table/rack,
-/obj/item/clothing/under/rank/civilian/uiu/formal{
+/obj/item/clothing/under/rank/scp/uiu{
 	desc = "A snazzy pair of formal slacks, and a light blue button-up shirt in GOC colors, with some khaki pants. Usually the outfit of a GOC Thaumatologist.";
 	name = "Global Occult Coalition civil formal suit"
 	},
-/obj/item/clothing/under/rank/civilian/uiu/formal{
+/obj/item/clothing/under/rank/scp/uiu{
 	desc = "A snazzy pair of formal slacks, and a light blue button-up shirt in GOC colors, with some khaki pants. Usually the outfit of a GOC Thaumatologist.";
 	name = "Global Occult Coalition civil formal suit"
 	},
-/obj/item/clothing/under/rank/civilian/uiu/formal{
+/obj/item/clothing/under/rank/scp/uiu{
 	desc = "A snazzy pair of formal slacks, and a light blue button-up shirt in GOC colors, with some khaki pants. Usually the outfit of a GOC Thaumatologist.";
 	name = "Global Occult Coalition civil formal suit"
 	},
-/obj/item/clothing/under/rank/civilian/uiu/formal{
+/obj/item/clothing/under/rank/scp/uiu{
 	desc = "A snazzy pair of formal slacks, and a light blue button-up shirt in GOC colors, with some khaki pants. Usually the outfit of a GOC Thaumatologist.";
 	name = "Global Occult Coalition civil formal suit"
 	},
-/obj/item/clothing/under/rank/civilian/uiu/formal{
+/obj/item/clothing/under/rank/scp/uiu{
 	desc = "A snazzy pair of formal slacks, and a light blue button-up shirt in GOC colors, with some khaki pants. Usually the outfit of a GOC Thaumatologist.";
 	name = "Global Occult Coalition civil formal suit"
 	},
-/obj/item/clothing/under/rank/civilian/uiu/formal{
+/obj/item/clothing/under/rank/scp/uiu{
 	desc = "A snazzy pair of formal slacks, and a light blue button-up shirt in GOC colors, with some khaki pants. Usually the outfit of a GOC Thaumatologist.";
 	name = "Global Occult Coalition civil formal suit"
 	},
@@ -23919,18 +23919,18 @@
 /area/site53/tram/vessel)
 "ZS" = (
 /obj/structure/table/rack,
-/obj/item/clothing/under/rank/security/goc,
-/obj/item/clothing/under/rank/security/goc,
-/obj/item/clothing/under/rank/security/goc,
-/obj/item/clothing/under/rank/security/goc,
-/obj/item/clothing/under/rank/security/goc,
-/obj/item/clothing/under/rank/security/goc,
-/obj/item/clothing/suit/armor/goc,
-/obj/item/clothing/suit/armor/goc,
-/obj/item/clothing/suit/armor/goc,
-/obj/item/clothing/suit/armor/goc,
-/obj/item/clothing/suit/armor/goc,
-/obj/item/clothing/suit/armor/goc,
+/obj/item/clothing/under/rank/scp/uiu/combat,
+/obj/item/clothing/under/rank/scp/uiu/combat,
+/obj/item/clothing/under/rank/scp/uiu/combat,
+/obj/item/clothing/under/rank/scp/uiu/combat,
+/obj/item/clothing/under/rank/scp/uiu/combat,
+/obj/item/clothing/under/rank/scp/uiu/combat,
+/obj/item/clothing/suit/armor/vest/scp/goc,
+/obj/item/clothing/suit/armor/vest/scp/goc,
+/obj/item/clothing/suit/armor/vest/scp/goc,
+/obj/item/clothing/suit/armor/vest/scp/goc,
+/obj/item/clothing/suit/armor/vest/scp/goc,
+/obj/item/clothing/suit/armor/vest/scp/goc,
 /obj/item/clothing/mask/gas/goc,
 /obj/item/clothing/mask/gas/goc,
 /obj/item/clothing/mask/gas/goc,

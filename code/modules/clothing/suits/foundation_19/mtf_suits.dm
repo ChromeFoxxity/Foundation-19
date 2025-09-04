@@ -1,7 +1,7 @@
 // MTF/ERT SUITS
 // [SCP]
 
-/obj/item/clothing/suit/armor/scp/overseer
+/obj/item/clothing/suit/storage/scp/overseer
 	name = "overwatch command's coat"
 	desc = "A heavy, black long coat with golden markings along the wrists, as well as real genuine bear fur on it. It's woven from the finest cotton, and alloyed with durathread, to make the user comfortable, but durable to many kinds of damage."
 	icon_state = "o5_coat"

@@ -551,6 +551,9 @@ GLOBAL_LIST_EMPTY(conversion_cards)
 /obj/item/card/id/security/level2/security_grd
 	job_access_type = /datum/job/securityguard
 
+/obj/item/card/id/security/level2/security_med
+	job_access_type = /datum/job/securitymedic
+
 /obj/item/card/id/security/level3/security_sgt
 	job_access_type = /datum/job/securitysergeant
 
@@ -656,6 +659,12 @@ GLOBAL_LIST_EMPTY(conversion_cards)
 //##
 //CLASS-D JOBS
 //##
+
+/obj/item/card/id/classe
+	name = "Class-E SCP Clearance Card"
+	desc = "A deafening grey SCP clearance level card. This one is for the site's Class-E personnel."
+	icon_state = "classe"
+	class = CLASS_E
 
 /obj/item/card/id/classd
 	name = "Class-D SCP Clearance Card"

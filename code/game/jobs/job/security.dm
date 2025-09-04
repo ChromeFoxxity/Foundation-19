@@ -36,6 +36,7 @@
 		ACCESS_ENGINEERING_LVL1,
 		ACCESS_ENGINEERING_LVL2,
 		ACCESS_KEYAUTH,
+		ACCESS_RC_ANNOUNCE,
 		ACCESS_CHAPEL_OFFICE
 	)
 	minimal_access = list()
@@ -214,15 +215,21 @@
 	    SKILL_HAULING     = SKILL_TRAINED,
 	    SKILL_COMBAT      = SKILL_TRAINED,
 	    SKILL_WEAPONS     = SKILL_TRAINED,
-	    SKILL_FORENSICS   = SKILL_BASIC
+	    SKILL_FORENSICS   = SKILL_BASIC,
+		SKILL_MEDICAL     = SKILL_TRAINED,
+		SKILL_CHEMISTRY   = SKILL_TRAINED,
+		SKILL_DEVICES     = SKILL_TRAINED
 	)
 
 	max_skill = list(
 		SKILL_COMBAT      = SKILL_EXPERIENCED,
 	    SKILL_WEAPONS     = SKILL_EXPERIENCED,
-	    SKILL_FORENSICS   = SKILL_TRAINED
+	    SKILL_FORENSICS   = SKILL_TRAINED,
+		SKILL_MEDICAL     = SKILL_MASTER,
+	    SKILL_ANATOMY     = SKILL_TRAINED,
+	    SKILL_CHEMISTRY   = SKILL_MASTER
 	)
-	skill_points = 21
+	skill_points = 17
 	duties = "<big><b>As the Security Medic you have more or less the same access of a guard, and are a source of medical treatment for them. Your duties are to guard the CDCZ, escort tests, and act as the law enforcement of the facility. If in doubt, ask your Lieutenant or Captain. You also have the duty of guarding the containment zones via the checkpoints. You always have a SoP you can check for further information.</b></big>"
 
 /datum/job/securityguard

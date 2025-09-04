@@ -33,6 +33,18 @@
 	siemens_coefficient = 0.5
 	permeability_coefficient = 0
 
+/obj/item/clothing/head/scp/mtf/isd
+	name = "Internal Security field cap"
+	desc = "A dull black cap. It has ISD in white printed on it on the front. Used by the Internal Security Department. It's padded with some extreme armor."
+	icon_state = "isd_cap"
+	armor = list(melee = 50, bullet = 60, laser = 50,energy = 25, bomb = 50, bio = 50, rad = 60)
+	body_parts_covered = HEAD
+
+/obj/item/clothing/head/scp/mtf/isd/fedora
+	name = "Internal Security fedora"
+	desc = "A fancy black fedora with a red strap along it. Used by the Internal Security Department. It's padded with some extreme armor."
+	icon_state = "isd_fedora"
+
 /obj/item/clothing/head/beret/scp/mtf
 	name = "'Nine Tailed Fox' combat beret"
 	desc = "A heavily padded dark orange beret worn by MTF field agents, it has a silver Epsilon-11 badge on the front of it. It's got heavy armor padding, surprisingly more armored than a helmet however doesn't cover as much. The predicament of fashion and defense is always an issue."

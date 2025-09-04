@@ -62,7 +62,7 @@
 	var/list/z_levels = list()
 
 /datum/feed_network/New()
-	CreateFeedChannel("Announcements", "SS13", 1, 1, "New Announcement Available")
+	CreateFeedChannel("Announcements", "Facility Automated Systems", 1, 1, "New Announcement Available")
 
 /datum/feed_network/proc/CreateFeedChannel(channel_name, author, locked, adminChannel = 0, announcement_message)
 	var/datum/feed_channel/newChannel = new /datum/feed_channel
@@ -444,7 +444,7 @@ var/list/obj/machinery/newscaster/allCasters = list() //Global list that will co
 				dat+="<B>Wanted Issue successfully deleted from Circulation</B><BR>"
 				dat+="<BR><A href='?src=\ref[src];setScreen=[0]'>Return</A><BR>"
 			if(18)
-				dat+="<B><FONT COLOR ='maroon'>-- STATIONWIDE WANTED ISSUE --</B></FONT><BR><FONT SIZE=2>\[Submitted by: <FONT COLOR='green'>[connected_group.wanted_issue.backup_author]</FONT>\]</FONT><HR>"
+				dat+="<B><FONT COLOR ='maroon'>-- FACILITY-WIDE WANTED ISSUE --</B></FONT><BR><FONT SIZE=2>\[Submitted by: <FONT COLOR='green'>[connected_group.wanted_issue.backup_author]</FONT>\]</FONT><HR>"
 				dat+="<B>Criminal</B>: [connected_group.wanted_issue.author]<BR>"
 				dat+="<B>Description</B>: [connected_group.wanted_issue.body]<BR>"
 				dat+="<B>Photo</B>: "

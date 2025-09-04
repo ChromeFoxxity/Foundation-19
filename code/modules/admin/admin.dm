@@ -386,7 +386,7 @@ var/global/floorIsLava = 0
 			"}
 		if(18)
 			dat+={"
-				<B><FONT COLOR ='maroon'>-- STATIONWIDE WANTED ISSUE --</B></FONT><BR><FONT SIZE=2>\[Submitted by: <FONT COLOR='green'>[torch_network.wanted_issue.backup_author]</FONT>\]</FONT><HR>
+				<B><FONT COLOR ='maroon'>-- FACILITY-WIDE WANTED ISSUE --</B></FONT><BR><FONT SIZE=2>\[Submitted by: <FONT COLOR='green'>[torch_network.wanted_issue.backup_author]</FONT>\]</FONT><HR>
 				<B>Criminal</B>: [torch_network.wanted_issue.author]<BR>
 				<B>Description</B>: [torch_network.wanted_issue.body]<BR>
 				<B>Photo:</B>:

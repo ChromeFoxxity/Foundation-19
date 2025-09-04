@@ -52,7 +52,7 @@
 // [SCP]
 
 /obj/item/clothing/suit/storage/scp/uiu
-	name = "FBI jacket"
+	name = "Federal Bureau of Investigation jacket"
 	desc = "A FBI jacket, used by Federal Bureau of Investigation, and or UIU Relations Agents. You feel like you deserve more than this."
 	icon_state = "uiucoat"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS

@@ -15,7 +15,7 @@
 /obj/item/clothing/head/beret/scp/goc/combat
 	name = "Global Occult Coalition combat beret"
 	desc = "A dark blue beret with a silver Global Occult Coalition badge on the front, smells of spent gunpowder."
-	icon_state = "goc_formal_beret"
+	icon_state = "goc_beret"
 	armor = list(melee = ARMOR_MELEE_VVRESISTANT, bullet = ARMOR_BALLISTIC_PISTOLP, laser = ARMOR_LASER_SMALL_MID, energy = ARMOR_ENERGY_RESISTANT, bomb = ARMOR_BOMB_MINOR, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)
 
 obj/item/clothing/head/scp/goc/admin

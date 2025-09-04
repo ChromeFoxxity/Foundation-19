@@ -30,17 +30,25 @@
 	name = "medium-plated foundation security vest"
 	desc = "A hefty armored vest with added shoulder armor and kneepads for semi-full body coverage, as well as silver rank tabs on the shoulderpads, and a silver 'SCP' tag on the vest. Worn by the Site Security Lieutenants, it has some durathread plating in it to make it the most durable against melee, with some minor protection against other damage types."
 	icon_state = "lt_guard_vest"
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS|FEET
-	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS|FEET
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
 	armor = list(melee = ARMOR_MELEE_VERY_HIGH, bullet = ARMOR_BALLISTIC_PISTOLP, laser = ARMOR_LASER_MID, energy = ARMOR_ENERGY_RESISTANT, bomb = ARMOR_BOMB_PADDED, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)
 
 /obj/item/clothing/suit/armor/vest/scp/security/captain
 	name = "heavy-plated foundation security vest"
 	desc = "A heavy armored vest with added arm and hand armor and kneepads for full body coverage, as well as golden rank tabs on the arms, and a golden 'SCP' tag on the vest. Worn by the Site Security Captain, it has some durathread plating in it to make it the most durable against melee, with some protection against other damage types."
 	icon_state = "cpt_guard_vest"
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS|FEET|HANDS
-	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS|FEET|HANDS
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
 	armor = list(melee = ARMOR_MELEE_VERY_VERY_HIGH, bullet = ARMOR_BALLISTIC_RESISTANT, laser = ARMOR_LASER_HANDGUNS, energy = ARMOR_ENERGY_RESISTANT, bomb = ARMOR_BOMB_PADDED, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)
+
+/obj/item/clothing/suit/armor/vest/scp/security/riot
+	name = "riot foundation security vest"
+	desc = "A riot-based armored vest with added arm and hand armor and kneepads for full body coverage and a white 'SCP' tag on the vest. Worn by the Site Security in riots, it has some durathread plating in it to make it the most durable against melee primarily."
+	icon_state = "riot_guard_vest"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	cold_protection = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	armor = list(melee = ARMOR_MELEE_VERY_HIGH, bullet = ARMOR_BALLISTIC_VERY_SMALL, laser = ARMOR_LASER_MID, energy = ARMOR_ENERGY_SMALL, bomb = ARMOR_BOMB_PADDED, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)
 
 /obj/item/clothing/suit/armor/vest/scp/security/ruined
 	name = "ruined foundation security vest"

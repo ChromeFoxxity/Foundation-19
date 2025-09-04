@@ -16,7 +16,6 @@
 	item_state = "b_suit"
 	worn_state = "science_assistant"
 	rolled_sleeves = 1
-	starting_accessories = list(/obj/item/clothing/accessory/armband/sci)
 
 /obj/item/clothing/under/rank/scp/science/psionic/senior
 	name = "psychotronicist's uniform"
@@ -33,7 +32,6 @@
 	item_state = "p_suit"
 	worn_state = "psionic_junior"
 	rolled_sleeves = 1
-	starting_accessories = list(/obj/item/clothing/accessory/armband/sci)
 
 /obj/item/clothing/under/rank/scp/science/robotics/senior
 	name = "roboticist's turtleneck"
@@ -42,6 +40,7 @@
 	item_state = "r_suit"
 	worn_state = "robotics_senior"
 	rolled_sleeves = 1
+	starting_accessories = list(/obj/item/clothing/accessory/armband/sci)
 
 /obj/item/clothing/under/rank/scp/science/robotics
 	name = "roboticist's uniform"

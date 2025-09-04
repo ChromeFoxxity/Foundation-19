@@ -112,7 +112,6 @@ var/const/AI_FREQ	= 1343
 var/const/DTH_FREQ	= 1341
 var/const/SYND_FREQ = 1213
 var/const/RAID_FREQ	= 1277
-var/const/GOC_FREQ	= 1346
 var/const/ENT_FREQ	= 1461 //entertainment frequency. This is not a diona exclusive frequency.
 
 // department channels
@@ -120,6 +119,7 @@ var/const/PUB_FREQ = 1459
 var/const/ENG_FREQ = 1357
 var/const/MED_FREQ = 1355
 var/const/SCI_FREQ = 1351
+var/const/SEC_FREQ = 1354
 var/const/SRV_FREQ = 1349
 var/const/SUP_FREQ = 1347
 var/const/EXP_FREQ = 1361
@@ -151,6 +151,8 @@ var/const/FEMURBREAKER_FREQ = 1329
 var/const/SEC_HCZ_FREQ = 1479
 var/const/SEC_LCZ_FREQ = 1471
 var/const/SEC_ECZ_FREQ = 1473
+var/const/GOC_FREQ = 1474
+var/const/UIU_FREQ = 1475
 
 var/list/radiochannels = list(
 	"Common"		= PUB_FREQ,
@@ -158,9 +160,9 @@ var/list/radiochannels = list(
 	"Command"		= COMM_FREQ,
 	"Medical"		= MED_FREQ,
 	"Engineering"	= ENG_FREQ,
+	"Security"		= SEC_FREQ,
 	"Response Team" = ERT_FREQ,
 	"Special Ops" 	= DTH_FREQ,
-	"GOC"			= GOC_FREQ,
 	"Mercenary" 	= SYND_FREQ,
 	"Raider"		= RAID_FREQ,
 	"Exploration"	= EXP_FREQ,
@@ -169,9 +171,9 @@ var/list/radiochannels = list(
 	"AI Private"	= AI_FREQ,
 	"Entertainment" = ENT_FREQ,
 	"Medical (I)"	= MED_I_FREQ,
-	"HCZ-Security"	= SEC_HCZ_FREQ,
-	"LCZ-Security"	= SEC_LCZ_FREQ,
-	"ECZ-Security"	= SEC_ECZ_FREQ
+	"Security (I)"	= SEC_I_FREQ,
+	"GOC"			= GOC_FREQ,
+	"UIU"			= UIU_FREQ
 )
 
 var/list/channel_color_presets = list(
@@ -179,6 +181,7 @@ var/list/channel_color_presets = list(
 	"Bitchin' Blue" = COMMS_COLOR_COMMAND,
 	"Bold Brass" = COMMS_COLOR_EXPLORER,
 	"Gastric Green" = COMMS_COLOR_SERVICE,
+	"Cold Grey" = COMMS_COLOR_SECURITY,
 	"Global Green" = COMMS_COLOR_COMMON,
 	"Grand Gold" = COMMS_COLOR_COLONY,
 	"Hippin' Hot Pink" = "#cc00aa",
@@ -195,7 +198,9 @@ var/list/channel_color_presets = list(
 	"Viewable Violet" = COMMS_COLOR_SKRELL,
 	"Generic Gray" = COMMS_COLOR_HCZ,
 	"Velvet Violet" = COMMS_COLOR_LCZ,
-	"Outstanding Orange" = COMMS_COLOR_ECZ
+	"Outstanding Orange" = COMMS_COLOR_ECZ,
+	"Humanitarian Blue" = COMMS_COLOR_GOC,
+	"Governmental Green" = COMMS_COLOR_UIU
 )
 
 // central command channels, i.e deathsquid & response teams
@@ -205,7 +210,7 @@ var/list/CENT_FREQS = list(ERT_FREQ, DTH_FREQ)
 var/list/ANTAG_FREQS = list(SYND_FREQ, RAID_FREQ)
 
 //Department channels, arranged lexically
-var/list/DEPT_FREQS = list(AI_FREQ, COMM_FREQ, ENG_FREQ, MED_FREQ, SEC_ECZ_FREQ, SEC_HCZ_FREQ, SEC_LCZ_FREQ, SCI_FREQ, SRV_FREQ, SUP_FREQ, EXP_FREQ, ENT_FREQ, GOC_FREQ)
+var/list/DEPT_FREQS = list(AI_FREQ, COMM_FREQ, ENG_FREQ, MED_FREQ, SEC_FREQ, SCI_FREQ, SRV_FREQ, SUP_FREQ, EXP_FREQ, ENT_FREQ, GOC_FREQ, UIU_FREQ)
 
 #define TRANSMISSION_WIRE	0
 #define TRANSMISSION_RADIO	1
@@ -217,6 +222,10 @@ var/list/DEPT_FREQS = list(AI_FREQ, COMM_FREQ, ENG_FREQ, MED_FREQ, SEC_ECZ_FREQ,
 	// centcomm channels (deathsquid and ert)
 	if(frequency in CENT_FREQS)
 		return "centradio"
+	if(frequency in GOC_FREQ)
+		return "gocradio"
+	if(frequency in UIU_FREQ)
+		return "uiuradio"
 	// command channel
 	if(frequency == COMM_FREQ)
 		return "comradio"
@@ -230,6 +239,8 @@ var/list/DEPT_FREQS = list(AI_FREQ, COMM_FREQ, ENG_FREQ, MED_FREQ, SEC_ECZ_FREQ,
 		return "sciradio"
 	if(frequency == MED_FREQ)
 		return "medradio"
+	if(frequency == SEC_FREQ)
+		return "secradio"
 	if(frequency == EXP_FREQ) // exploration
 		return "EXPradio"
 	if(frequency == SUP_FREQ) // cargo
@@ -244,13 +255,6 @@ var/list/DEPT_FREQS = list(AI_FREQ, COMM_FREQ, ENG_FREQ, MED_FREQ, SEC_ECZ_FREQ,
 		return "seciradio"
 	if(frequency in DEPT_FREQS)
 		return "deptradio"
-
-	if(frequency == SEC_HCZ_FREQ) //HCZ sec
-		return "hczradio"
-	if(frequency == SEC_LCZ_FREQ) //LCZ sec
-		return "lczradio"
-	if(frequency == SEC_ECZ_FREQ) //ECZ sec
-		return "eczradio"
 
 	// Away site channels
 	for (var/channel in AWAY_FREQS_ASSIGNED)

@@ -49,8 +49,8 @@
 
 /obj/structure/closet/secure_closet/scp/admin/commsofficer/WillContain()
 	return list(
-		/obj/item/clothing/under/rank/security/comms,
-		/obj/item/clothing/suit/armor/comms,
+		/obj/item/clothing/under/rank/scp/admin/comms,
+		/obj/item/clothing/suit/storage/scp/admin/comms_jacket,
 		/obj/item/device/radio,
 		/obj/item/device/megaphone,
 		/obj/item/storage/box/headset,
@@ -79,7 +79,7 @@
 /obj/structure/closet/secure_closet/scp/admin/commstech/WillContain()
 	return list(
 		/obj/item/device/radio,
-		/obj/item/clothing/under/rank/engineer/comms,
+		/obj/item/clothing/under/rank/scp/admin/comms_tech,
 		/obj/item/clothing/gloves/foundation_service,
 		/obj/item/material/clipboard,
 		/obj/item/folder/blue,
@@ -103,8 +103,8 @@
 /obj/structure/closet/secure_closet/scp/admin/internaltribunal/WillContain()
 	return list(
 		/obj/item/device/radio/headset/heads/hop,
-		/obj/item/clothing/suit/armor/itd,
-		/obj/item/clothing/under/itd,
+		/obj/item/clothing/suit/storage/scp/admin/itdo_coat,
+		/obj/item/clothing/under/rank/scp/admin/itdo,
 		/obj/item/clothing/under/lawyer/purpsuit,
 		/obj/item/clothing/under/suit_jacket/really_black,
 		/obj/item/clothing/shoes/laceup,
@@ -127,9 +127,9 @@
 /obj/structure/closet/secure_closet/scp/admin/ethicscommittee/WillContain()
 	return list(
 		/obj/item/device/radio/headset/heads/hop,
-		/obj/item/clothing/suit/storage/hooded/wintercoat/solgov/marine,
+		/obj/item/clothing/under/rank/scp/admin/ecl,
+		/obj/item/clothing/suit/storage/scp/admin/ecl_jacket,
 		/obj/item/clothing/under/lawyer/black,
-		/obj/item/clothing/under/suit_jacket/really_black,
 		/obj/item/clothing/shoes/laceup,
 		/obj/item/clothing/accessory/armorplate/sneaky,
 		/obj/item/clothing/accessory/storage/holster/thigh,

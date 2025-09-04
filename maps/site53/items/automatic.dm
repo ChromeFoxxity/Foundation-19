@@ -1,6 +1,38 @@
 /obj/item/gun/projectile/automatic/scp
 	icon = 'icons/obj/gun.dmi'
 
+/obj/item/gun/projectile/automatic/scp/p90
+	name = "FN P90"
+	desc = "The FN P90 is a submachine gun chambered in 5.7x28mm, also classified as a personal defense weapon, designed and manufactured by FN Herstal in Belgium. Created in response to NATO requests for a replacement for 9x19mm Parabellum firearms, the P90 was designed as a compact but powerful firearm for vehicle crews, operators of crew-served weapons, support personnel, special forces, and counter-terrorist groups. This one has a scope, and is issued to specifically LCZ Security, and or MTF."
+	icon_state = "p90"
+	item_state = "p90"
+	w_class = ITEM_SIZE_HUGE
+	force = 10
+	caliber = "5.7x28mm"
+	slot_flags = SLOT_BELT|SLOT_BACK
+	origin_tech = list(TECH_COMBAT = 6, TECH_MATERIAL = 1, TECH_ESOTERIC = 5)
+	load_method = MAGAZINE
+	magazine_type = /obj/item/ammo_magazine/scp/p90_mag
+	allowed_magazines = /obj/item/ammo_magazine/scp/p90_mag
+
+	//Assault rifle, burst fire degrades quicker than SMG, worse one-handing penalty, slightly increased move delay
+	firemodes = list(
+		list(mode_name="semiauto",       burst=1, fire_delay=0,    move_delay=null, one_hand_penalty=2, burst_accuracy=null, dispersion=null),
+		list(mode_name="3-round bursts", burst=3, fire_delay=null, move_delay=4,    one_hand_penalty=3, burst_accuracy=list(0,-1,-1), dispersion=list(0.0, 0.5, 0.8)),
+		list(mode_name="full auto",      burst=1, fire_delay=0, burst_delay=1, one_hand_penalty=4, burst_accuracy=list(0,-1,-2), dispersion=list(0.1, 0.7, 1.1), autofire_enabled=1),
+		)
+
+/obj/item/gun/projectile/automatic/scp/p90/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "p90"
+	else
+		icon_state = "p90-empty"
+	return
+
+/obj/item/gun/projectile/automatic/scp/p90/rubber
+	magazine_type = /obj/item/ammo_magazine/scp/p90_mag/rubber
+
 /obj/item/gun/projectile/automatic/scp/m16
 	name = "M16A2"
 	desc = "A Foundation-standard service rifle that takes 5.56x45mm straight magazines. Like many reliable firearms of old, the Foundation has found a use for them in the hands of Security Department operatives."

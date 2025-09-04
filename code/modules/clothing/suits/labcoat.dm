@@ -183,19 +183,3 @@
 	icon_open = "labcoat_cso_open"
 	icon_closed = "labcoat_cso"
 	body_parts_covered = UPPER_TORSO|ARMS
-
-/obj/item/clothing/suit/storage/toggle/labcoat/scp/assistant
-	name = "assistant director's labcoat"
-	desc = "A large coat that protects against minor chemical spills. It has an SCP logo on the chest of it, and usually has the wearer's ID pinned on the chest, denoting it as a SCP Foundation labcoat, not to mention the larger size probably means something."
-	icon_state = "assistlabcoat_open"
-	icon_open = "assistlabcoat_open"
-	icon_closed = "assistlabcoat"
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
-
-/obj/item/clothing/suit/storage/toggle/labcoat/scp/cmo
-	name = "medical director's labcoat"
-	desc = "A large coat that protects against minor chemical spills. It has a SCP logo on the chest, denoting it as an SCP Foundation labcoat and a blue stripe on it in Medical Director colors."
-	icon_state = "cmolabcoat_open"
-	icon_open = "cmolabcoat_open"
-	icon_closed = "cmolabcoat"
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS

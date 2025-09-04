@@ -1110,6 +1110,10 @@
 	name = "\improper Security Department Infirmary"
 	icon_state = "security"
 
+/area/site53/security/amnestics
+	name = "\improper Security Anesthetizing Room"
+	icon_state = "security"
+
 /area/site53/security/equipment
 	name = "\improper Security Department Equipment Room"
 	icon_state = "security"

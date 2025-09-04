@@ -381,7 +381,7 @@ var/const/MAP_HAS_RANK = 2		//Rank system, also togglable
 
 /datum/map/proc/setup_economy()
 	for (var/datum/feed_network/N in news_network)
-		N.CreateFeedChannel("Nyx Daily", "SolGov Minister of Information", 1, 1)
+		N.CreateFeedChannel("Nyx Daily", "United States Minister of Information", 1, 1)
 		N.CreateFeedChannel("The Gibson Gazette", "Editor Mike Hammers", 1, 1)
 
 	for(var/loc_type in typesof(/datum/trade_destination) - /datum/trade_destination)
@@ -439,6 +439,7 @@ var/const/MAP_HAS_RANK = 2		//Rank system, also togglable
 		num2text(MED_I_FREQ) = list(ACCESS_MEDICAL_EQUIP),
 		num2text(SEC_I_FREQ) = list(ACCESS_SECURITY),
 		num2text(SCI_FREQ)   = list(ACCESS_TOX,ACCESS_ROBOTICS,ACCESS_XENOBIOLOGY),
+		num2text(SEC_FREQ)   = list(ACCESS_BRIG, ACCESS_SECURITY),
 		num2text(SUP_FREQ)   = list(ACCESS_CARGO),
 		num2text(SRV_FREQ)   = list(ACCESS_JANITOR, ACCESS_HYDROPONICS),
 	)

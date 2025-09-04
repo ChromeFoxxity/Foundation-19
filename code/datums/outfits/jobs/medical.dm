@@ -7,7 +7,7 @@
 	BACKPACK_OVERRIDE_CHEMISTRY
 
 /decl/hierarchy/outfit/job/command/cmo
-	name = OUTFIT_JOB_NAME("Medical Director")
+	name = OUTFIT_JOB_NAME("MD - Medical Director")
 	uniform = /obj/item/clothing/under/rank/chief_medical_officer/turtleneck
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/scp/cmo
 	shoes = /obj/item/clothing/shoes/laceup
@@ -18,7 +18,7 @@
 	l_ear = /obj/item/device/radio/headset/heads/cmo
 
 /decl/hierarchy/outfit/job/command/acmo
-	name = OUTFIT_JOB_NAME("Assistant Medical Director")
+	name = OUTFIT_JOB_NAME("MD - Assistant Medical Director")
 	uniform = /obj/item/clothing/under/rank/medical/scrubs/purple
 	head = /obj/item/clothing/head/surgery/purple
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/scp/assistant
@@ -30,7 +30,7 @@
 	l_ear = /obj/item/device/radio/headset/heads/cmo
 
 /decl/hierarchy/outfit/job/medical/psychiatrist
-	name = OUTFIT_JOB_NAME("Psychiatrist")
+	name = OUTFIT_JOB_NAME("MD - Psychiatrist")
 	uniform = /obj/item/clothing/under/suit_jacket/tan
 	shoes = /obj/item/clothing/shoes/laceup
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
@@ -39,7 +39,7 @@
 	l_ear = /obj/item/device/radio/headset/headset_med
 
 /decl/hierarchy/outfit/job/medical/chemist
-	name = OUTFIT_JOB_NAME("Chemist")
+	name = OUTFIT_JOB_NAME("MD - Chemist")
 	uniform = /obj/item/clothing/under/rank/medical/scrubs/navyblue
 	head = /obj/item/clothing/head/surgery/navyblue
 	shoes = /obj/item/clothing/shoes/white
@@ -49,7 +49,7 @@
 	l_ear = /obj/item/device/radio/headset/headset_med
 
 /decl/hierarchy/outfit/job/medical/medicaldoctor
-	name = OUTFIT_JOB_NAME("Medical Doctor")
+	name = OUTFIT_JOB_NAME("MD - Medical Doctor")
 	uniform = /obj/item/clothing/under/rank/medical/scrubs/blue
 	head = /obj/item/clothing/head/surgery/blue
 	shoes = /obj/item/clothing/shoes/white
@@ -59,7 +59,7 @@
 	l_ear = /obj/item/device/radio/headset/headset_med
 
 /decl/hierarchy/outfit/job/medical/surgeon
-	name = OUTFIT_JOB_NAME("Surgeon")
+	name = OUTFIT_JOB_NAME("MD - Surgeon")
 	uniform = /obj/item/clothing/under/rank/medical/scrubs/green
 	head = /obj/item/clothing/head/surgery/green
 	shoes = /obj/item/clothing/shoes/white
@@ -69,7 +69,7 @@
 	l_ear = /obj/item/device/radio/headset/headset_med
 
 /decl/hierarchy/outfit/job/medical/emt
-	name = OUTFIT_JOB_NAME("Emergency Medical Technician")
+	name = OUTFIT_JOB_NAME("MD - Emergency Medical Technician")
 	uniform = /obj/item/clothing/under/rank/medical/scrubs/black
 	shoes = /obj/item/clothing/shoes/white
 	id_type = /obj/item/card/id/science/level2/emt
@@ -77,7 +77,7 @@
 	l_ear = /obj/item/device/radio/headset/headset_med
 
 /decl/hierarchy/outfit/job/medical/medicalintern
-	name = OUTFIT_JOB_NAME("Medical Intern")
+	name = OUTFIT_JOB_NAME("MD - Medical Intern")
 	uniform = /obj/item/clothing/under/rank/orderly
 	shoes = /obj/item/clothing/shoes/laceup
 	id_type = /obj/item/card/id/science/level1/junior_med

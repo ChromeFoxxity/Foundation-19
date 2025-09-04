@@ -68,6 +68,7 @@
 		ACCESS_ADMIN_LVL4,
 		ACCESS_ENGINEERING_LVL1,
 		ACCESS_KEYAUTH,
+		ACCESS_RC_ANNOUNCE,
 		ACCESS_CHANGE_IDS,
 		ACCESS_HOP,
 		ACCESS_CHAPEL_OFFICE
@@ -104,17 +105,21 @@
 	economic_power = 4
 	minimal_player_age = 5
 	ideal_character_age = 30
-	outfit_type = /decl/hierarchy/outfit/job/civ/tribunal
+	outfit_type = /decl/hierarchy/outfit/job/command/tribunal
 	requirements = list(EXP_TYPE_COMMAND = 600, EXP_TYPE_SECURITY = 600, EXP_TYPE_BUR = 60)
 	class = CLASS_A
 	hud_icon = "huditdo"
 	access = list(
+		ACCESS_COM_COMMS,
+		ACCESS_SEC_COMMS,
+		ACCESS_CIV_COMMS,
 		ACCESS_SECURITY_LVL1,
 		ACCESS_ADMIN_LVL1,
 		ACCESS_ADMIN_LVL2,
 		ACCESS_ADMIN_LVL3,
 		ACCESS_ADMIN_LVL4,
-		ACCESS_ADMIN_LVL5
+		ACCESS_ADMIN_LVL5,
+		ACCESS_RC_ANNOUNCE
 	)
 
 	minimal_access = list()
@@ -148,17 +153,21 @@
 	economic_power = 4
 	minimal_player_age = 5
 	ideal_character_age = 30
-	outfit_type = /decl/hierarchy/outfit/job/civ/ethics
+	outfit_type = /decl/hierarchy/outfit/job/command/ethics
 	requirements = list(EXP_TYPE_BUR = 300)
 	class = CLASS_A
 	hud_icon = "hudecl"
 	access = list(
+		ACCESS_COM_COMMS,
+		ACCESS_SEC_COMMS,
+		ACCESS_CIV_COMMS,
 		ACCESS_SECURITY_LVL1,
 		ACCESS_ADMIN_LVL1,
 		ACCESS_ADMIN_LVL2,
 		ACCESS_ADMIN_LVL3,
 		ACCESS_ADMIN_LVL4,
-		ACCESS_ADMIN_LVL5
+		ACCESS_ADMIN_LVL5,
+		ACCESS_RC_ANNOUNCE
 	)
 
 	minimal_access = list()
@@ -204,6 +213,7 @@
 		ACCESS_ADMIN_LVL1,
 		ACCESS_ADMIN_LVL2,
 		ACCESS_ADMIN_LVL3,
+		ACCESS_RC_ANNOUNCE,
 		ACCESS_NETWORK
 	)
 	minimal_access = list()
@@ -242,8 +252,6 @@
 	requirements = list("Communications Technician" = 360)
 
 	access = list(
-		ACCESS_SCIENCE_LVL1,
-		ACCESS_SCIENCE_LVL3,
 		ACCESS_COM_COMMS,
 		ACCESS_SCI_COMMS,
 		ACCESS_CIV_COMMS,
@@ -251,7 +259,6 @@
 		ACCESS_MED_COMMS,
 		ACCESS_ENG_COMMS,
 		ACCESS_SEC_COMMS,
-		ACCESS_ADMIN_LVL4,
 		ACCESS_ADMIN_LVL3,
 		ACCESS_ADMIN_LVL2,
 		ACCESS_ADMIN_LVL1,
@@ -259,10 +266,7 @@
 		ACCESS_ENGINEERING_LVL2,
 		ACCESS_ENGINEERING_LVL3,
 		ACCESS_NETWORK,
-		ACCESS_SECURITY_LVL1,
-		ACCESS_SCIENCE_LVL1,
-		ACCESS_SCIENCE_LVL2,
-		ACCESS_SCIENCE_LVL3,
+		ACCESS_RC_ANNOUNCE,
 		ACCESS_KEYAUTH
 	)
 
@@ -303,9 +307,7 @@
 	ideal_character_age = 30
 	alt_titles = list(
 		"Global Occult Coalition Ambassador",
-		"UIU Relations Agent" = /decl/hierarchy/outfit/job/civ/uiu,
-		"Marshall, Carter, and Dark Corporate Liaison" = /decl/hierarchy/outfit/job/civ/MCDRep,
-		"Goldbaker-Reinz Corporate Liaison" = /decl/hierarchy/outfit/job/civ/grcl
+		"UIU Relations Agent" = /decl/hierarchy/outfit/job/civ/uiu
 	)
 	outfit_type = /decl/hierarchy/outfit/job/civ/gocrep
 	class = CLASS_A
@@ -315,6 +317,7 @@
 	access = list(
 		ACCESS_COM_COMMS,
 		ACCESS_ADMIN_LVL1,
+		ACCESS_RC_ANNOUNCE,
 		ACCESS_CHAPEL_OFFICE
 	)
 

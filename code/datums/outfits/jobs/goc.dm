@@ -1,6 +1,6 @@
 /decl/hierarchy/outfit/goc
-	uniform = /obj/item/clothing/under/rank/security/goc
-	suit = /obj/item/clothing/suit/armor/goc
+	uniform = /obj/item/clothing/under/rank/scp/goc/combat
+	suit = /obj/item/clothing/suit/armor/vest/scp/goc
 	suit_store = null
 	head = /obj/item/clothing/head/helmet/scp/goc
 	mask = /obj/item/clothing/mask/gas/goc
@@ -26,8 +26,8 @@
 
 /decl/hierarchy/outfit/goc/machinegunner
 	name = OUTFIT_JOB_NAME("UNGOC PHYSICS Machinegunner") //I am heavy weapons guy
-	head = /obj/item/clothing/head/helmet/scp/security/goc
-	suit = /obj/item/clothing/suit/armor/goc/heavy
+	head = /obj/item/clothing/head/helmet/scp/goc/heavy
+	suit = /obj/item/clothing/suit/armor/vest/scp/goc/heavy
 	r_hand = /obj/item/gun/projectile/automatic/l6_saw //and THIS... is my weapon
 	l_hand = null
 	l_pocket = /obj/item/grenade/frag
@@ -36,8 +36,8 @@
 
 /decl/hierarchy/outfit/goc/grenadier
 	name = OUTFIT_JOB_NAME("UNGOC PHYSICS Grenadier")
-	head = /obj/item/clothing/head/helmet/scp/security/goc
-	suit = /obj/item/clothing/suit/armor/goc
+	head = /obj/item/clothing/head/helmet/scp/goc/heavy
+	suit = /obj/item/clothing/suit/armor/vest/scp/goc
 	r_hand = /obj/item/gun/launcher/grenade/thumper // LEEEET'S DO IIIT
 	l_hand = /obj/item/material/knife/combat
 	l_pocket = /obj/item/plastique
@@ -46,8 +46,8 @@
 
 /decl/hierarchy/outfit/goc/pointman
 	name = OUTFIT_JOB_NAME("UNGOC PHYSICS Pointman")
-	head = /obj/item/clothing/head/helmet/scp/security/goc
-	suit = /obj/item/clothing/suit/armor/goc/heavy
+	head = /obj/item/clothing/head/helmet/scp/goc/heavy
+	suit = /obj/item/clothing/suit/armor/vest/scp/goc/heavy
 	r_hand = /obj/item/shield/riot/metal // BULLETS? WHAT BULLETS?
 	l_hand = /obj/item/melee/baton/loaded
 	l_pocket = /obj/item/grenade/flashbang
@@ -56,8 +56,8 @@
 
 /decl/hierarchy/outfit/goc/leader
 	name = OUTFIT_JOB_NAME("UNGOC PHYSICS Team Leader")
-	head = /obj/item/clothing/head/beret/goc/lead
-	suit = /obj/item/clothing/suit/armor/goc/heavy
+	head = /obj/item/clothing/head/beret/scp/goc/combat
+	suit = /obj/item/clothing/suit/armor/vest/scp/goc/heavy
 	r_hand = /obj/item/gun/projectile/automatic/scp/ak742
 	l_hand = /obj/item/material/knife/combat
 	l_pocket = /obj/item/grenade/frag
@@ -74,8 +74,8 @@
 
 /decl/hierarchy/outfit/goc/machinegunner/corpse
 	name = OUTFIT_JOB_NAME("UNGOC PHYSICS Machinegunner Corpse")
-	head = /obj/item/clothing/head/helmet/scp/security/goc
-	suit = /obj/item/clothing/suit/armor/goc/heavy
+	head = /obj/item/clothing/head/helmet/scp/goc/heavy
+	suit = /obj/item/clothing/suit/armor/vest/scp/goc/heavy
 	r_hand = null
 	l_hand = null
 	l_pocket = null
@@ -84,8 +84,8 @@
 
 /decl/hierarchy/outfit/goc/grenadier/corpse
 	name = OUTFIT_JOB_NAME("UNGOC PHYSICS Grenadier Corpse")
-	head = /obj/item/clothing/head/helmet/scp/security/goc
-	suit = /obj/item/clothing/suit/armor/goc
+	head = /obj/item/clothing/head/helmet/scp/goc/heavy
+	suit = /obj/item/clothing/suit/armor/vest/scp/goc
 	r_hand = null
 	l_hand = null
 	l_pocket = null
@@ -94,8 +94,8 @@
 
 /decl/hierarchy/outfit/goc/leader/corpse
 	name = OUTFIT_JOB_NAME("UNGOC PHYSICS Team Leader Corpse")
-	head = /obj/item/clothing/head/beret/goc/lead
-	suit = /obj/item/clothing/suit/armor/goc/heavy
+	head = /obj/item/clothing/head/beret/scp/goc/combat
+	suit = /obj/item/clothing/suit/armor/vest/scp/goc/heavy
 	r_hand = null
 	l_hand = null
 	l_pocket = null

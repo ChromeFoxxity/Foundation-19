@@ -39,6 +39,12 @@
 	icon_state = "cpt_guard_helmet"
 	armor = list(melee = ARMOR_MELEE_HIGH, bullet = ARMOR_BALLISTIC_PISTOLP, laser = ARMOR_LASER_MAJOR, energy = ARMOR_ENERGY_RESISTANT, bomb = ARMOR_BOMB_PADDED, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)
 
+/obj/item/clothing/head/helmet/scp/security/riot
+	name = "\improper riot foundation security helmet"
+	desc = "A riot-based non-descript helmet with more built-in padding, and armor, primarily for riots. It has a white strengthened poly-carbonate riot visor on it."
+	icon_state = "riot_guard_helmet"
+	armor = list(melee = ARMOR_MELEE_SMALL_HIGH, bullet = ARMOR_BALLISTIC_SMALL, laser = ARMOR_LASER_HANDGUNS, energy = ARMOR_ENERGY_SMALL, bomb = ARMOR_BOMB_PADDED, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)
+
 /obj/item/clothing/head/helmet/scp/security/ruined
 	name = "\improper ruined foundation security helmet"
 	desc = "A scratched up and dusty heavy non-descript helmet with built-in padding with armor that seems to have aged and is no longer viable, primarily was used for riots, but this one probably won't. It has a shattered yellow poly-carbonate riot visor on it."

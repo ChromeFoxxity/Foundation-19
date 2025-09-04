@@ -18,7 +18,6 @@
 	#include "items/clothing/solgov-suit.dm"
 	#include "items/clothing/solgov-under.dm"
 
-	#include "job/headsets.dm"
 	#include "job/papers.dm"
 	#include "job/access/access.dm"
 	#include "job/access/access_containment.dm"

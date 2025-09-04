@@ -211,7 +211,6 @@
 #define HUD_SECURITY 	(1<<1)
 #define HUD_MEDICAL 	(1<<2)
 #define HUD_JANITOR 	(1<<3)
-#define HUD_SEC_MED		(1<<4)
 
 // Storage
 

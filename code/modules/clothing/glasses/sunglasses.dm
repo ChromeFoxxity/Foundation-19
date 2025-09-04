@@ -97,6 +97,6 @@
 	name = "HUD sec-med sunglasses"
 	desc = "Sunglasses with a combined security and medical HUD."
 	icon_state = "sunhudsecmed"
-	hud_type = list(HUD_SECURITY, HUD_MEDICAL)
-	hud = /obj/item/clothing/glasses/hud/security
+	hud_type = list(list(HUD_SECURITY), list(HUD_MEDICAL))
+	hud = list(/obj/item/clothing/glasses/hud/security, /obj/item/clothing/glasses/hud/health)
 	req_access = list(ACCESS_SECURITY_LVL1, ACCESS_MEDICAL_LVL1)

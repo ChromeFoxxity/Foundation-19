@@ -29,7 +29,6 @@
 		/obj/item/crowbar/emergency_forcing_tool,
 		/obj/item/material/knife/combat,
 		/obj/item/melee/telebaton,
-		/obj/item/gun/projectile/revolver/military/heavy,
 		/obj/item/ammo_magazine/speedloader/heavy = 3,
 		/obj/item/ammo_magazine/box/a454,
 		/obj/item/gun/energy/taser/carbine,
@@ -65,7 +64,6 @@
 		/obj/item/crowbar/emergency_forcing_tool,
 		/obj/item/material/knife/combat,
 		/obj/item/melee/telebaton,
-		/obj/item/gun/projectile/pistol/usp45,
 		/obj/item/ammo_magazine/scp/usp45 = 3,
 		/obj/item/ammo_magazine/box/acp45,
 		/obj/item/gun/projectile/automatic/scp/p90,
@@ -100,9 +98,6 @@
 		/obj/item/melee/telebaton,
 		/obj/item/ammo_magazine/scp/mk9 = 3,
 		/obj/item/ammo_magazine/box/a9mm,
-		/obj/item/gun/projectile/automatic/scp/p90,
-		/obj/item/ammo_magazine/scp/p90_mag = 3,
-		/obj/item/ammo_magazine/box/a57,
 	)
 
 /obj/structure/closet/secure_closet/scp/security/medic
@@ -131,11 +126,6 @@
 		/obj/item/storage/firstaid/combat = 2,
 		/obj/item/crowbar/emergency_forcing_tool,
 		/obj/item/melee/telebaton,
-		/obj/item/ammo_magazine/scp/mk9 = 3,
-		/obj/item/ammo_magazine/box/a9mm,
-		/obj/item/gun/projectile/automatic/scp/p90,
-		/obj/item/ammo_magazine/scp/p90_mag = 3,
-		/obj/item/ammo_magazine/box/a57,
 	)
 
 /obj/structure/closet/secure_closet/scp/security/guard
@@ -163,11 +153,6 @@
 		/obj/item/storage/box/ifak,
 		/obj/item/crowbar/emergency_forcing_tool,
 		/obj/item/melee/telebaton,
-		/obj/item/ammo_magazine/scp/mk9 = 3,
-		/obj/item/ammo_magazine/box/a9mm,
-		/obj/item/gun/projectile/automatic/scp/p90/rubber,
-		/obj/item/ammo_magazine/scp/p90_mag/rubber = 3,
-		/obj/item/ammo_magazine/box/a57/rubber,
 	)
 
 /obj/structure/closet/secure_closet/scp/security/cadet

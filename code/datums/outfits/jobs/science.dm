@@ -1,5 +1,5 @@
 /decl/hierarchy/outfit/job/command/researchdirector
-	name = OUTFIT_JOB_NAME("Research Director")
+	name = OUTFIT_JOB_NAME("ScD - Research Director")
 	uniform = /obj/item/clothing/under/rank/scp/science/science_director
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/scp/rd
 	shoes = /obj/item/clothing/shoes/jackboots
@@ -10,9 +10,9 @@
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud/science
 
 /decl/hierarchy/outfit/job/command/aresearchdirector
-	name = OUTFIT_JOB_NAME("Assistant Research Director")
+	name = OUTFIT_JOB_NAME("ScD - Assistant Research Director")
 	uniform = /obj/item/clothing/under/rank/scp/science/assistant_science_director
-	suit = /obj/item/clothing/suit/storage/toggle/labcoat/scp/assistant
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat/scp/assistant/ard
 	shoes = /obj/item/clothing/shoes/laceup
 	id_type = /obj/item/card/id/science/level4/assist_scd_dir
 	gloves = /obj/item/clothing/gloves/thick
@@ -21,7 +21,7 @@
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud/science
 
 /decl/hierarchy/outfit/job/science/juniorscientist
-	name = OUTFIT_JOB_NAME("Research Intern")
+	name = OUTFIT_JOB_NAME("ScD - Research Intern")
 	uniform = /obj/item/clothing/under/rank/scp/science/intern
 	suit = null
 	gloves = /obj/item/clothing/gloves/thick/duty
@@ -30,7 +30,7 @@
 	l_ear = /obj/item/device/radio/headset/headset_sci
 
 /decl/hierarchy/outfit/job/science/scientist
-	name = OUTFIT_JOB_NAME("Researcher")
+	name = OUTFIT_JOB_NAME("ScD - Researcher")
 	uniform = /obj/item/clothing/under/rank/scp/science
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/scp
 	shoes = /obj/item/clothing/shoes/laceup
@@ -40,7 +40,7 @@
 	glasses = /obj/item/clothing/glasses/science
 
 /decl/hierarchy/outfit/job/science/seniorroboticist
-	name = OUTFIT_JOB_NAME("Senior Robotics Technician")
+	name = OUTFIT_JOB_NAME("ScD - Senior Robotics Technician")
 	uniform = /obj/item/clothing/under/rank/scp/science/robotics/senior
 	suit = /obj/item/clothing/suit/apron/overalls/robotics
 	shoes = /obj/item/clothing/shoes/engieboots
@@ -52,7 +52,7 @@
 	head =	/obj/item/clothing/head/welding
 
 /decl/hierarchy/outfit/job/science/roboticist
-	name = OUTFIT_JOB_NAME("Robotics Technician")
+	name = OUTFIT_JOB_NAME("ScD - Robotics Technician")
 	uniform = /obj/item/clothing/under/rank/scp/science/robotics
 	suit = null
 	shoes = /obj/item/clothing/shoes/engieboots
@@ -64,7 +64,7 @@
 	head =	/obj/item/clothing/head/welding
 
 /decl/hierarchy/outfit/job/science/seniorscientist
-	name = OUTFIT_JOB_NAME("Senior Researcher")
+	name = OUTFIT_JOB_NAME("ScD - Senior Researcher")
 	uniform = /obj/item/clothing/under/rank/scp/science/senior
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/scp
 	shoes = /obj/item/clothing/shoes/laceup
@@ -75,9 +75,9 @@
 	glasses = /obj/item/clothing/glasses/science
 
 /decl/hierarchy/outfit/job/science/seniormentalist
-	name = OUTFIT_JOB_NAME("Senior Psychotronics Researcher")
+	name = OUTFIT_JOB_NAME("ScD - Senior Psychotronics Researcher")
 	uniform = /obj/item/clothing/under/rank/scp/science/psionic/senior
-	suit = /obj/item/clothing/suit/storage/toggle/labcoat/scp
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat/scp/division
 	shoes = /obj/item/clothing/shoes/laceup
 	gloves = /obj/item/clothing/gloves/thick
 	head = /obj/item/clothing/head/fedora
@@ -88,9 +88,9 @@
 	backpack_contents = list(/obj/item/reagent_containers/glass/beaker/vial/jerraman = 2)
 
 /decl/hierarchy/outfit/job/science/mentalist
-	name = OUTFIT_JOB_NAME("Psychotronics Researcher")
+	name = OUTFIT_JOB_NAME("ScD - Psychotronics Researcher")
 	uniform = /obj/item/clothing/under/rank/scp/science/psionic
-	suit = /obj/item/clothing/suit/storage/toggle/labcoat/scp
+	suit = /obj/item/clothing/suit/storage/toggle/labcoat/scp/division
 	shoes = /obj/item/clothing/shoes/laceup
 	id_type = /obj/item/card/id/science/level2/psi
 	l_pocket = /obj/item/material/coin/nullglass

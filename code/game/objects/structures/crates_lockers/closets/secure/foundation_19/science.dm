@@ -54,8 +54,8 @@
 /obj/structure/closet/secure_closet/scp/science/assist_science_director/WillContain()
 	return list(
 		/obj/item/clothing/under/rank/scp/science/assistant_science_director,
-		/obj/item/clothing/suit/storage/toggle/labcoat/scp,
-		/obj/item/clothing/suit/storage/toggle/labcoat/scp/assistant,
+		/obj/item/clothing/suit/storage/toggle/labcoat/scp/division,
+		/obj/item/clothing/suit/storage/toggle/labcoat/scp/assistant/ard,
 		/obj/item/clothing/shoes/laceup,
 		/obj/item/clothing/accessory/armband/sci,
 		/obj/item/device/radio/headset/heads/rd,
@@ -148,8 +148,8 @@
 		/obj/item/clothing/under/rank/scp/science/robotics,
 		/obj/item/clothing/under/rank/scp/science/robotics/senior,
 		/obj/item/clothing/under/rank/scp/science/robotics/senior,
-		/obj/item/clothing/suit/storage/toggle/labcoat/scp,
-		/obj/item/clothing/suit/storage/toggle/labcoat/scp,
+		/obj/item/clothing/suit/storage/toggle/labcoat/scp/division,
+		/obj/item/clothing/suit/storage/toggle/labcoat/scp/division,
 		/obj/item/clothing/head/welding,
 		/obj/item/clothing/head/welding,
 		/obj/item/clothing/glasses/welding,

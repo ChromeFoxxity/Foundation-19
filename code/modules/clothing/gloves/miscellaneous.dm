@@ -103,6 +103,7 @@
 	name = "heavy work gloves"
 	desc = "A pair of synthetic leather gloves that are weather-resistant and incredibly durable, insulated to boot. They're reliable for all of those who work in harsh conditions and on long shifts."
 	item_state = "engineering_gloves"
+	item_state = "engineering_gloves"
 	item_flags = ITEM_FLAG_THICKMATERIAL
 	armor = list(
 		melee = ARMOR_MELEE_RESISTANT,

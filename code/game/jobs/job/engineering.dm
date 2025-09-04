@@ -16,12 +16,8 @@
 	hud_icon = "hudchiefengineer"
 
 	access = list(
+		ACCESS_COM_COMMS,
 		ACCESS_ENG_COMMS,
-		ACCESS_SECURITY_LVL1,
-		ACCESS_SCIENCE_LVL1,
-		ACCESS_SCIENCE_LVL2,
-		ACCESS_SCIENCE_LVL3,
-		ACCESS_SCIENCE_LVL4,
 		ACCESS_ADMIN_LVL1,
 		ACCESS_ADMIN_LVL2,
 		ACCESS_ADMIN_LVL3,
@@ -33,6 +29,7 @@
 		ACCESS_ATMOSPHERICS,
 		ACCESS_ENGINE_EQUIP,
 		ACCESS_KEYAUTH,
+		ACCESS_RC_ANNOUNCE,
 		ACCESS_NETWORK
 	)
 	minimal_access = list()
@@ -75,12 +72,8 @@
 	hud_icon = "hudassistantengineer"
 
 	access = list(
+		ACCESS_COM_COMMS,
 		ACCESS_ENG_COMMS,
-		ACCESS_SECURITY_LVL1,
-		ACCESS_SCIENCE_LVL1,
-		ACCESS_SCIENCE_LVL2,
-		ACCESS_SCIENCE_LVL3,
-		ACCESS_SCIENCE_LVL4,
 		ACCESS_ADMIN_LVL1,
 		ACCESS_ADMIN_LVL2,
 		ACCESS_ADMIN_LVL3,
@@ -91,6 +84,7 @@
 		ACCESS_ATMOSPHERICS,
 		ACCESS_ENGINE_EQUIP,
 		ACCESS_KEYAUTH,
+		ACCESS_RC_ANNOUNCE,
 		ACCESS_NETWORK
 	)
 	minimal_access = list()
@@ -135,17 +129,11 @@
 
 	access = list(
 		ACCESS_ENG_COMMS,
-		ACCESS_SECURITY_LVL1,
-		ACCESS_SECURITY_LVL2,
-		ACCESS_SECURITY_LVL3,
 		ACCESS_SCIENCE_LVL1,
 		ACCESS_SCIENCE_LVL2,
-		ACCESS_SCIENCE_LVL3,
-		ACCESS_SCIENCE_LVL4,
 		ACCESS_ENGINEERING_LVL1,
 		ACCESS_ENGINEERING_LVL2,
 		ACCESS_ENGINEERING_LVL3,
-		ACCESS_ENGINEERING_LVL4,
 		ACCESS_ATMOSPHERICS,
 		ACCESS_ENGINE_EQUIP,
 		ACCESS_CONTAINMENT_SCP_012,
@@ -205,47 +193,6 @@
 	duties = "Perform constructions and repairs on SCP containment chambers."
 	codex_guides = list("<l>Hacking Wires</l>")
 
-/datum/job/it_tech
-	title = "IT Technician"
-	department = "Engineering"
-	selection_color = "#5b4d20"
-	department_flag = ENG
-	total_positions = 1
-	spawn_positions = 1
-	supervisors = "the Engineering Director and Assistant Engineering Director"
-	economic_power = 4
-	minimal_player_age = 3
-	ideal_character_age = 30
-	requirements = list(EXP_TYPE_ENGINEERING = 120)
-	outfit_type = /decl/hierarchy/outfit/job/engineering/it_tech
-	class = CLASS_B
-	hud_icon = "hudittech"
-
-	access = list(
-		ACCESS_ENG_COMMS,
-		ACCESS_ENGINEERING_LVL1,
-		ACCESS_ENGINEERING_LVL2,
-		ACCESS_ENGINEERING_LVL3,
-		ACCESS_ADMIN_LVL1,
-		ACCESS_SCIENCE_LVL1,
-		ACCESS_NETWORK
-	)
-	minimal_access = list()
-
-	min_skill = list(
-		SKILL_COMPUTER     = SKILL_EXPERIENCED,
-	    SKILL_CONSTRUCTION = SKILL_BASIC,
-	    SKILL_ELECTRICAL   = SKILL_BASIC
-	)
-
-	max_skill = list(
-		SKILL_COMPUTER     = SKILL_MASTER
-	)
-
-	roleplay_difficulty = "Easy - Medium"
-	mechanical_difficulty = "Medium"
-	duties = "Maintain and expand the advanced technology behind the site's server infrastructure. Resolve technical problems. Prepare and protect against cybersecurity attacks."
-
 /datum/job/seneng
 	title = "Senior Engineer"
 	department = "Engineering"
@@ -273,9 +220,7 @@
 		ACCESS_ENG_COMMS,
 		ACCESS_ENGINEERING_LVL1,
 		ACCESS_ENGINEERING_LVL2,
-		ACCESS_ENGINEERING_LVL3,
-		ACCESS_ENGINEERING_LVL4,
-		ACCESS_SCIENCE_LVL1
+		ACCESS_ENGINEERING_LVL3
 	)
 	minimal_access = list()
 	min_skill = list(
@@ -295,52 +240,6 @@
 	roleplay_difficulty = "Medium - Hard"
 	mechanical_difficulty = "Medium - Hard"
 	duties = "Manage the Engineering department. Delegate construction and repair work. Facilitate larger projects."
-	codex_guides = list("<l>Hacking Wires</l>")
-
-/datum/job/it_tech
-	title = "IT Technician"
-	department = "Engineering"
-	selection_color = "#5b4d20"
-	department_flag = ENG
-	total_positions = 1
-	spawn_positions = 1
-	supervisors = "the Engineering Director and Assistant Engineering Director"
-	economic_power = 4
-	minimal_player_age = 3
-	ideal_character_age = 30
-	requirements = list(EXP_TYPE_ENGINEERING = 120)
-	outfit_type = /decl/hierarchy/outfit/job/engineering/it_tech
-	class = CLASS_B
-	hud_icon = "hudittech"
-
-	access = list(
-		ACCESS_ENG_COMMS,
-		ACCESS_ENGINEERING_LVL1,
-		ACCESS_ENGINEERING_LVL2,
-		ACCESS_ENGINEERING_LVL3,
-		ACCESS_ADMIN_LVL1,
-		ACCESS_SCIENCE_LVL1,
-		ACCESS_NETWORK
-	)
-	minimal_access = list()
-
-	min_skill = list(
-		SKILL_COMPUTER     = SKILL_EXPERIENCED,
-	    SKILL_CONSTRUCTION = SKILL_BASIC,
-	    SKILL_ELECTRICAL   = SKILL_BASIC
-	)
-
-	max_skill = list(
-		SKILL_COMPUTER     = SKILL_MASTER
-	)
-
-	roleplay_difficulty = "Easy - Medium"
-	mechanical_difficulty = "Medium"
-	duties = "Maintain and expand the advanced technology behind the site's server infrastructure. Resolve technical problems. Prepare and protect against cybersecurity attacks."
-
-	roleplay_difficulty = "Easy - Medium"
-	mechanical_difficulty = "Medium - Hard"
-	duties = "Perform constructions and repairs. Manage lower engineers."
 	codex_guides = list("<l>Hacking Wires</l>")
 
 /datum/job/eng
@@ -367,9 +266,7 @@
 	access = list(
 		ACCESS_ENG_COMMS,
 		ACCESS_ENGINEERING_LVL1,
-		ACCESS_ENGINEERING_LVL2,
-		ACCESS_ENGINEERING_LVL3,
-		ACCESS_SCIENCE_LVL1
+		ACCESS_ENGINEERING_LVL2
 	)
 	minimal_access = list()
 	min_skill = list(
@@ -416,9 +313,7 @@
 
 	access = list(
 		ACCESS_ENG_COMMS,
-		ACCESS_ENGINEERING_LVL1,
-		ACCESS_ENGINEERING_LVL2,
-		ACCESS_SCIENCE_LVL1
+		ACCESS_ENGINEERING_LVL1
 	)
 	minimal_access = list()
 

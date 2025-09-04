@@ -27,6 +27,7 @@
 	icon_state = "bio_dclass"
 	icon_closed = "bio_dclass"
 	icon_opened = "bio_dclassopen"
+	icon = 'icons/obj/closet_scp.dmi'
 
 /obj/structure/closet/l3closet/dclass/WillContain()
 	return list(
@@ -83,7 +84,7 @@
 	icon_state = "bio_scientist"
 	icon_closed = "bio_scientist"
 	icon_opened = "bio_scientistopen"
-
+	icon = 'icons/obj/closet_scp.dmi'
 
 /obj/structure/closet/l3closet/scientist/WillContain()
 	return list(
