@@ -1,3 +1,6 @@
+// MTF/ERT UNIFORMS
+// [SCP]
+
 /obj/item/clothing/under/rank/scp/mtf
 	name = "'Nine Tailed Fox' tactical uniform"
 	desc = "A tactical uniform worn by Epsilon-11 agents, it has a dark orange field suit top, with some black tactical trousers, the classic design."
@@ -49,3 +52,17 @@
 	desc = "Some combat-wear worn by MTF field agents, it's a dusty light blue field combat suit, with a dark grey torso. It involves a tactical belt, and a Ghost-1 emblem patch on one of the shoulder."
 	icon_state = "mtf_ghost1"
 	worn_state = "mtf_ghost1"
+
+/obj/item/clothing/under/rank/scp/mtf/isd
+	name = "Internal Security field uniform"
+	desc = "A smooth black, yet comfortable turtleneck. There isn't much to note about it, atop of some dark grey trousers. Worn by Internal Security Department's goons."
+	icon_state = "isd_field"
+	item_state = "bl_suit"
+	worn_state = "isd_field"
+
+/obj/item/clothing/under/rank/scp/mtf/isd/suit
+	name = "Internal Security formal uniform"
+	desc = "A pair of formal slacks, with a dark grey dress shirt. It's covered by a black formal vest, and a snazzy red tie. Only worn by the executives of the Internal Security Department."
+	icon_state = "isd_suit"
+	item_state = "bl_suit"
+	worn_state = "isd_suit"

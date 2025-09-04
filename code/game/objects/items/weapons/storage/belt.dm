@@ -635,6 +635,33 @@
 	desc = "A tactical tan russian belt, used by military forces."
 	icon_state = "ci_belt"
 	item_state = "ci_belt"
+	can_hold = list(
+		/obj/item/crowbar,
+		/obj/item/grenade,
+		/obj/item/reagent_containers/spray/pepper,
+		/obj/item/handcuffs,
+		/obj/item/device/flash,
+		/obj/item/clothing/glasses,
+		/obj/item/ammo_casing/shotgun,
+		/obj/item/ammo_magazine,
+		/obj/item/reagent_containers/food/snacks/donut/,
+		/obj/item/melee/baton,
+		/obj/item/melee/telebaton,
+		/obj/item/flame/lighter,
+		/obj/item/device/flashlight,
+		/obj/item/modular_computer/pda,
+		/obj/item/device/radio/headset,
+		/obj/item/device/hailer,
+		/obj/item/device/megaphone,
+		/obj/item/melee,
+		/obj/item/taperoll,
+		/obj/item/device/holowarrant,
+		/obj/item/magnetic_ammo,
+		/obj/item/device/binoculars,
+		/obj/item/clothing/gloves,
+		/obj/item/clothing/head/beret,
+		/obj/item/material/knife/folding/
+		)
 
 /obj/item/storage/belt/ci/rig
 	name = "military rig"
@@ -642,3 +669,55 @@
 	icon_state = "ci_webbing"
 	item_state = "ci_webbing"
 	storage_slots = 10
+
+/obj/item/storage/belt/uiu
+	name = "UIU tactical webbing"
+	desc = "A dusty green webbing with tons of storage pouches on it along with some padding, it also has a holster that comes along with it, has a golden UIU badge on the front."
+	icon_state = "uiu_webbing"
+	item_state = "uiu_webbing"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO
+	armor = list(melee = ARMOR_MELEE_MID, bullet = ARMOR_BALLISTIC_SMALL_MID, laser = ARMOR_LASER_SMALL, energy = ARMOR_ENERGY_MINOR, bomb = ARMOR_BOMB_MINOR, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)
+	storage_slots = 12
+	can_hold = list(
+		/obj/item/crowbar,
+		/obj/item/grenade,
+		/obj/item/reagent_containers/spray/pepper,
+		/obj/item/handcuffs,
+		/obj/item/device/flash,
+		/obj/item/clothing/glasses,
+		/obj/item/ammo_casing/shotgun,
+		/obj/item/ammo_magazine,
+		/obj/item/reagent_containers/food/snacks/donut/,
+		/obj/item/melee/baton,
+		/obj/item/melee/telebaton,
+		/obj/item/flame/lighter,
+		/obj/item/device/flashlight,
+		/obj/item/modular_computer/pda,
+		/obj/item/device/radio/headset,
+		/obj/item/device/hailer,
+		/obj/item/device/megaphone,
+		/obj/item/melee,
+		/obj/item/taperoll,
+		/obj/item/device/holowarrant,
+		/obj/item/magnetic_ammo,
+		/obj/item/device/binoculars,
+		/obj/item/clothing/gloves,
+		/obj/item/clothing/head/beret,
+		/obj/item/material/knife/folding/
+		)
+
+/obj/item/storage/belt/uiu/full/New()
+	..()
+	new /obj/item/reagent_containers/spray/pepper(src)
+	new /obj/item/device/flash(src)
+	new /obj/item/device/flashlight/maglight(src)
+	new /obj/item/gun/projectile/pistol/glock/spec(src)
+	new /obj/item/ammo_magazine/scp/mk9(src)
+	new /obj/item/ammo_magazine/scp/mk9(src)
+	new /obj/item/ammo_magazine/scp/mk9(src)
+	new /obj/item/ammo_magazine/box/a9mm(src)
+	new /obj/item/handcuffs(src)
+	new /obj/item/handcuffs(src)
+	new /obj/item/handcuffs(src)
+	new /obj/item/melee/baton/loaded(src)
+	update_icon()

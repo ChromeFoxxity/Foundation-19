@@ -41,7 +41,7 @@
 	return get_all_site_access()
 
 /datum/job/hop
-	title = "Site Manager"
+	title = "Human Resources Officer"
 	department = "Command"
 	supervisors = "The Site Director"
 	department_flag = COM|CIV|BUR|SRV
@@ -60,16 +60,16 @@
 	requirements = list(EXP_TYPE_COMMAND = 120, EXP_TYPE_BUR = 300)
 
 	access = list(
-		ACCESS_HOP,
+		ACCESS_COM_COMMS,
+		ACCESS_CIV_COMMS,
 		ACCESS_ADMIN_LVL1,
 		ACCESS_ADMIN_LVL2,
 		ACCESS_ADMIN_LVL3,
 		ACCESS_ADMIN_LVL4,
-		ACCESS_COM_COMMS,
-		ACCESS_CHANGE_IDS,
-		ACCESS_CIV_COMMS,
 		ACCESS_ENGINEERING_LVL1,
 		ACCESS_KEYAUTH,
+		ACCESS_CHANGE_IDS,
+		ACCESS_HOP,
 		ACCESS_CHAPEL_OFFICE
 	)
 
@@ -90,7 +90,7 @@
 
 	roleplay_difficulty = "Medium"
 	mechanical_difficulty = "Low - Medium"
-	duties = "Manage available jobs. Change people's jobs and access levels. Assist the Site Director with human resources."
+	duties = "Manage available jobs. Change people's jobs and access levels. Your primary goal is to manage the foundation's most valuable asset—its people—by strategically aligning workforce capabilities with business goals, ensuring a productive, compliant, and positive work environment that supports employee success and organizational growth."
 
 /datum/job/tribunal
 
@@ -355,7 +355,7 @@
 		)
 	outfit_type = /decl/hierarchy/outfit/job/command/commstech
 	class = CLASS_C
-	hud_icon = "hudcommsprogrammer"
+	hud_icon = "hudcommstech"
 
 	access = list(
 		ACCESS_COM_COMMS,

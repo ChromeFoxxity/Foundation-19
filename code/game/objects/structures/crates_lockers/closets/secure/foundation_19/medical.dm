@@ -2,7 +2,7 @@
 //MEDICAL DEPARTMENT COMMAND
 //##
 
-/obj/structure/closet/secure_closet/site53/cmo
+/obj/structure/closet/secure_closet/scp/medical/medical_director
 	name = "medical director's locker"
 	req_access = list(ACCESS_MEDICAL_LVL5)
 	icon_state = "cmosecure1"
@@ -11,7 +11,7 @@
 	icon_opened = "cmosecureopen"
 	icon_off = "cmosecureoff"
 
-/obj/structure/closet/secure_closet/site53/cmo/WillContain()
+/obj/structure/closet/secure_closet/scp/medical/medical_director/WillContain()
 	return list(
 		/obj/item/clothing/suit/bio_suit/cmo,
 		/obj/item/clothing/head/bio_hood/cmo,
@@ -36,7 +36,7 @@
 		/obj/item/clothing/under/rank/medical/scrubs/navyblue
 	)
 
-/obj/structure/closet/secure_closet/site53/acmo
+/obj/structure/closet/secure_closet/scp/medical/assist_medical_director
 	name = "assistant medical director's locker"
 	req_access = list(ACCESS_MEDICAL_LVL4)
 	icon_state = "cmosecure1"
@@ -45,7 +45,7 @@
 	icon_opened = "cmosecureopen"
 	icon_off = "cmosecureoff"
 
-/obj/structure/closet/secure_closet/site53/acmo/WillContain()
+/obj/structure/closet/secure_closet/scp/medical/assist_medical_director/WillContain()
 	return list(
 		/obj/item/clothing/suit/bio_suit/cmo,
 		/obj/item/clothing/head/bio_hood/cmo,

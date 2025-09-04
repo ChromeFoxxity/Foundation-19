@@ -2039,7 +2039,7 @@
 /area/site53/lhcz/scp049containment)
 "auK" = (
 /obj/machinery/light,
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/carpet/black2,
 /area/site53/uez/repoffice/internaltribunal)
 "auN" = (
 /obj/effect/floor_decal/corner/paleblue/border{
@@ -3196,7 +3196,7 @@
 "aGo" = (
 /obj/item/device/flashlight/lamp,
 /obj/structure/table/woodentable_reinforced/walnut,
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/carpet/black2,
 /area/site53/uez/repoffice/internaltribunal)
 "aGs" = (
 /obj/machinery/shieldwallgen/online{
@@ -4537,7 +4537,7 @@
 	dir = 6
 	},
 /obj/machinery/status_display/directional/south,
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "aUh" = (
 /obj/structure/table/reinforced,
@@ -4958,7 +4958,7 @@
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 9
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "aXy" = (
 /obj/effect/floor_decal/corner/euclid/bordercorner{
@@ -6785,13 +6785,8 @@
 /area/site53/surface)
 "bqR" = (
 /obj/machinery/light,
-/obj/item/folder/blue,
-/obj/item/folder/blue,
-/obj/item/implantcase/death_alarm,
-/obj/item/implanter,
-/obj/item/clothing/accessory/storage/holster/thigh,
 /obj/structure/closet/secure_closet/scp/admin/internaltribunal,
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/carpet/black2,
 /area/site53/uez/repoffice/internaltribunal)
 "bqS" = (
 /obj/machinery/telecomms/processor/preset_three,
@@ -9734,7 +9729,7 @@
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 9
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "bQg" = (
 /obj/effect/floor_decal/spline/steel/dark,
@@ -9800,7 +9795,7 @@
 /turf/simulated/floor/carpet/blue3,
 /area/site53/medical/directoroffice)
 "bQI" = (
-/obj/structure/closet/secure_closet/site53/ard,
+/obj/structure/closet/secure_closet/scp/science/assist_science_director,
 /turf/simulated/floor/carpet/blue,
 /area/site53/science/assistdirectoroffice)
 "bQJ" = (
@@ -9980,6 +9975,14 @@
 /obj/effect/floor_decal/corner/orange/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/site53/llcz/dclass/cells)
+"bSB" = (
+/obj/effect/landmark/start{
+	name = "Site Director";
+	icon_state = "comsidspawn";
+	icon = 'icons/effects/landmarks.dmi'
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/site53/uez/hallway)
 "bSC" = (
 /obj/effect/floor_decal/corner/pink/bordercee{
 	dir = 4
@@ -10260,8 +10263,8 @@
 /area/site53/lhcz/hczguardgear)
 "bVK" = (
 /obj/machinery/door/airlock/multi_tile/command{
-	name = "Internal Tribunal Department Officer's Office";
-	req_access = list("ACCESS_ADMIN_LEVEL5")
+	name = "RAISA Intake Specialist's Office";
+	req_access = list("ACCESS_ADMIN_LEVEL3","ACCESS_SECURITY_LEVEL1")
 	},
 /obj/machinery/door/blast/regular/open{
 	id_tag = "EZSec Lockdown";
@@ -20809,9 +20812,9 @@
 /obj/effect/floor_decal/corner/red/border{
 	dir = 5
 	},
-/obj/structure/closet/secure_closet/site53/robotics,
 /obj/item/clothing/accessory/armband/sci,
 /obj/item/clothing/accessory/armband/sci,
+/obj/structure/closet/secure_closet/scp/science/robotics,
 /turf/simulated/floor/tiled/dark/corner{
 	dir = 4
 	},
@@ -20829,7 +20832,7 @@
 	},
 /obj/structure/cable/green,
 /obj/effect/floor_decal/spline/wood/walnut,
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "dRC" = (
 /obj/structure/railing/mapped,
@@ -22960,13 +22963,6 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/site53/ulcz/hallways)
-"elD" = (
-/obj/effect/floor_decal/corner/beige/border,
-/obj/effect/floor_decal/corner/security/bordercorner{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/monotile,
-/area/site53/uez/bridge)
 "elE" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -23974,12 +23970,12 @@
 /obj/effect/floor_decal/spline/wood/ebony{
 	dir = 4
 	},
-/obj/structure/closet/secure_closet/site53/rd,
 /obj/machinery/requests_console/command{
 	name = "Science Director's Requests Console";
 	department = "Science Director's Office";
 	pixel_x = -32
 	},
+/obj/structure/closet/secure_closet/scp/science/science_director,
 /turf/simulated/floor/wood/ebony/large,
 /area/site53/science/directoroffice)
 "euR" = (
@@ -24916,7 +24912,7 @@
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "eFk" = (
 /obj/structure/table/reinforced,
@@ -25525,7 +25521,7 @@
 "eKZ" = (
 /obj/item/modular_computer/laptop/preset/custom_loadout/advanced,
 /obj/structure/table/woodentable_reinforced/walnut,
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/carpet/black2,
 /area/site53/uez/repoffice/internaltribunal)
 "eLd" = (
 /obj/effect/floor_decal/corner/black/border{
@@ -26551,6 +26547,14 @@
 /obj/item/clothing/suit/fire/firefighter,
 /turf/simulated/floor/tiled/white/monotile,
 /area/site53/llcz/hallways)
+"eUy" = (
+/obj/effect/landmark/start{
+	name = "Site Manager";
+	icon_state = "comsmspawn";
+	icon = 'icons/effects/landmarks.dmi'
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/site53/uez/hallway)
 "eUz" = (
 /turf/simulated/floor/tiled/dark/monotile,
 /area/site53/lowertrams/restaurantkitchenarea)
@@ -31915,7 +31919,7 @@
 "fSh" = (
 /obj/machinery/light,
 /obj/effect/floor_decal/spline/wood/walnut,
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "fSm" = (
 /obj/machinery/hologram/holopad,
@@ -32562,7 +32566,7 @@
 /obj/effect/floor_decal/spline/wood/walnut/corner{
 	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "fYc" = (
 /obj/structure/cable/green{
@@ -33064,10 +33068,6 @@
 	pixel_y = 4;
 	pixel_x = -4
 	},
-/obj/item/pen{
-	pixel_y = 4;
-	pixel_x = -4
-	},
 /obj/item/stamp/denied{
 	pixel_y = 8;
 	pixel_x = 8
@@ -33078,12 +33078,15 @@
 	pixel_y = 2;
 	name = "Ethics Committee Liaison's rubber stamp"
 	},
-/obj/item/pen/fancy/quill,
 /obj/machinery/requests_console{
 	department = "Ethics Committee Liaison";
 	departmentType = 5;
 	name = "Ethics Committee Liaison Requests Console";
 	pixel_y = -32
+	},
+/obj/item/pen/fancy/gold{
+	pixel_y = 4;
+	pixel_x = -4
 	},
 /turf/simulated/floor/carpet/green,
 /area/site53/uez/repoffice/ethics)
@@ -34153,7 +34156,7 @@
 	name = "Internal Tribunal Officer Requests Console";
 	department = "Internal Tribunal Officer"
 	},
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/carpet/black2,
 /area/site53/uez/repoffice/internaltribunal)
 "gnH" = (
 /obj/machinery/porta_turret/crescent{
@@ -34864,7 +34867,7 @@
 	icon_state = "1-8"
 	},
 /obj/effect/floor_decal/spline/wood/walnut,
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "guH" = (
 /obj/effect/floor_decal/corner/pink/border{
@@ -36594,6 +36597,14 @@
 	},
 /turf/simulated/wall/r_titanium,
 /area/site53/llcz/dclass/isolation)
+"gLA" = (
+/obj/effect/landmark/start{
+	name = "Site Manager";
+	icon_state = "comhrospawn";
+	icon = 'icons/effects/landmarks.dmi'
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/site53/uez/hallway)
 "gLC" = (
 /obj/effect/floor_decal/corner/brown/mono,
 /obj/effect/floor_decal/industrial/hatch{
@@ -40005,6 +40016,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/power/apc/directional/west,
+/obj/structure/closet/secure_closet/scp/science/researcher,
 /turf/simulated/floor/wood,
 /area/site53/science/lower/researchoffices)
 "hpl" = (
@@ -40570,13 +40582,14 @@
 /turf/simulated/floor/tiled/monotile,
 /area/site53/engineering/secstorage)
 "huI" = (
-/obj/structure/table/rack/shelf,
-/obj/effect/floor_decal/spline/steel/dark,
-/obj/item/shield/riot/metal,
-/obj/item/shield/riot/metal,
-/obj/item/shield/riot/metal,
-/turf/simulated/floor/tiled/dark/monotile/textured,
-/area/site53/security/armory/secure)
+/obj/effect/floor_decal/corner/beige/border{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/security/bordercorner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/site53/uez/bridge)
 "huP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -46273,29 +46286,12 @@
 /turf/simulated/floor/tiled/white/vertical,
 /area/site53/science/testing)
 "iBK" = (
-/obj/effect/floor_decal/spline/steel/dark{
+/obj/effect/floor_decal/corner/beige/border,
+/obj/effect/floor_decal/corner/security/bordercorner{
 	dir = 1
 	},
-/obj/machinery/light/directional/south,
-/obj/structure/table/rack/shelf,
-/obj/item/ammo_magazine/box/a57/rubber,
-/obj/item/ammo_magazine/box/a57/rubber,
-/obj/item/ammo_magazine/box/a57/rubber,
-/obj/item/ammo_magazine/box/a57/rubber,
-/obj/item/ammo_magazine/scp/p90_mag/rubber,
-/obj/item/ammo_magazine/scp/p90_mag/rubber,
-/obj/item/ammo_magazine/scp/p90_mag/rubber,
-/obj/item/ammo_magazine/scp/p90_mag/rubber,
-/obj/item/ammo_magazine/scp/p90_mag/rubber,
-/obj/item/ammo_magazine/scp/p90_mag/rubber,
-/obj/item/ammo_magazine/scp/p90_mag/rubber,
-/obj/item/ammo_magazine/scp/p90_mag/rubber,
-/obj/item/ammo_magazine/scp/p90_mag/rubber,
-/obj/item/ammo_magazine/scp/p90_mag/rubber,
-/obj/item/ammo_magazine/scp/p90_mag/rubber,
-/obj/item/ammo_magazine/scp/p90_mag/rubber,
-/turf/simulated/floor/tiled/dark/monotile/textured,
-/area/site53/security/armory)
+/turf/simulated/floor/tiled/monotile,
+/area/site53/uez/bridge)
 "iBO" = (
 /obj/machinery/camera/network/ez{
 	dir = 1;
@@ -53080,12 +53076,6 @@
 /obj/structure/filingcabinet/chestdrawer,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/site53/llcz/checkequip)
-"jLE" = (
-/obj/effect/floor_decal/corner/security/border{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/monotile,
-/area/site53/uez/bridge)
 "jLF" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/machinery/sleeper{
@@ -53135,7 +53125,7 @@
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 10
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "jMc" = (
 /obj/structure/bed/chair{
@@ -53841,7 +53831,6 @@
 /obj/structure/sign/goldenplaque/medical{
 	pixel_y = -32
 	},
-/obj/structure/closet/secure_closet/site53/acmo,
 /turf/simulated/floor/carpet/blue3,
 /area/site53/medical/assistdirectoroffice)
 "jTa" = (
@@ -56603,7 +56592,7 @@
 /obj/effect/floor_decal/spline/wood/walnut/corner{
 	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "krC" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -61984,7 +61973,7 @@
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 4
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "lpo" = (
 /obj/effect/floor_decal/corner/keter/border{
@@ -62573,7 +62562,7 @@
 "lvl" = (
 /obj/structure/bed/chair/office,
 /obj/effect/floor_decal/spline/wood/walnut,
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "lvn" = (
 /turf/simulated/floor/tiled/white/small,
@@ -62587,7 +62576,7 @@
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "lvx" = (
 /obj/structure/table/standard,
@@ -63083,7 +63072,7 @@
 /obj/effect/floor_decal/spline/wood/walnut/corner{
 	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "lCi" = (
 /obj/machinery/light{
@@ -63113,7 +63102,6 @@
 /area/site53/security/range)
 "lCB" = (
 /obj/effect/floor_decal/spline/wood/maple/cee,
-/obj/structure/closet/secure_closet/site53/cmo,
 /obj/machinery/newscaster{
 	pixel_x = 32
 	},
@@ -65289,7 +65277,7 @@
 /obj/structure/filingcabinet/golden{
 	pixel_x = 10
 	},
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/carpet/black2,
 /area/site53/uez/repoffice/internaltribunal)
 "lXl" = (
 /obj/effect/floor_decal/corner/blue/border{
@@ -67010,12 +66998,6 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/site53/llcz/dclass/primaryhallway)
-"moG" = (
-/obj/effect/floor_decal/corner/beige/bordercorner{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/monotile,
-/area/site53/uez/bridge)
 "moK" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -68057,12 +68039,7 @@
 /obj/structure/bed/chair/armchair/black{
 	dir = 1
 	},
-/obj/effect/landmark/start{
-	name = "Internal Tribunal Department Officer";
-	icon_state = "comitdspawn";
-	icon = 'icons/effects/landmarks.dmi'
-	},
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/carpet/black2,
 /area/site53/uez/repoffice/internaltribunal)
 "mzf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -70666,7 +70643,7 @@
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 5
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "mWy" = (
 /obj/structure/cable/green{
@@ -71309,6 +71286,22 @@
 	},
 /turf/simulated/floor/wood/mahogany,
 /area/site53/uez/hallway)
+"ndM" = (
+/obj/structure/bed/chair/armchair/black{
+	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/effect/landmark/start{
+	name = "Internal Tribunal Department Officer";
+	icon_state = "comitdspawn";
+	icon = 'icons/effects/landmarks.dmi'
+	},
+/turf/simulated/floor/carpet/purple,
+/area/site53/security/internaltribunal)
 "ndO" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 8
@@ -72008,7 +72001,7 @@
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 9
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "nlt" = (
 /obj/machinery/vending/cigarette,
@@ -75667,16 +75660,11 @@
 /turf/simulated/floor/tiled/white/horizontal,
 /area/site53/science/psionic)
 "nVG" = (
-/obj/structure/bed/chair/armchair/black{
+/obj/effect/floor_decal/corner/beige/bordercorner{
 	dir = 1
 	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/carpet/purple,
-/area/site53/security/internaltribunal)
+/turf/simulated/floor/tiled/monotile,
+/area/site53/uez/bridge)
 "nVK" = (
 /obj/effect/floor_decal/corner/pink/mono,
 /obj/machinery/flasher{
@@ -77549,6 +77537,26 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techmaint,
 /area/site53/engineering/controlroom)
+"onH" = (
+/obj/effect/floor_decal/spline/steel/dark{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/obj/structure/table/rack/shelf,
+/obj/item/ammo_magazine/box/a57/rubber,
+/obj/item/ammo_magazine/box/a57/rubber,
+/obj/item/ammo_magazine/box/a57/rubber,
+/obj/item/ammo_magazine/box/a57/rubber,
+/obj/item/ammo_magazine/scp/p90_mag/rubber,
+/obj/item/ammo_magazine/scp/p90_mag/rubber,
+/obj/item/ammo_magazine/scp/p90_mag/rubber,
+/obj/item/ammo_magazine/scp/p90_mag/rubber,
+/obj/item/ammo_magazine/scp/p90_mag/rubber,
+/obj/item/ammo_magazine/scp/p90_mag/rubber,
+/obj/item/ammo_magazine/scp/p90_mag/rubber,
+/obj/item/ammo_magazine/scp/p90_mag/rubber,
+/turf/simulated/floor/tiled/dark/monotile/textured,
+/area/site53/security/armory)
 "onI" = (
 /obj/structure/table/rack,
 /obj/item/stack/material/steel/fifty,
@@ -92032,7 +92040,7 @@
 "qWH" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/item/modular_computer/tablet/preset/custom_loadout/advanced,
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/carpet/black2,
 /area/site53/uez/repoffice/internaltribunal)
 "qWN" = (
 /obj/effect/floor_decal/corner/red/bordercorner{
@@ -94568,9 +94576,6 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/site53/llcz/scp066)
 "rsU" = (
-/obj/item/implantcase/death_alarm,
-/obj/item/implanter,
-/obj/item/clothing/accessory/storage/holster/thigh,
 /obj/structure/closet/secure_closet/scp/admin/ethicscommittee,
 /turf/simulated/floor/carpet/green,
 /area/site53/uez/repoffice/ethics)
@@ -97763,6 +97768,17 @@
 /obj/effect/floor_decal/corner/yellow/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/site53/lowertrams/hub)
+"rWK" = (
+/obj/structure/table/rack/shelf,
+/obj/effect/floor_decal/spline/steel/dark,
+/obj/machinery/light/directional/north,
+/obj/item/gun/projectile/automatic/scp/p90,
+/obj/item/gun/projectile/automatic/scp/p90,
+/obj/item/gun/projectile/automatic/scp/p90,
+/obj/item/gun/projectile/automatic/scp/p90,
+/obj/item/gun/projectile/automatic/scp/p90,
+/turf/simulated/floor/tiled/dark/monotile/textured,
+/area/site53/security/armory/secure)
 "rWM" = (
 /obj/machinery/door/airlock/engineering{
 	name = "Main Reactor";
@@ -99572,7 +99588,7 @@
 	pixel_y = 13
 	},
 /obj/structure/table/woodentable_reinforced/walnut,
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/carpet/black2,
 /area/site53/uez/repoffice/internaltribunal)
 "spo" = (
 /obj/effect/floor_decal/corner/research/border{
@@ -102195,15 +102211,6 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/site53/logistics/logistics)
-"sOQ" = (
-/obj/effect/floor_decal/corner/beige/border{
-	dir = 1
-	},
-/obj/effect/floor_decal/corner/security/bordercorner{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/monotile,
-/area/site53/uez/bridge)
 "sOS" = (
 /obj/structure/table/steel_reinforced,
 /obj/effect/floor_decal/corner/red/border{
@@ -102372,7 +102379,7 @@
 	dir = 6
 	},
 /obj/machinery/status_display/directional/east,
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "sQt" = (
 /obj/structure/catwalk,
@@ -103370,7 +103377,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/spline/wood/walnut,
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "sXD" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -106151,7 +106158,7 @@
 	},
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/item/storage/fancy/cigar,
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/carpet/black2,
 /area/site53/uez/repoffice/internaltribunal)
 "txV" = (
 /obj/effect/floor_decal/corner/yellow/bordercee{
@@ -106444,7 +106451,7 @@
 /obj/effect/floor_decal/spline/wood/bamboo{
 	dir = 5
 	},
-/obj/structure/closet/secure_closet/site53/senior_researcher,
+/obj/structure/closet/secure_closet/scp/science/senior_researcher,
 /turf/simulated/floor/wood/bamboo,
 /area/site53/science/seniorresearcherb)
 "tAf" = (
@@ -111464,6 +111471,14 @@
 /obj/item/stock_parts/computer/storage/portable_drive,
 /turf/simulated/floor/wood/walnut,
 /area/site53/engineering/server_room)
+"uwP" = (
+/obj/effect/landmark/start{
+	name = "Site Director";
+	icon_state = "comsdspawn";
+	icon = 'icons/effects/landmarks.dmi'
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/site53/uez/hallway)
 "uwS" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -112414,7 +112429,7 @@
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 4
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "uGK" = (
 /obj/effect/floor_decal/corner/orange/half{
@@ -112530,12 +112545,11 @@
 /turf/simulated/floor/tiled/monotile,
 /area/site53/logistics/logistics)
 "uHZ" = (
-/obj/structure/table/rack/shelf,
-/obj/effect/floor_decal/spline/steel/dark,
-/obj/machinery/light/directional/north,
-/obj/item/gun/energy/ionrifle,
-/turf/simulated/floor/tiled/dark/monotile/textured,
-/area/site53/security/armory/secure)
+/obj/effect/floor_decal/corner/security/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/site53/uez/bridge)
 "uId" = (
 /obj/effect/floor_decal/corner/pink/border{
 	dir = 8
@@ -112898,6 +112912,26 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/site53/upper_surface/commstower)
+"uLQ" = (
+/obj/effect/floor_decal/spline/steel/dark{
+	dir = 1
+	},
+/obj/structure/extinguisher_cabinet/directional/south,
+/obj/structure/table/rack/shelf,
+/obj/item/ammo_magazine/box/a9mm,
+/obj/item/ammo_magazine/box/a9mm,
+/obj/item/ammo_magazine/box/a9mm,
+/obj/item/ammo_magazine/box/a9mm,
+/obj/item/ammo_magazine/scp/a9mm,
+/obj/item/ammo_magazine/scp/a9mm,
+/obj/item/ammo_magazine/scp/a9mm,
+/obj/item/ammo_magazine/scp/a9mm,
+/obj/item/ammo_magazine/scp/a9mm,
+/obj/item/ammo_magazine/scp/a9mm,
+/obj/item/ammo_magazine/scp/a9mm,
+/obj/item/ammo_magazine/scp/a9mm,
+/turf/simulated/floor/tiled/dark/monotile/textured,
+/area/site53/security/armory)
 "uLW" = (
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/structure/cable/green{
@@ -113861,7 +113895,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/site53/llcz/dclass/primaryhallway)
 "uUb" = (
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/carpet/black2,
 /area/site53/uez/repoffice/internaltribunal)
 "uUe" = (
 /obj/machinery/door/airlock/glass/civilian{
@@ -114780,7 +114814,7 @@
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 9
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "vdr" = (
 /obj/effect/floor_decal/corner/euclid/mono,
@@ -119532,7 +119566,7 @@
 /obj/effect/floor_decal/spline/wood/bamboo{
 	dir = 5
 	},
-/obj/structure/closet/secure_closet/site53/senior_researcher,
+/obj/structure/closet/secure_closet/scp/science/senior_researcher,
 /turf/simulated/floor/wood/bamboo,
 /area/site53/science/seniorresearchera)
 "vYU" = (
@@ -120552,6 +120586,7 @@
 /obj/effect/floor_decal/spline/wood{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/scp/science/researcher,
 /turf/simulated/floor/wood,
 /area/site53/science/lower/researchoffices)
 "wkh" = (
@@ -120810,7 +120845,7 @@
 /obj/effect/floor_decal/spline/wood/walnut{
 	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "wmW" = (
 /obj/effect/floor_decal/corner/red/bordercorner{
@@ -121372,7 +121407,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "wrJ" = (
 /obj/effect/floor_decal/corner/yellow/border{
@@ -121469,29 +121504,28 @@
 /turf/simulated/floor/tiled/dark/small,
 /area/site53/uez/hallway)
 "wsC" = (
-/obj/effect/floor_decal/spline/steel/dark{
-	dir = 1
-	},
-/obj/structure/extinguisher_cabinet/directional/south,
 /obj/structure/table/rack/shelf,
-/obj/item/ammo_magazine/box/a9mm,
-/obj/item/ammo_magazine/box/a9mm,
-/obj/item/ammo_magazine/box/a9mm,
-/obj/item/ammo_magazine/box/a9mm,
-/obj/item/ammo_magazine/scp/a9mm,
-/obj/item/ammo_magazine/scp/a9mm,
-/obj/item/ammo_magazine/scp/a9mm,
-/obj/item/ammo_magazine/scp/a9mm,
-/obj/item/ammo_magazine/scp/a9mm,
-/obj/item/ammo_magazine/scp/a9mm,
-/obj/item/ammo_magazine/scp/a9mm,
-/obj/item/ammo_magazine/scp/a9mm,
-/obj/item/ammo_magazine/scp/a9mm,
-/obj/item/ammo_magazine/scp/a9mm,
-/obj/item/ammo_magazine/scp/a9mm,
-/obj/item/ammo_magazine/scp/a9mm,
+/obj/effect/floor_decal/spline/steel/dark,
+/obj/item/ammo_magazine/box/a57,
+/obj/item/ammo_magazine/box/a57,
+/obj/item/ammo_magazine/box/a57,
+/obj/item/ammo_magazine/box/a57,
+/obj/item/ammo_magazine/box/a57,
+/obj/item/ammo_magazine/box/a57,
+/obj/item/ammo_magazine/scp/p90_mag,
+/obj/item/ammo_magazine/scp/p90_mag,
+/obj/item/ammo_magazine/scp/p90_mag,
+/obj/item/ammo_magazine/scp/p90_mag,
+/obj/item/ammo_magazine/scp/p90_mag,
+/obj/item/ammo_magazine/scp/p90_mag,
+/obj/item/ammo_magazine/scp/p90_mag,
+/obj/item/ammo_magazine/scp/p90_mag,
+/obj/item/ammo_magazine/scp/p90_mag,
+/obj/item/ammo_magazine/scp/p90_mag,
+/obj/item/ammo_magazine/scp/p90_mag,
+/obj/item/ammo_magazine/scp/p90_mag,
 /turf/simulated/floor/tiled/dark/monotile/textured,
-/area/site53/security/armory)
+/area/site53/security/armory/secure)
 "wsG" = (
 /obj/machinery/door/firedoor{
 	dir = 4
@@ -122977,7 +123011,7 @@
 /area/site53/science)
 "wHa" = (
 /obj/effect/floor_decal/spline/wood/walnut,
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/wood/walnut/large,
 /area/site53/uez/repoffice/internaltribunal)
 "wHf" = (
 /obj/structure/curtain/open/bed,
@@ -128590,7 +128624,7 @@
 	name = "Privacy Shutters Control";
 	pixel_y = 2
 	},
-/turf/simulated/floor/carpet/purple,
+/turf/simulated/floor/carpet/black2,
 /area/site53/uez/repoffice/internaltribunal)
 "xFC" = (
 /obj/effect/floor_decal/corner/pink/border{
@@ -351330,7 +351364,7 @@ jmC
 wdE
 gIx
 gIx
-huI
+wsC
 sks
 eKl
 wpj
@@ -351587,7 +351621,7 @@ gVy
 lja
 fPL
 gIx
-uHZ
+rWK
 hHz
 eqK
 agi
@@ -353390,7 +353424,7 @@ ttv
 bJA
 qVa
 kmU
-wsC
+uLQ
 jcM
 mpg
 mpg
@@ -353647,7 +353681,7 @@ bQg
 hqf
 vgI
 vxz
-iBK
+onH
 jcM
 mpg
 mpg
@@ -355985,7 +356019,7 @@ dAg
 aYB
 qgd
 qTr
-nVG
+ndM
 rtZ
 jWN
 mpg
@@ -358521,15 +358555,15 @@ wxC
 wxC
 ozE
 ozE
-sOQ
-jLE
-jLE
-jLE
-jLE
+huI
+uHZ
+uHZ
+uHZ
+uHZ
 tzG
-jLE
-jLE
-elD
+uHZ
+uHZ
+iBK
 ozE
 ozE
 ozE
@@ -358778,7 +358812,7 @@ hDA
 hDA
 hDA
 tOp
-moG
+nVG
 ooK
 ooK
 ooK
@@ -361551,8 +361585,8 @@ rib
 vMm
 idz
 cMX
-mOG
-mOG
+uwP
+bSB
 rib
 xDI
 wsk
@@ -361808,8 +361842,8 @@ rib
 ePb
 tbf
 cMX
-mOG
-mOG
+eUy
+gLA
 rib
 lVx
 vkC

@@ -48,25 +48,9 @@
 	icon_state = "sec_cypherkey"
 	channels = list("ECZ-Security" = 1, "Security" = 1)
 
-/obj/item/device/radio/headset/goc
-	name = "GOC headset"
-	desc = "The headset of for a member of the Global Occult Coalision."
-	ks2type = /obj/item/device/encryptionkey/goc
-
-
-/obj/item/device/radio/headset/heads/goc
-	name = "GOC representative's headset"
-	desc = "The headset of the humanitarian, or so they might say."
-	ks2type = /obj/item/device/encryptionkey/goc
-
 /obj/item/device/radio/headset/heads/uiu
 	name = "UIU representative's headset"
 	desc = "The headset of the humanitarian, or so they might say."
-
-/obj/item/device/encryptionkey/goc
-	name = "GOC radio encryption key"
-	icon_state = "goc_cypherkey"
-	channels = list("GOC" = 1)
 
 /obj/item/device/radio/headset/heads/mcd
 	name = "Marshall, Carter, and Dark Liaison's headset"
@@ -77,35 +61,60 @@
 	desc = "The headset of the humanitarian, or so they might say."
 
 //##
+//GROUPS OF INTEREST HEADSETS
+//##
+
+/obj/item/device/radio/headset/scp/goc
+	name = "GOC headset"
+	desc = "The headset for an official of the Global Occult Coalition."
+	icon_state = "goc_headset"
+	ks1type = /obj/item/device/encryptionkey/goc
+
+/obj/item/device/radio/headset/scp/goc/alt
+	name = "GOC bowman headset"
+	desc = "The headset for an elite task force of the Global Occult Coalition."
+	icon_state = "goc_headset_alt"
+
+/obj/item/device/radio/headset/scp/goc/representative
+	name = "GOC representative's headset"
+	desc = "The headset for a representative of the Global Occult Coalition."
+	ks2type = /obj/item/device/encryptionkey/headset_com
+
+/obj/item/device/encryptionkey/goc
+	name = "GOC radio encryption key"
+	icon_state = "goc_cypherkey"
+	channels = list("GOC" = 1)
+
+//##
 //SECURITY HEADSETS
 //##
 
 /obj/item/device/radio/headset/scp/security
-	name = "security radio headset"
+	name = "security headset"
 	desc = "This is used by the SCP Foundation site security force."
 	icon_state = "sec_headset"
 	item_state = "headset"
-	ks2type = /obj/item/device/encryptionkey/security
+	ks1type = /obj/item/device/encryptionkey/security
 
 /obj/item/device/radio/headset/scp/security/alt
 	name = "security bowman headset"
 	icon_state = "sec_headset_alt"
 
 /obj/item/device/radio/headset/scp/security/medic
-	name = "security medic radio headset"
+	name = "security medic headset"
 	desc = "This is used by the SCP Foundation site security force's medical personnel."
 	icon_state = "sec_med_headset"
-	ks2type = /obj/item/device/encryptionkey/security/medic
+	ks1type = /obj/item/device/encryptionkey/security/medic
 
 /obj/item/device/radio/headset/scp/security/medic/alt
 	name = "security medic bowman headset"
 	icon_state = "sec_med_headset_alt"
 
 /obj/item/device/radio/headset/scp/security/command
-	name = "security command radio headset"
+	name = "security command headset"
 	desc = "This is used by the SCP Foundation site security force's command personnel."
 	icon_state = "sec_cap_headset"
-	ks2type = /obj/item/device/encryptionkey/security/command
+	ks1type = /obj/item/device/encryptionkey/security/command
 
 /obj/item/device/radio/headset/scp/security/command/alt
 	name = "security command bowman headset"

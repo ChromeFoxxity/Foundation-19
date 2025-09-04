@@ -81,5 +81,22 @@
 	name = "HUD science sunglasses"
 	desc = "Sunglasses with a science HUD."
 	icon_state = "sunhudsci"
+	hud_type = HUD_SCIENCE
 	hud = /obj/item/clothing/glasses/hud/science
-	req_access = list(ACCESS_RESEARCH)
+	req_access = list(ACCESS_SCIENCE_LVL1)
+
+/obj/item/clothing/glasses/sunglasses/sechud/medical
+	name = "HUD science sunglasses"
+	desc = "Sunglasses with a medical HUD."
+	icon_state = "sunhudmed"
+	hud_type = HUD_MEDICAL
+	hud = /obj/item/clothing/glasses/hud/health
+	req_access = list(ACCESS_MEDICAL_LVL1)
+
+/obj/item/clothing/glasses/sunglasses/sechud/sec_med
+	name = "HUD sec-med sunglasses"
+	desc = "Sunglasses with a combined security and medical HUD."
+	icon_state = "sunhudsecmed"
+	hud_type = list(HUD_SECURITY, HUD_MEDICAL)
+	hud = /obj/item/clothing/glasses/hud/security
+	req_access = list(ACCESS_SECURITY_LVL1, ACCESS_MEDICAL_LVL1)

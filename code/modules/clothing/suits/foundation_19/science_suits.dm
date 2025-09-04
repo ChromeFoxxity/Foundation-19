@@ -1,3 +1,6 @@
+// SCIENCE DEPARTMENT SUITS
+// [SCP]
+
 /obj/item/clothing/suit/storage/toggle/labcoat/scp/rd
 	name = "science director's labcoat"
 	desc = "A large coat that protects against minor chemical spills. It has a SCP logo on the chest, denoting it as an SCP Foundation labcoat and purple trim to indicate the rank of Research Director."

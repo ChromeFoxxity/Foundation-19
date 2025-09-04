@@ -160,17 +160,6 @@
 
 // ENDING NEW SECURITY BERETS //
 
-/obj/item/clothing/head/beret/goc
-	name = "Global Occult Coalition Beret"
-	desc = "A cyan beret with a golden Global Occult Coalition badge on the front, smells of lead."
-	icon_state = "goc-beret"
-
-/obj/item/clothing/head/beret/goc/lead
-	name = "Global Occult Coalition Leader Beret"
-	desc = "A dark blue beret with a white United Nations badge on the front, smells of bad decisions."
-	icon_state = "goc_lead_beret"
-	armor = list(melee = 50, bullet = 80, laser = 50,energy = 25, bomb = 50, bio = 50, rad = 60)
-
 /obj/item/clothing/head/beret/isd
 	name = "Internal Security field cap"
 	desc = "A dull black cap. It has ISD in white printed on it on the front. Used by the Internal Security Department. It's padded with some extreme armor."

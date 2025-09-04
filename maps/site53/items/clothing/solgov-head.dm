@@ -4,12 +4,6 @@
 	armor = list(melee = 0, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 
-/obj/item/clothing/head/scp
-	icon = 'maps/torch/icons/obj/solgov-head.dmi'
-	item_icons = list(slot_head_str = 'maps/torch/icons/mob/solgov-head.dmi')
-	armor = list(melee = 0, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, rad = 0)
-	siemens_coefficient = 0.9
-
 //Utility
 /obj/item/clothing/head/soft/goc
 	name = "\improper United Nations cap"
@@ -326,12 +320,6 @@
 	item_icons = list(slot_head_str = 'maps/torch/icons/mob/solgov-head.dmi')
 	accessories = null
 
-/obj/item/clothing/head/scp/service/site53
-	name = "service cap"
-	desc = "A grey garrison cap, with the SCP Foundation logo in the interior. A purple insignia is on it's crest."
-	icon_state = "service_co_cap"
-	item_state = "service_co_cap_om"
-
 //MTF
 /obj/item/clothing/head/helmet/site53/zonecomm
 	name = "zone commander's helmet"
@@ -364,27 +352,3 @@
 	armor = list(melee = ARMOR_MELEE_SHIELDED, bullet = ARMOR_BALLISTIC_AP, laser = ARMOR_LASER_HEAVY, energy = ARMOR_ENERGY_SHIELDED, bomb = ARMOR_BOMB_SHIELDED, bio = ARMOR_BIO_SHIELDED, rad = 0)
 
 //GOC
-/obj/item/clothing/head/helmet/scp/goc
-	name = "Global Occult Coalition helmet"
-	desc = "A cyan standard issue helmet, with the United Nations' initials on the front. A lightweight helmet for their military forces."
-	icon_state = "goc_helm"
-	item_state = "goc_helm"
-	body_parts_covered = HEAD
-	armor = list(melee = ARMOR_MELEE_VVRESISTANT, bullet = ARMOR_BALLISTIC_RIFLE, laser = ARMOR_LASER_MAJOR, energy = ARMOR_ENERGY_SMALL, bomb = ARMOR_BOMB_PADDED)
-	flags_inv = HIDEEARS
-
-/obj/item/clothing/head/helmet/scp/security/goc
-	name = "Global Occult Coalition heavy helmet"
-	desc = "A cyan helmet with an added bulletproof visor, with the United Nations' initials on the front. A lightweight helmet for their superior military forces ranks."
-	icon_state = "goc_helmet"
-	body_parts_covered = HEAD|FACE|EYES //face shield
-	armor = list(melee = ARMOR_MELEE_MAJOR, bullet = ARMOR_BALLISTIC_HEAVY, laser = ARMOR_LASER_MAJOR, energy = ARMOR_ENERGY_SMALL, bomb = ARMOR_BOMB_PADDED, bio = ARMOR_BIO_MINOR, rad = ARMOR_RAD_MINOR)
-	acid_resistance = 1.5
-	flags_inv = HIDEEARS
-	action_button_name = "Toggle Visor"
-
-/obj/item/clothing/head/beret/scp/goc
-	name = "GOC beret"
-	desc = "A light blue beret with a officer's rank emblem. For officers that are more inclined towards style than safety."
-	icon_state = "goc-beret"
-	item_state = "goc-beret"

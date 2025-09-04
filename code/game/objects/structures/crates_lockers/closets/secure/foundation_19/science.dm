@@ -2,7 +2,7 @@
 //SCIENCE DEPARTMENT COMMAND
 //##
 
-/obj/structure/closet/secure_closet/site53/rd
+/obj/structure/closet/secure_closet/scp/science/science_director
 	name = "science director's locker"
 	req_access = list(ACCESS_SCIENCE_LVL5)
 	icon_state = "dslocked"
@@ -12,7 +12,7 @@
 	icon_broken = "dsbroken"
 	icon_off = "dsoff"
 
-/obj/structure/closet/secure_closet/site53/rd/WillContain()
+/obj/structure/closet/secure_closet/scp/science/science_director/WillContain()
 	return list(
 		/obj/item/clothing/under/rank/scp/science/science_director,
 		/obj/item/clothing/suit/storage/toggle/labcoat/scp,
@@ -41,7 +41,7 @@
 		/obj/item/clothing/accessory/storage/holster/thigh
 	)
 
-/obj/structure/closet/secure_closet/site53/ard
+/obj/structure/closet/secure_closet/scp/science/assist_science_director
 	name = "assistant science director's locker"
 	req_access = list(ACCESS_SCIENCE_LVL4)
 	icon_state = "dslocked"
@@ -51,7 +51,7 @@
 	icon_broken = "dsbroken"
 	icon_off = "dsoff"
 
-/obj/structure/closet/secure_closet/site53/ard/WillContain()
+/obj/structure/closet/secure_closet/scp/science/assist_science_director/WillContain()
 	return list(
 		/obj/item/clothing/under/rank/scp/science/assistant_science_director,
 		/obj/item/clothing/suit/storage/toggle/labcoat/scp,
@@ -78,7 +78,7 @@
 //SCIENCE DEPARTMENT
 //##
 
-/obj/structure/closet/secure_closet/site53/senior_researcher
+/obj/structure/closet/secure_closet/scp/science/senior_researcher
 	name = "senior researcher's locker"
 	req_access = list(ACCESS_SCIENCE_LVL3)
 	icon_state = "secureres1"
@@ -87,7 +87,7 @@
 	icon_opened = "secureresopen"
 	icon_off = "secureresoff"
 
-/obj/structure/closet/secure_closet/site53/senior_researcher/WillContain()
+/obj/structure/closet/secure_closet/scp/science/senior_researcher/WillContain()
 	return list(
 		/obj/item/clothing/under/rank/scp/science/senior,
 		/obj/item/clothing/suit/storage/toggle/labcoat/scp,
@@ -106,7 +106,7 @@
 		/obj/item/taperoll/research
 	)
 
-/obj/structure/closet/secure_closet/site53/researcher
+/obj/structure/closet/secure_closet/scp/science/researcher
 	name = "researcher's locker"
 	req_access = list(ACCESS_SCIENCE_LVL2)
 	icon_state = "secureres1"
@@ -115,7 +115,7 @@
 	icon_opened = "secureresopen"
 	icon_off = "secureresoff"
 
-/obj/structure/closet/secure_closet/site53/researcher/WillContain()
+/obj/structure/closet/secure_closet/scp/science/researcher/WillContain()
 	return list(
 		/obj/item/clothing/under/rank/scp/science,
 		/obj/item/clothing/suit/storage/toggle/labcoat/scp,
@@ -133,7 +133,7 @@
 		/obj/item/taperoll/research
 	)
 
-/obj/structure/closet/secure_closet/site53/robotics
+/obj/structure/closet/secure_closet/scp/science/robotics
 	name = "robotics locker"
 	req_access = list(ACCESS_SCIENCE_LVL2)
 	icon_state = "securerobo1"
@@ -142,7 +142,7 @@
 	icon_opened = "secureroboopen"
 	icon_off = "securerobooff"
 
-/obj/structure/closet/secure_closet/site53/robotics/WillContain()
+/obj/structure/closet/secure_closet/scp/science/robotics/WillContain()
 	return list(
 		/obj/item/clothing/under/rank/scp/science/robotics,
 		/obj/item/clothing/under/rank/scp/science/robotics,

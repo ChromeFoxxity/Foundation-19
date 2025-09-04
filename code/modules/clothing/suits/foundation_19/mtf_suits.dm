@@ -1,3 +1,13 @@
+// MTF/ERT SUITS
+// [SCP]
+
+/obj/item/clothing/suit/armor/scp/overseer
+	name = "overwatch command's coat"
+	desc = "A heavy, black long coat with golden markings along the wrists, as well as real genuine bear fur on it. It's woven from the finest cotton, and alloyed with durathread, to make the user comfortable, but durable to many kinds of damage."
+	icon_state = "o5_coat"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+	armor = list(melee = ARMOR_MELEE_SHIELDED, bullet = ARMOR_BALLISTIC_AP, laser = ARMOR_LASER_HEAVY, energy = ARMOR_ENERGY_SHIELDED, bomb = ARMOR_BOMB_SHIELDED, bio = ARMOR_BIO_RESISTANT, rad = ARMOR_RAD_RESISTANT)
+
 /obj/item/clothing/suit/armor/vest/scp/mtf
 	name = "tactical vest"
 	desc = "An advanced multi-plated composite vest with kevlar lining and plenty of room to move. Task Force insignia is sewn into the left pauldron, and the Task Force's nickname is sewn into the right."

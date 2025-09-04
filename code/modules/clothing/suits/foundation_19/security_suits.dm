@@ -1,4 +1,4 @@
-// SECURITY DEPARTMENT VESTS
+// SECURITY DEPARTMENT SUITS
 // [SCP]
 
 /obj/item/clothing/suit/armor/vest/scp/security

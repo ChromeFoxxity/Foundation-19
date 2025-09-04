@@ -5,11 +5,11 @@
 /obj/structure/closet/secure_closet/scp/admin/sitedirector
 	name = "site director's locker"
 	req_access = list(ACCESS_ADMIN_LVL5)
-	icon_state = "flocked"
-	icon_closed = "funlocked"
-	icon_locked = "flocked"
-	icon_opened = "fopen"
-	icon_off = "foff"
+	icon_state = "sidlocked"
+	icon_closed = "sidunlocked"
+	icon_locked = "sidlocked"
+	icon_opened = "sidopen"
+	icon_off = "sidoff"
 
 /obj/structure/closet/secure_closet/scp/admin/sitedirector/WillContain()
 	return list(
@@ -17,6 +17,25 @@
 		/obj/item/clothing/shoes/dress,
 		/obj/item/device/radio,
 		/obj/item/clothing/suit/storage/toggle/suit/black,
+	)
+
+/obj/structure/closet/secure_closet/scp/admin/humanresources
+	name = "human resources officer's locker"
+	req_access = list(ACCESS_ADMIN_LVL4)
+	icon_state = "hrolocked"
+	icon_closed = "hrounlocked"
+	icon_locked = "hrolocked"
+	icon_opened = "hroopen"
+	icon_off = "hrooff"
+
+/obj/structure/closet/secure_closet/scp/admin/humanresources/WillContain()
+	return list(
+		/obj/item/clothing/glasses/sunglasses,
+		/obj/item/clothing/suit/armor/vest/nt,
+		/obj/item/clothing/head/helmet,
+		/obj/item/device/radio/headset/heads/hop,
+		/obj/item/storage/box/ids = 2,
+		/obj/item/device/flash
 	)
 
 /obj/structure/closet/secure_closet/scp/admin/commsofficer
@@ -107,10 +126,14 @@
 
 /obj/structure/closet/secure_closet/scp/admin/ethicscommittee/WillContain()
 	return list(
-		/obj/item/clothing/accessory/armorplate/sneaky,
-		/obj/item/clothing/shoes/laceup,
 		/obj/item/device/radio/headset/heads/hop,
 		/obj/item/clothing/suit/storage/hooded/wintercoat/solgov/marine,
 		/obj/item/clothing/under/lawyer/black,
 		/obj/item/clothing/under/suit_jacket/really_black,
+		/obj/item/clothing/shoes/laceup,
+		/obj/item/clothing/accessory/armorplate/sneaky,
+		/obj/item/clothing/accessory/storage/holster/thigh,
+		/obj/item/ammo_magazine/box/a45 = 2,
+		/obj/item/implantcase/death_alarm,
+		/obj/item/implanter,
 	)

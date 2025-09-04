@@ -4,43 +4,7 @@
  *		Detective
  *		Head of Security
  */
-// REPRESENTATIVES START //
 
-/obj/item/clothing/under/rank/civilian/goc
-	name = "Global Occult Coalition formal suit"
-	desc = "A white formal shirt, with a cyan suit trousers. It has insignia of a executive officer of the Global Occult Coalition. You have a feeling whoever wears this doesn't care for SoP."
-	icon_state = "gocclothes"
-	worn_state = "gocclothes"
-
-/obj/item/clothing/under/rank/civilian/uiu
-	name = "Federal Bureau of Investigation turtleneck"
-	desc = "A comfortable turtleneck in FBI colors, with some khaki pants. Do the FBI really wear this kind of thing? Usually the outfit of a UIU Relations Agent."
-	icon_state = "uiuclothes"
-	worn_state = "uiuclothes"
-
-/obj/item/clothing/under/rank/civilian/uiu/formal
-	name = "Federal Bureau of Investigation formal suit"
-	desc = "A snazzy pair of formal slacks, and a light blue button-up shirt in FBI colors, with some khaki pants. Usually the outfit of a UIU Relations Agent."
-	icon_state = "uiuformal"
-	worn_state = "uiuformal"
-
-/obj/item/clothing/suit/gocjacket
-	name = "Global Occult Coalition formal jacket"
-	desc = "A cyan formal coat, those who wear this are executive officers of the Global Occult Coalition, with insignia of such."
-	icon_state = "gocjacket"
-
-/obj/item/clothing/suit/uiucoat
-	name = "Federal Bureau of Investigation jacket"
-	desc = "A FBI jacket, used by Federal Bureau of Investigation, and or UIU Relations Agents. You feel like you deserve more than this."
-	icon_state = "uiucoat"
-
-/obj/item/clothing/under/rank/security/goc
-	name = "Global Occult Coalition tactical jumpsuit"
-	desc = "A blue-ish black tactical suit with a UNGOC logo on one of the shoulders. It's comfortable materials make it good for manueverability. All combat, all the time."
-	icon_state = "goc_jumpsuit"
-	worn_state = "goc_jumpsuit"
-
-// REPRESENTATIVES END //
 /*
  * Security
  */
@@ -246,39 +210,6 @@
 	icon_state = "gorka_qm"
 	item_state = "bl_suit"
 	worn_state = "gorka_qm"
-
-/obj/item/clothing/under/rank/engineer/comms
-	name = "Communications Technician jumpsuit"
-	desc = "A heavy duty pair of a tactical engineering high-vis jumpsuit. It's assumed to be mainly used by Communications Techs."
-	icon_state = "comms_tech"
-	item_state = "bl_suit"
-	worn_state = "comms_tech"
-
-/obj/item/clothing/under/rank/security/comms
-	name = "Communications Officer suit"
-	desc = "A pair of black trousers along with a white dress shirt. It has some golden patches on the shoulders denoting the rank of Communications Officer."
-	icon_state = "comms_officer"
-	item_state = "bl_suit"
-	worn_state = "comms_officer"
-
-/obj/item/clothing/suit/armor/comms
-	name = "Communications Officer jacket"
-	desc = "A luxurious suit jacket worn by the Communications Officer, it has the same gold patches on the shoulders."
-	icon_state = "co_coat"
-
-/obj/item/clothing/under/rank/security/isd
-	name = "Internal Security field uniform"
-	desc = "A smooth black, yet comfortable turtleneck. There isn't much to note about it, atop of some dark grey trousers. Worn by Internal Security Department's goons."
-	icon_state = "isd_field"
-	item_state = "bl_suit"
-	worn_state = "isd_field"
-
-/obj/item/clothing/under/rank/security/isd/suit
-	name = "Internal Security formal uniform"
-	desc = "A pair of formal slacks, with a dark grey dress shirt. It's covered by a black formal vest, and a snazzy red tie. Only worn by the executives of the Internal Security Department."
-	icon_state = "isd_suit"
-	item_state = "bl_suit"
-	worn_state = "isd_suit"
 
 //Jensen cosplay gear
 /obj/item/clothing/under/rank/head_of_security/jensen
